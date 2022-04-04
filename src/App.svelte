@@ -27,13 +27,18 @@
     labels: topRankersLabels,
     datasets: [{
       data: topRankersCounts,
-      backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+      backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360", "#F30EC1", "#0DDB96", "#3E19C5", "#61FA09", "#0F93C7"],
       hoverBackgroundColor: [
         "#FF5A5E",
         "#5AD3D1",
         "#FFC870",
         "#A8B3C5",
-        "#616774"
+        "#616774",
+        "#E00EF3",
+        "#0DDB5C",
+        "#1925C5",
+        "#9EFA09",
+        "#0FB1C7"
       ]
     }]
   };
