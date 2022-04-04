@@ -152,8 +152,8 @@
 </script>
 
 <svelte:head>
-	<html lang="ja" />
-	<title>IIDX SP ☆12 歴代</title>
+  <html lang="ja" />
+  <title>IIDX SP ☆12 歴代</title>
   <meta name="keywords" content="歷代,rekidai">
   <script src="table-sort.js"></script>
   <script src="chartjs-plugin-colorschemes.min.js"></script>
