@@ -82,9 +82,19 @@
         return -1;
       }
     });
-    topRankersSort.forEach(e => {
+    topRankersSort.forEach((e, i) => {
       topRankersLabels.push(e.player);
-      topRankersCounts.push(e.counts)
+      topRankersCounts.push(e.counts);
+
+      if (i <= 0) {
+        topRankersSort[i].rank = 1;
+      } else {
+        if (topRankersSort[i - 1].counts == topRankersSort[i].counts) {
+          topRankersSort[i].rank = topRankersSort[i - 1].rank;
+        } else {
+          topRankersSort[i].rank = topRankersSort[i - 1].rank + 1;
+        }
+      }
     });
   });
 
@@ -162,14 +172,13 @@
   <title>IIDX SP ☆12 歴代</title>
   <meta name="keywords" content="歷代,rekidai">
   <script src="table-sort.js"></script>
-  <script src="chartjs-plugin-colorschemes.min.js"></script>
 </svelte:head>
 
 <main>
   {#await promise}
     <p>Loading...</p>
   {:then list}
-    <p>If you want to update rekidai data, please fork <a href="https://github.com/rekidai-info/rekidai-info.github.io" target="_blank" rel="noopener noreferrer">https://github.com/rekidai-info/rekidai-info.github.io</a>, update <a href="https://github.com/rekidai-info/rekidai-info.github.io/blob/main/rekidai.json" target="_blank" rel="noopener noreferrer">rekidai.json</a>, and submit a PR.</p>
+    <p>If you want to update rekidai data, please fork <a href="https://github.com/rekidai-info/rekidai-info.github.io" target="_blank" rel="noopener noreferrer">https://github.com/rekidai-info/rekidai-info.github.io</a>, update <a href="https://github.com/rekidai-info/rekidai-info.github.io/blob/main/rekidai.json" target="_blank" rel="noopener noreferrer">rekidai.json</a>, and submit a PR(Pull Request).</p>
 
     <hr>
 
@@ -227,9 +236,9 @@
         <th>Count</th>
       </thead>
       <tbody>
-        {#each topRankersSort as topRanker, i}
+        {#each topRankersSort as topRanker}
           <tr>
-            <td>{i + 1}</td>
+            <td>{topRanker.rank}</td>
             <td>{topRanker.player}</td>
             <td>{topRanker.counts}</td>
           </tr>
