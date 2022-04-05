@@ -169,6 +169,10 @@
   {#await promise}
     <p>Loading...</p>
   {:then list}
+    <p>If you want to update rekidai data, please fork <a href="https://github.com/rekidai-info/rekidai-info.github.io" target="_blank" rel="noopener noreferrer">https://github.com/rekidai-info/rekidai-info.github.io</a>, update <a href="https://github.com/rekidai-info/rekidai-info.github.io/blob/main/rekidai.json" target="_blank" rel="noopener noreferrer">rekidai.json</a>, and submit a PR.</p>
+
+    <hr>
+
     <table class="table-sort table-arrows">
       <thead>
         <tr>
