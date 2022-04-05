@@ -172,6 +172,14 @@
   <title>IIDX SP ☆12 歴代</title>
   <meta name="keywords" content="歷代,rekidai">
   <script src="table-sort.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FLKW9GYQ6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-7FLKW9GYQ6');
+  </script>
 </svelte:head>
 
 <main>
