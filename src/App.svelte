@@ -186,7 +186,7 @@
   {#await promise}
     <p>Loading...</p>
   {:then list}
-    <p>Anyone can edit the following rekidai data.<br>If you want to update rekidai data, please fork <a href="https://github.com/rekidai-info/rekidai-info.github.io" target="_blank" rel="noopener noreferrer">https://github.com/rekidai-info/rekidai-info.github.io</a>, edit <a href="https://github.com/rekidai-info/rekidai-info.github.io/blob/main/rekidai.json" target="_blank" rel="noopener noreferrer">rekidai.json</a>, and submit a Pull Request.</p>
+    <p>Anyone can edit the following rekidai data.<br>If you want to update rekidai data, please fork <a href="https://github.com/rekidai-info/rekidai-info.github.io" target="_blank" rel="noopener noreferrer">https://github.com/rekidai-info/rekidai-info.github.io</a>, edit <a href="https://github.com/rekidai-info/rekidai-info.github.io/blob/main/rekidai.json" target="_blank" rel="noopener noreferrer">rekidai.json</a>, and submit a Pull Request.<br>Don't have a GitHub account? Please submit a request form for <a href="https://forms.gle/wqrRh1ow6uaREy286" target="_blank" rel="noopener noreferrer">Rekidai Score Update Request</a> or a <a href="https://forms.gle/SDkmfUcTC5zLsGPD6" target="_blank" rel="noopener noreferrer">New Music Addition Request</a>.</p>
 
     <hr>
 
