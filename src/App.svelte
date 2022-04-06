@@ -171,7 +171,6 @@
   <html lang="ja" />
   <title>IIDX SP ☆12 歴代</title>
   <meta name="keywords" content="歷代,rekidai">
-  <script src="table-sort.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FLKW9GYQ6"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -186,10 +185,11 @@
   {#await promise}
     <p>Loading...</p>
   {:then list}
-    <p>Anyone can edit the following rekidai data.<br>If you want to update rekidai data, please fork <a href="https://github.com/rekidai-info/rekidai-info.github.io" target="_blank" rel="noopener noreferrer">https://github.com/rekidai-info/rekidai-info.github.io</a>, edit <a href="https://github.com/rekidai-info/rekidai-info.github.io/blob/main/rekidai.json" target="_blank" rel="noopener noreferrer">rekidai.json</a>, and submit a Pull Request.<br>Don't have a GitHub account? Please submit a request form for <a href="https://forms.gle/wqrRh1ow6uaREy286" target="_blank" rel="noopener noreferrer">Rekidai Score Update Request</a> or a <a href="https://forms.gle/SDkmfUcTC5zLsGPD6" target="_blank" rel="noopener noreferrer">New Music Addition Request</a>.</p>
+    <p><b>Anyone can edit the following rekidai data.</b><br>If you want to update rekidai data, please fork <a href="https://github.com/rekidai-info/rekidai-info.github.io" target="_blank" rel="noopener noreferrer">https://github.com/rekidai-info/rekidai-info.github.io</a>, edit <a href="https://github.com/rekidai-info/rekidai-info.github.io/blob/main/rekidai.json" target="_blank" rel="noopener noreferrer">rekidai.json</a>, and submit a Pull Request.<br>Don't have a GitHub account? Please submit a request form for <a href="https://forms.gle/wqrRh1ow6uaREy286" target="_blank" rel="noopener noreferrer">Rekidai Score Update Request</a> or a <a href="https://forms.gle/SDkmfUcTC5zLsGPD6" target="_blank" rel="noopener noreferrer">New Music Addition Request</a>.</p>
 
     <hr>
 
+    <script src="table-sort.js"></script>
     <table class="table-sort table-arrows">
       <thead>
         <tr>
