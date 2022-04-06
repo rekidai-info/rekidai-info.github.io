@@ -207,7 +207,7 @@
 
     <hr>
 
-    <script src="table-sort.js"></script>
+    <script src="table-sort.min.js"></script>
     <table class="table-sort table-arrows">
       <thead>
         <tr>
