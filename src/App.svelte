@@ -286,4 +286,10 @@
 </main>
 
 <style>
+  main {
+    -webkit-font-smoothing: antialiased;
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    font-feature-settings: "palt";
+    letter-spacing: 0.07em;
+  }
 </style>
