@@ -189,6 +189,7 @@
   <html lang="ja" />
   <title>IIDX SP ☆12 歴代</title>
   <meta name="keywords" content="歷代,rekidai">
+  <meta name="google-site-verification" content="TZhDInm_qqk0-YS_IeFxjcn6jbrmfEccgvRL8cFjm3k" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FLKW9GYQ6"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
