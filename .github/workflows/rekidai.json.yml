@@ -33,7 +33,7 @@ jobs:
           jq . rekidai.json > rekidai.json.tmp && mv -f rekidai.json.tmp rekidai.json
           jq -c < rekidai.json > rekidai.min.json
           git add rekidai.json rekidai.min.json
-          git commit -m "Update rekidai.json"
+          git commit -m "Automatically updated by Workflow Action"
           git push origin main
 
       # Runs a single command using the runners shell
