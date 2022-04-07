@@ -3,7 +3,7 @@
   import Doughnut from "svelte-chartjs/src/Doughnut.svelte"
 
   async function getRekidai() {
-    const res = await fetch(`rekidai.json`, {
+    const res = await fetch(`rekidai.min.json`, {
       method: 'GET', // *GET, POST, PUT, DELETE, etc.
       mode: 'same-origin', // no-cors, *cors, same-origin
       cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
