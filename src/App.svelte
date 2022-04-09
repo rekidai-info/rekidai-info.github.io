@@ -253,7 +253,7 @@
       }
     </script>
 
-    <script src="table-sort.min.js"></script>
+    <script async src="table-sort.min.js"></script>
     <table id="rekidai" class="table-sort table-arrows remember-sort">
       <thead>
         <tr>
