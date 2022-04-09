@@ -187,6 +187,12 @@
       return 'F';
     }
   }
+
+  function calcMaxMinus(notes, score) {
+    const MAX = notes * 2;
+
+    return MAX - score;
+  }
 </script>
 
 <svelte:head>
@@ -248,13 +254,13 @@
     </script>
 
     <script src="table-sort.min.js"></script>
-    <table id="rekidai" class="table-sort table-arrows">
+    <table id="rekidai" class="table-sort table-arrows remember-sort">
       <thead>
         <tr>
           <th>Music</th>
           <th>Player</th>
           <th>Score</th>
-          <th>Record</th>
+          <th class="data-sort">Record</th>
           <th>Rate</th>
           <th>Notes</th>
           <th>BPM</th>
@@ -273,7 +279,7 @@
             {/if}
             <td>{rekidai.player}</td>
             <td style="text-align: center;">{rekidai.score}</td>
-            <td style="text-align: center;">{calcRecord(rekidai.notes, rekidai.score)}</td>
+            <td style="text-align: center;" data-sort={calcMaxMinus(rekidai.notes, rekidai.score)}>{calcRecord(rekidai.notes, rekidai.score)}</td>
             <td style="text-align: center;">{calcRate(rekidai.notes, rekidai.score)}</td>
             {#if rekidai.textage == null}
               <td style="text-align: center;">{rekidai.notes}</td>
@@ -295,7 +301,7 @@
 
     <hr>
 
-    <table id="rank" class="table-sort table-arrows">
+    <table id="rank" class="table-sort table-arrows remember-sort">
       <thead>
         <th>Rank</th>
         <th>Player</th>
