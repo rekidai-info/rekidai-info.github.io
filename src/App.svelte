@@ -212,8 +212,43 @@
 
     <hr>
 
+    <input type="text" id="search" placeholder="Search Rekidai">
+    <script>
+      const input = document.getElementById('search');
+      if (input != null) {
+        const search = () => {
+          const table = document.getElementById('rekidai');
+          if (table == null) {
+            return;
+          }
+
+          const rows = table.getElementsByTagName('tr');
+
+          Array.prototype.forEach.call(rows, (row, i) => {
+            if (i <= 0) {
+              return;
+            }
+
+            const textContent = row.textContent;
+
+            if (textContent.toUpperCase().indexOf(input.value.toUpperCase()) < 0) {
+              row.style.display = 'none';
+            } else {
+              row.style.display = '';
+            }
+          });
+        };
+
+        input.addEventListener('keypress', e => {
+          if (e.keyCode === 13) {
+            search();
+          }
+        });
+      }
+    </script>
+
     <script src="table-sort.min.js"></script>
-    <table class="table-sort table-arrows">
+    <table id="rekidai" class="table-sort table-arrows">
       <thead>
         <tr>
           <th>Music</th>
@@ -260,7 +295,7 @@
 
     <hr>
 
-    <table class="table-sort table-arrows">
+    <table id="rank" class="table-sort table-arrows">
       <thead>
         <th>Rank</th>
         <th>Player</th>
