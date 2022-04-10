@@ -18,6 +18,7 @@
     }
   }
 
+  let visible = false;
   let promise = getRekidai();
   let topRankers = {};
   let topRankersSort = [];
@@ -118,6 +119,8 @@
         }
       }
     });
+
+    visible = true;
   });
 
   function calcRate(notes, score) {
@@ -194,29 +197,18 @@
     return MAX - score;
   }
 
-  function typewriter(node, { speed = 10 }) {
-    const valid = (
-      node.childNodes.length === 1 &&
-      node.childNodes[0].nodeType === Node.TEXT_NODE
-    );
-
-    if (!valid) {
-      throw new Error(`This transition only works on elements with a single text node child`);
-    }
-
+  function typewriter(node, { speed = 2 }) {
     const text = node.textContent;
-    const duration = text.length / (speed * 0.01);
+    const duration = 1000 * text.length / speed;
 
     return {
       duration,
       tick: t => {
-        const i = Math.trunc(text.length * t);
+        const i = Math.min(Math.trunc(text.length * t) % (text.length + 1), text.length);
         node.textContent = text.slice(0, i);
       }
     };
   }
-
-  let visible = false;
 </script>
 
 <svelte:head>
@@ -235,8 +227,12 @@
 </svelte:head>
 
 <main>
+  {#if !visible}
+    <p transition:typewriter>Loading...</p>
+  {/if}
+
+  <!-- svelte-ignore empty-block -->
   {#await promise}
-    <p transition:typewriter on:introstart="{() => visible = false}" on:outroend="{() => visible = true}">Loading...</p>
   {:then list}
     {#if visible}
       <p><b>Anyone can edit the following rekidai data.</b><br>If you want to update rekidai data, please fork <a href="https://github.com/rekidai-info/rekidai-info.github.io" target="_blank" rel="noopener noreferrer">https://github.com/rekidai-info/rekidai-info.github.io</a>, edit <a href="https://github.com/rekidai-info/rekidai-info.github.io/blob/main/rekidai.json" target="_blank" rel="noopener noreferrer">rekidai.json</a>, and submit a Pull Request.<br>Don't have a GitHub account? Please submit a request form for <a href="https://forms.gle/wqrRh1ow6uaREy286" target="_blank" rel="noopener noreferrer">Rekidai Score Update Request</a> or <a href="https://forms.gle/SDkmfUcTC5zLsGPD6" target="_blank" rel="noopener noreferrer">New Music Addition Request</a>.<br><a href="https://www.youtube.com/channel/UCKYQ3LNcSoxXJB6IlZiYU5A" target="_blank" rel="noopener noreferrer">KKM*</a> / <a href="https://www.youtube.com/channel/UCoK-bEjP7R93N-rIz-4G9JA" target="_blank" rel="noopener noreferrer">CHEPY</a>(<a href="https://toon.at/donate/637741368394473819" target="_blank" rel="noopener noreferrer">Donate</a>) / <a href="https://www.youtube.com/c/MACAODIIDX" target="_blank" rel="noopener noreferrer">DON*</a>(<a href="https://streamlabs.com/macaodiidx" target="_blank" rel="noopener noreferrer">Donate1</a>,  <a href="https://toon.at/donate/macaod_iidx" target="_blank" rel="noopener noreferrer">Donate2</a>) / <a href="https://www.youtube.com/channel/UCGlQnUCwUI0kl31denBkrEQ" target="_blank" rel="noopener noreferrer">CHARM</a>(<a href="https://toon.at/donate/iidx_charm" target="_blank" rel="noopener noreferrer">Donate</a>)</p>
