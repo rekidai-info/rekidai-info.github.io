@@ -215,6 +215,8 @@
       }
     };
   }
+
+  let visible = false;
 </script>
 
 <svelte:head>
@@ -234,119 +236,121 @@
 
 <main>
   {#await promise}
-    <p transition:typewriter>Loading...</p>
+    <p transition:typewriter on:introstart="{() => visible = false}" on:outroend="{() => visible = true}">Loading...</p>
   {:then list}
-    <p><b>Anyone can edit the following rekidai data.</b><br>If you want to update rekidai data, please fork <a href="https://github.com/rekidai-info/rekidai-info.github.io" target="_blank" rel="noopener noreferrer">https://github.com/rekidai-info/rekidai-info.github.io</a>, edit <a href="https://github.com/rekidai-info/rekidai-info.github.io/blob/main/rekidai.json" target="_blank" rel="noopener noreferrer">rekidai.json</a>, and submit a Pull Request.<br>Don't have a GitHub account? Please submit a request form for <a href="https://forms.gle/wqrRh1ow6uaREy286" target="_blank" rel="noopener noreferrer">Rekidai Score Update Request</a> or <a href="https://forms.gle/SDkmfUcTC5zLsGPD6" target="_blank" rel="noopener noreferrer">New Music Addition Request</a>.<br><a href="https://www.youtube.com/channel/UCKYQ3LNcSoxXJB6IlZiYU5A" target="_blank" rel="noopener noreferrer">KKM*</a> / <a href="https://www.youtube.com/channel/UCoK-bEjP7R93N-rIz-4G9JA" target="_blank" rel="noopener noreferrer">CHEPY</a>(<a href="https://toon.at/donate/637741368394473819" target="_blank" rel="noopener noreferrer">Donate</a>) / <a href="https://www.youtube.com/c/MACAODIIDX" target="_blank" rel="noopener noreferrer">DON*</a>(<a href="https://streamlabs.com/macaodiidx" target="_blank" rel="noopener noreferrer">Donate1</a>,  <a href="https://toon.at/donate/macaod_iidx" target="_blank" rel="noopener noreferrer">Donate2</a>) / <a href="https://www.youtube.com/channel/UCGlQnUCwUI0kl31denBkrEQ" target="_blank" rel="noopener noreferrer">CHARM</a>(<a href="https://toon.at/donate/iidx_charm" target="_blank" rel="noopener noreferrer">Donate</a>)</p>
+    {#if visible}
+      <p><b>Anyone can edit the following rekidai data.</b><br>If you want to update rekidai data, please fork <a href="https://github.com/rekidai-info/rekidai-info.github.io" target="_blank" rel="noopener noreferrer">https://github.com/rekidai-info/rekidai-info.github.io</a>, edit <a href="https://github.com/rekidai-info/rekidai-info.github.io/blob/main/rekidai.json" target="_blank" rel="noopener noreferrer">rekidai.json</a>, and submit a Pull Request.<br>Don't have a GitHub account? Please submit a request form for <a href="https://forms.gle/wqrRh1ow6uaREy286" target="_blank" rel="noopener noreferrer">Rekidai Score Update Request</a> or <a href="https://forms.gle/SDkmfUcTC5zLsGPD6" target="_blank" rel="noopener noreferrer">New Music Addition Request</a>.<br><a href="https://www.youtube.com/channel/UCKYQ3LNcSoxXJB6IlZiYU5A" target="_blank" rel="noopener noreferrer">KKM*</a> / <a href="https://www.youtube.com/channel/UCoK-bEjP7R93N-rIz-4G9JA" target="_blank" rel="noopener noreferrer">CHEPY</a>(<a href="https://toon.at/donate/637741368394473819" target="_blank" rel="noopener noreferrer">Donate</a>) / <a href="https://www.youtube.com/c/MACAODIIDX" target="_blank" rel="noopener noreferrer">DON*</a>(<a href="https://streamlabs.com/macaodiidx" target="_blank" rel="noopener noreferrer">Donate1</a>,  <a href="https://toon.at/donate/macaod_iidx" target="_blank" rel="noopener noreferrer">Donate2</a>) / <a href="https://www.youtube.com/channel/UCGlQnUCwUI0kl31denBkrEQ" target="_blank" rel="noopener noreferrer">CHARM</a>(<a href="https://toon.at/donate/iidx_charm" target="_blank" rel="noopener noreferrer">Donate</a>)</p>
 
-    <hr>
+      <hr>
 
-    <input type="text" id="search" placeholder="Search Rekidai">
-    <script>
-      const input = document.getElementById('search');
-      if (input != null) {
-        const search = () => {
-          const table = document.getElementById('rekidai');
-          if (table == null) {
-            return;
-          }
-
-          const rows = table.getElementsByTagName('tr');
-
-          Array.prototype.forEach.call(rows, (row, i) => {
-            if (i <= 0) {
+      <input type="text" id="search" placeholder="Search Rekidai">
+      <script>
+        const input = document.getElementById('search');
+        if (input != null) {
+          const search = () => {
+            const table = document.getElementById('rekidai');
+            if (table == null) {
               return;
             }
 
-            const textContent = row.textContent;
+            const rows = table.getElementsByTagName('tr');
 
-            if (textContent.toUpperCase().indexOf(input.value.toUpperCase()) < 0) {
-              row.style.display = 'none';
-            } else {
-              row.style.display = '';
+            Array.prototype.forEach.call(rows, (row, i) => {
+              if (i <= 0) {
+                return;
+              }
+
+              const textContent = row.textContent;
+
+              if (textContent.toUpperCase().indexOf(input.value.toUpperCase()) < 0) {
+                row.style.display = 'none';
+              } else {
+                row.style.display = '';
+              }
+            });
+          };
+
+          input.addEventListener('keypress', e => {
+            if (e.keyCode === 13) {
+              nsearch();
             }
           });
-        };
+        }
+      </script>
 
-        input.addEventListener('keypress', e => {
-          if (e.keyCode === 13) {
-            search();
-          }
-        });
-      }
-    </script>
+      <script async src="table-sort.min.js"></script>
+      <table id="rekidai" class="table-sort table-arrows remember-sort">
+        <thead>
+          <tr>
+            <th>Music</th>
+            <th>Player</th>
+            <th>Score</th>
+            <th class="data-sort">Record</th>
+            <th>Rate</th>
+            <th>Notes</th>
+            <th>BPM</th>
+            <th>Top Ver</th>
+            <th>Version</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          {#each list as rekidai}
+            <tr>
+              {#if rekidai.scoreResult == null}
+                <td>{rekidai.music}</td>
+              {:else}
+                <td><a href="{rekidai.scoreResult}" target="_blank" rel="noopener noreferrer">{rekidai.music}</a></td>
+              {/if}
+              <td>{rekidai.player}</td>
+              <td style="text-align: center;">{rekidai.score}</td>
+              <td style="text-align: center;" data-sort={calcMaxMinus(rekidai.notes, rekidai.score)}>{calcRecord(rekidai.notes, rekidai.score)}</td>
+              <td style="text-align: center;">{calcRate(rekidai.notes, rekidai.score)}</td>
+              {#if rekidai.textage == null}
+                <td style="text-align: center;">{rekidai.notes}</td>
+              {:else}
+                <td style="text-align: center;"><a href="{rekidai.textage}" target="_blank" rel="noopener noreferrer">{rekidai.notes}</a></td>
+              {/if}
+              {#if rekidai.musicMovie == null}
+                <td style="text-align: center;">{rekidai.bpm.join('~')}</td>
+              {:else}
+                <td style="text-align: center;"><a href="{rekidai.musicMovie}" target="_blank" rel="noopener noreferrer">{rekidai.bpm.join('~')}</a></td>
+              {/if}
+              <td>{rekidai.topVersion}</td>
+              <td>{rekidai.version}</td>
+              <td style="text-align: center;">{rekidai.date}</td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
 
-    <script async src="table-sort.min.js"></script>
-    <table id="rekidai" class="table-sort table-arrows remember-sort">
-      <thead>
-        <tr>
-          <th>Music</th>
+      <hr>
+
+      <table id="rank" class="table-sort table-arrows remember-sort">
+        <thead>
+          <th>Rank</th>
           <th>Player</th>
-          <th>Score</th>
-          <th class="data-sort">Record</th>
-          <th>Rate</th>
-          <th>Notes</th>
-          <th>BPM</th>
-          <th>Top Ver</th>
-          <th>Version</th>
-          <th>Date</th>
-        </tr>
-      </thead>
-      <tbody>
-        {#each list as rekidai}
-          <tr>
-            {#if rekidai.scoreResult == null}
-              <td>{rekidai.music}</td>
-            {:else}
-              <td><a href="{rekidai.scoreResult}" target="_blank" rel="noopener noreferrer">{rekidai.music}</a></td>
-            {/if}
-            <td>{rekidai.player}</td>
-            <td style="text-align: center;">{rekidai.score}</td>
-            <td style="text-align: center;" data-sort={calcMaxMinus(rekidai.notes, rekidai.score)}>{calcRecord(rekidai.notes, rekidai.score)}</td>
-            <td style="text-align: center;">{calcRate(rekidai.notes, rekidai.score)}</td>
-            {#if rekidai.textage == null}
-              <td style="text-align: center;">{rekidai.notes}</td>
-            {:else}
-              <td style="text-align: center;"><a href="{rekidai.textage}" target="_blank" rel="noopener noreferrer">{rekidai.notes}</a></td>
-            {/if}
-            {#if rekidai.musicMovie == null}
-              <td style="text-align: center;">{rekidai.bpm.join('~')}</td>
-            {:else}
-              <td style="text-align: center;"><a href="{rekidai.musicMovie}" target="_blank" rel="noopener noreferrer">{rekidai.bpm.join('~')}</a></td>
-            {/if}
-            <td>{rekidai.topVersion}</td>
-            <td>{rekidai.version}</td>
-            <td style="text-align: center;">{rekidai.date}</td>
-          </tr>
-        {/each}
-      </tbody>
-    </table>
+          <th>Count</th>
+        </thead>
+        <tbody>
+          {#each topRankersSort as topRanker}
+            <tr>
+              <td>{topRanker.rank}</td>
+              <td>{topRanker.player}</td>
+              <td>{topRanker.counts}</td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
 
-    <hr>
+      <hr>
 
-    <table id="rank" class="table-sort table-arrows remember-sort">
-      <thead>
-        <th>Rank</th>
-        <th>Player</th>
-        <th>Count</th>
-      </thead>
-      <tbody>
-        {#each topRankersSort as topRanker}
-          <tr>
-            <td>{topRanker.rank}</td>
-            <td>{topRanker.player}</td>
-            <td>{topRanker.counts}</td>
-          </tr>
-        {/each}
-      </tbody>
-    </table>
-
-    <hr>
-
-    <MDBRow>
-      <MDBCol md="8" class="mx-auto">
-        <Doughnut data={doughnutData} options={chartOptions} />
-      </MDBCol>
-    </MDBRow>
+      <MDBRow>
+        <MDBCol md="8" class="mx-auto">
+          <Doughnut data={doughnutData} options={chartOptions} />
+        </MDBCol>
+      </MDBRow>
+    {/if}
   {:catch error}
     <p style="color: red">{error.message}</p>
   {/await}
