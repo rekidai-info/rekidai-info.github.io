@@ -198,8 +198,8 @@
   }
 
   function typewriter(node, { speed = 2 }) {
-    const text = node.textContent;
-    const duration = 1000 * text.length / speed;
+    const text = 'Loading...';
+    const duration = 1500 * text.length / speed;
 
     return {
       duration,
@@ -208,6 +208,17 @@
         node.textContent = text.slice(0, i);
       }
     };
+  }
+
+  function introstart() {
+    const text = 'Loading...';
+    const node = document.getElementById('loading');
+
+    for (let i = 0; i <= text.length; ++i) {
+      setTimeout(() => {
+        node.textContent = text.slice(0, i);
+      }, i + 100);
+    }
   }
 </script>
 
@@ -228,7 +239,7 @@
 
 <main>
   {#if !visible}
-    <p transition:typewriter>Loading...</p>
+    <p id="loading" transition:typewriter on:introstart={introstart()}></p>
   {/if}
 
   <!-- svelte-ignore empty-block -->
