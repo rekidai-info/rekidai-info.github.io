@@ -199,7 +199,7 @@
 
   function typewriter(node, { speed = 2 }) {
     const text = 'Loading...';
-    const duration = 700 * text.length / speed;
+    const duration = 400 * text.length / speed;
 
     return {
       duration,
