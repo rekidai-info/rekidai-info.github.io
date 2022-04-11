@@ -250,7 +250,7 @@
 
       <hr>
 
-      <input type="text" id="search" placeholder="Search Rekidai in KR, EN, or JP" style="width: 210px;">
+      <input type="text" id="search" placeholder="Search Rekidai in KR or JP" style="width: 180px;">
       <script>
         const input = document.getElementById('search');
         if (input != null) {
