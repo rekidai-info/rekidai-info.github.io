@@ -250,7 +250,7 @@
 
       <hr>
 
-      <input type="text" id="search" placeholder="Search Rekidai">
+      <input type="text" id="search" placeholder="Search Rekidai in KR, EN, or JP">
       <script>
         const input = document.getElementById('search');
         if (input != null) {
@@ -326,6 +326,9 @@
               <td>{rekidai.topVersion}</td>
               <td>{rekidai.version}</td>
               <td style="text-align: center;">{rekidai.date}</td>
+              {#if rekidai.musicKR != null}
+                <p style="display: none;">{rekidai.musicKR}</p>
+              {/if}
             </tr>
           {/each}
         </tbody>
