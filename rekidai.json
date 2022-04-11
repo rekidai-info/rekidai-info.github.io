@@ -2,6 +2,7 @@
   {
     "version": "07[7th]",
     "music": "A",
+    "musicKR": "에이스",
     "notes": 1260,
     "bpm": [
       93,
@@ -18,6 +19,7 @@
   {
     "version": "11[RED]",
     "music": "AA",
+    "musicKR": "더블 에이스",
     "notes": 1834,
     "bpm": [
       154
@@ -33,6 +35,7 @@
   {
     "version": "25[CB]",
     "music": "AA -rebuild-",
+    "musicKR": "더블 에이스 리빌드",
     "notes": 1820,
     "bpm": [
       174
@@ -48,6 +51,7 @@
   {
     "version": "29[Cast]",
     "music": "ABSOLUTE EVIL",
+    "musicKR": "앱솔루트 에빌",
     "notes": 1778,
     "bpm": [
       200
@@ -63,6 +67,7 @@
   {
     "version": "21[SPA]",
     "music": "Adularia",
+    "musicKR": "아듈라리아",
     "notes": 1449,
     "bpm": [
       180
@@ -78,6 +83,7 @@
   {
     "version": "29[Cast]",
     "music": "Aftermath",
+    "musicKR": "여파",
     "notes": 1828,
     "bpm": [
       200
@@ -93,6 +99,7 @@
   {
     "version": "17[SIR]",
     "music": "AIR RAID FROM THA UNDAGROUND(L)",
+    "musicKR": "에어 레이드 프롬 더 언더그라운드(L)",
     "notes": 1523,
     "bpm": [
       180
@@ -108,6 +115,7 @@
   {
     "version": "27[HV]",
     "music": "AKASHIC BREAK",
+    "musicKR": "아카식 브레이크",
     "notes": 1823,
     "bpm": [
       205
@@ -123,6 +131,7 @@
   {
     "version": "18[RA]",
     "music": "ALBIDA",
+    "musicKR": "알비다",
     "notes": 1530,
     "bpm": [
       185
@@ -138,6 +147,7 @@
   {
     "version": "17[SIR]",
     "music": "Almagest",
+    "musicKR": "알마게스트",
     "notes": 1629,
     "bpm": [
       178
@@ -153,6 +163,7 @@
   {
     "version": "29[Cast]",
     "music": "ALTERNATOR",
+    "musicKR": "교류 발전기",
     "notes": 1907,
     "bpm": [
       185
@@ -168,6 +179,7 @@
   {
     "version": "24[SINO]",
     "music": "Amazing Mirage(L)",
+    "musicKR": "어메이징 미라지(L)",
     "notes": 1684,
     "bpm": [
       153
@@ -183,6 +195,7 @@
   {
     "version": "25[CB]",
     "music": "ANCHOR",
+    "musicKR": "앵커",
     "notes": 1835,
     "bpm": [
       180
@@ -198,6 +211,7 @@
   {
     "version": "21[SPA]",
     "music": "Ancient Scapes(A)",
+    "musicKR": "고대 풍경(A)",
     "notes": 1780,
     "bpm": [
       178
@@ -213,6 +227,7 @@
   {
     "version": "21[SPA]",
     "music": "Ancient Scapes(L)",
+    "musicKR": "고대 풍경(L)",
     "notes": 2198,
     "bpm": [
       178
@@ -228,6 +243,7 @@
   {
     "version": "29[Cast]",
     "music": "Angel's Ladder",
+    "musicKR": "천사의 사다리",
     "notes": 1800,
     "bpm": [
       155
@@ -243,6 +259,7 @@
   {
     "version": "15[DJT]",
     "music": "Anisakis -somatic mutation type \"Forza\"(L)",
+    "musicKR": "아니사키스 체성 돌연변이형 \"포르자\"(L)",
     "notes": 1971,
     "bpm": [
       185
@@ -258,6 +275,7 @@
   {
     "version": "25[CB]",
     "music": "Antigravity",
+    "musicKR": "반중력",
     "notes": 1591,
     "bpm": [
       222
@@ -273,6 +291,7 @@
   {
     "version": "23[cop]",
     "music": "AO-1",
+    "musicKR": "에이오원",
     "notes": 1443,
     "bpm": [
       195
@@ -288,6 +307,7 @@
   {
     "version": "24[SINO]",
     "music": "Apocalypse",
+    "musicKR": "묵시록",
     "notes": 1814,
     "bpm": [
       165
@@ -303,6 +323,7 @@
   {
     "version": "16[EMP]",
     "music": "Arabian Rave Night(L)",
+    "musicKR": "아라비안 레이브 나이트(L)",
     "notes": 1888,
     "bpm": [
       180
@@ -318,6 +339,7 @@
   {
     "version": "25[CB]",
     "music": "Arca",
+    "musicKR": "귀중품함",
     "notes": 1602,
     "bpm": [
       185
@@ -333,6 +355,7 @@
   {
     "version": "27[HV]",
     "music": "Artist",
+    "musicKR": "예술가",
     "notes": 1870,
     "bpm": [
       165
@@ -348,6 +371,7 @@
   {
     "version": "28[BIS]",
     "music": "ASIAN VIRTUAL REALITIES(MELTING TOGETHER IN DAZZLING DARKNESS)",
+    "musicKR": "아시아의 가상 현실(어두운 곳에서 함께 녹는 것)어둠의 여명)",
     "notes": 1752,
     "bpm": [
       150
@@ -363,6 +387,7 @@
   {
     "version": "17[SIR]",
     "music": "Bad Maniacs",
+    "musicKR": "배드 매니아스",
     "notes": 1656,
     "bpm": [
       195
@@ -378,6 +403,7 @@
   {
     "version": "27[HV]",
     "music": "BEAT PRISONER",
+    "musicKR": "포로를 때리다",
     "notes": 1844,
     "bpm": [
       155
@@ -393,6 +419,7 @@
   {
     "version": "22[PEN]",
     "music": "Beat Radiance(L)",
+    "musicKR": "비트 레이디언스(L)",
     "notes": 1809,
     "bpm": [
       192
@@ -408,6 +435,7 @@
   {
     "version": "11[RED]",
     "music": "Be quiet(L)",
+    "musicKR": "조용히해(L)",
     "notes": 1463,
     "bpm": [
       150
@@ -423,6 +451,7 @@
   {
     "version": "28[BIS]",
     "music": "BIGソムタム",
+    "musicKR": "빅솜텀",
     "notes": 1688,
     "bpm": [
       187
@@ -438,6 +467,7 @@
   {
     "version": "29[Cast]",
     "music": "Binary Black Hole",
+    "musicKR": "쌍성 블랙홀",
     "notes": 2000,
     "bpm": [
       190
@@ -453,6 +483,7 @@
   {
     "version": "16[EMP]",
     "music": "BITTER CHOCOLATE STRIKER",
+    "musicKR": "씁쓸한 초콜릿 스트라이커",
     "notes": 1990,
     "bpm": [
       165
@@ -468,6 +499,7 @@
   {
     "version": "28[BIS]",
     "music": "BLACK or WHITE?",
+    "musicKR": "검은색 아니면 흰색?",
     "notes": 2013,
     "bpm": [
       185
@@ -483,6 +515,7 @@
   {
     "version": "19[Lin]",
     "music": "BLACK.by X-Cross Fade",
+    "musicKR": "X-크로스 페이드별 블랙.",
     "notes": 1738,
     "bpm": [
       163
@@ -498,6 +531,7 @@
   {
     "version": "21[SPA]",
     "music": "BLUE DRAGON(雷龍RemixIIDX)",
+    "musicKR": "청룡(靑龍) 리믹스 IIDX",
     "notes": 1727,
     "bpm": [
       188
@@ -513,6 +547,7 @@
   {
     "version": "22[PEN]",
     "music": "BLUE MIRAGE",
+    "musicKR": "블루 미라지",
     "notes": 1606,
     "bpm": [
       170
@@ -528,6 +563,7 @@
   {
     "version": "15[DJT]",
     "music": "Blue Rain(L)",
+    "musicKR": "블루 레인(L)",
     "notes": 1702,
     "bpm": [
       144
@@ -543,6 +579,7 @@
   {
     "version": "23[cop]",
     "music": "Blue Spring Express",
+    "musicKR": "블루 스프링 익스프레스",
     "notes": 1728,
     "bpm": [
       172
@@ -558,6 +595,7 @@
   {
     "version": "25[CB]",
     "music": "Boomy and The Boost",
+    "musicKR": "붐 앤 더 부스트",
     "notes": 1826,
     "bpm": [
       174
@@ -573,6 +611,7 @@
   {
     "version": "24[SINO]",
     "music": "BroGamer(L)",
+    "musicKR": "브로게이머(L)",
     "notes": 2383,
     "bpm": [
       207
@@ -588,6 +627,7 @@
   {
     "version": "18[RA]",
     "music": "Broken",
+    "musicKR": "깨진",
     "notes": 1598,
     "bpm": [
       148
@@ -603,6 +643,7 @@
   {
     "version": "22[PEN]",
     "music": "Broken Sword",
+    "musicKR": "부서진 검",
     "notes": 1887,
     "bpm": [
       160
@@ -618,6 +659,7 @@
   {
     "version": "16[EMP]",
     "music": "B4U(BEMANI FOR YOU MIX)(L)",
+    "musicKR": "B4U(베마니포유믹스)(L)",
     "notes": 2360,
     "bpm": [
       170
@@ -633,6 +675,7 @@
   {
     "version": "14[GOLD]",
     "music": "Candy Galy",
+    "musicKR": "캔디 갤리",
     "notes": 1798,
     "bpm": [
       184
@@ -648,6 +691,7 @@
   {
     "version": "26[Root]",
     "music": "Carmina",
+    "musicKR": "카르미나",
     "notes": 2000,
     "bpm": [
       195
@@ -663,6 +707,7 @@
   {
     "version": "26[Root]",
     "music": "Carry Me Away",
+    "musicKR": "캐리 미 어웨이",
     "notes": 1613,
     "bpm": [
       175
@@ -678,6 +723,7 @@
   {
     "version": "26[Root]",
     "music": "Catch Our Fire!",
+    "musicKR": "우리의 불을 잡아요!",
     "notes": 1885,
     "bpm": [
       190
@@ -693,6 +739,7 @@
   {
     "version": "24[SINO]",
     "music": "Caterpillar",
+    "musicKR": "애벌레",
     "notes": 1561,
     "bpm": [
       170
@@ -708,6 +755,7 @@
   {
     "version": "22[PEN]",
     "music": "CHRONO DIVER -NORNIR-(L)",
+    "musicKR": "크로노 다이버 - NORNIR- (L)",
     "notes": 2233,
     "bpm": [
       185
@@ -723,6 +771,7 @@
   {
     "version": "22[PEN]",
     "music": "Chrono Diver -PENDULUMs-",
+    "musicKR": "크로노 다이버 - PENDULMS-",
     "notes": 2222,
     "bpm": [
       196
@@ -738,6 +787,7 @@
   {
     "version": "22[PEN]",
     "music": "cinder",
+    "musicKR": "분석",
     "notes": 1601,
     "bpm": [
       216
@@ -753,6 +803,7 @@
   {
     "version": "21[SPA]",
     "music": "Close the World feat.a☆ru(A)",
+    "musicKR": "월드 기능을 닫습니다.a☆ru(A)",
     "notes": 1739,
     "bpm": [
       188
@@ -768,6 +819,7 @@
   {
     "version": "21[SPA]",
     "music": "Close the World feat.a☆ru(L)",
+    "musicKR": "월드 기능을 닫습니다.a☆ru(L)",
     "notes": 1983,
     "bpm": [
       188
@@ -783,6 +835,7 @@
   {
     "version": "23[cop]",
     "music": "CODE:1 [revision1.0.1]",
+    "musicKR": "코드:1 [리비전 1.0.1]",
     "notes": 1590,
     "bpm": [
       145
@@ -798,6 +851,7 @@
   {
     "version": "16[EMP]",
     "music": "Colorful Cookie",
+    "musicKR": "컬러풀 쿠키",
     "notes": 1773,
     "bpm": [
       180
@@ -813,6 +867,7 @@
   {
     "version": "06[6th]",
     "music": "Colors(radio edit)",
+    "musicKR": "색상(라디오 편집)",
     "notes": 1258,
     "bpm": [
       150
@@ -828,6 +883,7 @@
   {
     "version": "13[DD]",
     "music": "Concertino in Blue",
+    "musicKR": "콘체르티노 인 블루",
     "notes": 1311,
     "bpm": [
       103,
@@ -845,6 +901,7 @@
   {
     "version": "20[tri]",
     "music": "Confiserie",
+    "musicKR": "콘피세리에",
     "notes": 1833,
     "bpm": [
       185
@@ -860,6 +917,7 @@
   {
     "version": "13[DD]",
     "music": "CONTRACT(L)",
+    "musicKR": "계약(L)",
     "notes": 1418,
     "bpm": [
       180
@@ -875,6 +933,7 @@
   {
     "version": "22[PEN]",
     "music": "Cosmic Cat(L)",
+    "musicKR": "우주 고양이(L)",
     "notes": 1651,
     "bpm": [
       160
@@ -890,6 +949,7 @@
   {
     "version": "28[BIS]",
     "music": "COSMIC RAY",
+    "musicKR": "우주선",
     "notes": 1509,
     "bpm": [
       195
@@ -905,6 +965,7 @@
   {
     "version": "18[RA]",
     "music": "Dances with Snow Fairies",
+    "musicKR": "눈의 요정들과 춤을 춰요",
     "notes": 1623,
     "bpm": [
       154
@@ -920,6 +981,7 @@
   {
     "version": "27[HV]",
     "music": "Dans la nuit de l'eternite",
+    "musicKR": "단스 라누이트 드 레테르나이트",
     "notes": 1830,
     "bpm": [
       244
@@ -935,6 +997,7 @@
   {
     "version": "21[SPA]",
     "music": "DARK LEGACY",
+    "musicKR": "어두운 유산",
     "notes": 1828,
     "bpm": [
       196
@@ -950,6 +1013,7 @@
   {
     "version": "26[Root]",
     "music": "dAuntl3ss",
+    "musicKR": "불굴의",
     "notes": 1775,
     "bpm": [
       166
@@ -965,6 +1029,7 @@
   {
     "version": "20[tri]",
     "music": "DAY DREAM",
+    "musicKR": "데이 드림",
     "notes": 1075,
     "bpm": [
       80,
@@ -981,6 +1046,7 @@
   {
     "version": "25[CB]",
     "music": "DEADHEAT",
+    "musicKR": "데드히트",
     "notes": 1721,
     "bpm": [
       200
@@ -996,6 +1062,7 @@
   {
     "version": "25[CB]",
     "music": "DEATH†ZIGOQ～怒りの高速爆走野郎～",
+    "musicKR": "죽음†지옥~성난 고속 폭주 놈~",
     "notes": 2075,
     "bpm": [
       200
@@ -1011,6 +1078,7 @@
   {
     "version": "22[PEN]",
     "music": "Despair of ELFERIA",
+    "musicKR": "엘페리아의 절망",
     "notes": 2096,
     "bpm": [
       205
@@ -1026,6 +1094,7 @@
   {
     "version": "23[cop]",
     "music": "Devil's Gear",
+    "musicKR": "데빌스 기어",
     "notes": 1793,
     "bpm": [
       180
@@ -1041,6 +1110,7 @@
   {
     "version": "20[tri]",
     "music": "Devilz Staircase",
+    "musicKR": "데빌즈 계단",
     "notes": 1685,
     "bpm": [
       185
@@ -1056,6 +1126,7 @@
   {
     "version": "23[cop]",
     "music": "DIAMOND CROSSING",
+    "musicKR": "다이아몬드 크로싱",
     "notes": 1585,
     "bpm": [
       180
@@ -1071,6 +1142,7 @@
   {
     "version": "19[Lin]",
     "music": "DIAVOLO",
+    "musicKR": "디아볼로",
     "notes": 1745,
     "bpm": [
       160
@@ -1086,6 +1158,7 @@
   {
     "version": "17[SIR]",
     "music": "DOMINION",
+    "musicKR": "지배",
     "notes": 1636,
     "bpm": [
       196
@@ -1101,6 +1174,7 @@
   {
     "version": "29[Cast]",
     "music": "Don't believe the hype",
+    "musicKR": "그 과장된 말을 믿지 마라",
     "notes": 1666,
     "bpm": [
       210
@@ -1116,6 +1190,7 @@
   {
     "version": "24[SINO]",
     "music": "DORNWALD ～Junge～",
+    "musicKR": "도른왈드 ~융지~",
     "notes": 1903,
     "bpm": [
       169
@@ -1131,6 +1206,7 @@
   {
     "version": "27[HV]",
     "music": "Double Dribble",
+    "musicKR": "더블 드리블",
     "notes": 1683,
     "bpm": [
       210
@@ -1146,6 +1222,7 @@
   {
     "version": "26[Root]",
     "music": "Dr.Chemical & Killing Machine",
+    "musicKR": "닥터 케미컬 & 킬링 머신",
     "notes": 1700,
     "bpm": [
       165
@@ -1161,6 +1238,7 @@
   {
     "version": "26[Root]",
     "music": "Drastic Dramatic",
+    "musicKR": "극적 드라마틱",
     "notes": 1765,
     "bpm": [
       166
@@ -1176,6 +1254,7 @@
   {
     "version": "25[CB]",
     "music": "DropZ-Line-",
+    "musicKR": "Z-선 드롭-",
     "notes": 1648,
     "bpm": [
       50,
@@ -1193,6 +1272,7 @@
   {
     "version": "26[Root]",
     "music": "DRUNK MONKY",
+    "musicKR": "취객",
     "notes": 1177,
     "bpm": [
       145
@@ -1208,6 +1288,7 @@
   {
     "version": "28[BIS]",
     "music": "DUAL STRIKER",
+    "musicKR": "듀얼 스트라이커",
     "notes": 1960,
     "bpm": [
       185
@@ -1223,6 +1304,7 @@
   {
     "version": "13[DD]",
     "music": "DUE TOMORROW",
+    "musicKR": "내일까지",
     "notes": 1073,
     "bpm": [
       100,
@@ -1239,6 +1321,7 @@
   {
     "version": "23[cop]",
     "music": "Dynamite",
+    "musicKR": "다이너마이트",
     "notes": 1953,
     "bpm": [
       100
@@ -1254,6 +1337,7 @@
   {
     "version": "22[PEN]",
     "music": "EBONY & IVORY(A)",
+    "musicKR": "에보니 & 아이보리(A)",
     "notes": 1520,
     "bpm": [
       170
@@ -1269,6 +1353,7 @@
   {
     "version": "22[PEN]",
     "music": "EBONY & IVORY(L)",
+    "musicKR": "에보니 & 아이보리(L)",
     "notes": 1887,
     "bpm": [
       113,
@@ -1285,6 +1370,7 @@
   {
     "version": "24[SINO]",
     "music": "ECHIDNA",
+    "musicKR": "에키도나",
     "notes": 1775,
     "bpm": [
       146
@@ -1300,6 +1386,7 @@
   {
     "version": "20[tri]",
     "music": "Elemental Creation",
+    "musicKR": "기본 생성",
     "notes": 2130,
     "bpm": [
       212
@@ -1315,6 +1402,7 @@
   {
     "version": "25[CB]",
     "music": "EMERALDAS",
+    "musicKR": "에메랄다스",
     "notes": 1833,
     "bpm": [
       88,
@@ -1331,6 +1419,7 @@
   {
     "version": "28[BIS]",
     "music": "Empire of Funy",
+    "musicKR": "푸니 제국",
     "notes": 1700,
     "bpm": [
       204
@@ -1346,6 +1435,7 @@
   {
     "version": "25[CB]",
     "music": "encounter",
+    "musicKR": "맞닥뜨리다",
     "notes": 1679,
     "bpm": [
       190
@@ -1361,6 +1451,7 @@
   {
     "version": "22[PEN]",
     "music": "entelecheia",
+    "musicKR": "엔텔레키아의",
     "notes": 1657,
     "bpm": [
       185
@@ -1376,6 +1467,7 @@
   {
     "version": "17[SIR]",
     "music": "eRAseRmOToRpHAntOM",
+    "musicKR": "지우개모터팬텀",
     "notes": 1686,
     "bpm": [
       135,
@@ -1392,6 +1484,7 @@
   {
     "version": "27[HV]",
     "music": "EROICA",
+    "musicKR": "에로이카",
     "notes": 2040,
     "bpm": [
       200
@@ -1407,6 +1500,7 @@
   {
     "version": "26[Root]",
     "music": "EVANESCENT",
+    "musicKR": "사라져 가는",
     "notes": 1845,
     "bpm": [
       127,
@@ -1424,6 +1518,7 @@
   {
     "version": "17[SIR]",
     "music": "Evans",
+    "musicKR": "에반스",
     "notes": 1440,
     "bpm": [
       185
@@ -1439,6 +1534,7 @@
   {
     "version": "27[HV]",
     "music": "Everlasting Message",
+    "musicKR": "영원한 메시지",
     "notes": 1970,
     "bpm": [
       230
@@ -1454,6 +1550,7 @@
   {
     "version": "17[SIR]",
     "music": "EXUSIA",
+    "musicKR": "엑수시아",
     "notes": 1964,
     "bpm": [
       188
@@ -1469,6 +1566,7 @@
   {
     "version": "19[Lin]",
     "music": "F",
+    "musicKR": "에프",
     "notes": 1813,
     "bpm": [
       154
@@ -1484,6 +1582,7 @@
   {
     "version": "11[RED]",
     "music": "FAKE TIME",
+    "musicKR": "가짜 시간",
     "notes": 1231,
     "bpm": [
       200
@@ -1499,6 +1598,7 @@
   {
     "version": "22[PEN]",
     "music": "fallen leaves -IIDX edition-",
+    "musicKR": "낙엽 -IIDX판-",
     "notes": 1745,
     "bpm": [
       165
@@ -1514,6 +1614,7 @@
   {
     "version": "22[PEN]",
     "music": "FANTASTIC THREE",
+    "musicKR": "환상적인 스리",
     "notes": 1649,
     "bpm": [
       185
@@ -1529,6 +1630,7 @@
   {
     "version": "14[GOLD]",
     "music": "Fascination MAXX",
+    "musicKR": "파시네이션 맥스",
     "notes": 1313,
     "bpm": [
       100,
@@ -1545,6 +1647,7 @@
   {
     "version": "21[SPA]",
     "music": "Feel The Beat(A)",
+    "musicKR": "필 더 비트(A)",
     "notes": 1830,
     "bpm": [
       175
@@ -1560,6 +1663,7 @@
   {
     "version": "21[SPA]",
     "music": "Feel The Beat(L)",
+    "musicKR": "필 더 비트(L)",
     "notes": 2225,
     "bpm": [
       175
@@ -1575,6 +1679,7 @@
   {
     "version": "29[Cast]",
     "music": "Fegrix",
+    "musicKR": "페그릭스",
     "notes": 1687,
     "bpm": [
       175
@@ -1590,6 +1695,7 @@
   {
     "version": "28[BIS]",
     "music": "Fire Beat",
+    "musicKR": "파이어 비트",
     "notes": 1392,
     "bpm": [
       157,
@@ -1606,6 +1712,7 @@
   {
     "version": "14[GOLD]",
     "music": "FIRE FIRE",
+    "musicKR": "파이어 파이어",
     "notes": 1405,
     "bpm": [
       150
@@ -1621,6 +1728,7 @@
   {
     "version": "22[PEN]",
     "music": "Flashes",
+    "musicKR": "깜박임",
     "notes": 1691,
     "bpm": [
       180
@@ -1636,6 +1744,7 @@
   {
     "version": "27[HV]",
     "music": "Friction[!]Function",
+    "musicKR": "마찰[!]기능",
     "notes": 1634,
     "bpm": [
       150
@@ -1651,6 +1760,7 @@
   {
     "version": "24[SINO]",
     "music": "FUZIN RIZIN",
+    "musicKR": "풍신 뇌신",
     "notes": 1929,
     "bpm": [
       190
@@ -1666,6 +1776,7 @@
   {
     "version": "17[SIR]",
     "music": "G59",
+    "musicKR": "지옥",
     "notes": 2000,
     "bpm": [
       170
@@ -1681,6 +1792,7 @@
   {
     "version": "20[tri]",
     "music": "GAIA",
+    "musicKR": "가이아",
     "notes": 1676,
     "bpm": [
       180
@@ -1696,6 +1808,7 @@
   {
     "version": "13[DD]",
     "music": "Ganymede(L)",
+    "musicKR": "가니메데스(L)",
     "notes": 1356,
     "bpm": [
       72,
@@ -1712,6 +1825,7 @@
   {
     "version": "26[Root]",
     "music": "GENE",
+    "musicKR": "유전자",
     "notes": 2183,
     "bpm": [
       163
@@ -1727,6 +1841,7 @@
   {
     "version": "11[RED]",
     "music": "gigadelic(H)",
+    "musicKR": "기가델릭의(H)",
     "notes": 1116,
     "bpm": [
       173
@@ -1742,6 +1857,7 @@
   {
     "version": "11[RED]",
     "music": "gigadelic(A)",
+    "musicKR": "기가델릭의(A)",
     "notes": 1301,
     "bpm": [
       173
@@ -1757,6 +1873,7 @@
   {
     "version": "29[Cast]",
     "music": "GiGaGaHell",
+    "musicKR": "기가 가 헬",
     "notes": 1687,
     "bpm": [
       250
@@ -1772,6 +1889,7 @@
   {
     "version": "24[SINO]",
     "music": "Go Ahead!!",
+    "musicKR": "계속 하세요!!",
     "notes": 1413,
     "bpm": [
       200
@@ -1787,6 +1905,7 @@
   {
     "version": "16[EMP]",
     "music": "Go Beyond!!",
+    "musicKR": "저리 가!!",
     "notes": 1166,
     "bpm": [
       200
@@ -1802,6 +1921,7 @@
   {
     "version": "26[Root]",
     "music": "GO OVER WITH GLARE -ROOTAGE 26-",
+    "musicKR": "글레어-루타이지 26세-",
     "notes": 2000,
     "bpm": [
       170
@@ -1817,6 +1937,7 @@
   {
     "version": "23[cop]",
     "music": "Godspeed",
+    "musicKR": "신의속도",
     "notes": 1631,
     "bpm": [
       165
@@ -1832,6 +1953,7 @@
   {
     "version": "17[SIR]",
     "music": "GOLDEN CROSS",
+    "musicKR": "골든 크로스",
     "notes": 1765,
     "bpm": [
       150
@@ -1847,6 +1969,7 @@
   {
     "version": "23[cop]",
     "music": "Grand Chariot",
+    "musicKR": "그랜드 마차",
     "notes": 1775,
     "bpm": [
       191
@@ -1862,6 +1985,7 @@
   {
     "version": "22[PEN]",
     "music": "Gravigazer",
+    "musicKR": "그라비게저",
     "notes": 1533,
     "bpm": [
       160
@@ -1877,6 +2001,7 @@
   {
     "version": "14[GOLD]",
     "music": "GRID KNIGHT(L)",
+    "musicKR": "그리드 나이트(L)",
     "notes": 1744,
     "bpm": [
       160
@@ -1892,6 +2017,7 @@
   {
     "version": "24[SINO]",
     "music": "GuNGNiR(A)",
+    "musicKR": "군구니루(A)",
     "notes": 2081,
     "bpm": [
       222
@@ -1907,6 +2033,7 @@
   {
     "version": "24[SINO]",
     "music": "GuNGNiR(L)",
+    "musicKR": "군구니루(L)",
     "notes": 2443,
     "bpm": [
       222
@@ -1922,6 +2049,7 @@
   {
     "version": "24[SINO]",
     "music": "HADES",
+    "musicKR": "하데스",
     "notes": 1601,
     "bpm": [
       155
@@ -1937,6 +2065,7 @@
   {
     "version": "19[Lin]",
     "music": "HAERETICUS",
+    "musicKR": "해레티쿠스",
     "notes": 1589,
     "bpm": [
       208
@@ -1952,6 +2081,7 @@
   {
     "version": "26[Root]",
     "music": "HARD BRAIN",
+    "musicKR": "하드 브레인",
     "notes": 1914,
     "bpm": [
       155
@@ -1967,6 +2097,7 @@
   {
     "version": "23[cop]",
     "music": "Highcharge Divolt",
+    "musicKR": "하이 차지 디볼트",
     "notes": 1421,
     "bpm": [
       186
@@ -1982,6 +2113,7 @@
   {
     "version": "20[tri]",
     "music": "Hollywood Galaxy",
+    "musicKR": "할리우드 갤럭시",
     "notes": 1392,
     "bpm": [
       186
@@ -1997,6 +2129,7 @@
   {
     "version": "15[DJT]",
     "music": "ICARUS(A)",
+    "musicKR": "이카로스(A)",
     "notes": 1301,
     "bpm": [
       126,
@@ -2014,6 +2147,7 @@
   {
     "version": "15[DJT]",
     "music": "ICARUS(L)",
+    "musicKR": "이카로스(L)",
     "notes": 2000,
     "bpm": [
       126,
@@ -2031,6 +2165,7 @@
   {
     "version": "21[SPA]",
     "music": "Idola",
+    "musicKR": "여자 이름",
     "notes": 1826,
     "bpm": [
       201
@@ -2046,6 +2181,7 @@
   {
     "version": "28[BIS]",
     "music": "Ignis†Irae",
+    "musicKR": "이그니스†이레",
     "notes": 1970,
     "bpm": [
       188
@@ -2061,6 +2197,7 @@
   {
     "version": "25[CB]",
     "music": "Illusionary Waterlily",
+    "musicKR": "환상 워터리",
     "notes": 1803,
     "bpm": [
       180
@@ -2076,6 +2213,7 @@
   {
     "version": "22[PEN]",
     "music": "IMPLANTATION",
+    "musicKR": "심기",
     "notes": 1163,
     "bpm": [
       145
@@ -2091,6 +2229,7 @@
   {
     "version": "27[HV]",
     "music": "Inferno of Fomalhaut",
+    "musicKR": "포말하우트의 인페르노",
     "notes": 1701,
     "bpm": [
       150
@@ -2106,6 +2245,7 @@
   {
     "version": "25[CB]",
     "music": "Initiation",
+    "musicKR": "개시",
     "notes": 2018,
     "bpm": [
       160
@@ -2121,6 +2261,7 @@
   {
     "version": "28[BIS]",
     "music": "innocent revolver",
+    "musicKR": "순정 권총",
     "notes": 1990,
     "bpm": [
       310
@@ -2136,6 +2277,7 @@
   {
     "version": "10[10th]",
     "music": "Innocent Walls(H)",
+    "musicKR": "인노첸시오 월즈(H)",
     "notes": 1281,
     "bpm": [
       155
@@ -2151,6 +2293,7 @@
   {
     "version": "10[10th]",
     "music": "Innocent Walls(A)",
+    "musicKR": "인노첸시오 월즈(A)",
     "notes": 1446,
     "bpm": [
       155
@@ -2166,6 +2309,7 @@
   {
     "version": "21[SPA]",
     "music": "INSOMNIA",
+    "musicKR": "불면증",
     "notes": 1661,
     "bpm": [
       195
@@ -2181,6 +2325,7 @@
   {
     "version": "22[PEN]",
     "music": "Invitation from Mr.C",
+    "musicKR": "C씨로부터의 초대",
     "notes": 1405,
     "bpm": [
       230
@@ -2196,6 +2341,7 @@
   {
     "version": "21[SPA]",
     "music": "invoker(A)",
+    "musicKR": "호출자(A)",
     "notes": 1624,
     "bpm": [
       195
@@ -2211,6 +2357,7 @@
   {
     "version": "21[SPA]",
     "music": "invoker(L)",
+    "musicKR": "호출자(L)",
     "notes": 1851,
     "bpm": [
       195
@@ -2226,6 +2373,7 @@
   {
     "version": "20[tri]",
     "music": "JOMANDA",
+    "musicKR": "조만다",
     "notes": 1918,
     "bpm": [
       90,
@@ -2243,6 +2391,7 @@
   {
     "version": "21[SPA]",
     "music": "KAISER PHOENIX(A)",
+    "musicKR": "카이저 피닉스(A)",
     "notes": 1693,
     "bpm": [
       170
@@ -2258,6 +2407,7 @@
   {
     "version": "21[SPA]",
     "music": "KAISER PHOENIX(L)",
+    "musicKR": "카이저 피닉스(L)",
     "notes": 2026,
     "bpm": [
       170
@@ -2273,6 +2423,7 @@
   {
     "version": "14[GOLD]",
     "music": "KAMAITACHI(L)",
+    "musicKR": "카마이탁안녕(L)",
     "notes": 2000,
     "bpm": [
       165
@@ -2288,6 +2439,7 @@
   {
     "version": "26[Root]",
     "music": "KILL EACH OTHER",
+    "musicKR": "서로 죽이기",
     "notes": 1945,
     "bpm": [
       162
@@ -2303,6 +2455,7 @@
   {
     "version": "23[cop]",
     "music": "Konzert V",
+    "musicKR": "콘제르트 V",
     "notes": 1710,
     "bpm": [
       160
@@ -2318,6 +2471,7 @@
   {
     "version": "16[EMP]",
     "music": "Kung-fu Empire(L)",
+    "musicKR": "쿵푸 제국(L)",
     "notes": 1999,
     "bpm": [
       177
@@ -2333,6 +2487,7 @@
   {
     "version": "26[Root]",
     "music": "L.F.O",
+    "musicKR": "엘에프포",
     "notes": 1687,
     "bpm": [
       180
@@ -2348,6 +2503,7 @@
   {
     "version": "14[GOLD]",
     "music": "LASER CRUSTER",
+    "musicKR": "레이저 파쇄기",
     "notes": 1644,
     "bpm": [
       152
@@ -2363,6 +2519,7 @@
   {
     "version": "27[HV]",
     "music": "LASER CRUSTER (IGNITE REMIX)",
+    "musicKR": "레이저 커스터(IGNITE 리믹스)",
     "notes": 1824,
     "bpm": [
       174
@@ -2378,6 +2535,7 @@
   {
     "version": "21[SPA]",
     "music": "Last Dance",
+    "musicKR": "라스트 댄스",
     "notes": 1650,
     "bpm": [
       150
@@ -2393,6 +2551,7 @@
   {
     "version": "26[Root]",
     "music": "Lethal Weapon",
+    "musicKR": "필살기",
     "notes": 1646,
     "bpm": [
       90
@@ -2408,6 +2567,7 @@
   {
     "version": "26[Root]",
     "music": "Level One",
+    "musicKR": "레벨 하나",
     "notes": 1857,
     "bpm": [
       173
@@ -2423,6 +2583,7 @@
   {
     "version": "27[HV]",
     "music": "Level 2",
+    "musicKR": "레벨 둘",
     "notes": 1488,
     "bpm": [
       150
@@ -2438,6 +2599,7 @@
   {
     "version": "28[BIS]",
     "music": "Level 3",
+    "musicKR": "레벨 삼",
     "notes": 1844,
     "bpm": [
       175
@@ -2453,6 +2615,7 @@
   {
     "version": "20[tri]",
     "music": "Liberation",
+    "musicKR": "해방",
     "notes": 1905,
     "bpm": [
       150
@@ -2468,6 +2631,7 @@
   {
     "version": "25[CB]",
     "music": "Life Is A Game ft.DD\"ナカタ\"Metal",
+    "musicKR": "인생은 게임프트다.DD\"나카타\"금속",
     "notes": 1775,
     "bpm": [
       195
@@ -2483,6 +2647,7 @@
   {
     "version": "27[HV]",
     "music": "LIGHTNING STRIKES",
+    "musicKR": "번개가 치다",
     "notes": 1639,
     "bpm": [
       180
@@ -2498,6 +2663,7 @@
   {
     "version": "12[HS]",
     "music": "Little Little Princess(L)",
+    "musicKR": "리틀 리틀 프린세스(L)",
     "notes": 1946,
     "bpm": [
       180,
@@ -2514,6 +2680,7 @@
   {
     "version": "20[tri]",
     "music": "Little Star",
+    "musicKR": "리틀 스타",
     "notes": 1635,
     "bpm": [
       183
@@ -2529,6 +2696,7 @@
   {
     "version": "29[Cast]",
     "music": "LIVE DRIVING!! feat. 花たん",
+    "musicKR": "라이브 드라이빙!! feat. 花たん",
     "notes": 1947,
     "bpm": [
       190
@@ -2544,6 +2712,7 @@
   {
     "version": "28[BIS]",
     "music": "LOCUS OF THE TRAVEL",
+    "musicKR": "여행의 중심지",
     "notes": 1920,
     "bpm": [
       182
@@ -2559,6 +2728,7 @@
   {
     "version": "27[HV]",
     "music": "Lords Of The Roundtable",
+    "musicKR": "원탁의 제왕",
     "notes": 1586,
     "bpm": [
       174
@@ -2574,6 +2744,7 @@
   {
     "version": "26[Root]",
     "music": "LOST TECHNOLOGIE",
+    "musicKR": "로스트 테크놀로지",
     "notes": 1822,
     "bpm": [
       157
@@ -2589,6 +2760,7 @@
   {
     "version": "26[Root]",
     "music": "Mächö Mönky",
+    "musicKR": "마초몽키",
     "notes": 1588,
     "bpm": [
       150
@@ -2604,6 +2776,7 @@
   {
     "version": "24[SINO]",
     "music": "Mare Nectaris",
+    "musicKR": "마레꿀리스",
     "notes": 2094,
     "bpm": [
       256
@@ -2619,6 +2792,7 @@
   {
     "version": "16[EMP]",
     "music": "Marie Antoinette",
+    "musicKR": "마리 앙투아네트",
     "notes": 1618,
     "bpm": [
       205,
@@ -2635,6 +2809,7 @@
   {
     "version": "27[HV]",
     "music": "Matt Silver",
+    "musicKR": "맷 실버",
     "notes": 1707,
     "bpm": [
       146
@@ -2650,6 +2825,7 @@
   {
     "version": "28[BIS]",
     "music": "MEGAERA",
+    "musicKR": "메가이라",
     "notes": 1790,
     "bpm": [
       206
@@ -2665,6 +2841,7 @@
   {
     "version": "27[HV]",
     "music": "Megalara Garuda",
+    "musicKR": "메갈라라 가루다",
     "notes": 1543,
     "bpm": [
       180
@@ -2680,6 +2857,7 @@
   {
     "version": "15[DJT]",
     "music": "MENDES",
+    "musicKR": "멘데스",
     "notes": 1831,
     "bpm": [
       168
@@ -2695,6 +2873,7 @@
   {
     "version": "22[PEN]",
     "music": "Monopole.",
+    "musicKR": "전매권.",
     "notes": 1729,
     "bpm": [
       201
@@ -2710,6 +2889,7 @@
   {
     "version": "09[9th]",
     "music": "moon_child",
+    "musicKR": "달_아이",
     "notes": 1300,
     "bpm": [
       130,
@@ -2727,6 +2907,7 @@
   {
     "version": "17[SIR]",
     "music": "mosaic",
+    "musicKR": "모자이크",
     "notes": 1509,
     "bpm": [
       188
@@ -2742,6 +2923,7 @@
   {
     "version": "23[cop]",
     "music": "M4K3 1T B0UNC3",
+    "musicKR": "튕겨봐",
     "notes": 1546,
     "bpm": [
       150
@@ -2757,6 +2939,7 @@
   {
     "version": "22[PEN]",
     "music": "NEO GENERATOR SEVEN",
+    "musicKR": "네오제너레이터 세븐",
     "notes": 1690,
     "bpm": [
       182
@@ -2772,6 +2955,7 @@
   {
     "version": "20[tri]",
     "music": "neu",
+    "musicKR": "신경의",
     "notes": 1999,
     "bpm": [
       199
@@ -2787,6 +2971,7 @@
   {
     "version": "18[RA]",
     "music": "New Castle Legions",
+    "musicKR": "뉴캐슬 군단",
     "notes": 1418,
     "bpm": [
       120,
@@ -2803,6 +2988,7 @@
   {
     "version": "15[DJT]",
     "music": "NEW GENERATION -もう、お前しか見えない-(L)",
+    "musicKR": "신세대 -이제 너밖에 안보여-(L)",
     "notes": 1895,
     "bpm": [
       165
@@ -2818,6 +3004,7 @@
   {
     "version": "23[cop]",
     "music": "Nightmare before oversleep",
+    "musicKR": "늦잠 자기 전의 악몽",
     "notes": 1500,
     "bpm": [
       190
@@ -2833,6 +3020,7 @@
   {
     "version": "23[cop]",
     "music": "NINJA IS DEAD IIDX ver.",
+    "musicKR": "닌자는 죽은 IIDX 버전.",
     "notes": 1520,
     "bpm": [
       111,
@@ -2849,6 +3037,7 @@
   {
     "version": "25[CB]",
     "music": "NITROUS CANNON",
+    "musicKR": "아질소 대포",
     "notes": 1875,
     "bpm": [
       169
@@ -2864,6 +3053,7 @@
   {
     "version": "19[Lin]",
     "music": "NNRT",
+    "musicKR": "엔엔알티",
     "notes": 1780,
     "bpm": [
       101,
@@ -2880,6 +3070,7 @@
   {
     "version": "23[cop]",
     "music": "NZM",
+    "musicKR": "엔제트엠",
     "notes": 1783,
     "bpm": [
       190
@@ -2895,6 +3086,7 @@
   {
     "version": "29[Cast]",
     "music": "n/a",
+    "musicKR": "해당 없음",
     "notes": 1867,
     "bpm": [
       85,
@@ -2912,6 +3104,7 @@
   {
     "version": "29[Cast]",
     "music": "One for All",
+    "musicKR": "하나는 전체를 위하여",
     "notes": 1632,
     "bpm": [
       195
@@ -2927,6 +3120,7 @@
   {
     "version": "10[10th]",
     "music": "One More Lovely",
+    "musicKR": "원 모어 러블리",
     "notes": 1452,
     "bpm": [
       200
@@ -2942,6 +3136,7 @@
   {
     "version": "09[9th]",
     "music": "one or eight",
+    "musicKR": "하나 또는 여덟",
     "notes": 1177,
     "bpm": [
       155
@@ -2957,6 +3152,7 @@
   {
     "version": "26[Root]",
     "music": "ONIGOROSHI",
+    "musicKR": "오니고로시",
     "notes": 1541,
     "bpm": [
       400
@@ -2972,6 +3168,7 @@
   {
     "version": "15[DJT]",
     "music": "oratio",
+    "musicKR": "연설",
     "notes": 1493,
     "bpm": [
       162
@@ -2987,6 +3184,7 @@
   {
     "version": "27[HV]",
     "music": "ORCA",
+    "musicKR": "오크. 오커",
     "notes": 1795,
     "bpm": [
       155
@@ -3002,6 +3200,7 @@
   {
     "version": "24[SINO]",
     "music": "OTENAMI Hurricane",
+    "musicKR": "솜씨 허리케인",
     "notes": 1643,
     "bpm": [
       215
@@ -3017,6 +3216,7 @@
   {
     "version": "26[Root]",
     "music": "Painful Fate",
+    "musicKR": "괴로운 운명",
     "notes": 1702,
     "bpm": [
       192
@@ -3032,6 +3232,7 @@
   {
     "version": "25[CB]",
     "music": "Papilio ulysses",
+    "musicKR": "파필리",
     "notes": 1498,
     "bpm": [
       180
@@ -3047,6 +3248,7 @@
   {
     "version": "18[RA]",
     "music": "PARADISE LOST",
+    "musicKR": "파라다이스 로스트",
     "notes": 1718,
     "bpm": [
       200
@@ -3062,6 +3264,7 @@
   {
     "version": "15[DJT]",
     "music": "PARANOiA ～HADES～",
+    "musicKR": "파라노아 ~하데스~",
     "notes": 1395,
     "bpm": [
       75,
@@ -3078,6 +3281,7 @@
   {
     "version": "18[RA]",
     "music": "perditus†paradisus",
+    "musicKR": "퍼디투스†파라다이스",
     "notes": 2065,
     "bpm": [
       172
@@ -3093,6 +3297,7 @@
   {
     "version": "25[CB]",
     "music": "Persephone",
+    "musicKR": "페르세포네",
     "notes": 1539,
     "bpm": [
       155
@@ -3108,6 +3313,7 @@
   {
     "version": "28[BIS]",
     "music": "Pārvatī",
+    "musicKR": "파르바티",
     "notes": 1467,
     "bpm": [
       205
@@ -3123,6 +3329,7 @@
   {
     "version": "20[tri]",
     "music": "Plan 8",
+    "musicKR": "플랜 8",
     "notes": 1690,
     "bpm": [
       212
@@ -3138,6 +3345,7 @@
   {
     "version": "29[Cast]",
     "music": "PLASMA SOUL NIGHT feat. Nana Takahashi / 709sec.",
+    "musicKR": "플라즈마 소울 나이트 feat. Nana Takahashi / 709초.",
     "notes": 2271,
     "bpm": [
       178
@@ -3153,6 +3361,7 @@
   {
     "version": "08[8th]",
     "music": "PLEASE DON'T GO",
+    "musicKR": "제발 가지 않아요",
     "notes": 1251,
     "bpm": [
       135
@@ -3168,6 +3377,7 @@
   {
     "version": "26[Root]",
     "music": "Please Welcome Mr.C",
+    "musicKR": "C씨를 환영해 주십시오",
     "notes": 1522,
     "bpm": [
       230
@@ -3183,6 +3393,7 @@
   {
     "version": "23[cop]",
     "music": "POSSESSION",
+    "musicKR": "포제션",
     "notes": 1521,
     "bpm": [
       23,
@@ -3199,6 +3410,7 @@
   {
     "version": "27[HV]",
     "music": "Primitive Vibes",
+    "musicKR": "원시 바이브",
     "notes": 1564,
     "bpm": [
       150
@@ -3214,6 +3426,7 @@
   {
     "version": "20[tri]",
     "music": "Proof of the existence",
+    "musicKR": "존재의 증거",
     "notes": 1675,
     "bpm": [
       170
@@ -3229,6 +3442,7 @@
   {
     "version": "21[SPA]",
     "music": "PUNISHER",
+    "musicKR": "퍼니셔",
     "notes": 1812,
     "bpm": [
       180
@@ -3244,6 +3458,7 @@
   {
     "version": "29[Cast]",
     "music": "Purple Perplex",
+    "musicKR": "보라색 곤혹스러움",
     "notes": 1578,
     "bpm": [
       150
@@ -3259,6 +3474,7 @@
   {
     "version": "29[Cast]",
     "music": "Push on Beats!～音ゲの国のeX-ストリーマー～",
+    "musicKR": "비트를 누르세요!~소리개 나라의 eX-스트리머~",
     "notes": 1748,
     "bpm": [
       164,
@@ -3275,6 +3491,7 @@
   {
     "version": "24[SINO]",
     "music": "Quakes",
+    "musicKR": "지진",
     "notes": 1654,
     "bpm": [
       190
@@ -3290,6 +3507,7 @@
   {
     "version": "19[Lin]",
     "music": "QUANTUM TELEPORTATION(L)",
+    "musicKR": "양자 텔레포테이션(L)",
     "notes": 1845,
     "bpm": [
       152
@@ -3305,6 +3523,7 @@
   {
     "version": "19[Lin]",
     "music": "quaver♪",
+    "musicKR": "8분 음표♪",
     "notes": 1745,
     "bpm": [
       182,
@@ -3321,6 +3540,7 @@
   {
     "version": "17[SIR]",
     "music": "quell～the seventh slave～",
+    "musicKR": "노예를 진압하다 ~제7의~",
     "notes": 1646,
     "bpm": [
       162
@@ -3336,6 +3556,7 @@
   {
     "version": "21[SPA]",
     "music": "ra'am",
+    "musicKR": "라암",
     "notes": 1461,
     "bpm": [
       111,
@@ -3352,6 +3573,7 @@
   {
     "version": "12[HS]",
     "music": "rage against usual",
+    "musicKR": "평소와 달리 격노하다",
     "notes": 1527,
     "bpm": [
       152
@@ -3367,6 +3589,7 @@
   {
     "version": "24[SINO]",
     "music": "RAIN",
+    "musicKR": "비",
     "notes": 1657,
     "bpm": [
       159
@@ -3382,6 +3605,7 @@
   {
     "version": "25[CB]",
     "music": "Rampage",
+    "musicKR": "광란하듯 지나가다",
     "notes": 1831,
     "bpm": [
       195
@@ -3397,6 +3621,7 @@
   {
     "version": "25[CB]",
     "music": "Raspberry Railgun",
+    "musicKR": "라즈베리 레일건",
     "notes": 1606,
     "bpm": [
       142
@@ -3412,6 +3637,7 @@
   {
     "version": "24[SINO]",
     "music": "Rave Cannon",
+    "musicKR": "레이브 캐넌",
     "notes": 1700,
     "bpm": [
       160
@@ -3427,6 +3653,7 @@
   {
     "version": "27[HV]",
     "music": "Rave Patroller",
+    "musicKR": "레이브 패트롤러",
     "notes": 1705,
     "bpm": [
       175
@@ -3442,6 +3669,7 @@
   {
     "version": "22[PEN]",
     "music": "Rave*it!! Rave*it!!",
+    "musicKR": "파이팅*!! 파이팅*!!",
     "notes": 1656,
     "bpm": [
       282
@@ -3457,6 +3685,7 @@
   {
     "version": "11[RED]",
     "music": "RED ZONE(L)",
+    "musicKR": "레드 존(L)",
     "notes": 1566,
     "bpm": [
       165
@@ -3472,6 +3701,7 @@
   {
     "version": "17[SIR]",
     "music": "Red. by Full Metal Jacket",
+    "musicKR": "레드. by 풀 메탈자켓",
     "notes": 1643,
     "bpm": [
       158
@@ -3487,6 +3717,7 @@
   {
     "version": "26[Root]",
     "music": "Red. by Jack Trance",
+    "musicKR": "레드. 잭 트랜스의 작품",
     "notes": 1862,
     "bpm": [
       160
@@ -3502,6 +3733,7 @@
   {
     "version": "22[PEN]",
     "music": "Reflux",
+    "musicKR": "환류",
     "notes": 1574,
     "bpm": [
       150
@@ -3517,6 +3749,7 @@
   {
     "version": "23[cop]",
     "music": "refrain",
+    "musicKR": "다물어",
     "notes": 1857,
     "bpm": [
       158
@@ -3532,6 +3765,7 @@
   {
     "version": "18[RA]",
     "music": "reunion",
+    "musicKR": "재결합",
     "notes": 1677,
     "bpm": [
       184
@@ -3547,6 +3781,7 @@
   {
     "version": "25[CB]",
     "music": "REVOLVER(L)",
+    "musicKR": "리볼버(L)",
     "notes": 1731,
     "bpm": [
       160
@@ -3562,6 +3797,7 @@
   {
     "version": "15[DJT]",
     "music": "Ristaccia",
+    "musicKR": "리스타치아",
     "notes": 1386,
     "bpm": [
       160
@@ -3577,6 +3813,7 @@
   {
     "version": "28[BIS]",
     "music": "rommmo",
+    "musicKR": "롬모",
     "notes": 1762,
     "bpm": [
       208
@@ -3592,6 +3829,7 @@
   {
     "version": "26[Root]",
     "music": "ruin of opals",
+    "musicKR": "오팔의 파괴",
     "notes": 1646,
     "bpm": [
       220,
@@ -3609,6 +3847,7 @@
   {
     "version": "18[RA]",
     "music": "sakura storm",
+    "musicKR": "사쿠라 폭풍",
     "notes": 1225,
     "bpm": [
       184
@@ -3624,6 +3863,7 @@
   {
     "version": "24[SINO]",
     "music": "SAMURAI-Scramble(L)",
+    "musicKR": "사무라이 스크램블(L)",
     "notes": 1576,
     "bpm": [
       150
@@ -3639,6 +3879,7 @@
   {
     "version": "24[SINO]",
     "music": "SAY BAY",
+    "musicKR": "처벌",
     "notes": 1455,
     "bpm": [
       165
@@ -3654,6 +3895,7 @@
   {
     "version": "22[PEN]",
     "music": "Say YEEEAHH",
+    "musicKR": "YEEEA라고 해HH",
     "notes": 1677,
     "bpm": [
       135
@@ -3669,6 +3911,7 @@
   {
     "version": "12[HS]",
     "music": "SCREAM SQUAD",
+    "musicKR": "스크림 스쿼드",
     "notes": 1073,
     "bpm": [
       220
@@ -3684,6 +3927,7 @@
   {
     "version": "27[HV]",
     "music": "SCREW // owo // SCREW",
+    "musicKR": "스크류 // 와우 // 스크류",
     "notes": 1567,
     "bpm": [
       114
@@ -3699,6 +3943,7 @@
   {
     "version": "12[HS]",
     "music": "Scripted Connection⇒ A mix(A)",
+    "musicKR": "스크립트로 작성된 연결⇒ 혼합(A)",
     "notes": 1575,
     "bpm": [
       151
@@ -3714,6 +3959,7 @@
   {
     "version": "12[HS]",
     "music": "Scripted Connection⇒ A mix(L)",
+    "musicKR": "스크립트로 작성된 연결⇒ 혼합(L)",
     "notes": 1749,
     "bpm": [
       151
@@ -3729,6 +3975,7 @@
   {
     "version": "16[EMP]",
     "music": "Secrets(L)",
+    "musicKR": "비밀(L)",
     "notes": 2116,
     "bpm": [
       150
@@ -3744,6 +3991,7 @@
   {
     "version": "14[GOLD]",
     "music": "Sense 2007",
+    "musicKR": "센스 2007",
     "notes": 1517,
     "bpm": [
       140
@@ -3759,6 +4007,7 @@
   {
     "version": "18[RA]",
     "music": "Session 9-Chronicles-",
+    "musicKR": "세션 9-연대기-",
     "notes": 1852,
     "bpm": [
       182,
@@ -3775,6 +4024,7 @@
   {
     "version": "22[PEN]",
     "music": "Shooting Fireball",
+    "musicKR": "슈팅 파이어볼",
     "notes": 1983,
     "bpm": [
       160
@@ -3790,6 +4040,7 @@
   {
     "version": "21[SPA]",
     "music": "Sigmund(A)",
+    "musicKR": "지그문트(A)",
     "notes": 2029,
     "bpm": [
       200
@@ -3805,6 +4056,7 @@
   {
     "version": "21[SPA]",
     "music": "Sigmund†(L)",
+    "musicKR": "지그문트†(L)",
     "notes": 2267,
     "bpm": [
       200
@@ -3820,6 +4072,7 @@
   {
     "version": "29[Cast]",
     "music": "Silver Bullet",
+    "musicKR": "실버 불렛",
     "notes": 1662,
     "bpm": [
       152,
@@ -3837,6 +4090,7 @@
   {
     "version": "28[BIS]",
     "music": "Sinus Iridum",
+    "musicKR": "시누이 이리둠",
     "notes": 1803,
     "bpm": [
       128
@@ -3852,6 +4106,7 @@
   {
     "version": "29[Cast]",
     "music": "Skreaming for Salvation",
+    "musicKR": "구원을 외치다",
     "notes": 1625,
     "bpm": [
       200
@@ -3867,6 +4122,7 @@
   {
     "version": "24[SINO]",
     "music": "Sky High",
+    "musicKR": "스카이 하이",
     "notes": 1943,
     "bpm": [
       153
@@ -3882,6 +4138,7 @@
   {
     "version": "25[CB]",
     "music": "Slipstream",
+    "musicKR": "슬립스트림",
     "notes": 1822,
     "bpm": [
       175
@@ -3897,6 +4154,7 @@
   {
     "version": "27[HV]",
     "music": "Smashing Wedge",
+    "musicKR": "스매싱 웨지",
     "notes": 1957,
     "bpm": [
       215
@@ -3912,6 +4170,7 @@
   {
     "version": "19[Lin]",
     "music": "Snake Stick",
+    "musicKR": "스네이크 스틱",
     "notes": 1447,
     "bpm": [
       145
@@ -3927,6 +4186,7 @@
   {
     "version": "24[SINO]",
     "music": "Snakey Kung-fu",
+    "musicKR": "스네이키 쿵푸",
     "notes": 1751,
     "bpm": [
       156
@@ -3942,6 +4202,7 @@
   {
     "version": "14[GOLD]",
     "music": "snow storm(L)",
+    "musicKR": "눈보라(L)",
     "notes": 1709,
     "bpm": [
       145
@@ -3957,6 +4218,7 @@
   {
     "version": "20[tri]",
     "music": "Sol Cosine Job 2",
+    "musicKR": "즉신 성불",
     "notes": 1625,
     "bpm": [
       190,
@@ -3973,6 +4235,7 @@
   {
     "version": "17[SIR]",
     "music": "SOLID STATE SQUAD(A)",
+    "musicKR": "솔리드 스테이트 스쿼드(A)",
     "notes": 1819,
     "bpm": [
       155
@@ -3988,6 +4251,7 @@
   {
     "version": "17[SIR]",
     "music": "SOLID STATE SQUAD(L)",
+    "musicKR": "솔리드 스테이트 스쿼드(L)",
     "notes": 1868,
     "bpm": [
       155
@@ -4003,6 +4267,7 @@
   {
     "version": "28[BIS]",
     "music": "SOLID STATE SQUAD -RISEN RELIC REMIX-",
+    "musicKR": "솔리드 스테이트 스쿼드 -라이젠 리믹스-",
     "notes": 1670,
     "bpm": [
       186
@@ -4018,6 +4283,7 @@
   {
     "version": "22[PEN]",
     "music": "Sounds Of Summer",
+    "musicKR": "여름의 소리",
     "notes": 1513,
     "bpm": [
       175
@@ -4033,6 +4299,7 @@
   {
     "version": "22[PEN]",
     "music": "SpaceLand☆TOYBOX",
+    "musicKR": "스페이스랜드☆장난감상자",
     "notes": 1501,
     "bpm": [
       172
@@ -4048,6 +4315,7 @@
   {
     "version": "18[RA]",
     "music": "SPECIAL SUMMER CAMPAIGN!",
+    "musicKR": "특별한 여름 캠페인!",
     "notes": 1509,
     "bpm": [
       168
@@ -4063,6 +4331,7 @@
   {
     "version": "11[RED]",
     "music": "spiral galaxy(L)",
+    "musicKR": "나선 은하(L)",
     "notes": 1910,
     "bpm": [
       154
@@ -4078,6 +4347,7 @@
   {
     "version": "23[cop]",
     "music": "STARLIGHT DANCEHALL(L)",
+    "musicKR": "별빛 댄스 홀(L)",
     "notes": 1712,
     "bpm": [
       177
@@ -4093,6 +4363,7 @@
   {
     "version": "24[SINO]",
     "music": "Steel Edge",
+    "musicKR": "스틸 에지",
     "notes": 1604,
     "bpm": [
       177
@@ -4108,6 +4379,7 @@
   {
     "version": "15[DJT]",
     "music": "STEEL NEEDLE(L)",
+    "musicKR": "강철 바늘(L)",
     "notes": 1701,
     "bpm": [
       205
@@ -4123,6 +4395,7 @@
   {
     "version": "23[cop]",
     "music": "StrayedCatz",
+    "musicKR": "스트레이드캣츠",
     "notes": 1490,
     "bpm": [
       303
@@ -4138,6 +4411,7 @@
   {
     "version": "20[tri]",
     "music": "STULTI",
+    "musicKR": "스툴티",
     "notes": 1416,
     "bpm": [
       90,
@@ -4154,6 +4428,7 @@
   {
     "version": "24[SINO]",
     "music": "Summerlights(IIDX Edition)",
+    "musicKR": "서머라이트(IIDX 에디션)",
     "notes": 1580,
     "bpm": [
       175
@@ -4169,6 +4444,7 @@
   {
     "version": "24[SINO]",
     "music": "Super Rush",
+    "musicKR": "슈퍼 러시",
     "notes": 1791,
     "bpm": [
       190
@@ -4184,6 +4460,7 @@
   {
     "version": "22[PEN]",
     "music": "Symmetry",
+    "musicKR": "대칭",
     "notes": 1659,
     "bpm": [
       163
@@ -4199,6 +4476,7 @@
   {
     "version": "20[tri]",
     "music": "SYNC-ANTHEM",
+    "musicKR": "싱크로-앤트",
     "notes": 1865,
     "bpm": [
       160,
@@ -4215,6 +4493,7 @@
   {
     "version": "27[HV]",
     "music": "T-REX vs Velociraptor (In the Far east euphoria)",
+    "musicKR": "T-REX vs 벨로키랍터 (극동 행복감에서)",
     "notes": 1636,
     "bpm": [
       200
@@ -4230,6 +4509,7 @@
   {
     "version": "27[HV]",
     "music": "TECHNO Style Essentials",
+    "musicKR": "테크노 스타일 필수 요소",
     "notes": 1453,
     "bpm": [
       154
@@ -4245,6 +4525,7 @@
   {
     "version": "16[EMP]",
     "music": "THANK YOU FOR PLAYING(L)",
+    "musicKR": "이용해 주셔서 감사합니다(L)",
     "notes": 1534,
     "bpm": [
       45,
@@ -4261,6 +4542,7 @@
   {
     "version": "27[HV]",
     "music": "THE BRAVE MUST DIE",
+    "musicKR": "용자는 죽어야 한다",
     "notes": 2075,
     "bpm": [
       215
@@ -4276,6 +4558,7 @@
   {
     "version": "25[CB]",
     "music": "The Chase",
+    "musicKR": "더 체이스",
     "notes": 1148,
     "bpm": [
       142
@@ -4291,6 +4574,7 @@
   {
     "version": "26[Root]",
     "music": "THE DAY OF JUBILATIONS",
+    "musicKR": "환희의 날",
     "notes": 1757,
     "bpm": [
       181
@@ -4306,6 +4590,7 @@
   {
     "version": "15[DJT]",
     "music": "THE DEEP STRIKER(L)",
+    "musicKR": "딥 스트라이커(L)",
     "notes": 1778,
     "bpm": [
       173
@@ -4321,6 +4606,7 @@
   {
     "version": "27[HV]",
     "music": "THE F∀UST",
+    "musicKR": "더 퍼스트",
     "notes": 1851,
     "bpm": [
       170
@@ -4336,6 +4622,7 @@
   {
     "version": "22[PEN]",
     "music": "The Least 100sec",
+    "musicKR": "최소 100초",
     "notes": 1505,
     "bpm": [
       200,
@@ -4352,6 +4639,7 @@
   {
     "version": "19[Lin]",
     "music": "The Limbo",
+    "musicKR": "림보",
     "notes": 1701,
     "bpm": [
       200
@@ -4367,6 +4655,7 @@
   {
     "version": "28[BIS]",
     "music": "THE PEERLESS UNDER HEAVEN",
+    "musicKR": "천하의 비길 데 없는 자",
     "notes": 1818,
     "bpm": [
       170
@@ -4382,6 +4671,7 @@
   {
     "version": "26[Root]",
     "music": "The Rebellion of Sequencer",
+    "musicKR": "시퀀서의 반란",
     "notes": 1634,
     "bpm": [
       300
@@ -4397,6 +4687,7 @@
   {
     "version": "19[Lin]",
     "music": "The Sampling Paradise",
+    "musicKR": "샘플링 파라다이스",
     "notes": 1545,
     "bpm": [
       150
@@ -4412,6 +4703,7 @@
   {
     "version": "20[tri]",
     "music": "Thor's Hammer",
+    "musicKR": "토르 망치",
     "notes": 1641,
     "bpm": [
       150
@@ -4427,6 +4719,7 @@
   {
     "version": "19[Lin]",
     "music": "Thunderbolt",
+    "musicKR": "벼락",
     "notes": 1911,
     "bpm": [
       188
@@ -4442,6 +4735,7 @@
   {
     "version": "16[EMP]",
     "music": "thunder HOUSE NATION Remix(L)",
+    "musicKR": "thunder HOUSE NATION 리믹스(L)",
     "notes": 1954,
     "bpm": [
       128
@@ -4457,6 +4751,7 @@
   {
     "version": "22[PEN]",
     "music": "TIEFSEE",
+    "musicKR": "티에시",
     "notes": 1752,
     "bpm": [
       165
@@ -4472,6 +4767,7 @@
   {
     "version": "20[tri]",
     "music": "Timepiece phase II",
+    "musicKR": "시계 2단계",
     "notes": 1665,
     "bpm": [
       287
@@ -4487,6 +4783,7 @@
   {
     "version": "20[tri]",
     "music": "Timepiece phase II(CN Ver.)",
+    "musicKR": "시계 2단계(CN Ver.)",
     "notes": 1546,
     "bpm": [
       287
@@ -4502,6 +4799,7 @@
   {
     "version": "28[BIS]",
     "music": "Tiempo Loco",
+    "musicKR": "팀포 로코",
     "notes": 1884,
     "bpm": [
       180
@@ -4517,6 +4815,7 @@
   {
     "version": "19[Lin]",
     "music": "TITANS RETURN(L)",
+    "musicKR": "타이탄스 리턴(L)",
     "notes": 1377,
     "bpm": [
       97
@@ -4532,6 +4831,7 @@
   {
     "version": "19[Lin]",
     "music": "Todestrieb",
+    "musicKR": "없애 버리다",
     "notes": 1733,
     "bpm": [
       185
@@ -4547,6 +4847,7 @@
   {
     "version": "24[SINO]",
     "music": "TOGAKUSHI",
+    "musicKR": "토가쿠시",
     "notes": 1343,
     "bpm": [
       152
@@ -4562,6 +4863,7 @@
   {
     "version": "29[Cast]",
     "music": "TOMAHAWK",
+    "musicKR": "도끼",
     "notes": 1830,
     "bpm": [
       215
@@ -4577,6 +4879,7 @@
   {
     "version": "22[PEN]",
     "music": "TOXIC VIBRATION",
+    "musicKR": "독성 진동",
     "notes": 1933,
     "bpm": [
       197
@@ -4592,6 +4895,7 @@
   {
     "version": "14[GOLD]",
     "music": "TRANOID(L)",
+    "musicKR": "트랜로이드의(L)",
     "notes": 1546,
     "bpm": [
       130
@@ -4607,6 +4911,7 @@
   {
     "version": "26[Root]",
     "music": "Trill auf G",
+    "musicKR": "트릴라우프 G",
     "notes": 1670,
     "bpm": [
       188
@@ -4622,6 +4927,7 @@
   {
     "version": "23[cop]",
     "music": "Triple Counter",
+    "musicKR": "트리플 카운터",
     "notes": 2016,
     "bpm": [
       216
@@ -4637,6 +4943,7 @@
   {
     "version": "29[Cast]",
     "music": "Triple Cross",
+    "musicKR": "트리플 크로스",
     "notes": 1667,
     "bpm": [
       196
@@ -4652,6 +4959,7 @@
   {
     "version": "27[HV]",
     "music": "TRIUMPH",
+    "musicKR": "업적대성공",
     "notes": 1724,
     "bpm": [
       183
@@ -4667,6 +4975,7 @@
   {
     "version": "15[DJT]",
     "music": "TROOPERS",
+    "musicKR": "트로퍼",
     "notes": 1496,
     "bpm": [
       177
@@ -4682,6 +4991,7 @@
   {
     "version": "20[tri]",
     "music": "True Blue",
+    "musicKR": "트루 블루",
     "notes": 1898,
     "bpm": [
       164
@@ -4697,6 +5007,7 @@
   {
     "version": "12[HS]",
     "music": "Twelfth Style(L)",
+    "musicKR": "열두 번째 스타일(L)",
     "notes": 1684,
     "bpm": [
       160
@@ -4712,6 +5023,7 @@
   {
     "version": "26[Root]",
     "music": "Unbelief",
+    "musicKR": "불신불신앙",
     "notes": 1675,
     "bpm": [
       135
@@ -4727,6 +5039,7 @@
   {
     "version": "15[DJT]",
     "music": "Übertreffen(L)",
+    "musicKR": "우베르테레펜(L)",
     "notes": 1655,
     "bpm": [
       174
@@ -4742,6 +5055,7 @@
   {
     "version": "05[5th]",
     "music": "V",
+    "musicKR": "브이",
     "notes": 1519,
     "bpm": [
       150
@@ -4757,6 +5071,7 @@
   {
     "version": "20[tri]",
     "music": "Valanga",
+    "musicKR": "발랑가",
     "notes": 1647,
     "bpm": [
       186
@@ -4772,6 +5087,7 @@
   {
     "version": "14[GOLD]",
     "music": "VANESSA(A)",
+    "musicKR": "큰멋쟁이나비(A)",
     "notes": 1228,
     "bpm": [
       185
@@ -4787,6 +5103,7 @@
   {
     "version": "14[GOLD]",
     "music": "VANESSA(L)",
+    "musicKR": "큰멋쟁이나비(L)",
     "notes": 1771,
     "bpm": [
       185
@@ -4802,6 +5119,7 @@
   {
     "version": "24[SINO]",
     "music": "Venom",
+    "musicKR": "독",
     "notes": 1624,
     "bpm": [
       190
@@ -4817,6 +5135,7 @@
   {
     "version": "21[SPA]",
     "music": "Verflucht(A)",
+    "musicKR": "베르플루흐트(A)",
     "notes": 1805,
     "bpm": [
       180
@@ -4832,6 +5151,7 @@
   {
     "version": "21[SPA]",
     "music": "Verflucht(L)",
+    "musicKR": "베르플루흐트(L)",
     "notes": 2401,
     "bpm": [
       180
@@ -4847,6 +5167,7 @@
   {
     "version": "27[HV]",
     "music": "Vinculum stellarum",
+    "musicKR": "빈쿨룸 별자리",
     "notes": 1873,
     "bpm": [
       160
@@ -4862,6 +5183,7 @@
   {
     "version": "28[BIS]",
     "music": "Viridian",
+    "musicKR": "비리디언",
     "notes": 1700,
     "bpm": [
       161
@@ -4877,6 +5199,7 @@
   {
     "version": "26[Root]",
     "music": "Visterhv",
+    "musicKR": "비스테르흐프",
     "notes": 1869,
     "bpm": [
       191
@@ -4892,6 +5215,7 @@
   {
     "version": "28[BIS]",
     "music": "Vitrum",
+    "musicKR": "유리병약용병",
     "notes": 1848,
     "bpm": [
       146
@@ -4907,6 +5231,7 @@
   {
     "version": "26[Root]",
     "music": "voltississimo",
+    "musicKR": "볼티시시모",
     "notes": 1888,
     "bpm": [
       225
@@ -4922,6 +5247,7 @@
   {
     "version": "21[SPA]",
     "music": "VOX UP",
+    "musicKR": "복스 업",
     "notes": 1870,
     "bpm": [
       202
@@ -4937,6 +5263,7 @@
   {
     "version": "18[RA]",
     "music": "Watch Out Pt.2",
+    "musicKR": "2부를 조심하라",
     "notes": 1506,
     "bpm": [
       148
@@ -4952,6 +5279,7 @@
   {
     "version": "13[DD]",
     "music": "waxing and wanding(L)",
+    "musicKR": "밀랍과 방랑(L)",
     "notes": 2000,
     "bpm": [
       191
@@ -4967,6 +5295,7 @@
   {
     "version": "23[cop]",
     "music": "Welcome(L)",
+    "musicKR": "환영해(L)",
     "notes": 1701,
     "bpm": [
       170
@@ -4982,6 +5311,7 @@
   {
     "version": "22[PEN]",
     "music": "We're so Happy(P*Light Remix) IIDX ver.",
+    "musicKR": "우리는 너무 행복해요(P*Light Remix) IIDX ver.",
     "notes": 1896,
     "bpm": [
       185
@@ -4997,6 +5327,7 @@
   {
     "version": "19[Lin]",
     "music": "WONDER WALKER",
+    "musicKR": "원더 워커",
     "notes": 1921,
     "bpm": [
       165
@@ -5012,6 +5343,7 @@
   {
     "version": "23[cop]",
     "music": "X",
+    "musicKR": "나인",
     "notes": 1952,
     "bpm": [
       180
@@ -5027,6 +5359,7 @@
   {
     "version": "26[Root]",
     "music": "X-DEN",
+    "musicKR": "모두",
     "notes": 2220,
     "bpm": [
       200
@@ -5042,6 +5375,7 @@
   {
     "version": "26[Root]",
     "music": "Xlø",
+    "musicKR": "실로",
     "notes": 1988,
     "bpm": [
       165
@@ -5057,6 +5391,7 @@
   {
     "version": "25[CB]",
     "music": "Xperanza",
+    "musicKR": "엑스페란자",
     "notes": 1637,
     "bpm": [
       200
@@ -5072,6 +5407,7 @@
   {
     "version": "16[EMP]",
     "music": "Y&Co. is dead or alive",
+    "musicKR": "Y&Co.는 죽거나 살아있다",
     "notes": 1478,
     "bpm": [
       145,
@@ -5088,6 +5424,7 @@
   {
     "version": "19[Lin]",
     "music": "YAKSHA",
+    "musicKR": "약샤",
     "notes": 2000,
     "bpm": [
       190
@@ -5103,6 +5440,7 @@
   {
     "version": "27[HV]",
     "music": "Ypsilon(L)",
+    "musicKR": "입실론(L)",
     "notes": 1801,
     "bpm": [
       160
@@ -5118,6 +5456,7 @@
   {
     "version": "23[cop]",
     "music": "ZEPHYRANTHES(L)",
+    "musicKR": "제피란테스(L)",
     "notes": 1982,
     "bpm": [
       180
@@ -5133,6 +5472,7 @@
   {
     "version": "20[tri]",
     "music": "Zirkfied",
+    "musicKR": "지르크페티드",
     "notes": 1968,
     "bpm": [
       210
@@ -5148,6 +5488,7 @@
   {
     "version": "22[PEN]",
     "music": "ZZ",
+    "musicKR": "젯쯔",
     "notes": 1541,
     "bpm": [
       154
@@ -5163,6 +5504,7 @@
   {
     "version": "24[SINO]",
     "music": "#MAGiCVLGiRL_TRVP_B3VTZ",
+    "musicKR": null,
     "notes": 1753,
     "bpm": [
       100
@@ -5178,6 +5520,7 @@
   {
     "version": "28[BIS]",
     "music": "-65℃",
+    "musicKR": null,
     "notes": 1912,
     "bpm": [
       186
@@ -5193,6 +5536,7 @@
   {
     "version": "23[cop]",
     "music": "199024club -Re:BounceKiller-",
+    "musicKR": null,
     "notes": 1260,
     "bpm": [
       143
@@ -5208,6 +5552,7 @@
   {
     "version": "29[Cast]",
     "music": "2 Beasts Unchained",
+    "musicKR": "묶이지 않은 두 마리의 짐승",
     "notes": 1780,
     "bpm": [
       175
@@ -5223,6 +5568,7 @@
   {
     "version": "25[CB]",
     "music": "255",
+    "musicKR": null,
     "notes": 1676,
     "bpm": [
       255
@@ -5238,6 +5584,7 @@
   {
     "version": "16[EMP]",
     "music": "3y3s",
+    "musicKR": "아이즈",
     "notes": 1871,
     "bpm": [
       191
@@ -5253,6 +5600,7 @@
   {
     "version": "28[BIS]",
     "music": "3!dolon forc3",
+    "musicKR": null,
     "notes": 1513,
     "bpm": [
       96
@@ -5268,6 +5616,7 @@
   {
     "version": "20[tri]",
     "music": "アストライアの双皿",
+    "musicKR": "아스트라이아의 쌍접시",
     "notes": 1632,
     "bpm": [
       173
@@ -5283,6 +5632,7 @@
   {
     "version": "24[SINO]",
     "music": "イザナミノナゲキ",
+    "musicKR": "이자나미노나게키",
     "notes": 1661,
     "bpm": [
       195
@@ -5298,6 +5648,7 @@
   {
     "version": "26[Root]",
     "music": "お菓子の王国",
+    "musicKR": "과자의 왕국",
     "notes": 2109,
     "bpm": [
       190
@@ -5313,6 +5664,7 @@
   {
     "version": "20[tri]",
     "music": "お米の美味しい炊き方、そしてお米を食べることによるその効果。(L)",
+    "musicKR": "쌀을 맛있게 하는 법, 그리고 쌀을 먹는 것으로 인한 그 효과.(L)",
     "notes": 1907,
     "bpm": [
       190
@@ -5328,6 +5680,7 @@
   {
     "version": "13[DD]",
     "music": "カゴノトリ～弐式～",
+    "musicKR": "가고노토리~두식~",
     "notes": 1325,
     "bpm": [
       140
@@ -5343,6 +5696,7 @@
   {
     "version": "27[HV]",
     "music": "がっつり陰キャ!? 怪盗いいんちょの億劫^^;",
+    "musicKR": "제대로그늘캬!? 괴도위원장의귀찮음^^;",
     "notes": 2192,
     "bpm": [
       185
@@ -5358,6 +5712,7 @@
   {
     "version": "20[tri]",
     "music": "キャトられ♥恋はモ～モク",
+    "musicKR": "캬토라레♥사랑은모~모쿠",
     "notes": 1988,
     "bpm": [
       196
@@ -5373,6 +5728,7 @@
   {
     "version": "25[CB]",
     "music": "シムルグの目醒め",
+    "musicKR": "시물르그의 잠에서 깨어남",
     "notes": 1822,
     "bpm": [
       190
@@ -5388,6 +5744,7 @@
   {
     "version": "20[tri]",
     "music": "シュレーディンガーの猫",
+    "musicKR": "슈뢰딩거의 고양이",
     "notes": 1717,
     "bpm": [
       187
@@ -5403,6 +5760,7 @@
   {
     "version": "28[BIS]",
     "music": "スーパー戦湯ババンバーン",
+    "musicKR": "슈퍼전탕 바반반",
     "notes": 1755,
     "bpm": [
       187
@@ -5418,6 +5776,7 @@
   {
     "version": "22[PEN]",
     "music": "それは花火のような恋",
+    "musicKR": "그것은 불꽃같은 사랑",
     "notes": 1976,
     "bpm": [
       182
@@ -5433,6 +5792,7 @@
   {
     "version": "20[tri]",
     "music": "たまゆら",
+    "musicKR": "어렴풋이",
     "notes": 1407,
     "bpm": [
       180
@@ -5448,6 +5808,7 @@
   {
     "version": "28[BIS]",
     "music": "ディスコルディア",
+    "musicKR": "디스코르디아",
     "notes": 2073,
     "bpm": [
       180,
@@ -5464,6 +5825,7 @@
   {
     "version": "20[tri]",
     "music": "トリカゴノ鳳凰",
+    "musicKR": "토리고노호우",
     "notes": 1932,
     "bpm": [
       185
@@ -5479,6 +5841,7 @@
   {
     "version": "28[BIS]",
     "music": "バッド・スイーツ、バッド・ドリーム",
+    "musicKR": "배드 스위트, 배드 드림",
     "notes": 1862,
     "bpm": [
       220
@@ -5494,6 +5857,7 @@
   {
     "version": "11[RED]",
     "music": "ピアノ協奏曲第１番\"蠍火\"",
+    "musicKR": "피아노 협주곡 제1번 \"잔불\"",
     "notes": 1414,
     "bpm": [
       165,
@@ -5511,6 +5875,7 @@
   {
     "version": "27[HV]",
     "music": "ピアノ協奏曲第1番”蠍火” (BlackY Remix)",
+    "musicKR": "피아노 협주곡 제1번 ”잔불” (BlackY Remix)",
     "notes": 1926,
     "bpm": [
       160
@@ -5526,6 +5891,7 @@
   {
     "version": "23[cop]",
     "music": "めいさいアイドル☆あいむちゃん♪",
+    "musicKR": "미세한 아이돌 ☆ 아임짱 ♪",
     "notes": 1717,
     "bpm": [
       160
@@ -5541,6 +5907,7 @@
   {
     "version": "22[PEN]",
     "music": "リリーゼと炎龍レーヴァテイン",
+    "musicKR": "릴리제와 염룡레이버테인",
     "notes": 1771,
     "bpm": [
       200
@@ -5556,6 +5923,7 @@
   {
     "version": "17[SIR]",
     "music": "ワルツ第17番 ト短調\"大犬のワルツ\"",
+    "musicKR": "왈츠 제17번트 단조\"큰 개의 왈츠\"",
     "notes": 1684,
     "bpm": [
       230,
@@ -5573,6 +5941,7 @@
   {
     "version": "23[cop]",
     "music": "紫陽花 -AZISAI-",
+    "musicKR": "수국 -아지사이-",
     "notes": 1490,
     "bpm": [
       155
@@ -5588,6 +5957,7 @@
   {
     "version": "23[cop]",
     "music": "駅猫のワルツ",
+    "musicKR": "에키네코의 왈츠",
     "notes": 1558,
     "bpm": [
       282
@@ -5603,6 +5973,7 @@
   {
     "version": "24[SINO]",
     "music": "焔極OVERKILL",
+    "musicKR": "불꽃지나침",
     "notes": 1901,
     "bpm": [
       192
@@ -5618,6 +5989,7 @@
   {
     "version": "20[tri]",
     "music": "音楽",
+    "musicKR": "음악",
     "notes": 1487,
     "bpm": [
       210,
@@ -5635,6 +6007,7 @@
   {
     "version": "20[tri]",
     "music": "仮想空間の旅人たち(L)",
+    "musicKR": "가상 공간의 여행자들(L)",
     "notes": 1943,
     "bpm": [
       151
@@ -5650,6 +6023,7 @@
   {
     "version": "27[HV]",
     "music": "華麗なる大犬円舞曲",
+    "musicKR": "화려한 대견 원무곡",
     "notes": 1849,
     "bpm": [
       60,
@@ -5667,6 +6041,7 @@
   {
     "version": "19[Lin]",
     "music": "君のハートにロックオン(L)",
+    "musicKR": "너의 하트에 록온(L)",
     "notes": 1828,
     "bpm": [
       260
@@ -5682,6 +6057,7 @@
   {
     "version": "24[SINO]",
     "music": "九尾狐夜行",
+    "musicKR": "구미호야행",
     "notes": 1521,
     "bpm": [
       145
@@ -5697,6 +6073,7 @@
   {
     "version": "22[PEN]",
     "music": "共鳴遊戯の華",
+    "musicKR": "공명 유희의 꽃",
     "notes": 2000,
     "bpm": [
       190
@@ -5712,6 +6089,7 @@
   {
     "version": "28[BIS]",
     "music": "閠槞彁の願い",
+    "musicKR": "윤탁한 소원",
     "notes": 1613,
     "bpm": [
       180
@@ -5727,6 +6105,7 @@
   {
     "version": "20[tri]",
     "music": "狂イ咲ケ焔ノ華",
+    "musicKR": "환하게 피어오르는 불꽃",
     "notes": 1860,
     "bpm": [
       206
@@ -5742,6 +6121,7 @@
   {
     "version": "18[RA]",
     "music": "黒髪乱れし修羅となりて",
+    "musicKR": "검은 머리가 헝클어진 아수라가 되어",
     "notes": 1745,
     "bpm": [
       150
@@ -5757,6 +6137,7 @@
   {
     "version": "19[Lin]",
     "music": "恋する☆宇宙戦争っ!!",
+    "musicKR": "사랑한다 ☆ 우주전쟁!!",
     "notes": 1835,
     "bpm": [
       200
@@ -5772,6 +6153,7 @@
   {
     "version": "19[Lin]",
     "music": "子供の落書き帳",
+    "musicKR": "아이의 낙서장",
     "notes": 1395,
     "bpm": [
       280
@@ -5787,6 +6169,7 @@
   {
     "version": "26[Root]",
     "music": "金野火織の金色提言",
+    "musicKR": "카나노 카오리의 금색 제언",
     "notes": 1630,
     "bpm": [
       225
@@ -5802,6 +6185,7 @@
   {
     "version": "26[Root]",
     "music": "最小三倍完全数",
+    "musicKR": "최소 삼배 완전수",
     "notes": 1314,
     "bpm": [
       220
@@ -5817,6 +6201,7 @@
   {
     "version": "08[8th]",
     "music": "桜",
+    "musicKR": "벚꽃",
     "notes": 1123,
     "bpm": [
       13,
@@ -5834,6 +6219,7 @@
   {
     "version": "29[Cast]",
     "music": "逆月",
+    "musicKR": "역월",
     "notes": 1920,
     "bpm": [
       280
@@ -5849,6 +6235,7 @@
   {
     "version": "21[SPA]",
     "music": "疾風迅雷(A)",
+    "musicKR": "질풍신뢰(A)",
     "notes": 1493,
     "bpm": [
       180
@@ -5864,6 +6251,7 @@
   {
     "version": "21[SPA]",
     "music": "疾風迅雷(L)",
+    "musicKR": "질풍신뢰(L)",
     "notes": 1824,
     "bpm": [
       180
@@ -5879,6 +6267,7 @@
   {
     "version": "18[RA]",
     "music": "灼熱Beach Side Bunny",
+    "musicKR": "작열Beach Side Bunny",
     "notes": 1719,
     "bpm": [
       153
@@ -5894,6 +6283,7 @@
   {
     "version": "23[cop]",
     "music": "灼熱 Pt.2 Long Train Running",
+    "musicKR": "작열 Pt.2 Long Train Running",
     "notes": 1804,
     "bpm": [
       165
@@ -5909,6 +6299,7 @@
   {
     "version": "15[DJT]",
     "music": "少年A",
+    "musicKR": "소년 A",
     "notes": 1449,
     "bpm": [
       90,
@@ -5925,6 +6316,7 @@
   {
     "version": "22[PEN]",
     "music": "少年は空を辿る",
+    "musicKR": "소년은 하늘을 더듬다",
     "notes": 1729,
     "bpm": [
       140
@@ -5940,6 +6332,7 @@
   {
     "version": "27[HV]",
     "music": "深淵に捧ぐレクイエム",
+    "musicKR": "심연에 바치는 레퀴엠",
     "notes": 1537,
     "bpm": [
       175
@@ -5955,6 +6348,7 @@
   {
     "version": "25[CB]",
     "music": "神謳 -RESONANCE-",
+    "musicKR": "신노래 -공명-",
     "notes": 2047,
     "bpm": [
       180
@@ -5970,6 +6364,7 @@
   {
     "version": "23[cop]",
     "music": "真 地獄超特急 -HELL or HELL-",
+    "musicKR": "진 지옥 초특급 -지옥 아니면 지옥-",
     "notes": 1727,
     "bpm": [
       165
@@ -5985,6 +6380,7 @@
   {
     "version": "28[BIS]",
     "music": "水鏡の異界",
+    "musicKR": "수경의 이계",
     "notes": 1661,
     "bpm": [
       168
@@ -6000,6 +6396,7 @@
   {
     "version": "19[Lin]",
     "music": "聖人の塔",
+    "musicKR": "성인의 탑",
     "notes": 1567,
     "bpm": [
       97,
@@ -6016,6 +6413,7 @@
   {
     "version": "28[BIS]",
     "music": "世界の果てに約束の凱歌を -ReUnion-",
+    "musicKR": "세상 끝에 약속의 개가를 -ReUnion-",
     "notes": 1983,
     "bpm": [
       200
@@ -6031,6 +6429,7 @@
   {
     "version": "10[10th]",
     "music": "雪月花",
+    "musicKR": "설월화",
     "notes": 1287,
     "bpm": [
       151
@@ -6046,6 +6445,7 @@
   {
     "version": "22[PEN]",
     "music": "千年ノ理(A)",
+    "musicKR": "천년지리(A)",
     "notes": 1608,
     "bpm": [
       153
@@ -6061,6 +6461,7 @@
   {
     "version": "22[PEN]",
     "music": "千年ノ理(L)",
+    "musicKR": "천년지리(L)",
     "notes": 2183,
     "bpm": [
       153
@@ -6076,6 +6477,7 @@
   {
     "version": "21[SPA]",
     "music": "旋律のドグマ～Misérables～",
+    "musicKR": "선율의 도그마~Misérables~",
     "notes": 2002,
     "bpm": [
       192
@@ -6091,6 +6493,7 @@
   {
     "version": "20[tri]",
     "music": "即席！脳直★ミュージックシステム",
+    "musicKR": "즉석! 뇌직 ★ 뮤직 시스템",
     "notes": 1838,
     "bpm": [
       197
@@ -6106,6 +6509,7 @@
   {
     "version": "26[Root]",
     "music": "抱きしめてモナムール",
+    "musicKR": "안아줘 모나무르",
     "notes": 2110,
     "bpm": [
       190
@@ -6121,6 +6525,7 @@
   {
     "version": "22[PEN]",
     "music": "超青少年ノ為ノ超多幸ナ超古典的超舞曲(L)",
+    "musicKR": "초청소년을 위한 초다복한 초고전적 초무곡(L)",
     "notes": 2110,
     "bpm": [
       150
@@ -6136,6 +6541,7 @@
   {
     "version": "24[SINO]",
     "music": "津軽雪",
+    "musicKR": "쓰가루 유키",
     "notes": 1953,
     "bpm": [
       160
@@ -6151,6 +6557,7 @@
   {
     "version": "19[Lin]",
     "music": "天空の夜明け",
+    "musicKR": "천공의 새벽",
     "notes": 2072,
     "bpm": [
       150
@@ -6166,6 +6573,7 @@
   {
     "version": "14[GOLD]",
     "music": "電人、暁に斃れる。",
+    "musicKR": "전신, 새벽에 쓰러지다.",
     "notes": 1725,
     "bpm": [
       165
@@ -6181,6 +6589,7 @@
   {
     "version": "25[CB]",
     "music": "東京神話",
+    "musicKR": "토쿄 신화",
     "notes": 1505,
     "bpm": [
       196
@@ -6196,6 +6605,7 @@
   {
     "version": "24[SINO]",
     "music": "童話回廊",
+    "musicKR": "동화 회랑",
     "notes": 1592,
     "bpm": [
       262
@@ -6211,6 +6621,7 @@
   {
     "version": "21[SPA]",
     "music": "轟け！恋のビーンボール！！",
+    "musicKR": "토도로케!사랑의 빈볼!!",
     "notes": 1834,
     "bpm": [
       180
@@ -6226,6 +6637,7 @@
   {
     "version": "20[tri]",
     "music": "†渚の小悪魔ラヴリィ～レイディオ†(IIDX EDIT)",
+    "musicKR": "나사의 소악마 라블리~라디오†(IIDX EDIT)",
     "notes": 1835,
     "bpm": [
       190
@@ -6241,6 +6653,7 @@
   {
     "version": "13[DD]",
     "music": "嘆きの樹",
+    "musicKR": "비탄의 나무",
     "notes": 2000,
     "bpm": [
       160
@@ -6256,6 +6669,7 @@
   {
     "version": "22[PEN]",
     "music": "夏色DIARY - L.E.D.-G STYLE MIX -",
+    "musicKR": "여름색일기 - L.E.D.-G STYLE MIX -",
     "notes": 1590,
     "bpm": [
       190
@@ -6271,6 +6685,7 @@
   {
     "version": "21[SPA]",
     "music": "廿(L)",
+    "musicKR": "니쥬이치노마에(L)",
     "notes": 1731,
     "bpm": [
       120,
@@ -6287,6 +6702,7 @@
   {
     "version": "28[BIS]",
     "music": "伐折羅-vajra-",
+    "musicKR": "벌절라-vajra-",
     "notes": 1877,
     "bpm": [
       173
@@ -6302,6 +6718,7 @@
   {
     "version": "24[SINO]",
     "music": "刃図羅",
+    "musicKR": "칼날 도라",
     "notes": 1746,
     "bpm": [
       165
@@ -6317,6 +6734,7 @@
   {
     "version": "24[SINO]",
     "music": "焱影",
+    "musicKR": "그림자",
     "notes": 1437,
     "bpm": [
       136
@@ -6332,6 +6750,7 @@
   {
     "version": "16[EMP]",
     "music": "卑弥呼",
+    "musicKR": "히미코",
     "notes": 2119,
     "bpm": [
       83,
@@ -6348,6 +6767,7 @@
   {
     "version": "22[PEN]",
     "music": "表裏一体!?怪盗いいんちょの悩み♥",
+    "musicKR": "표리일체!?괴도위원장의 고민♥",
     "notes": 1815,
     "bpm": [
       165
@@ -6363,6 +6783,7 @@
   {
     "version": "28[BIS]",
     "music": "二人ノ廃城幽踊宴",
+    "musicKR": "두 사람의 폐성 유무연",
     "notes": 1927,
     "bpm": [
       280,
@@ -6380,6 +6801,7 @@
   {
     "version": "16[EMP]",
     "music": "不沈艦CANDY",
+    "musicKR": "불침함 캔디",
     "notes": 1682,
     "bpm": [
       188
@@ -6395,6 +6817,7 @@
   {
     "version": "22[PEN]",
     "music": "紅牡丹",
+    "musicKR": "홍모란",
     "notes": 1445,
     "bpm": [
       181
@@ -6410,6 +6833,7 @@
   {
     "version": "29[Cast]",
     "music": "烽火連天の刃",
+    "musicKR": "봉화 연천의 칼날",
     "notes": 1771,
     "bpm": [
       190
@@ -6425,6 +6849,7 @@
   {
     "version": "28[BIS]",
     "music": "魔法のかくれんぼ",
+    "musicKR": "마법의 숨바꼭질",
     "notes": 1454,
     "bpm": [
       178,
@@ -6441,6 +6866,7 @@
   {
     "version": "29[Cast]",
     "music": "禊",
+    "musicKR": "목욕재계",
     "notes": 1631,
     "bpm": [
       160
@@ -6456,6 +6882,7 @@
   {
     "version": "27[HV]",
     "music": "魅惑のYUMMYスイーツ",
+    "musicKR": "매혹적인 맛있는 디저트",
     "notes": 1586,
     "bpm": [
       208
@@ -6471,6 +6898,7 @@
   {
     "version": "12[HS]",
     "music": "冥",
+    "musicKR": "명",
     "notes": 2000,
     "bpm": [
       66,
@@ -6487,6 +6915,7 @@
   {
     "version": "20[tri]",
     "music": "龍と少女とデコヒーレンス(L)",
+    "musicKR": "용과 소녀와 데코히렌스(L)",
     "notes": 1713,
     "bpm": [
       165
@@ -6502,6 +6931,7 @@
   {
     "version": "21[SPA]",
     "music": "煉獄のエルフェリア",
+    "musicKR": "연옥의 엘페리아",
     "notes": 2000,
     "bpm": [
       183
@@ -6517,6 +6947,7 @@
   {
     "version": "21[SPA]",
     "music": "海神",
+    "musicKR": "해신",
     "notes": 1629,
     "bpm": [
       159
@@ -6532,6 +6963,7 @@
   {
     "version": "19[Lin]",
     "music": "ƒƒƒƒƒ",
+    "musicKR": "포르테시시모",
     "notes": 1624,
     "bpm": [
       138
@@ -6547,6 +6979,7 @@
   {
     "version": "20[tri]",
     "music": "ΕΛΠΙΣ(A)",
+    "musicKR": "희망(A)",
     "notes": 1600,
     "bpm": [
       175
@@ -6562,6 +6995,7 @@
   {
     "version": "20[tri]",
     "music": "ΕΛΠΙΣ(L)",
+    "musicKR": "희망(L)",
     "notes": 1852,
     "bpm": [
       175
@@ -6577,6 +7011,7 @@
   {
     "version": "21[SPA]",
     "music": "Ⅸ",
+    "musicKR": "나인",
     "notes": 2007,
     "bpm": [
       198
@@ -6592,6 +7027,7 @@
   {
     "version": "28[BIS]",
     "music": "∀",
+    "musicKR": "턴에이",
     "notes": 1802,
     "bpm": [
       180
@@ -6607,6 +7043,7 @@
   {
     "version": "24[SINO]",
     "music": "〆",
+    "musicKR": "시메",
     "notes": 1877,
     "bpm": [
       160
