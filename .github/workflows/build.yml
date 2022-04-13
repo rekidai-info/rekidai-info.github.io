@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Build application
 
 # Controls when the workflow will run
 on:
@@ -35,7 +35,6 @@ jobs:
       - run: |
           git config --local user.email "workflow@example.com"
           git config --local user.name "workflow"
-          git pull
           npm install
           npm run build
           rm -rf _app && mv -f build/*.html build/*.js build/*.ico build/*.json build/_app . && rm -rf build
