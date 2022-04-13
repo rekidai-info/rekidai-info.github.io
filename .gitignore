@@ -1,2 +1,9 @@
-/node_modules/
 .DS_Store
+/node_modules
+/build
+/.svelte-kit
+/package
+/outDir
+.env
+.env.*
+!.env.example

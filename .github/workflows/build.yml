@@ -7,7 +7,12 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     paths:
+      - 'src/**'
+      - 'static/**'
+    paths-ignore:
+      - 'static/favicon.ico'
       - 'static/rekidai.json'
+      - 'static/rekidai.min.json'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -25,14 +30,16 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
 
       - run: |
           git config --local user.email "workflow@example.com"
           git config --local user.name "workflow"
           git pull
-          jq . static/rekidai.json > static/rekidai.json.tmp && mv -f static/rekidai.json.tmp static/rekidai.json
-          jq -c < static/rekidai.json > static/rekidai.min.json
-          git add static/rekidai.json static/rekidai.min.json
+          npm install
+          npm run build
+          rm -rf _app && mv -f build/*.html build/*.js build/*.ico build/*.json build/_app . && rm -rf build
+          git add .
           git commit -m "Automatically updated by Workflow Action"
           git push origin main
 
