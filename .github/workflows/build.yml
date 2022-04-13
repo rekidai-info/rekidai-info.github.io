@@ -36,7 +36,7 @@ jobs:
           git config --local user.name "workflow"
           npm install
           npm run build
-          rm -rf _app && mv -f build/*.html build/*.js build/*.ico build/*.json build/_app . && rm -rf build
+          rm -rf app && mv -f build/*.html build/*.js build/*.ico build/*.json build/app . && rm -rf build
           git add .
           git commit -m "Automatically updated by Workflow Action"
           git push origin main

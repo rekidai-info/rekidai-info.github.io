@@ -9,6 +9,7 @@ const config = {
 
   kit: {
     adapter: adapter(),
+    appDir: 'app',
     vite: {
       server: {
         fs: {
