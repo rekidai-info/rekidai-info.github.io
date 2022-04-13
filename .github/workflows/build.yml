@@ -9,10 +9,9 @@ on:
     paths:
       - 'src/**'
       - 'static/**'
-    paths-ignore:
-      - 'static/favicon.ico'
-      - 'static/rekidai.json'
-      - 'static/rekidai.min.json'
+      - '!static/favicon.ico'
+      - '!static/rekidai.json'
+      - '!static/rekidai.min.json'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
