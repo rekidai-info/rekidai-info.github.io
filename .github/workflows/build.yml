@@ -34,9 +34,12 @@ jobs:
       - run: |
           git config --local user.email "workflow@example.com"
           git config --local user.name "workflow"
+          cp -f src/routes/index.svelte index.svelte.bak
+          sed -i "s/^\s*//" src/routes/index.svelte
           npm install
           npm run build
           rm -rf app && mv -f build/*.html build/*.js build/*.ico build/*.json build/app . && rm -rf build
+          mv -f index.svelte.bak src/routes/index.svelte
           git add .
           git commit -m "Automatically updated by Workflow Action"
           git push origin main
