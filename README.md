@@ -1,7 +1,7 @@
 **Anyone can edit the Rekidai Data.**
 
 If you want to update rekidai data, please fork [this repository](https://github.com/rekidai-info/rekidai-info.github.io), edit [rekidai.json](static/rekidai.json), and submit a Pull Request.  
-Please do not change [rekidai.min.json](static/rekidai.min.json), as this file is automatically updated when [rekidai.json](static/rekidai.json) is pushed.
+Please do not change [rekidai.min.json](static/rekidai.min.json), [rekidai.json](rekidai.json), and [rekidai.min.json](rekidai.min.json) as this file is automatically updated when [rekidai.json](static/rekidai.json) is pushed.
 
 Don't have a GitHub account?  
 Please submit a request form for [Rekidai Score Update Request](https://forms.gle/wqrRh1ow6uaREy286) or [New Music Addition Request](https://forms.gle/SDkmfUcTC5zLsGPD6).

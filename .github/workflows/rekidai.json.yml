@@ -31,7 +31,9 @@ jobs:
           git config --local user.name "workflow"
           jq . static/rekidai.json > static/rekidai.json.tmp && mv -f static/rekidai.json.tmp static/rekidai.json
           jq -c < static/rekidai.json > static/rekidai.min.json
-          git add static/rekidai.json static/rekidai.min.json
+          cp -f static/rekidai.json rekidai.json
+          cp -f static/rekidai.min.json rekidai.min.json
+          git add rekidai.json rekidai.min.json static/rekidai.json static/rekidai.min.json
           git commit -m "Automatically updated by Workflow Action"
           git push origin main
 
