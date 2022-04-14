@@ -86,7 +86,7 @@
     }, {});
 
     Object.keys(topRankers).forEach(e => {
-      topRankersSort.push({ player: e, counts: topRankers[e] });
+      topRankersSort.push({ player: e, counts: topRankers[e], percentage: 100 * topRankers[e] / jsonArray.length });
     });
     topRankersSort.sort((lhs, rhs) => {
       if (lhs.counts == rhs.counts) {
@@ -331,6 +331,7 @@
           <th>Rank</th>
           <th>Player</th>
           <th>Count</th>
+          <th class="data-sort">Percentage</th>
         </thead>
         <tbody>
           {#each topRankersSort as topRanker (topRanker.player)}
@@ -338,6 +339,7 @@
               <td>{topRanker.rank}</td>
               <td>{topRanker.player}</td>
               <td>{topRanker.counts}</td>
+              <td data-sort={topRanker.percentage}>{Number(topRanker.percentage).toFixed(2) + '%'}</td>
             </tr>
           {/each}
         </tbody>
