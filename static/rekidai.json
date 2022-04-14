@@ -3587,6 +3587,22 @@
     "date": "2021-09-16"
   },
   {
+    "version": "29[Cast]",
+    "music": "RAGE feat.H14 of LEONAIR",
+    "musicKR": "분노의 위업H14 오브 레온에어",
+    "notes": 1886,
+    "bpm": [
+      166
+    ],
+    "textage": null,
+    "musicMovie": null,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
+    "player": "NOPLAY",
+    "date": "2022-04-14"
+  },
+  {
     "version": "24[SINO]",
     "music": "RAIN",
     "musicKR": "비",
@@ -4149,6 +4165,22 @@
     "scoreResult": "https://twitter.com/iidx_kkm/status/1514256534598930434/photo/1",
     "topVersion": "29[Cast]",
     "player": "KKM*",
+    "date": "2022-04-14"
+  },
+  {
+    "version": "29[Cast]",
+    "music": "Smalt #28598F",
+    "musicKR": "스몰트 #28598f",
+    "notes": 1725,
+    "bpm": [
+      151
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=5tnquGvtbic",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
+    "player": "NOPLAY",
     "date": "2022-04-14"
   },
   {
