@@ -202,9 +202,9 @@
     return MAX - score;
   }
 
-  function typewriter(node, { speed = 2 }) {
+  function typewriter(node, { speed = 10 }) {
     const text = 'Loading...';
-    const duration = 400 * text.length / speed;
+    const duration = 1000 * text.length / speed;
 
     return {
       duration,
