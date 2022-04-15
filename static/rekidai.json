@@ -100,6 +100,7 @@
     "version": "17[SIR]",
     "music": "AIR RAID FROM THA UNDAGROUND(L)",
     "musicKR": "에어 레이드 프롬 더 언더그라운드(L)",
+    "musicJP": "エアレ(L)",
     "notes": 1523,
     "bpm": [
       180
@@ -772,6 +773,7 @@
     "version": "22[PEN]",
     "music": "Chrono Diver -PENDULUMs-",
     "musicKR": "크로노 다이버 - PENDULMS-",
+    "musicJP": "黒ペン",
     "notes": 2222,
     "bpm": [
       196
@@ -804,6 +806,7 @@
     "version": "21[SPA]",
     "music": "Close the World feat.a☆ru(A)",
     "musicKR": "월드 기능을 닫습니다.a☆ru(A)",
+    "musicJP": "黒沢(A)",
     "notes": 1739,
     "bpm": [
       188
@@ -820,6 +823,7 @@
     "version": "21[SPA]",
     "music": "Close the World feat.a☆ru(L)",
     "musicKR": "월드 기능을 닫습니다.a☆ru(L)",
+    "musicJP": "黒沢(L)",
     "notes": 1983,
     "bpm": [
       188
@@ -884,6 +888,7 @@
     "version": "13[DD]",
     "music": "Concertino in Blue",
     "musicKR": "콘체르티노 인 블루",
+    "musicJP": "コンチェ",
     "notes": 1311,
     "bpm": [
       103,
@@ -1063,6 +1068,7 @@
     "version": "25[CB]",
     "music": "DEATH†ZIGOQ～怒りの高速爆走野郎～",
     "musicKR": "죽음†지옥~성난 고속 폭주 놈~",
+    "musicJP": "デス地獄",
     "notes": 2075,
     "bpm": [
       200
@@ -1079,6 +1085,7 @@
     "version": "22[PEN]",
     "music": "Despair of ELFERIA",
     "musicKR": "엘페리아의 절망",
+    "musicJP": "エルフェリア",
     "notes": 2096,
     "bpm": [
       205
@@ -1631,6 +1638,7 @@
     "version": "14[GOLD]",
     "music": "Fascination MAXX",
     "musicKR": "파시네이션 맥스",
+    "musicEN": "FAXX",
     "notes": 1313,
     "bpm": [
       100,
@@ -1777,6 +1785,7 @@
     "version": "17[SIR]",
     "music": "G59",
     "musicKR": "지옥",
+    "musicJP": "地獄",
     "notes": 2000,
     "bpm": [
       170
@@ -1890,6 +1899,7 @@
     "version": "24[SINO]",
     "music": "Go Ahead!!",
     "musicKR": "계속 하세요!!",
+    "musicJP": "ゴアへ",
     "notes": 1413,
     "bpm": [
       200
@@ -1906,6 +1916,7 @@
     "version": "16[EMP]",
     "music": "Go Beyond!!",
     "musicKR": "저리 가!!",
+    "musicJP": "ゴビヨ",
     "notes": 1166,
     "bpm": [
       200
@@ -2147,6 +2158,7 @@
   {
     "version": "15[DJT]",
     "music": "ICARUS(L)",
+    "musicJP": "黒イカ",
     "musicKR": "이카로스(L)",
     "notes": 2000,
     "bpm": [
@@ -2278,6 +2290,7 @@
     "version": "10[10th]",
     "music": "Innocent Walls(H)",
     "musicKR": "인노첸시오 월즈(H)",
+    "musicJP": "白壁(H)",
     "notes": 1281,
     "bpm": [
       155
@@ -2294,6 +2307,7 @@
     "version": "10[10th]",
     "music": "Innocent Walls(A)",
     "musicKR": "인노첸시오 월즈(A)",
+    "musicJP": "白壁(A)",
     "notes": 1446,
     "bpm": [
       155
@@ -2729,6 +2743,7 @@
     "version": "27[HV]",
     "music": "Lords Of The Roundtable",
     "musicKR": "원탁의 제왕",
+    "musicJP": "円卓",
     "notes": 1586,
     "bpm": [
       174
@@ -2761,6 +2776,7 @@
     "version": "26[Root]",
     "music": "Mächö Mönky",
     "musicKR": "마초몽키",
+    "musicEN": "Macho Monky",
     "notes": 1588,
     "bpm": [
       150
@@ -2777,6 +2793,7 @@
     "version": "24[SINO]",
     "music": "Mare Nectaris",
     "musicKR": "마레꿀리스",
+    "musicJP": "マレ",
     "notes": 2094,
     "bpm": [
       256
@@ -2956,6 +2973,7 @@
     "version": "20[tri]",
     "music": "neu",
     "musicKR": "신경의",
+    "musicJP": "ニエンテ",
     "notes": 1999,
     "bpm": [
       199
@@ -3282,6 +3300,7 @@
     "version": "18[RA]",
     "music": "perditus†paradisus",
     "musicKR": "퍼디투스†파라다이스",
+    "musicEN": "pp",
     "notes": 2065,
     "bpm": [
       172
@@ -3314,6 +3333,7 @@
     "version": "28[BIS]",
     "music": "Pārvatī",
     "musicKR": "파르바티",
+    "musicEN": "Parvati",
     "notes": 1467,
     "bpm": [
       205
@@ -3394,6 +3414,7 @@
     "version": "23[cop]",
     "music": "POSSESSION",
     "musicKR": "포제션",
+    "musicJP": "ポゼ",
     "notes": 1521,
     "bpm": [
       23,
@@ -3718,6 +3739,7 @@
     "version": "17[SIR]",
     "music": "Red. by Full Metal Jacket",
     "musicKR": "레드. by 풀 메탈자켓",
+    "musicJP": "赤鮭",
     "notes": 1643,
     "bpm": [
       158
@@ -3734,6 +3756,7 @@
     "version": "26[Root]",
     "music": "Red. by Jack Trance",
     "musicKR": "레드. 잭 트랜스의 작품",
+    "musicJP": "赤虎",
     "notes": 1862,
     "bpm": [
       160
@@ -4107,6 +4130,7 @@
     "version": "28[BIS]",
     "music": "Sinus Iridum",
     "musicKR": "시누이 이리둠",
+    "musicJP": "マレ2",
     "notes": 1803,
     "bpm": [
       128
@@ -4251,6 +4275,7 @@
     "version": "20[tri]",
     "music": "Sol Cosine Job 2",
     "musicKR": "즉신 성불",
+    "musicJP": "即身成仏",
     "notes": 1625,
     "bpm": [
       190,
@@ -4639,6 +4664,7 @@
     "version": "27[HV]",
     "music": "THE F∀UST",
     "musicKR": "더 퍼스트",
+    "musicEN": "THE FAUST",
     "notes": 1851,
     "bpm": [
       170
@@ -4688,6 +4714,7 @@
     "version": "28[BIS]",
     "music": "THE PEERLESS UNDER HEAVEN",
     "musicKR": "천하의 비길 데 없는 자",
+    "musicJP": "天下一品",
     "notes": 1818,
     "bpm": [
       170
@@ -5072,6 +5099,7 @@
     "version": "15[DJT]",
     "music": "Übertreffen(L)",
     "musicKR": "우베르테레펜(L)",
+    "musicEN": "Ubertreffen(L)",
     "notes": 1655,
     "bpm": [
       174
@@ -5392,6 +5420,7 @@
     "version": "26[Root]",
     "music": "X-DEN",
     "musicKR": "모두",
+    "musicJP": "皆伝",
     "notes": 2220,
     "bpm": [
       200
@@ -5408,6 +5437,7 @@
     "version": "26[Root]",
     "music": "Xlø",
     "musicKR": "실로",
+    "musicEN": "Xlo",
     "notes": 1988,
     "bpm": [
       165
@@ -5617,6 +5647,7 @@
     "version": "16[EMP]",
     "music": "3y3s",
     "musicKR": "아이즈",
+    "musicJP": "アイズ",
     "notes": 1871,
     "bpm": [
       191
@@ -5681,6 +5712,7 @@
     "version": "26[Root]",
     "music": "お菓子の王国",
     "musicKR": "과자의 왕국",
+    "musicEN": "Kingdom of Sweets",
     "notes": 2109,
     "bpm": [
       190
@@ -5697,6 +5729,7 @@
     "version": "20[tri]",
     "music": "お米の美味しい炊き方、そしてお米を食べることによるその効果。(L)",
     "musicKR": "쌀을 맛있게 하는 법, 그리고 쌀을 먹는 것으로 인한 그 효과.(L)",
+    "musicEN": "How to cook rice well and its benefits of eating rice.(L)",
     "notes": 1907,
     "bpm": [
       190
@@ -5729,6 +5762,7 @@
     "version": "27[HV]",
     "music": "がっつり陰キャ!? 怪盗いいんちょの億劫^^;",
     "musicKR": "제대로그늘캬!? 괴도위원장의귀찮음^^;",
+    "musicEN": "Gutsy and shady!? Phantom thief iinchou no troublesome^^;",
     "notes": 2192,
     "bpm": [
       185
@@ -5745,6 +5779,7 @@
     "version": "20[tri]",
     "music": "キャトられ♥恋はモ～モク",
     "musicKR": "캬토라레♥사랑은모~모쿠",
+    "musicEN": "Cattled♥Love is blind",
     "notes": 1988,
     "bpm": [
       196
@@ -5761,6 +5796,7 @@
     "version": "25[CB]",
     "music": "シムルグの目醒め",
     "musicKR": "시물르그의 잠에서 깨어남",
+    "musicEN": "The Awakening of the Simurgh",
     "notes": 1822,
     "bpm": [
       190
@@ -5777,6 +5813,7 @@
     "version": "20[tri]",
     "music": "シュレーディンガーの猫",
     "musicKR": "슈뢰딩거의 고양이",
+    "musicEN": "Schrodinger's cat",
     "notes": 1717,
     "bpm": [
       187
@@ -5793,6 +5830,7 @@
     "version": "28[BIS]",
     "music": "スーパー戦湯ババンバーン",
     "musicKR": "슈퍼전탕 바반반",
+    "musicEN": "Super Senyu Bam Bam Bam Bam",
     "notes": 1755,
     "bpm": [
       187
@@ -5809,6 +5847,7 @@
     "version": "22[PEN]",
     "music": "それは花火のような恋",
     "musicKR": "그것은 불꽃같은 사랑",
+    "musicEN": "It's love like fireworks",
     "notes": 1976,
     "bpm": [
       182
@@ -5825,6 +5864,7 @@
     "version": "20[tri]",
     "music": "たまゆら",
     "musicKR": "어렴풋이",
+    "musicEN": "fleeting moment",
     "notes": 1407,
     "bpm": [
       180
@@ -5841,6 +5881,7 @@
     "version": "28[BIS]",
     "music": "ディスコルディア",
     "musicKR": "디스코르디아",
+    "musicEN": "discordia",
     "notes": 2073,
     "bpm": [
       180,
@@ -5858,6 +5899,7 @@
     "version": "20[tri]",
     "music": "トリカゴノ鳳凰",
     "musicKR": "토리고노호우",
+    "musicEN": "Tricagonophoenchus maculatus",
     "notes": 1932,
     "bpm": [
       185
@@ -5874,6 +5916,7 @@
     "version": "28[BIS]",
     "music": "バッド・スイーツ、バッド・ドリーム",
     "musicKR": "배드 스위트, 배드 드림",
+    "musicEN": "Bad Sweets, Bad Dreams",
     "notes": 1862,
     "bpm": [
       220
@@ -5890,6 +5933,7 @@
     "version": "11[RED]",
     "music": "ピアノ協奏曲第１番\"蠍火\"",
     "musicKR": "피아노 협주곡 제1번 \"잔불\"",
+    "musicEN": "Piano Concerto No. 1 \"Scorpio\"",
     "notes": 1414,
     "bpm": [
       165,
@@ -5908,6 +5952,7 @@
     "version": "27[HV]",
     "music": "ピアノ協奏曲第1番”蠍火” (BlackY Remix)",
     "musicKR": "피아노 협주곡 제1번 ”잔불” (BlackY Remix)",
+    "musicEN": "Piano Concerto No. 1 \"Scorpio Fire\" (BlackY Remix)",
     "notes": 1926,
     "bpm": [
       160
@@ -5924,6 +5969,7 @@
     "version": "23[cop]",
     "music": "めいさいアイドル☆あいむちゃん♪",
     "musicKR": "미세한 아이돌 ☆ 아임짱 ♪",
+    "musicEN": "Aimu-chan, the idol of the famous",
     "notes": 1717,
     "bpm": [
       160
@@ -5940,6 +5986,7 @@
     "version": "22[PEN]",
     "music": "リリーゼと炎龍レーヴァテイン",
     "musicKR": "릴리제와 염룡레이버테인",
+    "musicEN": "Lilyse and Levatein the Flame Dragon",
     "notes": 1771,
     "bpm": [
       200
@@ -5956,6 +6003,7 @@
     "version": "17[SIR]",
     "music": "ワルツ第17番 ト短調\"大犬のワルツ\"",
     "musicKR": "왈츠 제17번트 단조\"큰 개의 왈츠\"",
+    "musicEN": "Waltz No. 17 in G minor\"Waltz of the Big Dog\"",
     "notes": 1684,
     "bpm": [
       230,
@@ -5974,6 +6022,7 @@
     "version": "23[cop]",
     "music": "紫陽花 -AZISAI-",
     "musicKR": "수국 -아지사이-",
+    "musicEN": "Purple Sunflower -AZISAI-",
     "notes": 1490,
     "bpm": [
       155
@@ -5990,6 +6039,7 @@
     "version": "23[cop]",
     "music": "駅猫のワルツ",
     "musicKR": "에키네코의 왈츠",
+    "musicEN": "Waltz of the Station Cat",
     "notes": 1558,
     "bpm": [
       282
@@ -6006,6 +6056,7 @@
     "version": "24[SINO]",
     "music": "焔極OVERKILL",
     "musicKR": "불꽃지나침",
+    "musicEN": "Flame pole OVERKILL",
     "notes": 1901,
     "bpm": [
       192
@@ -6022,6 +6073,7 @@
     "version": "20[tri]",
     "music": "音楽",
     "musicKR": "음악",
+    "musicEN": "music",
     "notes": 1487,
     "bpm": [
       210,
@@ -6040,6 +6092,7 @@
     "version": "20[tri]",
     "music": "仮想空間の旅人たち(L)",
     "musicKR": "가상 공간의 여행자들(L)",
+    "musicEN": "Travelers in Virtual Space(L)",
     "notes": 1943,
     "bpm": [
       151
@@ -6056,6 +6109,7 @@
     "version": "27[HV]",
     "music": "華麗なる大犬円舞曲",
     "musicKR": "화려한 대견 원무곡",
+    "musicEN": "The Great Dog Circle Dance",
     "notes": 1849,
     "bpm": [
       60,
@@ -6074,6 +6128,7 @@
     "version": "19[Lin]",
     "music": "君のハートにロックオン(L)",
     "musicKR": "너의 하트에 록온(L)",
+    "musicEN": "Lock on to your heart(L)",
     "notes": 1828,
     "bpm": [
       260
@@ -6090,6 +6145,7 @@
     "version": "24[SINO]",
     "music": "九尾狐夜行",
     "musicKR": "구미호야행",
+    "musicEN": "nine-tailed kitsune",
     "notes": 1521,
     "bpm": [
       145
@@ -6106,6 +6162,7 @@
     "version": "22[PEN]",
     "music": "共鳴遊戯の華",
     "musicKR": "공명 유희의 꽃",
+    "musicEN": "The Flower of Resonance Game",
     "notes": 2000,
     "bpm": [
       190
@@ -6138,6 +6195,7 @@
     "version": "20[tri]",
     "music": "狂イ咲ケ焔ノ華",
     "musicKR": "환하게 피어오르는 불꽃",
+    "musicEN": "Crazy blooming flame flower",
     "notes": 1860,
     "bpm": [
       206
@@ -6154,6 +6212,7 @@
     "version": "18[RA]",
     "music": "黒髪乱れし修羅となりて",
     "musicKR": "검은 머리가 헝클어진 아수라가 되어",
+    "musicEN": "My black hair is disheveled and I've become Shura",
     "notes": 1745,
     "bpm": [
       150
@@ -6170,6 +6229,7 @@
     "version": "19[Lin]",
     "music": "恋する☆宇宙戦争っ!!",
     "musicKR": "사랑한다 ☆ 우주전쟁!!",
+    "musicEN": "Love in space battle!!",
     "notes": 1835,
     "bpm": [
       200
@@ -6186,6 +6246,7 @@
     "version": "19[Lin]",
     "music": "子供の落書き帳",
     "musicKR": "아이의 낙서장",
+    "musicEN": "Children's Doodle Book",
     "notes": 1395,
     "bpm": [
       280
@@ -6202,6 +6263,7 @@
     "version": "26[Root]",
     "music": "金野火織の金色提言",
     "musicKR": "카나노 카오리의 금색 제언",
+    "musicEN": "Golden Proposal by Kinno Hiori",
     "notes": 1630,
     "bpm": [
       225
@@ -6218,6 +6280,7 @@
     "version": "26[Root]",
     "music": "最小三倍完全数",
     "musicKR": "최소 삼배 완전수",
+    "musicEN": "Minimum triple perfect number",
     "notes": 1314,
     "bpm": [
       220
@@ -6234,6 +6297,7 @@
     "version": "08[8th]",
     "music": "桜",
     "musicKR": "벚꽃",
+    "musicEN": "cherry tree",
     "notes": 1123,
     "bpm": [
       13,
@@ -6252,6 +6316,7 @@
     "version": "29[Cast]",
     "music": "逆月",
     "musicKR": "역월",
+    "musicEN": "upside-down moon",
     "notes": 1920,
     "bpm": [
       280
@@ -6268,6 +6333,7 @@
     "version": "21[SPA]",
     "music": "疾風迅雷(A)",
     "musicKR": "질풍신뢰(A)",
+    "musicEN": "lightning speed(A)",
     "notes": 1493,
     "bpm": [
       180
@@ -6284,6 +6350,7 @@
     "version": "21[SPA]",
     "music": "疾風迅雷(L)",
     "musicKR": "질풍신뢰(L)",
+    "musicEN": "lightning speed(L)",
     "notes": 1824,
     "bpm": [
       180
@@ -6300,6 +6367,7 @@
     "version": "18[RA]",
     "music": "灼熱Beach Side Bunny",
     "musicKR": "작열Beach Side Bunny",
+    "musicEN": "Scorching Beach Side Bunny",
     "notes": 1719,
     "bpm": [
       153
@@ -6316,6 +6384,7 @@
     "version": "23[cop]",
     "music": "灼熱 Pt.2 Long Train Running",
     "musicKR": "작열 Pt.2 Long Train Running",
+    "musicEN": "Scorching Pt.2 Long Train Running",
     "notes": 1804,
     "bpm": [
       165
@@ -6332,6 +6401,7 @@
     "version": "15[DJT]",
     "music": "少年A",
     "musicKR": "소년 A",
+    "musicEN": "Boy A",
     "notes": 1449,
     "bpm": [
       90,
@@ -6349,6 +6419,7 @@
     "version": "22[PEN]",
     "music": "少年は空を辿る",
     "musicKR": "소년은 하늘을 더듬다",
+    "musicEN": "The boy traces the sky",
     "notes": 1729,
     "bpm": [
       140
@@ -6365,6 +6436,7 @@
     "version": "27[HV]",
     "music": "深淵に捧ぐレクイエム",
     "musicKR": "심연에 바치는 레퀴엠",
+    "musicEN": "Requiem for the Abyss",
     "notes": 1537,
     "bpm": [
       175
@@ -6397,6 +6469,7 @@
     "version": "23[cop]",
     "music": "真 地獄超特急 -HELL or HELL-",
     "musicKR": "진 지옥 초특급 -지옥 아니면 지옥-",
+    "musicEN": "True Hell Super Express -HELL or HELL-",
     "notes": 1727,
     "bpm": [
       165
@@ -6413,6 +6486,7 @@
     "version": "28[BIS]",
     "music": "水鏡の異界",
     "musicKR": "수경의 이계",
+    "musicEN": "other world of the water mirror",
     "notes": 1661,
     "bpm": [
       168
@@ -6429,6 +6503,7 @@
     "version": "19[Lin]",
     "music": "聖人の塔",
     "musicKR": "성인의 탑",
+    "musicEN": "The Tower of the Saints",
     "notes": 1567,
     "bpm": [
       97,
@@ -6446,6 +6521,7 @@
     "version": "28[BIS]",
     "music": "世界の果てに約束の凱歌を -ReUnion-",
     "musicKR": "세상 끝에 약속의 개가를 -ReUnion-",
+    "musicEN": "The Triumph of Promise at the End of the World -ReUnion-",
     "notes": 1983,
     "bpm": [
       200
@@ -6462,6 +6538,7 @@
     "version": "10[10th]",
     "music": "雪月花",
     "musicKR": "설월화",
+    "musicJP": "SnowMoonFlower",
     "notes": 1287,
     "bpm": [
       151
@@ -6478,6 +6555,7 @@
     "version": "22[PEN]",
     "music": "千年ノ理(A)",
     "musicKR": "천년지리(A)",
+    "musicEN": "eternal truth(A)",
     "notes": 1608,
     "bpm": [
       153
@@ -6494,6 +6572,7 @@
     "version": "22[PEN]",
     "music": "千年ノ理(L)",
     "musicKR": "천년지리(L)",
+    "musicEN": "eternal truth(L)",
     "notes": 2183,
     "bpm": [
       153
@@ -6510,6 +6589,7 @@
     "version": "21[SPA]",
     "music": "旋律のドグマ～Misérables～",
     "musicKR": "선율의 도그마~Misérables~",
+    "musicEN": "Dogma of Melody ~Miserables~",
     "notes": 2002,
     "bpm": [
       192
@@ -6526,6 +6606,7 @@
     "version": "20[tri]",
     "music": "即席！脳直★ミュージックシステム",
     "musicKR": "즉석! 뇌직 ★ 뮤직 시스템",
+    "musicEN": "Instant! Brain Direct★Music System",
     "notes": 1838,
     "bpm": [
       197
@@ -6542,6 +6623,7 @@
     "version": "26[Root]",
     "music": "抱きしめてモナムール",
     "musicKR": "안아줘 모나무르",
+    "musicEN": "Embrace the Monumur",
     "notes": 2110,
     "bpm": [
       190
@@ -6558,6 +6640,7 @@
     "version": "22[PEN]",
     "music": "超青少年ノ為ノ超多幸ナ超古典的超舞曲(L)",
     "musicKR": "초청소년을 위한 초다복한 초고전적 초무곡(L)",
+    "musicEN": "A super-classical, super-happy, super-classical super-dance for super-youth(L)",
     "notes": 2110,
     "bpm": [
       150
@@ -6574,6 +6657,7 @@
     "version": "24[SINO]",
     "music": "津軽雪",
     "musicKR": "쓰가루 유키",
+    "musicEN": "Tsugaru snow",
     "notes": 1953,
     "bpm": [
       160
@@ -6590,6 +6674,7 @@
     "version": "19[Lin]",
     "music": "天空の夜明け",
     "musicKR": "천공의 새벽",
+    "musicEN": "Dawn in the sky",
     "notes": 2072,
     "bpm": [
       150
@@ -6606,6 +6691,7 @@
     "version": "14[GOLD]",
     "music": "電人、暁に斃れる。",
     "musicKR": "전신, 새벽에 쓰러지다.",
+    "musicEN": "Denjin dies at dawn.",
     "notes": 1725,
     "bpm": [
       165
@@ -6622,6 +6708,7 @@
     "version": "25[CB]",
     "music": "東京神話",
     "musicKR": "토쿄 신화",
+    "musicEN": "Tokyo Mythology",
     "notes": 1505,
     "bpm": [
       196
@@ -6638,6 +6725,7 @@
     "version": "24[SINO]",
     "music": "童話回廊",
     "musicKR": "동화 회랑",
+    "musicEN": "Corridor of Fairy Tales",
     "notes": 1592,
     "bpm": [
       262
@@ -6654,6 +6742,7 @@
     "version": "21[SPA]",
     "music": "轟け！恋のビーンボール！！",
     "musicKR": "토도로케!사랑의 빈볼!!",
+    "musicEN": "Roar! Beanball of love!!",
     "notes": 1834,
     "bpm": [
       180
@@ -6670,6 +6759,7 @@
     "version": "20[tri]",
     "music": "†渚の小悪魔ラヴリィ～レイディオ†(IIDX EDIT)",
     "musicKR": "나사의 소악마 라블리~라디오†(IIDX EDIT)",
+    "musicEN": "†Nagisa no Koakuma Lovely~Raidio†(IIDX EDIT)",
     "notes": 1835,
     "bpm": [
       190
@@ -6686,6 +6776,7 @@
     "version": "13[DD]",
     "music": "嘆きの樹",
     "musicKR": "비탄의 나무",
+    "musicEN": "Lamentation Tree",
     "notes": 2000,
     "bpm": [
       160
@@ -6702,6 +6793,7 @@
     "version": "22[PEN]",
     "music": "夏色DIARY - L.E.D.-G STYLE MIX -",
     "musicKR": "여름색일기 - L.E.D.-G STYLE MIX -",
+    "musicEN": "Summer Color DIARY - L.E.D.-G STYLE MIX",
     "notes": 1590,
     "bpm": [
       190
@@ -6718,6 +6810,8 @@
     "version": "21[SPA]",
     "music": "廿(L)",
     "musicKR": "니쥬이치노마에(L)",
+    "musicEN": "twenty, 20",
+    "musicJP": "ニジュウイチノマエ",
     "notes": 1731,
     "bpm": [
       120,
@@ -6735,6 +6829,7 @@
     "version": "28[BIS]",
     "music": "伐折羅-vajra-",
     "musicKR": "벌절라-vajra-",
+    "musicEN": "Logging Orihara -vajra-",
     "notes": 1877,
     "bpm": [
       173
@@ -6767,6 +6862,8 @@
     "version": "24[SINO]",
     "music": "焱影",
     "musicKR": "그림자",
+    "musicEN": "shadows of the sun",
+    "musicJP": "火影",
     "notes": 1437,
     "bpm": [
       136
@@ -6783,6 +6880,7 @@
     "version": "16[EMP]",
     "music": "卑弥呼",
     "musicKR": "히미코",
+    "musicEN": "Himiko",
     "notes": 2119,
     "bpm": [
       83,
@@ -6800,6 +6898,7 @@
     "version": "22[PEN]",
     "music": "表裏一体!?怪盗いいんちょの悩み♥",
     "musicKR": "표리일체!?괴도위원장의 고민♥",
+    "musicEN": "Two sides of the same coin!? The trouble of Iincho the Phantom Thief♥",
     "notes": 1815,
     "bpm": [
       165
@@ -6816,6 +6915,7 @@
     "version": "28[BIS]",
     "music": "二人ノ廃城幽踊宴",
     "musicKR": "두 사람의 폐성 유무연",
+    "musicEN": "Two People in a Ruined Castle Ghost Dance Banquet",
     "notes": 1927,
     "bpm": [
       280,
@@ -6834,6 +6934,7 @@
     "version": "16[EMP]",
     "music": "不沈艦CANDY",
     "musicKR": "불침함 캔디",
+    "musicEN": "Unsinkable ship CANDY",
     "notes": 1682,
     "bpm": [
       188
@@ -6850,6 +6951,7 @@
     "version": "22[PEN]",
     "music": "紅牡丹",
     "musicKR": "홍모란",
+    "musicEN": "princess-flower",
     "notes": 1445,
     "bpm": [
       181
@@ -6866,6 +6968,7 @@
     "version": "29[Cast]",
     "music": "烽火連天の刃",
     "musicKR": "봉화 연천의 칼날",
+    "musicEN": "The Beacon Fire Rengtian Blade",
     "notes": 1771,
     "bpm": [
       190
@@ -6882,6 +6985,7 @@
     "version": "28[BIS]",
     "music": "魔法のかくれんぼ",
     "musicKR": "마법의 숨바꼭질",
+    "musicEN": "Magic Hide and Seek",
     "notes": 1454,
     "bpm": [
       178,
@@ -6899,6 +7003,7 @@
     "version": "29[Cast]",
     "music": "禊",
     "musicKR": "목욕재계",
+    "musicEN": "purification ceremony",
     "notes": 1631,
     "bpm": [
       160
@@ -6915,6 +7020,7 @@
     "version": "27[HV]",
     "music": "魅惑のYUMMYスイーツ",
     "musicKR": "매혹적인 맛있는 디저트",
+    "musicEN": "Enchanting YUMMY Sweets",
     "notes": 1586,
     "bpm": [
       208
@@ -6931,6 +7037,7 @@
     "version": "12[HS]",
     "music": "冥",
     "musicKR": "명",
+    "musicEN": "dark, mei",
     "notes": 2000,
     "bpm": [
       66,
@@ -6948,6 +7055,7 @@
     "version": "20[tri]",
     "music": "龍と少女とデコヒーレンス(L)",
     "musicKR": "용과 소녀와 데코히렌스(L)",
+    "musicEN": "Dragons, Girls and Decoherence(L)",
     "notes": 1713,
     "bpm": [
       165
@@ -6964,6 +7072,7 @@
     "version": "21[SPA]",
     "music": "煉獄のエルフェリア",
     "musicKR": "연옥의 엘페리아",
+    "musicEN": "Elferia in Purgatory",
     "notes": 2000,
     "bpm": [
       183
@@ -6980,6 +7089,7 @@
     "version": "21[SPA]",
     "music": "海神",
     "musicKR": "해신",
+    "musicEN": "sea god",
     "notes": 1629,
     "bpm": [
       159
@@ -6996,6 +7106,7 @@
     "version": "19[Lin]",
     "music": "ƒƒƒƒƒ",
     "musicKR": "포르테시시모",
+    "musicEN": "fffff",
     "notes": 1624,
     "bpm": [
       138
@@ -7012,6 +7123,8 @@
     "version": "20[tri]",
     "music": "ΕΛΠΙΣ(A)",
     "musicKR": "희망(A)",
+    "musicEN": "Elpis(A)",
+    "musicJP": "エルピス(A)",
     "notes": 1600,
     "bpm": [
       175
@@ -7028,6 +7141,8 @@
     "version": "20[tri]",
     "music": "ΕΛΠΙΣ(L)",
     "musicKR": "희망(L)",
+    "musicEN": "Elpis(L)",
+    "musicJP": "エルピス(L)",
     "notes": 1852,
     "bpm": [
       175
@@ -7044,6 +7159,8 @@
     "version": "21[SPA]",
     "music": "Ⅸ",
     "musicKR": "나인",
+    "musicEN": "IX",
+    "musicJP": "ナイン",
     "notes": 2007,
     "bpm": [
       198
@@ -7060,6 +7177,7 @@
     "version": "28[BIS]",
     "music": "∀",
     "musicKR": "턴에이",
+    "musicEN": "Turn A",
     "notes": 1802,
     "bpm": [
       180
@@ -7076,6 +7194,8 @@
     "version": "24[SINO]",
     "music": "〆",
     "musicKR": "시메",
+    "musicEN": "tie up",
+    "musicJP": "しめ, シメ, 締め, 閉め",
     "notes": 1877,
     "bpm": [
       160

@@ -240,7 +240,7 @@
 
       <hr>
 
-      <input type="text" id="search" placeholder="Search Rekidai in KR or JP" style="width: 180px;">
+      <input type="text" id="search" placeholder="Search Rekidai in KR, EN or JP" style="width: 210px;">
       <script>
         const input = document.getElementById('search');
         if (input != null) {
@@ -318,6 +318,12 @@
               <td style="text-align: center;">{rekidai.date}</td>
               {#if rekidai.musicKR != null}
                 <p style="display: none;">{rekidai.musicKR}</p>
+              {/if}
+              {#if rekidai.musicEN != null}
+                <p style="display: none;">{rekidai.musicEN}</p>
+              {/if}
+              {#if rekidai.musicJP != null}
+                <p style="display: none;">{rekidai.musicJP}</p>
               {/if}
             </tr>
           {/each}
