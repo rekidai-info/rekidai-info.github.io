@@ -23,6 +23,8 @@
   let topRankersSort = [];
   let topRankersLabels = [];
   let topRankersCounts = [];
+  let topVersions = {};
+  let topVersionsSort = [];
   let doughnutData = {
     labels: topRankersLabels,
     datasets: [{
@@ -84,10 +86,23 @@
 
       return topRankers;
     }, {});
+    jsonArray.reduce((prev, cur) => {
+      if (topVersions[cur.topVersion] == null) {
+        topVersions[cur.topVersion] = 1;
+      } else {
+        ++topVersions[cur.topVersion];
+      }
+
+      return topVersions;
+    }, {});
 
     Object.keys(topRankers).forEach(e => {
       topRankersSort.push({ player: e, counts: topRankers[e], percentage: 100 * topRankers[e] / jsonArray.length });
     });
+    Object.keys(topVersions).forEach(e => {
+      topVersionsSort.push({ version: e, counts: topVersions[e], percentage: 100 * topVersions[e] / jsonArray.length });
+    });
+
     topRankersSort.sort((lhs, rhs) => {
       if (lhs.counts == rhs.counts) {
         if (lhs.player == rhs.player) {
@@ -104,6 +119,23 @@
         return -1;
       }
     });
+    topVersionsSort.sort((lhs, rhs) => {
+      if (lhs.counts == rhs.counts) {
+        if (lhs.version == rhs.version) {
+          return 0;
+        }
+        if (lhs.version < rhs.version) {
+          return -1;
+        } else {
+          return +1;
+        }
+      } else if (lhs.counts < rhs.counts) {
+        return +1;
+      } else {
+        return -1;
+      }
+    });
+
     topRankersSort.forEach((e, i) => {
       topRankersLabels.push(e.player);
       topRankersCounts.push(e.counts);
@@ -115,6 +147,17 @@
           topRankersSort[i].rank = topRankersSort[i - 1].rank;
         } else {
           topRankersSort[i].rank = topRankersSort[i - 1].rank + 1;
+        }
+      }
+    });
+    topVersionsSort.forEach((e, i) => {
+      if (i <= 0) {
+        topVersionsSort[i].rank = 1;
+      } else {
+        if (topVersionsSort[i - 1].counts == topVersionsSort[i].counts) {
+          topVersionsSort[i].rank = topVersionsSort[i - 1].rank;
+        } else {
+          topVersionsSort[i].rank = topVersionsSort[i - 1].rank + 1;
         }
       }
     });
@@ -332,28 +375,51 @@
 
       <hr>
 
-      <table id="rank" class="table-sort table-arrows remember-sort">
-        <thead>
-          <th>Rank</th>
-          <th>Player</th>
-          <th>Count</th>
-          <th class="data-sort">Percentage</th>
-        </thead>
-        <tbody>
-          {#each topRankersSort as topRanker (topRanker.player)}
-            <tr>
-              <td>{topRanker.rank}</td>
-              <td>{topRanker.player}</td>
-              <td>{topRanker.counts}</td>
-              <td data-sort={topRanker.percentage}>{Number(topRanker.percentage).toFixed(2) + '%'}</td>
-            </tr>
-          {/each}
-        </tbody>
-      </table>
+      <div style="float: left;">
+        <table id="rank" class="table-sort table-arrows remember-sort" style="float: left;">
+          <caption>Top Ranker</caption>
+          <thead>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Count</th>
+            <th class="data-sort">Percentage</th>
+          </thead>
+          <tbody>
+            {#each topRankersSort as topRanker (topRanker.player)}
+              <tr>
+                <td>{topRanker.rank}</td>
+                <td>{topRanker.player}</td>
+                <td>{topRanker.counts}</td>
+                <td data-sort={topRanker.percentage}>{Number(topRanker.percentage).toFixed(2) + '%'}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
 
-      <hr>
+        <table id="version" class="table-sort table-arrows remember-sort" style="float: left; margin-left: 1em;">
+          <caption>Top Version</caption>
+          <thead>
+            <th>Rank</th>
+            <th>Version</th>
+            <th>Count</th>
+            <th class="data-sort">Percentage</th>
+          </thead>
+          <tbody>
+            {#each topVersionsSort as topVersion (topVersion.version)}
+              <tr>
+                <td>{topVersion.rank}</td>
+                <td>{topVersion.version}</td>
+                <td>{topVersion.counts}</td>
+                <td data-sort={topVersion.percentage}>{Number(topVersion.percentage).toFixed(2) + '%'}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+      </div>
 
-      <!--<MDBRow>
+      <!--<hr>
+
+      <MDBRow>
         <MDBCol md="8" class="mx-auto">
           <Doughnut data={doughnutData} options={chartOptions} />
         </MDBCol>
