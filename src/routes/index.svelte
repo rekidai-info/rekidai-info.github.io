@@ -376,7 +376,7 @@
       <hr>
 
       <div style="float: left;">
-        <table id="rank" class="table-sort table-arrows remember-sort" style="float: left;">
+        <table id="rank" class="table-sort table-arrows remember-sort" style="float: left; margin-right: 1em;">
           <caption>Top Ranker</caption>
           <thead>
             <th>Rank</th>
@@ -396,7 +396,7 @@
           </tbody>
         </table>
 
-        <table id="version" class="table-sort table-arrows remember-sort" style="float: left; margin-left: 1em;">
+        <table id="version" class="table-sort table-arrows remember-sort" style="float: left;">
           <caption>Top Version</caption>
           <thead>
             <th>Rank</th>
