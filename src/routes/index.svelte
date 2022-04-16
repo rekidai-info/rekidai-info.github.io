@@ -437,4 +437,8 @@
     font-feature-settings: "palt";
     letter-spacing: 0.07em;
   }
+
+  table tr:hover {
+    background-color: #DDDDDD;
+  }
 </style>
