@@ -279,7 +279,7 @@
     <p id="loading" transition:typewriter>Loading...</p>
   {:else}
     {#if error == null}
-      <p><b>Anyone can edit the following rekidai data.</b><br>If you want to update rekidai data, please fork <a href="https://github.com/rekidai-info/rekidai-info.github.io" target="_blank" rel="noopener noreferrer">https://github.com/rekidai-info/rekidai-info.github.io</a>, edit <a href="https://github.com/rekidai-info/rekidai-info.github.io/blob/main/static/rekidai.json" target="_blank" rel="noopener noreferrer">rekidai.json</a>, and submit a Pull Request.<br>Don't have a GitHub account? Please submit a request form for <a href="https://forms.gle/wqrRh1ow6uaREy286" target="_blank" rel="noopener noreferrer">Rekidai Score Update Request</a> or <a href="https://forms.gle/SDkmfUcTC5zLsGPD6" target="_blank" rel="noopener noreferrer">New Music Addition Request</a>.<br><a href="#rank">Rank</a> / <a href="https://www.youtube.com/channel/UCKYQ3LNcSoxXJB6IlZiYU5A" target="_blank" rel="noopener noreferrer">KKM*</a> / <a href="https://www.youtube.com/channel/UCoK-bEjP7R93N-rIz-4G9JA" target="_blank" rel="noopener noreferrer">CHEPY</a>(<a href="https://toon.at/donate/637741368394473819" target="_blank" rel="noopener noreferrer">Donate</a>) / <a href="https://www.youtube.com/c/MACAODIIDX" target="_blank" rel="noopener noreferrer">DON*</a>(<a href="https://streamlabs.com/macaodiidx" target="_blank" rel="noopener noreferrer">Donate1</a>,  <a href="https://toon.at/donate/macaod_iidx" target="_blank" rel="noopener noreferrer">Donate2</a>) / <a href="https://www.youtube.com/channel/UCGlQnUCwUI0kl31denBkrEQ" target="_blank" rel="noopener noreferrer">CHARM</a>(<a href="https://toon.at/donate/iidx_charm" target="_blank" rel="noopener noreferrer">Donate</a>) / <a href="https://twitter.com/rekidai_info" target="_blank" rel="noopener noreferrer">Developer</a>(<a href="https://amzn.to/3jqk39S" target="_blank" rel="noopener noreferrer">Donate</a>)</p>
+      <p id="top"><b>Anyone can edit the following rekidai data.</b><br>If you want to update rekidai data, please fork <a href="https://github.com/rekidai-info/rekidai-info.github.io" target="_blank" rel="noopener noreferrer">https://github.com/rekidai-info/rekidai-info.github.io</a>, edit <a href="https://github.com/rekidai-info/rekidai-info.github.io/blob/main/static/rekidai.json" target="_blank" rel="noopener noreferrer">rekidai.json</a>, and submit a Pull Request.<br>Don't have a GitHub account? Please submit a request form for <a href="https://forms.gle/wqrRh1ow6uaREy286" target="_blank" rel="noopener noreferrer">Rekidai Score Update Request</a> or <a href="https://forms.gle/SDkmfUcTC5zLsGPD6" target="_blank" rel="noopener noreferrer">New Music Addition Request</a>.<br><a href="#rank">Rank</a> / <a href="https://www.youtube.com/channel/UCKYQ3LNcSoxXJB6IlZiYU5A" target="_blank" rel="noopener noreferrer">KKM*</a> / <a href="https://www.youtube.com/channel/UCoK-bEjP7R93N-rIz-4G9JA" target="_blank" rel="noopener noreferrer">CHEPY</a>(<a href="https://toon.at/donate/637741368394473819" target="_blank" rel="noopener noreferrer">Donate</a>) / <a href="https://www.youtube.com/c/MACAODIIDX" target="_blank" rel="noopener noreferrer">DON*</a>(<a href="https://streamlabs.com/macaodiidx" target="_blank" rel="noopener noreferrer">Donate1</a>,  <a href="https://toon.at/donate/macaod_iidx" target="_blank" rel="noopener noreferrer">Donate2</a>) / <a href="https://www.youtube.com/channel/UCGlQnUCwUI0kl31denBkrEQ" target="_blank" rel="noopener noreferrer">CHARM</a>(<a href="https://toon.at/donate/iidx_charm" target="_blank" rel="noopener noreferrer">Donate</a>) / <a href="https://twitter.com/rekidai_info" target="_blank" rel="noopener noreferrer">Developer</a>(<a href="https://amzn.to/3jqk39S" target="_blank" rel="noopener noreferrer">Donate</a>)</p>
 
       <hr>
 
@@ -375,7 +375,7 @@
 
       <hr>
 
-      <div style="float: left;">
+      <div style="float: left; margin-bottom: 1em;">
         <table id="rank" class="table-sort table-arrows remember-sort" style="float: left; margin-right: 1em;">
           <caption>Top Ranker</caption>
           <thead>
@@ -424,6 +424,9 @@
           <Doughnut data={doughnutData} options={chartOptions} />
         </MDBCol>
       </MDBRow>-->
+
+      <hr style="clear: both; display: block;">
+      <a href="#top">Top</a>
     {:else}
       <p style="color: red">{error.message}</p>
     {/if}
