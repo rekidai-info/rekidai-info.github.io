@@ -25,7 +25,16 @@
   let topRankersCounts = [];
   let topVersions = {};
   let topVersionsSort = [];
-  let doughnutData = {
+  let topCharge = {};
+  let topChargeSort = [];
+  let topPeak = {};
+  let topPeakSort = [];
+  let topScratch = {};
+  let topScratchSort = [];
+  let topSoflan = {};
+  let topSoflanSort = [];
+
+  /*let doughnutData = {
     labels: topRankersLabels,
     datasets: [{
       data: topRankersCounts,
@@ -66,15 +75,15 @@
         "#FE8DFF"
       ]
     }]
-  };
-  let chartOptions = {
+  };*/
+  /*let chartOptions = {
     responsive: true,
     plugins: {
       colorschemes: {
         scheme: 'office.Forte6'
       }
     }
-  };
+  };*/
 
   promise.then(jsonArray => {
     jsonArray.reduce((prev, cur) => {
@@ -95,12 +104,73 @@
 
       return topVersions;
     }, {});
+    jsonArray.reduce((prev, cur) => {
+      if (cur.charge) {
+        if (topCharge[cur.player] == null) {
+          topCharge[cur.player] = 1;
+        } else {
+          ++topCharge[cur.player];
+        }
+      }
+
+      return topCharge;
+    }, {});
+    jsonArray.reduce((prev, cur) => {
+      if (cur.peak) {
+        if (topPeak[cur.player] == null) {
+          topPeak[cur.player] = 1;
+        } else {
+          ++topPeak[cur.player];
+        }
+      }
+
+      return topPeak;
+    }, {});
+    jsonArray.reduce((prev, cur) => {
+      if (cur.scratch) {
+        if (topScratch[cur.player] == null) {
+          topScratch[cur.player] = 1;
+        } else {
+          ++topScratch[cur.player];
+        }
+      }
+
+      return topScratch;
+    }, {});
+    jsonArray.reduce((prev, cur) => {
+      if (cur.soflan) {
+        if (topSoflan[cur.player] == null) {
+          topSoflan[cur.player] = 1;
+        } else {
+          ++topSoflan[cur.player];
+        }
+      }
+
+      return topSoflan;
+    }, {});
 
     Object.keys(topRankers).forEach(e => {
       topRankersSort.push({ player: e, counts: topRankers[e], percentage: 100 * topRankers[e] / jsonArray.length });
     });
     Object.keys(topVersions).forEach(e => {
       topVersionsSort.push({ version: e, counts: topVersions[e], percentage: 100 * topVersions[e] / jsonArray.length });
+    });
+
+    const topChargeLen = jsonArray.filter(e => e.charge).length;
+    Object.keys(topCharge).forEach(e => {
+      topChargeSort.push({ player: e, counts: topCharge[e], percentage: 100 * topCharge[e] / topChargeLen });
+    });
+    const topPeakLen = jsonArray.filter(e => e.peak).length;
+    Object.keys(topPeak).forEach(e => {
+      topPeakSort.push({ player: e, counts: topPeak[e], percentage: 100 * topPeak[e] / topPeakLen });
+    });
+    const topScratchLen = jsonArray.filter(e => e.scratch).length;
+    Object.keys(topScratch).forEach(e => {
+      topScratchSort.push({ player: e, counts: topScratch[e], percentage: 100 * topScratch[e] / topScratchLen });
+    });
+    const topSoflanLen = jsonArray.filter(e => e.soflan).length;
+    Object.keys(topSoflan).forEach(e => {
+      topSoflanSort.push({ player: e, counts: topSoflan[e], percentage: 100 * topSoflan[e] / topSoflanLen });
     });
 
     topRankersSort.sort((lhs, rhs) => {
@@ -135,6 +205,70 @@
         return -1;
       }
     });
+    topChargeSort.sort((lhs, rhs) => {
+      if (lhs.counts == rhs.counts) {
+        if (lhs.player == rhs.player) {
+          return 0;
+        }
+        if (lhs.player < rhs.player) {
+          return -1;
+        } else {
+          return +1;
+        }
+      } else if (lhs.counts < rhs.counts) {
+        return +1;
+      } else {
+        return -1;
+      }
+    });
+    topPeakSort.sort((lhs, rhs) => {
+      if (lhs.counts == rhs.counts) {
+        if (lhs.player == rhs.player) {
+          return 0;
+        }
+        if (lhs.player < rhs.player) {
+          return -1;
+        } else {
+          return +1;
+        }
+      } else if (lhs.counts < rhs.counts) {
+        return +1;
+      } else {
+        return -1;
+      }
+    });
+    topScratchSort.sort((lhs, rhs) => {
+      if (lhs.counts == rhs.counts) {
+        if (lhs.player == rhs.player) {
+          return 0;
+        }
+        if (lhs.player < rhs.player) {
+          return -1;
+        } else {
+          return +1;
+        }
+      } else if (lhs.counts < rhs.counts) {
+        return +1;
+      } else {
+        return -1;
+      }
+    });
+    topSoflanSort.sort((lhs, rhs) => {
+      if (lhs.counts == rhs.counts) {
+        if (lhs.player == rhs.player) {
+          return 0;
+        }
+        if (lhs.player < rhs.player) {
+          return -1;
+        } else {
+          return +1;
+        }
+      } else if (lhs.counts < rhs.counts) {
+        return +1;
+      } else {
+        return -1;
+      }
+    });
 
     topRankersSort.forEach((e, i) => {
       topRankersLabels.push(e.player);
@@ -158,6 +292,50 @@
           topVersionsSort[i].rank = topVersionsSort[i - 1].rank;
         } else {
           topVersionsSort[i].rank = topVersionsSort[i - 1].rank + 1;
+        }
+      }
+    });
+    topChargeSort.forEach((e, i) => {
+      if (i <= 0) {
+        topChargeSort[i].rank = 1;
+      } else {
+        if (topChargeSort[i - 1].counts == topChargeSort[i].counts) {
+          topChargeSort[i].rank = topChargeSort[i - 1].rank;
+        } else {
+          topChargeSort[i].rank = topChargeSort[i - 1].rank + 1;
+        }
+      }
+    });
+    topPeakSort.forEach((e, i) => {
+      if (i <= 0) {
+        topPeakSort[i].rank = 1;
+      } else {
+        if (topPeakSort[i - 1].counts == topPeakSort[i].counts) {
+          topPeakSort[i].rank = topPeakSort[i - 1].rank;
+        } else {
+          topPeakSort[i].rank = topPeakSort[i - 1].rank + 1;
+        }
+      }
+    });
+    topScratchSort.forEach((e, i) => {
+      if (i <= 0) {
+        topScratchSort[i].rank = 1;
+      } else {
+        if (topScratchSort[i - 1].counts == topScratchSort[i].counts) {
+          topScratchSort[i].rank = topScratchSort[i - 1].rank;
+        } else {
+          topScratchSort[i].rank = topScratchSort[i - 1].rank + 1;
+        }
+      }
+    });
+    topSoflanSort.forEach((e, i) => {
+      if (i <= 0) {
+        topSoflanSort[i].rank = 1;
+      } else {
+        if (topSoflanSort[i - 1].counts == topSoflanSort[i].counts) {
+          topSoflanSort[i].rank = topSoflanSort[i - 1].rank;
+        } else {
+          topSoflanSort[i].rank = topSoflanSort[i - 1].rank + 1;
         }
       }
     });
@@ -330,6 +508,10 @@
             <th>Notes</th>
             <th>BPM</th>
             <th>Top Ver</th>
+            <th>Charge</th>
+            <th>Peak</th>
+            <th>Scratch</th>
+            <th>Sof-Lan</th>
             <th>Version</th>
             <th>Date</th>
           </tr>
@@ -357,6 +539,26 @@
                 <td style="text-align: center;"><a href="{rekidai.musicMovie}" target="_blank" rel="noopener noreferrer">{rekidai.bpm.join('~')}</a></td>
               {/if}
               <td>{rekidai.topVersion}</td>
+              {#if rekidai.charge}
+                <td style="text-align: center;">Charge</td>
+              {:else}
+                <td style="text-align: center;"></td>
+              {/if}
+              {#if rekidai.peak}
+                <td style="text-align: center;">Peak</td>
+              {:else}
+                <td style="text-align: center;"></td>
+              {/if}
+              {#if rekidai.scratch}
+                <td style="text-align: center;">Scratch</td>
+              {:else}
+                <td style="text-align: center;"></td>
+              {/if}
+              {#if rekidai.soflan}
+                <td style="text-align: center;">Sof-Lan</td>
+              {:else}
+                <td style="text-align: center;"></td>
+              {/if}
               <td>{rekidai.version}</td>
               <td style="text-align: center;">{rekidai.date}</td>
               {#if rekidai.musicKR != null}
@@ -411,6 +613,87 @@
                 <td>{topVersion.version}</td>
                 <td>{topVersion.counts}</td>
                 <td data-sort={topVersion.percentage}>{Number(topVersion.percentage).toFixed(2) + '%'}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+      </div>
+
+      <hr style="clear: both; display: block;">
+
+      <div style="float: left; margin-bottom: 1em;">
+        <table id="charge" class="table-sort table-arrows remember-sort" style="float: left; margin-right: 1em;">
+          <caption>Top Charge</caption>
+          <thead>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Count</th>
+            <th class="data-sort">Percentage</th>
+          </thead>
+          <tbody>
+            {#each topChargeSort as topCharge (topCharge.player)}
+              <tr>
+                <td>{topCharge.rank}</td>
+                <td>{topCharge.player}</td>
+                <td>{topCharge.counts}</td>
+                <td data-sort={topCharge.percentage}>{Number(topCharge.percentage).toFixed(2) + '%'}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+        <table id="peak" class="table-sort table-arrows remember-sort" style="float: left; margin-right: 1em;">
+          <caption>Top Peak</caption>
+          <thead>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Count</th>
+            <th class="data-sort">Percentage</th>
+          </thead>
+          <tbody>
+            {#each topPeakSort as topPeak (topPeak.player)}
+              <tr>
+                <td>{topPeak.rank}</td>
+                <td>{topPeak.player}</td>
+                <td>{topPeak.counts}</td>
+                <td data-sort={topPeak.percentage}>{Number(topPeak.percentage).toFixed(2) + '%'}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+        <table id="scratch" class="table-sort table-arrows remember-sort" style="float: left; margin-right: 1em;">
+          <caption>Top Scratch</caption>
+          <thead>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Count</th>
+            <th class="data-sort">Percentage</th>
+          </thead>
+          <tbody>
+            {#each topScratchSort as topScratch (topScratch.player)}
+              <tr>
+                <td>{topScratch.rank}</td>
+                <td>{topScratch.player}</td>
+                <td>{topScratch.counts}</td>
+                <td data-sort={topScratch.percentage}>{Number(topScratch.percentage).toFixed(2) + '%'}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+        <table id="soflan" class="table-sort table-arrows remember-sort" style="float: left;">
+          <caption>Top Sof-Lan</caption>
+          <thead>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Count</th>
+            <th class="data-sort">Percentage</th>
+          </thead>
+          <tbody>
+            {#each topSoflanSort as topSoflan (topSoflan.player)}
+              <tr>
+                <td>{topSoflan.rank}</td>
+                <td>{topSoflan.player}</td>
+                <td>{topSoflan.counts}</td>
+                <td data-sort={topSoflan.percentage}>{Number(topSoflan.percentage).toFixed(2) + '%'}</td>
               </tr>
             {/each}
           </tbody>
