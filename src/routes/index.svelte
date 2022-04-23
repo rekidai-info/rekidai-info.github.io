@@ -33,6 +33,14 @@
   let topScratchSort = [];
   let topSoflan = {};
   let topSoflanSort = [];
+  let topSlow = {};
+  let topSlowSort = [];
+  let topMid = {};
+  let topMidSort = [];
+  let topFast = {};
+  let topFastSort = [];
+  let topUltraFast = {};
+  let topUltraFastSort = [];
 
   /*let doughnutData = {
     labels: topRankersLabels,
@@ -148,6 +156,54 @@
 
       return topSoflan;
     }, {});
+    jsonArray.reduce((prev, cur) => {
+      const max = Math.max(...cur.bpm);
+      if (max < 150) {
+        if (topSlow[cur.player] == null) {
+          topSlow[cur.player] = 1;
+        } else {
+          ++topSlow[cur.player];
+        }
+      }
+
+      return topSlow;
+    }, {});
+    jsonArray.reduce((prev, cur) => {
+      const max = Math.max(...cur.bpm);
+      if (150 <= max && max < 170) {
+        if (topMid[cur.player] == null) {
+          topMid[cur.player] = 1;
+        } else {
+          ++topMid[cur.player];
+        }
+      }
+
+      return topMid;
+    }, {});
+    jsonArray.reduce((prev, cur) => {
+      const max = Math.max(...cur.bpm);
+      if (170 <= max && max < 190) {
+        if (topFast[cur.player] == null) {
+          topFast[cur.player] = 1;
+        } else {
+          ++topFast[cur.player];
+        }
+      }
+
+      return topFast;
+    }, {});
+    jsonArray.reduce((prev, cur) => {
+      const max = Math.max(...cur.bpm);
+      if (190 <= max) {
+        if (topUltraFast[cur.player] == null) {
+          topUltraFast[cur.player] = 1;
+        } else {
+          ++topUltraFast[cur.player];
+        }
+      }
+
+      return topUltraFast;
+    }, {});
 
     Object.keys(topRankers).forEach(e => {
       topRankersSort.push({ player: e, counts: topRankers[e], percentage: 100 * topRankers[e] / jsonArray.length });
@@ -171,6 +227,23 @@
     const topSoflanLen = jsonArray.filter(e => e.soflan).length;
     Object.keys(topSoflan).forEach(e => {
       topSoflanSort.push({ player: e, counts: topSoflan[e], percentage: 100 * topSoflan[e] / topSoflanLen });
+    });
+
+    const topSlowLen = jsonArray.filter(e => { const max = Math.max(...e.bpm); return max < 150; }).length;
+    Object.keys(topSlow).forEach(e => {
+      topSlowSort.push({ player: e, counts: topSlow[e], percentage: 100 * topSlow[e] / topSlowLen });
+    });
+    const topMidLen = jsonArray.filter(e => { const max = Math.max(...e.bpm); return 150 <= max && max < 170; }).length;
+    Object.keys(topMid).forEach(e => {
+      topMidSort.push({ player: e, counts: topMid[e], percentage: 100 * topMid[e] / topMidLen });
+    });
+    const topFastLen = jsonArray.filter(e => { const max = Math.max(...e.bpm); return 170 <= max && max < 190; }).length;
+    Object.keys(topFast).forEach(e => {
+      topFastSort.push({ player: e, counts: topFast[e], percentage: 100 * topFast[e] / topFastLen });
+    });
+    const topUltraFastLen = jsonArray.filter(e => { const max = Math.max(...e.bpm); return 190 <= max; }).length;
+    Object.keys(topUltraFast).forEach(e => {
+      topUltraFastSort.push({ player: e, counts: topUltraFast[e], percentage: 100 * topUltraFast[e] / topUltraFastLen });
     });
 
     topRankersSort.sort((lhs, rhs) => {
@@ -205,6 +278,7 @@
         return -1;
       }
     });
+
     topChargeSort.sort((lhs, rhs) => {
       if (lhs.counts == rhs.counts) {
         if (lhs.player == rhs.player) {
@@ -254,6 +328,71 @@
       }
     });
     topSoflanSort.sort((lhs, rhs) => {
+      if (lhs.counts == rhs.counts) {
+        if (lhs.player == rhs.player) {
+          return 0;
+        }
+        if (lhs.player < rhs.player) {
+          return -1;
+        } else {
+          return +1;
+        }
+      } else if (lhs.counts < rhs.counts) {
+        return +1;
+      } else {
+        return -1;
+      }
+    });
+
+    topSlowSort.sort((lhs, rhs) => {
+      if (lhs.counts == rhs.counts) {
+        if (lhs.player == rhs.player) {
+          return 0;
+        }
+        if (lhs.player < rhs.player) {
+          return -1;
+        } else {
+          return +1;
+        }
+      } else if (lhs.counts < rhs.counts) {
+        return +1;
+      } else {
+        return -1;
+      }
+    });
+    topMidSort.sort((lhs, rhs) => {
+      if (lhs.counts == rhs.counts) {
+        if (lhs.player == rhs.player) {
+          return 0;
+        }
+        if (lhs.player < rhs.player) {
+          return -1;
+        } else {
+          return +1;
+        }
+      } else if (lhs.counts < rhs.counts) {
+        return +1;
+      } else {
+        return -1;
+      }
+    });
+    topFastSort.sort((lhs, rhs) => {
+      if (lhs.counts == rhs.counts) {
+        if (lhs.player == rhs.player) {
+          return 0;
+        }
+        if (lhs.player < rhs.player) {
+          return -1;
+        } else {
+          return +1;
+        }
+      } else if (lhs.counts < rhs.counts) {
+        return +1;
+      } else {
+        return -1;
+      }
+    });
+    topUltraFastSort.sort((lhs, rhs) => {
       if (lhs.counts == rhs.counts) {
         if (lhs.player == rhs.player) {
           return 0;
@@ -336,6 +475,51 @@
           topSoflanSort[i].rank = topSoflanSort[i - 1].rank;
         } else {
           topSoflanSort[i].rank = topSoflanSort[i - 1].rank + 1;
+        }
+      }
+    });
+
+    topSlowSort.forEach((e, i) => {
+      if (i <= 0) {
+        topSlowSort[i].rank = 1;
+      } else {
+        if (topSlowSort[i - 1].counts == topSlowSort[i].counts) {
+          topSlowSort[i].rank = topSlowSort[i - 1].rank;
+        } else {
+          topSlowSort[i].rank = topSlowSort[i - 1].rank + 1;
+        }
+      }
+    });
+    topMidSort.forEach((e, i) => {
+      if (i <= 0) {
+        topMidSort[i].rank = 1;
+      } else {
+        if (topMidSort[i - 1].counts == topMidSort[i].counts) {
+          topMidSort[i].rank = topMidSort[i - 1].rank;
+        } else {
+          topMidSort[i].rank = topMidSort[i - 1].rank + 1;
+        }
+      }
+    });
+    topFastSort.forEach((e, i) => {
+      if (i <= 0) {
+        topFastSort[i].rank = 1;
+      } else {
+        if (topFastSort[i - 1].counts == topFastSort[i].counts) {
+          topFastSort[i].rank = topFastSort[i - 1].rank;
+        } else {
+          topFastSort[i].rank = topFastSort[i - 1].rank + 1;
+        }
+      }
+    });
+    topUltraFastSort.forEach((e, i) => {
+      if (i <= 0) {
+        topUltraFastSort[i].rank = 1;
+      } else {
+        if (topUltraFastSort[i - 1].counts == topUltraFastSort[i].counts) {
+          topUltraFastSort[i].rank = topUltraFastSort[i - 1].rank;
+        } else {
+          topUltraFastSort[i].rank = topUltraFastSort[i - 1].rank + 1;
         }
       }
     });
@@ -700,7 +884,88 @@
         </table>
       </div>
 
-      <!--<hr>
+      <hr style="clear: both; display: block;">
+
+      <div style="float: left; margin-bottom: 1em;">
+        <table id="slow" class="table-sort table-arrows remember-sort" style="float: left; margin-right: 1em;">
+          <caption>Top BPM[0, 150)</caption>
+          <thead>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Count</th>
+            <th class="data-sort">Percentage</th>
+          </thead>
+          <tbody>
+            {#each topSlowSort as topSlow (topSlow.player)}
+              <tr>
+                <td>{topSlow.rank}</td>
+                <td>{topSlow.player}</td>
+                <td>{topSlow.counts}</td>
+                <td data-sort={topSlow.percentage}>{Number(topSlow.percentage).toFixed(2) + '%'}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+        <table id="mid" class="table-sort table-arrows remember-sort" style="float: left; margin-right: 1em;">
+          <caption>Top BPM[150, 170)</caption>
+          <thead>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Count</th>
+            <th class="data-sort">Percentage</th>
+          </thead>
+          <tbody>
+            {#each topMidSort as topMid (topMid.player)}
+              <tr>
+                <td>{topMid.rank}</td>
+                <td>{topMid.player}</td>
+                <td>{topMid.counts}</td>
+                <td data-sort={topMid.percentage}>{Number(topMid.percentage).toFixed(2) + '%'}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+        <table id="fast" class="table-sort table-arrows remember-sort" style="float: left; margin-right: 1em;">
+          <caption>Top BPM[170, 190)</caption>
+          <thead>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Count</th>
+            <th class="data-sort">Percentage</th>
+          </thead>
+          <tbody>
+            {#each topFastSort as topFast (topFast.player)}
+              <tr>
+                <td>{topFast.rank}</td>
+                <td>{topFast.player}</td>
+                <td>{topFast.counts}</td>
+                <td data-sort={topFast.percentage}>{Number(topFast.percentage).toFixed(2) + '%'}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+        <table id="ultra-fast" class="table-sort table-arrows remember-sort" style="float: left;">
+          <caption>Top BPM[190, 400]</caption>
+          <thead>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Count</th>
+            <th class="data-sort">Percentage</th>
+          </thead>
+          <tbody>
+            {#each topUltraFastSort as topUltraFast (topUltraFast.player)}
+              <tr>
+                <td>{topUltraFast.rank}</td>
+                <td>{topUltraFast.player}</td>
+                <td>{topUltraFast.counts}</td>
+                <td data-sort={topUltraFast.percentage}>{Number(topUltraFast.percentage).toFixed(2) + '%'}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+      </div>
+
+      <!--<hr style="clear: both; display: block;">
 
       <MDBRow>
         <MDBCol md="8" class="mx-auto">
