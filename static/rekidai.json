@@ -4302,12 +4302,14 @@
     "musicJP": "マレ2",
     "notes": 1803,
     "bpm": [
-      128
+      128,
+      256
     ],
     "textage": "https://textage.cc/score/28/sinusiri.html?2AC20",
     "musicMovie": "https://www.youtube.com/watch?v=AsfPSrL2DFc",
     "charge": true,
     "peak": true,
+    "soflan": true,
     "score": 3469,
     "scoreResult": "https://www.youtube.com/watch?v=KkHDsV3w9hw",
     "topVersion": "29[Cast]",
