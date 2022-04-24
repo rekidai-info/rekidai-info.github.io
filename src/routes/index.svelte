@@ -975,6 +975,34 @@
 
       <hr style="clear: both; display: block;">
       <a href="#top">Top</a>
+
+      <script>
+        if (location.hash == '#top') {
+          document.querySelector('#top').scrollIntoView(true);
+        } else if (location.hash == '#rekidai') {
+          document.querySelector('#rekidai').scrollIntoView(true);
+        } else if (location.hash == '#rank') {
+          document.querySelector('#rank').scrollIntoView(true);
+        } else if (location.hash == '#version') {
+          document.querySelector('#version').scrollIntoView(true);
+        } else if (location.hash == '#charge') {
+          document.querySelector('#charge').scrollIntoView(true);
+        } else if (location.hash == '#peak') {
+          document.querySelector('#peak').scrollIntoView(true);
+        } else if (location.hash == '#scratch') {
+          document.querySelector('#scratch').scrollIntoView(true);
+        } else if (location.hash == '#soflan') {
+          document.querySelector('#soflan').scrollIntoView(true);
+        } else if (location.hash == '#slow') {
+          document.querySelector('#slow').scrollIntoView(true);
+        } else if (location.hash == '#mid') {
+          document.querySelector('#mid').scrollIntoView(true);
+        } else if (location.hash == '#fast') {
+          document.querySelector('#fast').scrollIntoView(true);
+        } else if (location.hash == '#ultra-fast') {
+          document.querySelector('#ultra-fast').scrollIntoView(true);
+        }
+      </script>
     {:else}
       <p style="color: red">{error.message}</p>
     {/if}
