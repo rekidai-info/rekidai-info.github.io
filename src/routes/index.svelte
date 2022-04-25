@@ -39,8 +39,8 @@
   let topMidSort = [];
   let topFast = {};
   let topFastSort = [];
-  let topUltraFast = {};
-  let topUltraFastSort = [];
+  let topSuperFast = {};
+  let topSuperFastSort = [];
 
   /*let doughnutData = {
     labels: topRankersLabels,
@@ -195,14 +195,14 @@
     jsonArray.reduce((prev, cur) => {
       const max = Math.max(...cur.bpm);
       if (190 <= max) {
-        if (topUltraFast[cur.player] == null) {
-          topUltraFast[cur.player] = 1;
+        if (topSuperFast[cur.player] == null) {
+          topSuperFast[cur.player] = 1;
         } else {
-          ++topUltraFast[cur.player];
+          ++topSuperFast[cur.player];
         }
       }
 
-      return topUltraFast;
+      return topSuperFast;
     }, {});
 
     Object.keys(topRankers).forEach(e => {
@@ -241,9 +241,9 @@
     Object.keys(topFast).forEach(e => {
       topFastSort.push({ player: e, counts: topFast[e], percentage: 100 * topFast[e] / topFastLen });
     });
-    const topUltraFastLen = jsonArray.filter(e => { const max = Math.max(...e.bpm); return 190 <= max; }).length;
-    Object.keys(topUltraFast).forEach(e => {
-      topUltraFastSort.push({ player: e, counts: topUltraFast[e], percentage: 100 * topUltraFast[e] / topUltraFastLen });
+    const topSuperFastLen = jsonArray.filter(e => { const max = Math.max(...e.bpm); return 190 <= max; }).length;
+    Object.keys(topSuperFast).forEach(e => {
+      topSuperFastSort.push({ player: e, counts: topSuperFast[e], percentage: 100 * topSuperFast[e] / topSuperFastLen });
     });
 
     topRankersSort.sort((lhs, rhs) => {
@@ -392,7 +392,7 @@
         return -1;
       }
     });
-    topUltraFastSort.sort((lhs, rhs) => {
+    topSuperFastSort.sort((lhs, rhs) => {
       if (lhs.counts == rhs.counts) {
         if (lhs.player == rhs.player) {
           return 0;
@@ -512,14 +512,14 @@
         }
       }
     });
-    topUltraFastSort.forEach((e, i) => {
+    topSuperFastSort.forEach((e, i) => {
       if (i <= 0) {
-        topUltraFastSort[i].rank = 1;
+        topSuperFastSort[i].rank = 1;
       } else {
-        if (topUltraFastSort[i - 1].counts == topUltraFastSort[i].counts) {
-          topUltraFastSort[i].rank = topUltraFastSort[i - 1].rank;
+        if (topSuperFastSort[i - 1].counts == topSuperFastSort[i].counts) {
+          topSuperFastSort[i].rank = topSuperFastSort[i - 1].rank;
         } else {
-          topUltraFastSort[i].rank = topUltraFastSort[i - 1].rank + 1;
+          topSuperFastSort[i].rank = topSuperFastSort[i - 1].rank + 1;
         }
       }
     });
@@ -944,7 +944,7 @@
             {/each}
           </tbody>
         </table>
-        <table id="ultra-fast" class="table-sort table-arrows remember-sort" style="float: left;">
+        <table id="super-fast" class="table-sort table-arrows remember-sort" style="float: left;">
           <caption>Top BPM[190, 400]</caption>
           <thead>
             <th>Rank</th>
@@ -953,12 +953,12 @@
             <th class="data-sort">Percentage</th>
           </thead>
           <tbody>
-            {#each topUltraFastSort as topUltraFast (topUltraFast.player)}
+            {#each topSuperFastSort as topSuperFast (topSuperFast.player)}
               <tr>
-                <td>{topUltraFast.rank}</td>
-                <td>{topUltraFast.player}</td>
-                <td>{topUltraFast.counts}</td>
-                <td data-sort={topUltraFast.percentage}>{Number(topUltraFast.percentage).toFixed(2) + '%'}</td>
+                <td>{topSuperFast.rank}</td>
+                <td>{topSuperFast.player}</td>
+                <td>{topSuperFast.counts}</td>
+                <td data-sort={topSuperFast.percentage}>{Number(topSuperFast.percentage).toFixed(2) + '%'}</td>
               </tr>
             {/each}
           </tbody>
@@ -999,8 +999,8 @@
           document.querySelector('#mid').scrollIntoView(true);
         } else if (location.hash == '#fast') {
           document.querySelector('#fast').scrollIntoView(true);
-        } else if (location.hash == '#ultra-fast') {
-          document.querySelector('#ultra-fast').scrollIntoView(true);
+        } else if (location.hash == '#super-fast') {
+          document.querySelector('#super-fast').scrollIntoView(true);
         }
       </script>
     {:else}
