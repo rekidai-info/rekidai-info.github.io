@@ -555,7 +555,7 @@
         if (topRankersSort[i - 1].counts == topRankersSort[i].counts) {
           topRankersSort[i].rank = topRankersSort[i - 1].rank;
         } else {
-          const count = topRankersSort.filter(e => e.rank == topRankersSort[i - 1].rank);
+          const count = topRankersSort.filter(e => e.rank == topRankersSort[i - 1].rank).length;
           topRankersSort[i].rank = topRankersSort[i - 1].rank + count;
         }
       }
@@ -567,7 +567,7 @@
         if (topVersionsSort[i - 1].counts == topVersionsSort[i].counts) {
           topVersionsSort[i].rank = topVersionsSort[i - 1].rank;
         } else {
-          const count = topVersionsSort.filter(e => e.rank == topVersionsSort[i - 1].rank);
+          const count = topVersionsSort.filter(e => e.rank == topVersionsSort[i - 1].rank).length;
           topVersionsSort[i].rank = topVersionsSort[i - 1].rank + count;
         }
       }
@@ -579,7 +579,7 @@
         if (topChargeSort[i - 1].counts == topChargeSort[i].counts) {
           topChargeSort[i].rank = topChargeSort[i - 1].rank;
         } else {
-          const count = topChargeSort.filter(e => e.rank == topChargeSort[i - 1].rank);
+          const count = topChargeSort.filter(e => e.rank == topChargeSort[i - 1].rank).length;
           topChargeSort[i].rank = topChargeSort[i - 1].rank + count;
         }
       }
@@ -591,7 +591,7 @@
         if (topPeakSort[i - 1].counts == topPeakSort[i].counts) {
           topPeakSort[i].rank = topPeakSort[i - 1].rank;
         } else {
-          const count = topPeakSort.filter(e => e.rank == topPeakSort[i - 1].rank);
+          const count = topPeakSort.filter(e => e.rank == topPeakSort[i - 1].rank).length;
           topPeakSort[i].rank = topPeakSort[i - 1].rank + count;
         }
       }
@@ -603,7 +603,7 @@
         if (topScratchSort[i - 1].counts == topScratchSort[i].counts) {
           topScratchSort[i].rank = topScratchSort[i - 1].rank;
         } else {
-          const count = topScratchSort.filter(e => e.rank == topScratchSort[i - 1].rank);
+          const count = topScratchSort.filter(e => e.rank == topScratchSort[i - 1].rank).length;
           topScratchSort[i].rank = topScratchSort[i - 1].rank + count;
         }
       }
@@ -615,7 +615,7 @@
         if (topSoflanSort[i - 1].counts == topSoflanSort[i].counts) {
           topSoflanSort[i].rank = topSoflanSort[i - 1].rank;
         } else {
-          const count = topSoflanSort.filter(e => e.rank == topSoflanSort[i - 1].rank);
+          const count = topSoflanSort.filter(e => e.rank == topSoflanSort[i - 1].rank).length;
           topSoflanSort[i].rank = topSoflanSort[i - 1].rank + count;
         }
       }
@@ -628,7 +628,7 @@
         if (topSuperChargeSort[i - 1].counts == topSuperChargeSort[i].counts) {
           topSuperChargeSort[i].rank = topSuperChargeSort[i - 1].rank;
         } else {
-          const count = topSuperChargeSort.filter(e => e.rank == topSuperChargeSort[i - 1].rank);
+          const count = topSuperChargeSort.filter(e => e.rank == topSuperChargeSort[i - 1].rank).length;
           topSuperChargeSort[i].rank = topSuperChargeSort[i - 1].rank + count;
         }
       }
@@ -640,7 +640,7 @@
         if (topSuperPeakSort[i - 1].counts == topSuperPeakSort[i].counts) {
           topSuperPeakSort[i].rank = topSuperPeakSort[i - 1].rank;
         } else {
-          const count = topSuperPeakSort.filter(e => e.rank == topSuperPeakSort[i - 1].rank);
+          const count = topSuperPeakSort.filter(e => e.rank == topSuperPeakSort[i - 1].rank).length;
           topSuperPeakSort[i].rank = topSuperPeakSort[i - 1].rank + count;
         }
       }
@@ -652,7 +652,7 @@
         if (topSuperScratchSort[i - 1].counts == topSuperScratchSort[i].counts) {
           topSuperScratchSort[i].rank = topSuperScratchSort[i - 1].rank;
         } else {
-          const count = topSuperScratchSort.filter(e => e.rank == topSuperScratchSort[i - 1].rank);
+          const count = topSuperScratchSort.filter(e => e.rank == topSuperScratchSort[i - 1].rank).length;
           topSuperScratchSort[i].rank = topSuperScratchSort[i - 1].rank + count;
         }
       }
@@ -664,7 +664,7 @@
         if (topSuperSoflanSort[i - 1].counts == topSuperSoflanSort[i].counts) {
           topSuperSoflanSort[i].rank = topSuperSoflanSort[i - 1].rank;
         } else {
-          const count = topSuperSoflanSort.filter(e => e.rank == topSuperSoflanSort[i - 1].rank);
+          const count = topSuperSoflanSort.filter(e => e.rank == topSuperSoflanSort[i - 1].rank).length;
           topSuperSoflanSort[i].rank = topSuperSoflanSort[i - 1].rank + count;
         }
       }
@@ -677,7 +677,7 @@
         if (topSlowSort[i - 1].counts == topSlowSort[i].counts) {
           topSlowSort[i].rank = topSlowSort[i - 1].rank;
         } else {
-          const count = topSlowSort.filter(e => e.rank == topSlowSort[i - 1].rank);
+          const count = topSlowSort.filter(e => e.rank == topSlowSort[i - 1].rank).length;
           topSlowSort[i].rank = topSlowSort[i - 1].rank + count;
         }
       }
@@ -689,7 +689,7 @@
         if (topMidSort[i - 1].counts == topMidSort[i].counts) {
           topMidSort[i].rank = topMidSort[i - 1].rank;
         } else {
-          const count = topMidSort.filter(e => e.rank == topMidSort[i - 1].rank);
+          const count = topMidSort.filter(e => e.rank == topMidSort[i - 1].rank).length;
           topMidSort[i].rank = topMidSort[i - 1].rank + count;
         }
       }
@@ -701,7 +701,7 @@
         if (topFastSort[i - 1].counts == topFastSort[i].counts) {
           topFastSort[i].rank = topFastSort[i - 1].rank;
         } else {
-          const count = topFastSort.filter(e => e.rank == topFastSort[i - 1].rank);
+          const count = topFastSort.filter(e => e.rank == topFastSort[i - 1].rank).length;
           topFastSort[i].rank = topFastSort[i - 1].rank + count;
         }
       }
@@ -713,7 +713,7 @@
         if (topSuperFastSort[i - 1].counts == topSuperFastSort[i].counts) {
           topSuperFastSort[i].rank = topSuperFastSort[i - 1].rank;
         } else {
-          const count = topSuperFastSort.filter(e => e.rank == topSuperFastSort[i - 1].rank);
+          const count = topSuperFastSort.filter(e => e.rank == topSuperFastSort[i - 1].rank).length;
           topSuperFastSort[i].rank = topSuperFastSort[i - 1].rank + count;
         }
       }
