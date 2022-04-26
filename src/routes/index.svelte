@@ -33,6 +33,14 @@
   let topScratchSort = [];
   let topSoflan = {};
   let topSoflanSort = [];
+  let topSuperCharge = {};
+  let topSuperChargeSort = [];
+  let topSuperPeak = {};
+  let topSuperPeakSort = [];
+  let topSuperScratch = {};
+  let topSuperScratchSort = [];
+  let topSuperSoflan = {};
+  let topSuperSoflanSort = [];
   let topSlow = {};
   let topSlowSort = [];
   let topMid = {};
@@ -156,6 +164,52 @@
 
       return topSoflan;
     }, {});
+
+    jsonArray.reduce((prev, cur) => {
+      if (cur.superCharge) {
+        if (topSuperCharge[cur.player] == null) {
+          topSuperCharge[cur.player] = 1;
+        } else {
+          ++topSuperCharge[cur.player];
+        }
+      }
+
+      return topSuperCharge;
+    }, {});
+    jsonArray.reduce((prev, cur) => {
+      if (cur.superPeak) {
+        if (topSuperPeak[cur.player] == null) {
+          topSuperPeak[cur.player] = 1;
+        } else {
+          ++topSuperPeak[cur.player];
+        }
+      }
+
+      return topSuperPeak;
+    }, {});
+    jsonArray.reduce((prev, cur) => {
+      if (cur.superScratch) {
+        if (topSuperScratch[cur.player] == null) {
+          topSuperScratch[cur.player] = 1;
+        } else {
+          ++topSuperScratch[cur.player];
+        }
+      }
+
+      return topSuperScratch;
+    }, {});
+    jsonArray.reduce((prev, cur) => {
+      if (cur.superSoflan) {
+        if (topSuperSoflan[cur.player] == null) {
+          topSuperSoflan[cur.player] = 1;
+        } else {
+          ++topSuperSoflan[cur.player];
+        }
+      }
+
+      return topSuperSoflan;
+    }, {});
+
     jsonArray.reduce((prev, cur) => {
       const max = Math.max(...cur.bpm);
       if (max < 150) {
@@ -227,6 +281,23 @@
     const topSoflanLen = jsonArray.filter(e => e.soflan).length;
     Object.keys(topSoflan).forEach(e => {
       topSoflanSort.push({ player: e, counts: topSoflan[e], percentage: 100 * topSoflan[e] / topSoflanLen });
+    });
+
+    const topSuperChargeLen = jsonArray.filter(e => e.superCharge).length;
+    Object.keys(topSuperCharge).forEach(e => {
+      topSuperChargeSort.push({ player: e, counts: topSuperCharge[e], percentage: 100 * topSuperCharge[e] / topSuperChargeLen });
+    });
+    const topSuperPeakLen = jsonArray.filter(e => e.superPeak).length;
+    Object.keys(topSuperPeak).forEach(e => {
+      topSuperPeakSort.push({ player: e, counts: topSuperPeak[e], percentage: 100 * topSuperPeak[e] / topSuperPeakLen });
+    });
+    const topSuperScratchLen = jsonArray.filter(e => e.superScratch).length;
+    Object.keys(topSuperScratch).forEach(e => {
+      topSuperScratchSort.push({ player: e, counts: topSuperScratch[e], percentage: 100 * topSuperScratch[e] / topSuperScratchLen });
+    });
+    const topSuperSoflanLen = jsonArray.filter(e => e.superSoflan).length;
+    Object.keys(topSuperSoflan).forEach(e => {
+      topSuperSoflanSort.push({ player: e, counts: topSuperSoflan[e], percentage: 100 * topSuperSoflan[e] / topSuperSoflanLen });
     });
 
     const topSlowLen = jsonArray.filter(e => { const max = Math.max(...e.bpm); return max < 150; }).length;
@@ -328,6 +399,71 @@
       }
     });
     topSoflanSort.sort((lhs, rhs) => {
+      if (lhs.counts == rhs.counts) {
+        if (lhs.player == rhs.player) {
+          return 0;
+        }
+        if (lhs.player < rhs.player) {
+          return -1;
+        } else {
+          return +1;
+        }
+      } else if (lhs.counts < rhs.counts) {
+        return +1;
+      } else {
+        return -1;
+      }
+    });
+
+    topSuperChargeSort.sort((lhs, rhs) => {
+      if (lhs.counts == rhs.counts) {
+        if (lhs.player == rhs.player) {
+          return 0;
+        }
+        if (lhs.player < rhs.player) {
+          return -1;
+        } else {
+          return +1;
+        }
+      } else if (lhs.counts < rhs.counts) {
+        return +1;
+      } else {
+        return -1;
+      }
+    });
+    topSuperPeakSort.sort((lhs, rhs) => {
+      if (lhs.counts == rhs.counts) {
+        if (lhs.player == rhs.player) {
+          return 0;
+        }
+        if (lhs.player < rhs.player) {
+          return -1;
+        } else {
+          return +1;
+        }
+      } else if (lhs.counts < rhs.counts) {
+        return +1;
+      } else {
+        return -1;
+      }
+    });
+    topSuperScratchSort.sort((lhs, rhs) => {
+      if (lhs.counts == rhs.counts) {
+        if (lhs.player == rhs.player) {
+          return 0;
+        }
+        if (lhs.player < rhs.player) {
+          return -1;
+        } else {
+          return +1;
+        }
+      } else if (lhs.counts < rhs.counts) {
+        return +1;
+      } else {
+        return -1;
+      }
+    });
+    topSuperSoflanSort.sort((lhs, rhs) => {
       if (lhs.counts == rhs.counts) {
         if (lhs.player == rhs.player) {
           return 0;
@@ -475,6 +611,51 @@
           topSoflanSort[i].rank = topSoflanSort[i - 1].rank;
         } else {
           topSoflanSort[i].rank = topSoflanSort[i - 1].rank + 1;
+        }
+      }
+    });
+
+    topSuperChargeSort.forEach((e, i) => {
+      if (i <= 0) {
+        topSuperChargeSort[i].rank = 1;
+      } else {
+        if (topSuperChargeSort[i - 1].counts == topSuperChargeSort[i].counts) {
+          topSuperChargeSort[i].rank = topSuperChargeSort[i - 1].rank;
+        } else {
+          topSuperChargeSort[i].rank = topSuperChargeSort[i - 1].rank + 1;
+        }
+      }
+    });
+    topSuperPeakSort.forEach((e, i) => {
+      if (i <= 0) {
+        topSuperPeakSort[i].rank = 1;
+      } else {
+        if (topSuperPeakSort[i - 1].counts == topSuperPeakSort[i].counts) {
+          topSuperPeakSort[i].rank = topSuperPeakSort[i - 1].rank;
+        } else {
+          topSuperPeakSort[i].rank = topSuperPeakSort[i - 1].rank + 1;
+        }
+      }
+    });
+    topSuperScratchSort.forEach((e, i) => {
+      if (i <= 0) {
+        topSuperScratchSort[i].rank = 1;
+      } else {
+        if (topSuperScratchSort[i - 1].counts == topSuperScratchSort[i].counts) {
+          topSuperScratchSort[i].rank = topSuperScratchSort[i - 1].rank;
+        } else {
+          topSuperScratchSort[i].rank = topSuperScratchSort[i - 1].rank + 1;
+        }
+      }
+    });
+    topSuperSoflanSort.forEach((e, i) => {
+      if (i <= 0) {
+        topSuperSoflanSort[i].rank = 1;
+      } else {
+        if (topSuperSoflanSort[i - 1].counts == topSuperSoflanSort[i].counts) {
+          topSuperSoflanSort[i].rank = topSuperSoflanSort[i - 1].rank;
+        } else {
+          topSuperSoflanSort[i].rank = topSuperSoflanSort[i - 1].rank + 1;
         }
       }
     });
@@ -887,6 +1068,87 @@
       <hr style="clear: both; display: block;">
 
       <div style="float: left; margin-bottom: 1em;">
+        <table id="super-charge" class="table-sort table-arrows remember-sort" style="float: left; margin-right: 1em;">
+          <caption>Top Super Charge</caption>
+          <thead>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Count</th>
+            <th class="data-sort">Percentage</th>
+          </thead>
+          <tbody>
+            {#each topSuperChargeSort as topSuperCharge (topSuperCharge.player)}
+              <tr>
+                <td>{topSuperCharge.rank}</td>
+                <td>{topSuperCharge.player}</td>
+                <td>{topSuperCharge.counts}</td>
+                <td data-sort={topSuperCharge.percentage}>{Number(topSuperCharge.percentage).toFixed(2) + '%'}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+        <table id="super-peak" class="table-sort table-arrows remember-sort" style="float: left; margin-right: 1em;">
+          <caption>Top Super Peak</caption>
+          <thead>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Count</th>
+            <th class="data-sort">Percentage</th>
+          </thead>
+          <tbody>
+            {#each topSuperPeakSort as topSuperPeak (topSuperPeak.player)}
+              <tr>
+                <td>{topSuperPeak.rank}</td>
+                <td>{topSuperPeak.player}</td>
+                <td>{topSuperPeak.counts}</td>
+                <td data-sort={topSuperPeak.percentage}>{Number(topSuperPeak.percentage).toFixed(2) + '%'}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+        <table id="super-scratch" class="table-sort table-arrows remember-sort" style="float: left; margin-right: 1em;">
+          <caption>Top Super Scratch</caption>
+          <thead>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Count</th>
+            <th class="data-sort">Percentage</th>
+          </thead>
+          <tbody>
+            {#each topSuperScratchSort as topSuperScratch (topSuperScratch.player)}
+              <tr>
+                <td>{topSuperScratch.rank}</td>
+                <td>{topSuperScratch.player}</td>
+                <td>{topSuperScratch.counts}</td>
+                <td data-sort={topSuperScratch.percentage}>{Number(topSuperScratch.percentage).toFixed(2) + '%'}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+        <table id="super-soflan" class="table-sort table-arrows remember-sort" style="float: left;">
+          <caption>Top Super Sof-Lan</caption>
+          <thead>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Count</th>
+            <th class="data-sort">Percentage</th>
+          </thead>
+          <tbody>
+            {#each topSuperSoflanSort as topSuperSoflan (topSuperSoflan.player)}
+              <tr>
+                <td>{topSuperSoflan.rank}</td>
+                <td>{topSuperSoflan.player}</td>
+                <td>{topSuperSoflan.counts}</td>
+                <td data-sort={topSuperSoflan.percentage}>{Number(topSuperSoflan.percentage).toFixed(2) + '%'}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+      </div>
+
+      <hr style="clear: both; display: block;">
+
+      <div style="float: left; margin-bottom: 1em;">
         <table id="slow" class="table-sort table-arrows remember-sort" style="float: left; margin-right: 1em;">
           <caption>Top BPM[0, 150)</caption>
           <thead>
@@ -993,6 +1255,14 @@
           document.querySelector('#scratch').scrollIntoView(true);
         } else if (location.hash == '#soflan') {
           document.querySelector('#soflan').scrollIntoView(true);
+        } else if (location.hash == '#super-charge') {
+          document.querySelector('#super-charge').scrollIntoView(true);
+        } else if (location.hash == '#super-peak') {
+          document.querySelector('#super-peak').scrollIntoView(true);
+        } else if (location.hash == '#super-scratch') {
+          document.querySelector('#super-scratch').scrollIntoView(true);
+        } else if (location.hash == '#super-soflan') {
+          document.querySelector('#super-soflan').scrollIntoView(true);
         } else if (location.hash == '#slow') {
           document.querySelector('#slow').scrollIntoView(true);
         } else if (location.hash == '#mid') {
