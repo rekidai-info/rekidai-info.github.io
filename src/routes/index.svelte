@@ -555,7 +555,8 @@
         if (topRankersSort[i - 1].counts == topRankersSort[i].counts) {
           topRankersSort[i].rank = topRankersSort[i - 1].rank;
         } else {
-          topRankersSort[i].rank = topRankersSort[i - 1].rank + 1;
+          const count = topRankersSort.filter(e => e.rank == topRankersSort[i - 1].rank);
+          topRankersSort[i].rank = topRankersSort[i - 1].rank + count;
         }
       }
     });
@@ -566,7 +567,8 @@
         if (topVersionsSort[i - 1].counts == topVersionsSort[i].counts) {
           topVersionsSort[i].rank = topVersionsSort[i - 1].rank;
         } else {
-          topVersionsSort[i].rank = topVersionsSort[i - 1].rank + 1;
+          const count = topVersionsSort.filter(e => e.rank == topVersionsSort[i - 1].rank);
+          topVersionsSort[i].rank = topVersionsSort[i - 1].rank + count;
         }
       }
     });
@@ -577,7 +579,8 @@
         if (topChargeSort[i - 1].counts == topChargeSort[i].counts) {
           topChargeSort[i].rank = topChargeSort[i - 1].rank;
         } else {
-          topChargeSort[i].rank = topChargeSort[i - 1].rank + 1;
+          const count = topChargeSort.filter(e => e.rank == topChargeSort[i - 1].rank);
+          topChargeSort[i].rank = topChargeSort[i - 1].rank + count;
         }
       }
     });
@@ -588,7 +591,8 @@
         if (topPeakSort[i - 1].counts == topPeakSort[i].counts) {
           topPeakSort[i].rank = topPeakSort[i - 1].rank;
         } else {
-          topPeakSort[i].rank = topPeakSort[i - 1].rank + 1;
+          const count = topPeakSort.filter(e => e.rank == topPeakSort[i - 1].rank);
+          topPeakSort[i].rank = topPeakSort[i - 1].rank + count;
         }
       }
     });
@@ -599,7 +603,8 @@
         if (topScratchSort[i - 1].counts == topScratchSort[i].counts) {
           topScratchSort[i].rank = topScratchSort[i - 1].rank;
         } else {
-          topScratchSort[i].rank = topScratchSort[i - 1].rank + 1;
+          const count = topScratchSort.filter(e => e.rank == topScratchSort[i - 1].rank);
+          topScratchSort[i].rank = topScratchSort[i - 1].rank + count;
         }
       }
     });
@@ -610,7 +615,8 @@
         if (topSoflanSort[i - 1].counts == topSoflanSort[i].counts) {
           topSoflanSort[i].rank = topSoflanSort[i - 1].rank;
         } else {
-          topSoflanSort[i].rank = topSoflanSort[i - 1].rank + 1;
+          const count = topSoflanSort.filter(e => e.rank == topSoflanSort[i - 1].rank);
+          topSoflanSort[i].rank = topSoflanSort[i - 1].rank + count;
         }
       }
     });
@@ -622,7 +628,8 @@
         if (topSuperChargeSort[i - 1].counts == topSuperChargeSort[i].counts) {
           topSuperChargeSort[i].rank = topSuperChargeSort[i - 1].rank;
         } else {
-          topSuperChargeSort[i].rank = topSuperChargeSort[i - 1].rank + 1;
+          const count = topSuperChargeSort.filter(e => e.rank == topSuperChargeSort[i - 1].rank);
+          topSuperChargeSort[i].rank = topSuperChargeSort[i - 1].rank + count;
         }
       }
     });
@@ -633,7 +640,8 @@
         if (topSuperPeakSort[i - 1].counts == topSuperPeakSort[i].counts) {
           topSuperPeakSort[i].rank = topSuperPeakSort[i - 1].rank;
         } else {
-          topSuperPeakSort[i].rank = topSuperPeakSort[i - 1].rank + 1;
+          const count = topSuperPeakSort.filter(e => e.rank == topSuperPeakSort[i - 1].rank);
+          topSuperPeakSort[i].rank = topSuperPeakSort[i - 1].rank + count;
         }
       }
     });
@@ -644,7 +652,8 @@
         if (topSuperScratchSort[i - 1].counts == topSuperScratchSort[i].counts) {
           topSuperScratchSort[i].rank = topSuperScratchSort[i - 1].rank;
         } else {
-          topSuperScratchSort[i].rank = topSuperScratchSort[i - 1].rank + 1;
+          const count = topSuperScratchSort.filter(e => e.rank == topSuperScratchSort[i - 1].rank);
+          topSuperScratchSort[i].rank = topSuperScratchSort[i - 1].rank + count;
         }
       }
     });
@@ -655,7 +664,8 @@
         if (topSuperSoflanSort[i - 1].counts == topSuperSoflanSort[i].counts) {
           topSuperSoflanSort[i].rank = topSuperSoflanSort[i - 1].rank;
         } else {
-          topSuperSoflanSort[i].rank = topSuperSoflanSort[i - 1].rank + 1;
+          const count = topSuperSoflanSort.filter(e => e.rank == topSuperSoflanSort[i - 1].rank);
+          topSuperSoflanSort[i].rank = topSuperSoflanSort[i - 1].rank + count;
         }
       }
     });
@@ -667,7 +677,8 @@
         if (topSlowSort[i - 1].counts == topSlowSort[i].counts) {
           topSlowSort[i].rank = topSlowSort[i - 1].rank;
         } else {
-          topSlowSort[i].rank = topSlowSort[i - 1].rank + 1;
+          const count = topSlowSort.filter(e => e.rank == topSlowSort[i - 1].rank);
+          topSlowSort[i].rank = topSlowSort[i - 1].rank + count;
         }
       }
     });
@@ -678,7 +689,8 @@
         if (topMidSort[i - 1].counts == topMidSort[i].counts) {
           topMidSort[i].rank = topMidSort[i - 1].rank;
         } else {
-          topMidSort[i].rank = topMidSort[i - 1].rank + 1;
+          const count = topMidSort.filter(e => e.rank == topMidSort[i - 1].rank);
+          topMidSort[i].rank = topMidSort[i - 1].rank + count;
         }
       }
     });
@@ -689,7 +701,8 @@
         if (topFastSort[i - 1].counts == topFastSort[i].counts) {
           topFastSort[i].rank = topFastSort[i - 1].rank;
         } else {
-          topFastSort[i].rank = topFastSort[i - 1].rank + 1;
+          const count = topFastSort.filter(e => e.rank == topFastSort[i - 1].rank);
+          topFastSort[i].rank = topFastSort[i - 1].rank + count;
         }
       }
     });
@@ -700,7 +713,8 @@
         if (topSuperFastSort[i - 1].counts == topSuperFastSort[i].counts) {
           topSuperFastSort[i].rank = topSuperFastSort[i - 1].rank;
         } else {
-          topSuperFastSort[i].rank = topSuperFastSort[i - 1].rank + 1;
+          const count = topSuperFastSort.filter(e => e.rank == topSuperFastSort[i - 1].rank);
+          topSuperFastSort[i].rank = topSuperFastSort[i - 1].rank + count;
         }
       }
     });
