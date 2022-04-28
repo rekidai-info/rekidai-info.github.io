@@ -1,6 +1,6 @@
 **Anyone can edit the Rekidai Data.**
 
-If you want to update rekidai data, please fork [this repository](https://github.com/rekidai-info/rekidai-info.github.io), edit [rekidai.json](static/rekidai.json), and submit a Pull Request.  
+If you want to update rekidai data, please fork [this repository](https://github.com/rekidai-info/rekidai-info.github.io), edit [rekidai.json](static/rekidai.json), and submit a Pull Request.  That's all.  
 Please do not change [rekidai.min.json](rekidai.min.json) as this file is automatically updated when [rekidai.json](static/rekidai.json) is pushed.
 
 Don't have a GitHub account?  
