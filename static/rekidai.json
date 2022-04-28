@@ -3449,6 +3449,7 @@
     "charge": true,
     "peak": true,
     "superCharge": true,
+    "superPeak": true,
     "score": 3397,
     "scoreResult": "https://www.youtube.com/watch?v=UPbAlfQd5Tw&t=13353s",
     "topVersion": "29[Cast]",
