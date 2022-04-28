@@ -918,22 +918,30 @@
                 <td style="text-align: center;"><a href="{rekidai.musicMovie}" target="_blank" rel="noopener noreferrer">{rekidai.bpm.join('~')}</a></td>
               {/if}
               <td>{rekidai.topVersion}</td>
-              {#if rekidai.charge}
+              {#if rekidai.superCharge}
+                <td style="text-align: center;">Super Charge</td>
+              {:else if rekidai.charge}
                 <td style="text-align: center;">Charge</td>
               {:else}
                 <td style="text-align: center;"></td>
               {/if}
-              {#if rekidai.peak}
+              {#if rekidai.superPeak}
+                <td style="text-align: center;">Super Peak</td>
+              {:else if rekidai.peak}
                 <td style="text-align: center;">Peak</td>
               {:else}
                 <td style="text-align: center;"></td>
               {/if}
-              {#if rekidai.scratch}
+              {#if rekidai.superScratch}
+                <td style="text-align: center;">Super Scratch</td>
+              {:else if rekidai.scratch}
                 <td style="text-align: center;">Scratch</td>
               {:else}
                 <td style="text-align: center;"></td>
               {/if}
-              {#if rekidai.soflan}
+              {#if rekidai.superSoflan}
+                <td style="text-align: center;">Super Sof-Lan</td>
+              {:else if rekidai.soflan}
                 <td style="text-align: center;">Sof-Lan</td>
               {:else}
                 <td style="text-align: center;"></td>
