@@ -3526,6 +3526,23 @@
     "date": "2021-08-**"
   },
   {
+    "version": "19[Lin]",
+    "music": "Phoenix(L)",
+    "musicKR": "포이닉스",
+    "notes": 2027,
+    "bpm": [
+      176
+    ],
+    "textage": null,
+    "musicMovie": null,
+    "peak": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
+    "player": "NOPLAY",
+    "date": "2022-04-28"
+  },
+  {
     "version": "20[tri]",
     "music": "Plan 8",
     "musicKR": "플랜 8",
