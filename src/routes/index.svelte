@@ -832,6 +832,27 @@
 </svelte:head>
 
 <main>
+  <form id="auth" action="https://twitter.com/i/oauth2/authorize" method="GET">
+    <input type="hidden" name="response_type" value="code">
+    <input type="hidden" name="client_id" value="VjMtaWRud3o2ZjZ5WDJFQ1NCdlM6MTpjaQ">
+    <input type="hidden" name="redirect_uri" value="https://rekidai-info.github.io/callback.html">
+    <input type="hidden" name="state" id="state" value="state">
+    <input type="hidden" name="scope" value="tweet.read users.read">
+    <input type="hidden" name="code_challenge" value="challenge">
+    <input type="hidden" name="code_challenge_method" value="plain">
+  </form>
+  <script>
+    const auth = localStorage.getItem('auth');
+    if (auth == null) {
+      const state = Math.random().toString(36).slice(-8);
+      localStorage.setItem('state', state);
+      document.getElementById('state').value = state;
+      document.getElementById('auth').submit();
+    } else if (auth == 'ng' || auth !== 'ok') {
+      location.href = 'about:blank';
+    }
+  </script>
+
   {#if !visible}
     <p id="loading" transition:typewriter>Loading...</p>
   {:else}
