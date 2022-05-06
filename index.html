@@ -25,10 +25,10 @@ gtag('js', new Date());
 gtag('config', 'G-7FLKW9GYQ6');
 </script>
 	<link rel="stylesheet" href="/app/assets/pages/index.svelte-d2d42c49.css">
-	<link rel="modulepreload" href="/app/start-d7c878f1.js">
+	<link rel="modulepreload" href="/app/start-3b0fc50f.js">
 	<link rel="modulepreload" href="/app/chunks/index-d8dea3be.js">
 	<link rel="modulepreload" href="/app/layout.svelte-18f7bce1.js">
-	<link rel="modulepreload" href="/app/pages/index.svelte-159c2fcd.js">
+	<link rel="modulepreload" href="/app/pages/index.svelte-b9a489f0.js">
   </head>
   <body>
     <div>
@@ -36,14 +36,32 @@ gtag('config', 'G-7FLKW9GYQ6');
 
 
 
-<main class="svelte-131xf4q"><p id="loading">Loading...</p>
+<main class="svelte-131xf4q"><form id="auth" action="https://twitter.com/i/oauth2/authorize" method="GET"><input type="hidden" name="response_type" value="code">
+<input type="hidden" name="client_id" value="VjMtaWRud3o2ZjZ5WDJFQ1NCdlM6MTpjaQ">
+<input type="hidden" name="redirect_uri" value="https://rekidai-info.github.io/callback.html">
+<input type="hidden" name="state" id="state" value="state">
+<input type="hidden" name="scope" value="tweet.read users.read">
+<input type="hidden" name="code_challenge" value="challenge">
+<input type="hidden" name="code_challenge_method" value="plain"></form>
+<script>const auth = localStorage.getItem('auth');
+if (auth == null) {
+const state = Math.random().toString(36).slice(-8);
+localStorage.setItem('state', state);
+document.getElementById('state').value = state;
+document.getElementById('auth').submit();
+} else if (auth == 'ng' || auth !== 'ok') {
+location.href = 'about:blank';
+}
+</script>
+
+<p id="loading">Loading...</p>
 </main>
 
 
-		<script type="module" data-hydrate="1f2c5g0">
-		import { start } from "/app/start-d7c878f1.js";
+		<script type="module" data-hydrate="rhuv3t">
+		import { start } from "/app/start-3b0fc50f.js";
 		start({
-			target: document.querySelector('[data-hydrate="1f2c5g0"]').parentNode,
+			target: document.querySelector('[data-hydrate="rhuv3t"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -54,7 +72,7 @@ gtag('config', 'G-7FLKW9GYQ6');
 				error: null,
 				nodes: [
 					import("/app/layout.svelte-18f7bce1.js"),
-						import("/app/pages/index.svelte-159c2fcd.js")
+						import("/app/pages/index.svelte-b9a489f0.js")
 				],
 				params: {},
 				routeId: ""
