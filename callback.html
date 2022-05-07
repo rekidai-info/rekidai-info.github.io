@@ -18,16 +18,16 @@
   
       gtag('config', 'G-7FLKW9GYQ6');
     </script>
-    <meta http-equiv="content-security-policy" content=""><title>IIDX SP ☆12 歴代</title><html lang="ja" data-svelte="svelte-1p7xb7v"></html><meta name="keywords" content="☆12,Lv12,歷代,역대,rekidai" data-svelte="svelte-1p7xb7v"><meta name="google-site-verification" content="TZhDInm_qqk0-YS_IeFxjcn6jbrmfEccgvRL8cFjm3k" data-svelte="svelte-1p7xb7v"><script async src="https://www.googletagmanager.com/gtag/js?id=G-7FLKW9GYQ6" data-svelte="svelte-1p7xb7v"></script><script data-svelte="svelte-1p7xb7v">window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <meta http-equiv="content-security-policy" content=""><title>IIDX SP ☆12 歴代</title><html lang="ja" data-svelte="svelte-wh35mz"></html><meta name="keywords" content="☆12,Lv12,歷代,역대,rekidai" data-svelte="svelte-wh35mz"><meta name="google-site-verification" content="TZhDInm_qqk0-YS_IeFxjcn6jbrmfEccgvRL8cFjm3k" data-svelte="svelte-wh35mz"><script async src="https://www.googletagmanager.com/gtag/js?id=G-7FLKW9GYQ6" data-svelte="svelte-wh35mz"></script><script data-svelte="svelte-wh35mz">window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-    gtag('config', 'G-7FLKW9GYQ6');
-  </script>
-	<link rel="modulepreload" href="/app/start-4124f18c.js">
+gtag('config', 'G-7FLKW9GYQ6');
+</script>
+	<link rel="modulepreload" href="/app/start-294a9dca.js">
 	<link rel="modulepreload" href="/app/chunks/index-d8dea3be.js">
 	<link rel="modulepreload" href="/app/layout.svelte-18f7bce1.js">
-	<link rel="modulepreload" href="/app/pages/callback.svelte-5bb06dfd.js">
+	<link rel="modulepreload" href="/app/pages/callback.svelte-360f6a21.js">
   </head>
   <body>
     <div>
@@ -36,47 +36,47 @@
 
 
 <main><script>const params = Object.fromEntries(new URLSearchParams(location.search).entries());
-    if (params.state != sessionStorage.getItem('state')) {
-      location.href = 'about:blank';
-    }
+if (params.state != sessionStorage.getItem('state')) {
+location.href = 'about:blank';
+}
 
-    fetch('https://check-twitter-user-mhqxry7zeq-an.a.run.app', {
-      method: 'POST',
-      mode: 'cors',
-      cache: 'no-cache',
-      credentials: 'same-origin',
-      headers: {
-        // 'Content-Type': 'application/x-www-form-urlencoded'
-      },
-      redirect: 'follow',
-      referrerPolicy: 'no-referrer',
-      body: params.code
-    }).then(response => {
-      if (!response.ok) {
-        localStorage.setItem('auth', 'ng');
-        location.href = 'about:blank';
-      }
+fetch('https://check-twitter-user-mhqxry7zeq-an.a.run.app', {
+method: 'POST',
+mode: 'cors',
+cache: 'no-cache',
+credentials: 'same-origin',
+headers: {
+// 'Content-Type': 'application/x-www-form-urlencoded'
+},
+redirect: 'follow',
+referrerPolicy: 'no-referrer',
+body: params.code
+}).then(response => {
+if (!response.ok) {
+localStorage.setItem('auth', 'ng');
+location.href = 'about:blank';
+}
 
-      return response.text();
-    }).then(result => {
-      if (result === 'ok') {
-        localStorage.setItem('auth', 'ok');
-        localStorage.setItem('expires', Date.now() + 7 * 24 * 60 * 60 * 1000);
-        location.href = 'https://rekidai-info.github.io';
-      } else {
-        localStorage.setItem('auth', 'ng');
-        location.href = 'about:blank';
-      }
-    }).catch(error => {
-      console.error(error);
-    });
-  </script></main>
+return response.text();
+}).then(result => {
+if (result === 'ok') {
+localStorage.setItem('auth', 'ok');
+localStorage.setItem('expires', Date.now() + 7 * 24 * 60 * 60 * 1000);
+location.href = 'https://rekidai-info.github.io';
+} else {
+localStorage.setItem('auth', 'ng');
+location.href = 'about:blank';
+}
+}).catch(error => {
+console.error(error);
+});
+</script></main>
 
 
-		<script type="module" data-hydrate="10rzjne">
-		import { start } from "/app/start-4124f18c.js";
+		<script type="module" data-hydrate="ghes3e">
+		import { start } from "/app/start-294a9dca.js";
 		start({
-			target: document.querySelector('[data-hydrate="10rzjne"]').parentNode,
+			target: document.querySelector('[data-hydrate="ghes3e"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -87,7 +87,7 @@
 				error: null,
 				nodes: [
 					import("/app/layout.svelte-18f7bce1.js"),
-						import("/app/pages/callback.svelte-5bb06dfd.js")
+						import("/app/pages/callback.svelte-360f6a21.js")
 				],
 				params: {},
 				routeId: "callback"
