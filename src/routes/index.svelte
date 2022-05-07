@@ -864,6 +864,8 @@
           const expiresMillis = parseInt(expires, 10);
           if (isNaN(expiresMillis) || !isFinite(expiresMillis) || expiresMillis < Date.now()) {
             submit();
+          } else if (expiresMillis >= Date.now() + 7 * 24 * 60 * 60 * 1000) {
+            submit();
           }
         } catch (e) {
           console.error(e);
