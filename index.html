@@ -25,10 +25,10 @@ gtag('js', new Date());
 gtag('config', 'G-7FLKW9GYQ6');
 </script>
 	<link rel="stylesheet" href="/app/assets/pages/index.svelte-d2d42c49.css">
-	<link rel="modulepreload" href="/app/start-40b6fdb2.js">
+	<link rel="modulepreload" href="/app/start-4124f18c.js">
 	<link rel="modulepreload" href="/app/chunks/index-d8dea3be.js">
 	<link rel="modulepreload" href="/app/layout.svelte-18f7bce1.js">
-	<link rel="modulepreload" href="/app/pages/index.svelte-06a3aa26.js">
+	<link rel="modulepreload" href="/app/pages/index.svelte-10581870.js">
   </head>
   <body>
     <div>
@@ -65,6 +65,8 @@ try {
 const expiresMillis = parseInt(expires, 10);
 if (isNaN(expiresMillis) || !isFinite(expiresMillis) || expiresMillis < Date.now()) {
 submit();
+} else if (expiresMillis >= Date.now() + 7 * 24 * 60 * 60 * 1000) {
+submit();
 }
 } catch (e) {
 console.error(e);
@@ -78,10 +80,10 @@ submit();
 </main>
 
 
-		<script type="module" data-hydrate="y5mrrt">
-		import { start } from "/app/start-40b6fdb2.js";
+		<script type="module" data-hydrate="7p3y3v">
+		import { start } from "/app/start-4124f18c.js";
 		start({
-			target: document.querySelector('[data-hydrate="y5mrrt"]').parentNode,
+			target: document.querySelector('[data-hydrate="7p3y3v"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -92,7 +94,7 @@ submit();
 				error: null,
 				nodes: [
 					import("/app/layout.svelte-18f7bce1.js"),
-						import("/app/pages/index.svelte-06a3aa26.js")
+						import("/app/pages/index.svelte-10581870.js")
 				],
 				params: {},
 				routeId: ""
