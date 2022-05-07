@@ -16,7 +16,7 @@
 <main>
   <script>
     const params = Object.fromEntries(new URLSearchParams(location.search).entries());
-    if (params.state != localStorage.getItem('state')) {
+    if (params.state != sessionStorage.getItem('state')) {
       location.href = 'about:blank';
     }
 
@@ -41,6 +41,7 @@
     }).then(result => {
       if (result === 'ok') {
         localStorage.setItem('auth', 'ok');
+        localStorage.setItem('expires', Date.now() + 7 * 24 * 60 * 60 * 1000);
         location.href = 'https://rekidai-info.github.io';
       } else {
         localStorage.setItem('auth', 'ng');

@@ -842,14 +842,34 @@
     <input type="hidden" name="code_challenge_method" value="plain">
   </form>
   <script>
-    const auth = localStorage.getItem('auth');
-    if (auth == null) {
+    const submit = () => {
       const state = Math.random().toString(36).slice(-8);
-      localStorage.setItem('state', state);
+      localStorage.clear();
+      sessionStorage.setItem('state', state);
       document.getElementById('state').value = state;
       document.getElementById('auth').submit();
+    };
+    const auth = localStorage.getItem('auth');
+
+    if (auth == null) {
+      submit();
     } else if (auth == 'ng' || auth !== 'ok') {
       location.href = 'about:blank';
+    } else {
+      const expires = localStorage.getItem('expires');
+      if (expires == null) {
+        submit();
+      } else {
+        try {
+          const expiresMillis = parseInt(expires, 10);
+          if (isNaN(expiresMillis) || !isFinite(expiresMillis) || expiresMillis < Date.now()) {
+            submit();
+          }
+        } catch (e) {
+          console.error(e);
+          submit();
+        }
+      }
     }
   </script>
 
