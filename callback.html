@@ -24,10 +24,10 @@
 
     gtag('config', 'G-7FLKW9GYQ6');
   </script>
-	<link rel="modulepreload" href="/app/start-3b0fc50f.js">
+	<link rel="modulepreload" href="/app/start-40b6fdb2.js">
 	<link rel="modulepreload" href="/app/chunks/index-d8dea3be.js">
 	<link rel="modulepreload" href="/app/layout.svelte-18f7bce1.js">
-	<link rel="modulepreload" href="/app/pages/callback.svelte-d6665052.js">
+	<link rel="modulepreload" href="/app/pages/callback.svelte-5bb06dfd.js">
   </head>
   <body>
     <div>
@@ -36,7 +36,7 @@
 
 
 <main><script>const params = Object.fromEntries(new URLSearchParams(location.search).entries());
-    if (params.state != localStorage.getItem('state')) {
+    if (params.state != sessionStorage.getItem('state')) {
       location.href = 'about:blank';
     }
 
@@ -61,6 +61,7 @@
     }).then(result => {
       if (result === 'ok') {
         localStorage.setItem('auth', 'ok');
+        localStorage.setItem('expires', Date.now() + 7 * 24 * 60 * 60 * 1000);
         location.href = 'https://rekidai-info.github.io';
       } else {
         localStorage.setItem('auth', 'ng');
@@ -72,10 +73,10 @@
   </script></main>
 
 
-		<script type="module" data-hydrate="1pnatzi">
-		import { start } from "/app/start-3b0fc50f.js";
+		<script type="module" data-hydrate="10rzjne">
+		import { start } from "/app/start-40b6fdb2.js";
 		start({
-			target: document.querySelector('[data-hydrate="1pnatzi"]').parentNode,
+			target: document.querySelector('[data-hydrate="10rzjne"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -86,7 +87,7 @@
 				error: null,
 				nodes: [
 					import("/app/layout.svelte-18f7bce1.js"),
-						import("/app/pages/callback.svelte-d6665052.js")
+						import("/app/pages/callback.svelte-5bb06dfd.js")
 				],
 				params: {},
 				routeId: "callback"

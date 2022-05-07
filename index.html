@@ -25,10 +25,10 @@ gtag('js', new Date());
 gtag('config', 'G-7FLKW9GYQ6');
 </script>
 	<link rel="stylesheet" href="/app/assets/pages/index.svelte-d2d42c49.css">
-	<link rel="modulepreload" href="/app/start-3b0fc50f.js">
+	<link rel="modulepreload" href="/app/start-40b6fdb2.js">
 	<link rel="modulepreload" href="/app/chunks/index-d8dea3be.js">
 	<link rel="modulepreload" href="/app/layout.svelte-18f7bce1.js">
-	<link rel="modulepreload" href="/app/pages/index.svelte-b9a489f0.js">
+	<link rel="modulepreload" href="/app/pages/index.svelte-06a3aa26.js">
   </head>
   <body>
     <div>
@@ -43,14 +43,34 @@ gtag('config', 'G-7FLKW9GYQ6');
 <input type="hidden" name="scope" value="tweet.read users.read">
 <input type="hidden" name="code_challenge" value="challenge">
 <input type="hidden" name="code_challenge_method" value="plain"></form>
-<script>const auth = localStorage.getItem('auth');
-if (auth == null) {
+<script>const submit = () => {
 const state = Math.random().toString(36).slice(-8);
-localStorage.setItem('state', state);
+localStorage.clear();
+sessionStorage.setItem('state', state);
 document.getElementById('state').value = state;
 document.getElementById('auth').submit();
+};
+const auth = localStorage.getItem('auth');
+
+if (auth == null) {
+submit();
 } else if (auth == 'ng' || auth !== 'ok') {
 location.href = 'about:blank';
+} else {
+const expires = localStorage.getItem('expires');
+if (expires == null) {
+submit();
+} else {
+try {
+const expiresMillis = parseInt(expires, 10);
+if (isNaN(expiresMillis) || !isFinite(expiresMillis) || expiresMillis < Date.now()) {
+submit();
+}
+} catch (e) {
+console.error(e);
+submit();
+}
+}
 }
 </script>
 
@@ -58,10 +78,10 @@ location.href = 'about:blank';
 </main>
 
 
-		<script type="module" data-hydrate="rhuv3t">
-		import { start } from "/app/start-3b0fc50f.js";
+		<script type="module" data-hydrate="y5mrrt">
+		import { start } from "/app/start-40b6fdb2.js";
 		start({
-			target: document.querySelector('[data-hydrate="rhuv3t"]').parentNode,
+			target: document.querySelector('[data-hydrate="y5mrrt"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -72,7 +92,7 @@ location.href = 'about:blank';
 				error: null,
 				nodes: [
 					import("/app/layout.svelte-18f7bce1.js"),
-						import("/app/pages/index.svelte-b9a489f0.js")
+						import("/app/pages/index.svelte-06a3aa26.js")
 				],
 				params: {},
 				routeId: ""
