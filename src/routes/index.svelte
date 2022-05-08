@@ -845,7 +845,7 @@
     const submit = () => {
       const state = Math.random().toString(36).slice(-8);
       localStorage.clear();
-      sessionStorage.setItem('state', state);
+      localStorage.setItem('state', state);
       document.getElementById('state').value = state;
       document.getElementById('auth').submit();
     };

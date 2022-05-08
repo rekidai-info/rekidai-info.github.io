@@ -16,7 +16,9 @@
 <main>
   <script>
     const params = Object.fromEntries(new URLSearchParams(location.search).entries());
-    if (params.state != sessionStorage.getItem('state')) {
+    const state = localStorage.getItem('state');
+    localStorage.removeItem('state');
+    if (params.state != state) {
       location.href = 'about:blank';
     }
 
