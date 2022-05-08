@@ -129,7 +129,7 @@ gtag('js', new Date());\r
 gtag('config', 'G-7FLKW9GYQ6');`),D=k(),C=o("main"),A=o("form"),M=o("input"),S=k(),q=o("input"),N=k(),E=o("input"),w=k(),H=o("input"),I=k(),L=o("input"),y=k(),c=o("input"),F=k(),Y=o("input"),B=k(),U=o("script"),ae=d(`const submit = () => {\r
 const state = Math.random().toString(36).slice(-8);\r
 localStorage.clear();\r
-sessionStorage.setItem('state', state);\r
+localStorage.setItem('state', state);\r
 document.getElementById('state').value = state;\r
 document.getElementById('auth').submit();\r
 };\r
@@ -163,7 +163,7 @@ gtag('js', new Date());\r
 gtag('config', 'G-7FLKW9GYQ6');`),Q.forEach(l),ee.forEach(l),D=v(X),C=s(X,"MAIN",{class:!0});var pe=h(C);A=s(pe,"FORM",{id:!0,action:!0,method:!0});var le=h(A);M=s(le,"INPUT",{type:!0,name:!0}),S=v(le),q=s(le,"INPUT",{type:!0,name:!0}),N=v(le),E=s(le,"INPUT",{type:!0,name:!0}),w=v(le),H=s(le,"INPUT",{type:!0,name:!0,id:!0}),I=v(le),L=s(le,"INPUT",{type:!0,name:!0}),y=v(le),c=s(le,"INPUT",{type:!0,name:!0}),F=v(le),Y=s(le,"INPUT",{type:!0,name:!0}),le.forEach(l),B=v(pe),U=s(pe,"SCRIPT",{});var Te=h(U);ae=_(Te,`const submit = () => {\r
 const state = Math.random().toString(36).slice(-8);\r
 localStorage.clear();\r
-sessionStorage.setItem('state', state);\r
+localStorage.setItem('state', state);\r
 document.getElementById('state').value = state;\r
 document.getElementById('auth').submit();\r
 };\r
