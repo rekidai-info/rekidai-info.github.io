@@ -1,1 +1,1 @@
-<main>No API other than GET /2/users/me will be used.<br>Therefore, information other than GET /2/users/me will not be obtained.</main>
+<main>No API other than <a href="https://developer.twitter.com/en/docs/twitter-api/users/lookup/api-reference/get-users-me" target="_blank" rel="noopener noreferrer">GET /2/users/me</a> will be used.<br>Therefore, information other than <a href="https://developer.twitter.com/en/docs/twitter-api/users/lookup/api-reference/get-users-me" target="_blank" rel="noopener noreferrer">GET /2/users/me</a> will not be obtained.</main>
