@@ -1,0 +1,1 @@
+<main>No API other than GET /2/users/me will be used.<br>Therefore, information other than GET /2/users/me will not be obtained.</main>
