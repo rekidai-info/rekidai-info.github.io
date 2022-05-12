@@ -1840,6 +1840,22 @@
     "date": "2022-02-24"
   },
   {
+    "version": "29[Cast]",
+    "music": "Flying Castle",
+    "musicKR": "플라잉 캐슬",
+    "notes": 1877,
+    "bpm": [
+      174
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=6hfxfVGrI3U",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
+    "player": "NOPLAY",
+    "date": "2022-05-12"
+  },
+  {
     "version": "27[HV]",
     "music": "Friction[!]Function",
     "musicKR": "마찰[!]기능",
