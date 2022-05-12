@@ -6424,6 +6424,24 @@
     "date": "2022-03-24"
   },
   {
+    "version": "29[Cast]",
+    "music": "天邪鬼",
+    "musicKR": "천사귀",
+    "musicEN": "Contrarian",
+    "musicJP": "Amanojaku",
+    "notes": 1693,
+    "bpm": [
+      155
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=gdY3YCcLDXE",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
+    "player": "NOPLAY",
+    "date": "2022-05-12"
+  },
+  {
     "version": "23[cop]",
     "music": "駅猫のワルツ",
     "musicKR": "에키네코의 왈츠",
