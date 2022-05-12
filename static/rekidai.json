@@ -5715,6 +5715,23 @@
     "date": "2022-03-09"
   },
   {
+    "version": "29[Cast]",
+    "music": "WHA",
+    "notes": 1946,
+    "bpm": [
+      108
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=ia7cDjEN9yM",
+    "superPeak": true,
+    "superScratch": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
+    "player": "NOPLAY",
+    "date": "2022-05-12"
+  },
+  {
     "version": "19[Lin]",
     "music": "WONDER WALKER",
     "musicKR": "원더 워커",
