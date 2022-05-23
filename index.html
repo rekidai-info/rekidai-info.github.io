@@ -18,17 +18,18 @@
   
       gtag('config', 'G-7FLKW9GYQ6');
     </script>
-    <meta http-equiv="content-security-policy" content=""><title>IIDX SP ☆12 歴代</title><html lang="ja" data-svelte="svelte-cp7gju"></html><meta name="keywords" content="beatmania,IIDX,투덱,☆12,Lv12,歷代,역대,rekidai" data-svelte="svelte-cp7gju"><meta name="google-site-verification" content="TZhDInm_qqk0-YS_IeFxjcn6jbrmfEccgvRL8cFjm3k" data-svelte="svelte-cp7gju"><script async src="https://www.googletagmanager.com/gtag/js?id=G-7FLKW9GYQ6" data-svelte="svelte-cp7gju"></script><script data-svelte="svelte-cp7gju">window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+    <meta http-equiv="content-security-policy" content=""><title>IIDX SP ☆12 歴代</title><html lang="ja" data-svelte="svelte-fpe2wf"></html><meta name="keywords" content="beatmania,IIDX,투덱,☆12,Lv12,歷代,역대,rekidai" data-svelte="svelte-fpe2wf"><meta name="google-site-verification" content="TZhDInm_qqk0-YS_IeFxjcn6jbrmfEccgvRL8cFjm3k" data-svelte="svelte-fpe2wf"><script async src="https://www.googletagmanager.com/gtag/js?id=G-7FLKW9GYQ6" data-svelte="svelte-fpe2wf"></script><script data-svelte="svelte-fpe2wf">window.dataLayer = window.dataLayer || [];
 
-gtag('config', 'G-7FLKW9GYQ6');
-</script>
+function gtag() {
+  dataLayer.push(arguments);
+}
+
+gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');</script>
 	<link rel="stylesheet" href="/app/assets/pages/index.svelte-d2d42c49.css">
-	<link rel="modulepreload" href="/app/start-91bfc576.js">
-	<link rel="modulepreload" href="/app/chunks/index-d8dea3be.js">
-	<link rel="modulepreload" href="/app/layout.svelte-18f7bce1.js">
-	<link rel="modulepreload" href="/app/pages/index.svelte-0d9f2a4c.js">
+	<link rel="modulepreload" href="/app/start-7b7ab9f8.js">
+	<link rel="modulepreload" href="/app/chunks/index-a46a7a9d.js">
+	<link rel="modulepreload" href="/app/layout.svelte-b5895fdf.js">
+	<link rel="modulepreload" href="/app/pages/index.svelte-ec97bc20.js">
   </head>
   <body>
     <div>
@@ -43,47 +44,30 @@ gtag('config', 'G-7FLKW9GYQ6');
 <input type="hidden" name="scope" value="tweet.read users.read">
 <input type="hidden" name="code_challenge" value="challenge">
 <input type="hidden" name="code_challenge_method" value="plain"></form>
-<script>const submit = () => {
-const state = Math.random().toString(36).slice(-8);
-localStorage.clear();
-localStorage.setItem('state', state);
-document.getElementById('state').value = state;
-document.getElementById('auth').submit();
-};
-const auth = localStorage.getItem('auth');
+<script lang="ts">var submit = () => {
+  var a = Math.random().toString(36).slice(-8);
+  localStorage.clear(), localStorage.setItem('state', a), document.getElementById('state').value = a, document.getElementById('auth').submit();
+},
+    auth = localStorage.getItem('auth');
 
-if (auth == null) {
-submit();
-} else if (auth == 'ng' || auth !== 'ok') {
-location.href = 'about:blank';
-} else {
-const expires = localStorage.getItem('expires');
-if (expires == null) {
-submit();
-} else {
-try {
-const expiresMillis = parseInt(expires, 10);
-if (isNaN(expiresMillis) || !isFinite(expiresMillis) || expiresMillis < Date.now()) {
-submit();
-} else if (expiresMillis >= Date.now() + 7 * 24 * 60 * 60 * 1000) {
-submit();
-}
-} catch (e) {
-console.error(e);
-submit();
-}
-}
-}
-</script>
+if (null == auth) submit();else if ('ng' == auth || 'ok' !== auth) location.href = 'about:blank';else {
+  var expires = localStorage.getItem('expires');
+  if (null == expires) submit();else try {
+    var expiresMillis = parseInt(expires, 10);
+    isNaN(expiresMillis) || !isFinite(expiresMillis) || expiresMillis < Date.now() ? submit() : expiresMillis >= Date.now() + 604800000 && submit();
+  } catch (a) {
+    console.error(a), submit();
+  }
+}</script>
 
 <p id="loading">Loading...</p>
 </main>
 
 
-		<script type="module" data-hydrate="g9jlnc">
-		import { start } from "/app/start-91bfc576.js";
+		<script type="module" data-sveltekit-hydrate="19w5aqr">
+		import { start } from "/app/start-7b7ab9f8.js";
 		start({
-			target: document.querySelector('[data-hydrate="g9jlnc"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="19w5aqr"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -93,8 +77,8 @@ submit();
 				status: 200,
 				error: null,
 				nodes: [
-					import("/app/layout.svelte-18f7bce1.js"),
-						import("/app/pages/index.svelte-0d9f2a4c.js")
+					import("/app/layout.svelte-b5895fdf.js"),
+						import("/app/pages/index.svelte-ec97bc20.js")
 				],
 				params: {},
 				routeId: ""

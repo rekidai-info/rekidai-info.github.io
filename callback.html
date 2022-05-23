@@ -18,16 +18,17 @@
   
       gtag('config', 'G-7FLKW9GYQ6');
     </script>
-    <meta http-equiv="content-security-policy" content=""><title>IIDX SP ☆12 歴代</title><html lang="ja" data-svelte="svelte-cp7gju"></html><meta name="keywords" content="beatmania,IIDX,투덱,☆12,Lv12,歷代,역대,rekidai" data-svelte="svelte-cp7gju"><meta name="google-site-verification" content="TZhDInm_qqk0-YS_IeFxjcn6jbrmfEccgvRL8cFjm3k" data-svelte="svelte-cp7gju"><script async src="https://www.googletagmanager.com/gtag/js?id=G-7FLKW9GYQ6" data-svelte="svelte-cp7gju"></script><script data-svelte="svelte-cp7gju">window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+    <meta http-equiv="content-security-policy" content=""><title>IIDX SP ☆12 歴代</title><html lang="ja" data-svelte="svelte-fpe2wf"></html><meta name="keywords" content="beatmania,IIDX,투덱,☆12,Lv12,歷代,역대,rekidai" data-svelte="svelte-fpe2wf"><meta name="google-site-verification" content="TZhDInm_qqk0-YS_IeFxjcn6jbrmfEccgvRL8cFjm3k" data-svelte="svelte-fpe2wf"><script async src="https://www.googletagmanager.com/gtag/js?id=G-7FLKW9GYQ6" data-svelte="svelte-fpe2wf"></script><script data-svelte="svelte-fpe2wf">window.dataLayer = window.dataLayer || [];
 
-gtag('config', 'G-7FLKW9GYQ6');
-</script>
-	<link rel="modulepreload" href="/app/start-91bfc576.js">
-	<link rel="modulepreload" href="/app/chunks/index-d8dea3be.js">
-	<link rel="modulepreload" href="/app/layout.svelte-18f7bce1.js">
-	<link rel="modulepreload" href="/app/pages/callback.svelte-3501007f.js">
+function gtag() {
+  dataLayer.push(arguments);
+}
+
+gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');</script>
+	<link rel="modulepreload" href="/app/start-7b7ab9f8.js">
+	<link rel="modulepreload" href="/app/chunks/index-a46a7a9d.js">
+	<link rel="modulepreload" href="/app/layout.svelte-b5895fdf.js">
+	<link rel="modulepreload" href="/app/pages/callback.svelte-1fae4a19.js">
   </head>
   <body>
     <div>
@@ -35,50 +36,29 @@ gtag('config', 'G-7FLKW9GYQ6');
 
 
 
-<main><script>const params = Object.fromEntries(new URLSearchParams(location.search).entries());
-const state = localStorage.getItem('state');
-localStorage.removeItem('state');
-if (params.state != state) {
-location.href = 'about:blank';
-}
-
-fetch('https://check-twitter-user-mhqxry7zeq-an.a.run.app', {
-method: 'POST',
-mode: 'cors',
-cache: 'no-cache',
-credentials: 'same-origin',
-headers: {
-// 'Content-Type': 'application/x-www-form-urlencoded'
-},
-redirect: 'follow',
-referrerPolicy: 'no-referrer',
-body: params.code
-}).then(response => {
-if (!response.ok) {
-localStorage.setItem('auth', 'ng');
-location.href = 'about:blank';
-}
-
-return response.text();
-}).then(result => {
-if (result === 'ok') {
-localStorage.setItem('auth', 'ok');
-localStorage.setItem('expires', Date.now() + 7 * 24 * 60 * 60 * 1000);
-location.href = 'https://rekidai-info.github.io';
-} else {
-localStorage.setItem('auth', 'ng');
-location.href = 'about:blank';
-}
-}).catch(error => {
-console.error(error);
-});
-</script></main>
+<main><script lang="ts">var params = Object.fromEntries(new URLSearchParams(location.search).entries()),
+    state = localStorage.getItem('state');
+localStorage.removeItem('state'), params.state != state && (location.href = 'about:blank'), fetch('https://check-twitter-user-mhqxry7zeq-an.a.run.app', {
+  method: 'POST',
+  mode: 'cors',
+  cache: 'no-cache',
+  credentials: 'same-origin',
+  headers: {// 'Content-Type': 'application/x-www-form-urlencoded'
+  },
+  redirect: 'follow',
+  referrerPolicy: 'no-referrer',
+  body: params.code
+}).then(a => (a.ok || (localStorage.setItem('auth', 'ng'), location.href = 'about:blank'), a.text())).then(a => {
+  'ok' === a ? (localStorage.setItem('auth', 'ok'), localStorage.setItem('expires', Date.now() + 604800000), location.href = 'https://rekidai-info.github.io') : (localStorage.setItem('auth', 'ng'), location.href = 'about:blank');
+}).catch(a => {
+  console.error(a);
+});</script></main>
 
 
-		<script type="module" data-hydrate="2d9xim">
-		import { start } from "/app/start-91bfc576.js";
+		<script type="module" data-sveltekit-hydrate="1i50e33">
+		import { start } from "/app/start-7b7ab9f8.js";
 		start({
-			target: document.querySelector('[data-hydrate="2d9xim"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="1i50e33"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -88,8 +68,8 @@ console.error(error);
 				status: 200,
 				error: null,
 				nodes: [
-					import("/app/layout.svelte-18f7bce1.js"),
-						import("/app/pages/callback.svelte-3501007f.js")
+					import("/app/layout.svelte-b5895fdf.js"),
+						import("/app/pages/callback.svelte-1fae4a19.js")
 				],
 				params: {},
 				routeId: "callback"
