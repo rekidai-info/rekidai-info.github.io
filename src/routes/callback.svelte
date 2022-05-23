@@ -14,9 +14,9 @@
 </svelte:head>
 
 <main>
-  <script>
+  <script lang="ts">
     const params = Object.fromEntries(new URLSearchParams(location.search).entries());
-    const state = localStorage.getItem('state');
+    const state: string = localStorage.getItem('state');
     localStorage.removeItem('state');
     if (params.state != state) {
       location.href = 'about:blank';

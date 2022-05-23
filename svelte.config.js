@@ -5,7 +5,30 @@ import preprocess from 'svelte-preprocess';
 const config = {
   // Consult https://github.com/sveltejs/svelte-preprocess
   // for more information about preprocessors
-  preprocess: preprocess(),
+  preprocess: preprocess({
+    babel: {
+      presets: [
+        [
+          '@babel/preset-env',
+          {
+            loose: true,
+            modules: false,
+            targets: {
+              esmodules: true
+            }
+          }
+        ],
+        [
+          'minify',
+          {
+            'builtIns': false,
+            'removeConsole': false,
+            'removeDebugger': true
+          }
+        ]
+      ]
+    }
+  }),
 
   kit: {
     adapter: adapter({

@@ -12,7 +12,7 @@
     "preserveValueImports": true,
     "isolatedModules": true,
     "resolveJsonModule": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -30,8 +30,7 @@
     "rootDirs": [
       ".",
       ".svelte-kit/types"
-    ],
-    "outDir": "./outDir"
+    ]
   },
   "include": [
     "./src/**/*.js",

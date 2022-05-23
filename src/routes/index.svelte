@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   async function getRekidai() {
     const res = await fetch(`rekidai.min.json`, {
       method: 'GET',
@@ -841,15 +841,15 @@
     <input type="hidden" name="code_challenge" value="challenge">
     <input type="hidden" name="code_challenge_method" value="plain">
   </form>
-  <script>
+  <script lang="ts">
     const submit = () => {
-      const state = Math.random().toString(36).slice(-8);
+      const state: string = Math.random().toString(36).slice(-8);
       localStorage.clear();
       localStorage.setItem('state', state);
       document.getElementById('state').value = state;
       document.getElementById('auth').submit();
     };
-    const auth = localStorage.getItem('auth');
+    const auth: string = localStorage.getItem('auth');
 
     if (auth == null) {
       submit();
@@ -884,7 +884,7 @@
       <hr>
 
       <input type="text" id="search" placeholder="Search Rekidai in KR, EN or JP" style="width: 210px;">
-      <script>
+      <script lang="ts">
         const input = document.getElementById('search');
         if (input != null) {
           const search = () => {
@@ -1303,7 +1303,7 @@
       <hr style="clear: both; display: block;">
       <a href="#top">Top</a>
 
-      <script>
+      <script lang="ts">
         if (location.hash == '#top') {
           document.querySelector('#top').scrollIntoView(true);
         } else if (location.hash == '#rekidai') {
