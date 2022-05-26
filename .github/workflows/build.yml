@@ -34,6 +34,7 @@ jobs:
       - run: |
           git config --local user.email "workflow@example.com"
           git config --local user.name "workflow"
+          git pull
           cp -f src/routes/index.svelte index.svelte.bak
           cp -f src/routes/callback.svelte callback.svelte.bak
           sed -i "s/^\s*//" src/routes/index.svelte
