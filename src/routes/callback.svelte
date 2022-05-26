@@ -1,8 +1,14 @@
 <svelte:head>
   <html lang="ja" />
   <title>IIDX SP ☆12 歴代</title>
-  <meta name="keywords" content="beatmania,IIDX,투덱,☆12,Lv12,歷代,역대,rekidai">
+  <meta name="keywords" content="beatmania,IIDX,투덱,☆12,Lv12,歷代,역대,rekidai,KONAMI,コナミ">
   <meta name="google-site-verification" content="TZhDInm_qqk0-YS_IeFxjcn6jbrmfEccgvRL8cFjm3k" />
+  <meta property="og:title" content="IIDX SP ☆12 歴代">
+  <meta property="og:site_name" content="beatmania IIDX SP Lv12 Rekidai Top Score Database">
+  <meta property="og:url" content="https://rekidai-info.github.io">
+  <meta property="og:description" content="The top scores of beatmania IIDX in the past are listed.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://rekidai-info.github.io/favicon.ico">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FLKW9GYQ6"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
