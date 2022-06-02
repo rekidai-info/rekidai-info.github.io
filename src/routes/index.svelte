@@ -738,6 +738,18 @@
     return Number(score / MAX * 100).toFixed(2) + '%';
   }
 
+  function calcRatePlus(notes, score) {
+    const MAX = notes * 2;
+
+    if (score >= MAX) {
+      return '100%';
+    }
+
+    const base = Math.floor(score / MAX);
+
+    return base + '%+' + (MAX - MAX * base);
+  }
+
   function calcRecord(notes, score) {
     const MAX = notes * 2;
 
@@ -934,6 +946,7 @@
             <th>Score</th>
             <th class="data-sort">Record</th>
             <th>Rate</th>
+            <th>Rate Plus</th>
             <th>Notes</th>
             <th>BPM</th>
             <th>Top Ver</th>
@@ -957,6 +970,7 @@
               <td style="text-align: center;">{rekidai.score}</td>
               <td style="text-align: center;" data-sort={calcMaxMinus(rekidai.notes, rekidai.score)}>{calcRecord(rekidai.notes, rekidai.score)}</td>
               <td style="text-align: center;">{calcRate(rekidai.notes, rekidai.score)}</td>
+              <td style="text-align: center;">{calcRatePlus(rekidai.notes, rekidai.score)}</td>
               {#if rekidai.textage == null}
                 <td style="text-align: center;">{rekidai.notes}</td>
               {:else}
