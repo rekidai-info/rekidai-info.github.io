@@ -745,9 +745,9 @@
       return '100%';
     }
 
-    const base = Math.floor(score / MAX);
+    const base = Math.floor(score / MAX * 100);
 
-    return base + '%+' + (MAX - MAX * base);
+    return base + '%+' + (MAX - MAX * base / 100);
   }
 
   function calcRecord(notes, score) {
