@@ -747,7 +747,7 @@
 
     const base = Math.floor(score / MAX * 100);
 
-    return base + '%+' + (MAX - MAX * base / 100);
+    return base + '%+' + Math.ceil(MAX - MAX * base / 100);
   }
 
   function calcRecord(notes, score) {
