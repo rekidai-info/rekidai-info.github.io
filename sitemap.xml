@@ -4,4 +4,16 @@
     <loc>https://rekidai-info.github.io</loc>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://rekidai-info.github.io/auth.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rekidai-info.github.io/callback.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rekidai-info.github.io/privacy.html</loc>
+    <priority>1.0</priority>
+  </url>
 </urlset>
