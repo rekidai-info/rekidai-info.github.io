@@ -863,44 +863,28 @@
 </svelte:head>
 
 <main>
-  <form id="auth" action="https://twitter.com/i/oauth2/authorize" method="GET">
-    <input type="hidden" name="response_type" value="code">
-    <input type="hidden" name="client_id" value="VjMtaWRud3o2ZjZ5WDJFQ1NCdlM6MTpjaQ">
-    <input type="hidden" name="redirect_uri" value="https://rekidai-info.github.io/callback.html">
-    <input type="hidden" name="state" id="state" value="state">
-    <input type="hidden" name="scope" value="tweet.read users.read">
-    <input type="hidden" name="code_challenge" value="challenge">
-    <input type="hidden" name="code_challenge_method" value="plain">
-  </form>
   <script lang="ts">
-    const submit = () => {
-      const state: string = Math.random().toString(36).slice(-8);
-      localStorage.clear();
-      localStorage.setItem('state', state);
-      document.getElementById('state').value = state;
-      document.getElementById('auth').submit();
-    };
     const auth: string = localStorage.getItem('auth');
 
     if (auth == null) {
-      submit();
+      location.href = 'auth.html';
     } else if (auth == 'ng' || auth !== 'ok') {
       location.href = 'about:blank';
     } else {
       const expires = localStorage.getItem('expires');
       if (expires == null) {
-        submit();
+        location.href = 'auth.html';
       } else {
         try {
           const expiresMillis = parseInt(expires, 10);
           if (isNaN(expiresMillis) || !isFinite(expiresMillis) || expiresMillis < Date.now()) {
-            submit();
+            location.href = 'auth.html';
           } else if (expiresMillis >= Date.now() + 7 * 24 * 60 * 60 * 1000) {
-            submit();
+            location.href = 'auth.html';
           }
         } catch (e) {
           console.error(e);
-          submit();
+          location.href = 'auth.html';
         }
       }
     }
