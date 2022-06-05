@@ -32,10 +32,10 @@ function gtag() {
 
 gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');</script>
 	<link rel="stylesheet" href="/app/assets/pages/index.svelte-d2d42c49.css">
-	<link rel="modulepreload" href="/app/start-bfb68800.js">
+	<link rel="modulepreload" href="/app/start-709a37f9.js">
 	<link rel="modulepreload" href="/app/chunks/index-a46a7a9d.js">
 	<link rel="modulepreload" href="/app/layout.svelte-b5895fdf.js">
-	<link rel="modulepreload" href="/app/pages/index.svelte-2e23a7bf.js">
+	<link rel="modulepreload" href="/app/pages/index.svelte-fbac4a0d.js">
   </head>
   <body>
     <div>
@@ -43,26 +43,14 @@ gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');</script>
 
 
 
-<main class="svelte-131xf4q"><form id="auth" action="https://twitter.com/i/oauth2/authorize" method="GET"><input type="hidden" name="response_type" value="code">
-<input type="hidden" name="client_id" value="VjMtaWRud3o2ZjZ5WDJFQ1NCdlM6MTpjaQ">
-<input type="hidden" name="redirect_uri" value="https://rekidai-info.github.io/callback.html">
-<input type="hidden" name="state" id="state" value="state">
-<input type="hidden" name="scope" value="tweet.read users.read">
-<input type="hidden" name="code_challenge" value="challenge">
-<input type="hidden" name="code_challenge_method" value="plain"></form>
-<script lang="ts">var submit = () => {
-  var a = Math.random().toString(36).slice(-8);
-  localStorage.clear(), localStorage.setItem('state', a), document.getElementById('state').value = a, document.getElementById('auth').submit();
-},
-    auth = localStorage.getItem('auth');
-
-if (null == auth) submit();else if ('ng' == auth || 'ok' !== auth) location.href = 'about:blank';else {
+<main class="svelte-131xf4q"><script lang="ts">var auth = localStorage.getItem('auth');
+if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== auth) location.href = 'about:blank';else {
   var expires = localStorage.getItem('expires');
-  if (null == expires) submit();else try {
+  if (null == expires) location.href = 'auth.html';else try {
     var expiresMillis = parseInt(expires, 10);
-    isNaN(expiresMillis) || !isFinite(expiresMillis) || expiresMillis < Date.now() ? submit() : expiresMillis >= Date.now() + 604800000 && submit();
+    isNaN(expiresMillis) || !isFinite(expiresMillis) || expiresMillis < Date.now() ? location.href = 'auth.html' : expiresMillis >= Date.now() + 604800000 && (location.href = 'auth.html');
   } catch (a) {
-    console.error(a), submit();
+    console.error(a), location.href = 'auth.html';
   }
 }</script>
 
@@ -70,10 +58,10 @@ if (null == auth) submit();else if ('ng' == auth || 'ok' !== auth) location.href
 </main>
 
 
-		<script type="module" data-sveltekit-hydrate="19w5aqr">
-		import { start } from "/app/start-bfb68800.js";
+		<script type="module" data-sveltekit-hydrate="izwhim">
+		import { start } from "/app/start-709a37f9.js";
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="19w5aqr"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="izwhim"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -84,7 +72,7 @@ if (null == auth) submit();else if ('ng' == auth || 'ok' !== auth) location.href
 				error: null,
 				nodes: [
 					import("/app/layout.svelte-b5895fdf.js"),
-						import("/app/pages/index.svelte-2e23a7bf.js")
+						import("/app/pages/index.svelte-fbac4a0d.js")
 				],
 				params: {},
 				routeId: ""
