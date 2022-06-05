@@ -21,7 +21,7 @@
 </svelte:head>
 
 <main>
-  <p>Twitter authentication will now be performed.<br>The following image will be displayed.<br>Please agree to the terms of use.</p>
+  <p>Twitter authentication will now be performed.<br>The following image will be displayed.<br>Please agree to the terms of use.<br>Twitter authentication is required <b>once a week</b>.</p>
   <form id="auth" action="https://twitter.com/i/oauth2/authorize" method="GET">
     <input type="hidden" name="response_type" value="code">
     <input type="hidden" name="client_id" value="VjMtaWRud3o2ZjZ5WDJFQ1NCdlM6MTpjaQ">
