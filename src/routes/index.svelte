@@ -866,7 +866,8 @@
   <script lang="ts">
     const auth: string = localStorage.getItem('auth');
 
-    if (auth == null) {
+    if (navigator.userAgent.indexOf('bot') >= 0 || navigator.userAgent.indexOf('Bot') >= 0 || navigator.userAgent.indexOf('Yeti') >= 0 || navigator.userAgent.indexOf('Slurp') >= 0 || navigator.userAgent.indexOf('Baidu') >= 0) {
+    } else if (auth == null) {
       location.href = 'auth.html';
     } else if (auth == 'ng' || auth !== 'ok') {
       location.href = 'about:blank';
