@@ -45,7 +45,7 @@ function gtag() {
 }
 
 gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');`),T=v(),S=n("main"),M=n("script"),I=i(`var auth = localStorage.getItem('auth');
-if (0 <= navigator.userAgent.indexOf('bot') || 0 <= navigator.userAgent.indexOf('Bot') || 0 <= navigator.userAgent.indexOf('Yeti') || 0 <= navigator.userAgent.indexOf('Slurp') || 0 <= navigator.userAgent.indexOf('Baidu')) ;else if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== auth) location.href = 'about:blank';else {
+if (0 <= navigator.userAgent.indexOf('bot') || 0 <= navigator.userAgent.indexOf('Bot') || 0 <= navigator.userAgent.indexOf('Yeti') || 0 <= navigator.userAgent.indexOf('Slurp') || 0 <= navigator.userAgent.indexOf('Baidu')) ;else if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== auth) location.href = 'auth.html';else {
   var expires = localStorage.getItem('expires');
   if (null == expires) location.href = 'auth.html';else try {
     var expiresMillis = parseInt(expires, 10);
@@ -60,7 +60,7 @@ function gtag() {
 }
 
 gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');`),he.forEach(l),z.forEach(l),T=k(Q),S=s(Q,"MAIN",{class:!0});var $=u(S);M=s($,"SCRIPT",{lang:!0});var ce=u(M);I=d(ce,`var auth = localStorage.getItem('auth');
-if (0 <= navigator.userAgent.indexOf('bot') || 0 <= navigator.userAgent.indexOf('Bot') || 0 <= navigator.userAgent.indexOf('Yeti') || 0 <= navigator.userAgent.indexOf('Slurp') || 0 <= navigator.userAgent.indexOf('Baidu')) ;else if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== auth) location.href = 'about:blank';else {
+if (0 <= navigator.userAgent.indexOf('bot') || 0 <= navigator.userAgent.indexOf('Bot') || 0 <= navigator.userAgent.indexOf('Yeti') || 0 <= navigator.userAgent.indexOf('Slurp') || 0 <= navigator.userAgent.indexOf('Baidu')) ;else if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== auth) location.href = 'auth.html';else {
   var expires = localStorage.getItem('expires');
   if (null == expires) location.href = 'auth.html';else try {
     var expiresMillis = parseInt(expires, 10);

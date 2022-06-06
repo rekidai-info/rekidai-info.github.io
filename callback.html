@@ -31,10 +31,10 @@ function gtag() {
 }
 
 gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');</script>
-	<link rel="modulepreload" href="/app/start-48faa197.js">
+	<link rel="modulepreload" href="/app/start-f3f77473.js">
 	<link rel="modulepreload" href="/app/chunks/index-a46a7a9d.js">
 	<link rel="modulepreload" href="/app/layout.svelte-b5895fdf.js">
-	<link rel="modulepreload" href="/app/pages/callback.svelte-1d3839b2.js">
+	<link rel="modulepreload" href="/app/pages/callback.svelte-f58e4aa9.js">
   </head>
   <body>
     <div>
@@ -44,7 +44,7 @@ gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');</script>
 
 <main><script lang="ts">var params = Object.fromEntries(new URLSearchParams(location.search).entries()),
     state = localStorage.getItem('state');
-localStorage.removeItem('state'), params.state != state && (location.href = 'about:blank'), fetch('https://check-twitter-user-mhqxry7zeq-an.a.run.app', {
+localStorage.removeItem('state'), params.state != state && (location.href = 'auth.html'), fetch('https://check-twitter-user-mhqxry7zeq-an.a.run.app', {
   method: 'POST',
   mode: 'cors',
   cache: 'no-cache',
@@ -54,17 +54,17 @@ localStorage.removeItem('state'), params.state != state && (location.href = 'abo
   redirect: 'follow',
   referrerPolicy: 'no-referrer',
   body: params.code
-}).then(a => (a.ok || (localStorage.setItem('auth', 'ng'), location.href = 'about:blank'), a.text())).then(a => {
-  'ok' === a ? (localStorage.setItem('auth', 'ok'), localStorage.setItem('expires', Date.now() + 604800000), location.href = 'https://rekidai-info.github.io') : (localStorage.setItem('auth', 'ng'), location.href = 'about:blank');
+}).then(a => (a.ok || (localStorage.setItem('auth', 'ng'), location.href = 'auth.html'), a.text())).then(a => {
+  'ok' === a ? (localStorage.setItem('auth', 'ok'), localStorage.setItem('expires', Date.now() + 604800000), location.href = 'https://rekidai-info.github.io') : (localStorage.setItem('auth', 'ng'), location.href = 'auth.html');
 }).catch(a => {
   console.error(a);
 });</script></main>
 
 
-		<script type="module" data-sveltekit-hydrate="1i50e33">
-		import { start } from "/app/start-48faa197.js";
+		<script type="module" data-sveltekit-hydrate="tuzn6x">
+		import { start } from "/app/start-f3f77473.js";
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="1i50e33"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="tuzn6x"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -75,7 +75,7 @@ localStorage.removeItem('state'), params.state != state && (location.href = 'abo
 				error: null,
 				nodes: [
 					import("/app/layout.svelte-b5895fdf.js"),
-						import("/app/pages/callback.svelte-1d3839b2.js")
+						import("/app/pages/callback.svelte-f58e4aa9.js")
 				],
 				params: {},
 				routeId: "callback"
