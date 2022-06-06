@@ -870,7 +870,7 @@
     } else if (auth == null) {
       location.href = 'auth.html';
     } else if (auth == 'ng' || auth !== 'ok') {
-      location.href = 'about:blank';
+      location.href = 'auth.html';
     } else {
       const expires = localStorage.getItem('expires');
       if (expires == null) {

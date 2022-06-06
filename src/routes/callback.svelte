@@ -26,7 +26,7 @@
     const state: string = localStorage.getItem('state');
     localStorage.removeItem('state');
     if (params.state != state) {
-      location.href = 'about:blank';
+      location.href = 'auth.html';
     }
 
     fetch('https://check-twitter-user-mhqxry7zeq-an.a.run.app', {
@@ -43,7 +43,7 @@
     }).then(response => {
       if (!response.ok) {
         localStorage.setItem('auth', 'ng');
-        location.href = 'about:blank';
+        location.href = 'auth.html';
       }
 
       return response.text();
@@ -54,7 +54,7 @@
         location.href = 'https://rekidai-info.github.io';
       } else {
         localStorage.setItem('auth', 'ng');
-        location.href = 'about:blank';
+        location.href = 'auth.html';
       }
     }).catch(error => {
       console.error(error);
