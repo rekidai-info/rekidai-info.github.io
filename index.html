@@ -32,10 +32,10 @@ function gtag() {
 
 gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');</script>
 	<link rel="stylesheet" href="/app/assets/pages/index.svelte-d2d42c49.css">
-	<link rel="modulepreload" href="/app/start-7f01a14a.js">
+	<link rel="modulepreload" href="/app/start-48faa197.js">
 	<link rel="modulepreload" href="/app/chunks/index-a46a7a9d.js">
 	<link rel="modulepreload" href="/app/layout.svelte-b5895fdf.js">
-	<link rel="modulepreload" href="/app/pages/index.svelte-fbac4a0d.js">
+	<link rel="modulepreload" href="/app/pages/index.svelte-a877746d.js">
   </head>
   <body>
     <div>
@@ -44,7 +44,7 @@ gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');</script>
 
 
 <main class="svelte-131xf4q"><script lang="ts">var auth = localStorage.getItem('auth');
-if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== auth) location.href = 'about:blank';else {
+if (0 <= navigator.userAgent.indexOf('bot') || 0 <= navigator.userAgent.indexOf('Bot') || 0 <= navigator.userAgent.indexOf('Yeti') || 0 <= navigator.userAgent.indexOf('Slurp') || 0 <= navigator.userAgent.indexOf('Baidu')) ;else if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== auth) location.href = 'about:blank';else {
   var expires = localStorage.getItem('expires');
   if (null == expires) location.href = 'auth.html';else try {
     var expiresMillis = parseInt(expires, 10);
@@ -58,10 +58,10 @@ if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== 
 </main>
 
 
-		<script type="module" data-sveltekit-hydrate="izwhim">
-		import { start } from "/app/start-7f01a14a.js";
+		<script type="module" data-sveltekit-hydrate="etk3ae">
+		import { start } from "/app/start-48faa197.js";
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="izwhim"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="etk3ae"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -72,7 +72,7 @@ if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== 
 				error: null,
 				nodes: [
 					import("/app/layout.svelte-b5895fdf.js"),
-						import("/app/pages/index.svelte-fbac4a0d.js")
+						import("/app/pages/index.svelte-a877746d.js")
 				],
 				params: {},
 				routeId: ""
