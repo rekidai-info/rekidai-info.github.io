@@ -32,10 +32,10 @@ function gtag() {
 
 gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');</script>
 	<link rel="stylesheet" href="/app/assets/pages/index.svelte-d2d42c49.css">
-	<link rel="modulepreload" href="/app/start-f3f77473.js">
+	<link rel="modulepreload" href="/app/start-9f791fc0.js">
 	<link rel="modulepreload" href="/app/chunks/index-a46a7a9d.js">
 	<link rel="modulepreload" href="/app/layout.svelte-b5895fdf.js">
-	<link rel="modulepreload" href="/app/pages/index.svelte-d67816de.js">
+	<link rel="modulepreload" href="/app/pages/index.svelte-28c452f5.js">
   </head>
   <body>
     <div>
@@ -44,7 +44,7 @@ gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');</script>
 
 
 <main class="svelte-131xf4q"><script lang="ts">var auth = localStorage.getItem('auth');
-if (0 <= navigator.userAgent.indexOf('bot') || 0 <= navigator.userAgent.indexOf('Bot') || 0 <= navigator.userAgent.indexOf('Yeti') || 0 <= navigator.userAgent.indexOf('Slurp') || 0 <= navigator.userAgent.indexOf('Baidu')) ;else if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== auth) location.href = 'auth.html';else {
+if (null != navigator.userAgent && (0 <= navigator.userAgent.indexOf('bot') || 0 <= navigator.userAgent.indexOf('Bot') || 0 <= navigator.userAgent.indexOf('Yeti') || 0 <= navigator.userAgent.indexOf('Slurp') || 0 <= navigator.userAgent.indexOf('Baidu'))) ;else if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== auth) location.href = 'auth.html';else {
   var expires = localStorage.getItem('expires');
   if (null == expires) location.href = 'auth.html';else try {
     var expiresMillis = parseInt(expires, 10);
@@ -58,10 +58,10 @@ if (0 <= navigator.userAgent.indexOf('bot') || 0 <= navigator.userAgent.indexOf(
 </main>
 
 
-		<script type="module" data-sveltekit-hydrate="1viye4g">
-		import { start } from "/app/start-f3f77473.js";
+		<script type="module" data-sveltekit-hydrate="j11j1b">
+		import { start } from "/app/start-9f791fc0.js";
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="1viye4g"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="j11j1b"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -72,7 +72,7 @@ if (0 <= navigator.userAgent.indexOf('bot') || 0 <= navigator.userAgent.indexOf(
 				error: null,
 				nodes: [
 					import("/app/layout.svelte-b5895fdf.js"),
-						import("/app/pages/index.svelte-d67816de.js")
+						import("/app/pages/index.svelte-28c452f5.js")
 				],
 				params: {},
 				routeId: ""
