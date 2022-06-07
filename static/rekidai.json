@@ -5943,7 +5943,6 @@
   {
     "version": "24[SINO]",
     "music": "#MAGiCVLGiRL_TRVP_B3VTZ",
-    "musicKR": null,
     "notes": 1753,
     "bpm": [
       100
@@ -5961,7 +5960,6 @@
   {
     "version": "28[BIS]",
     "music": "-65℃",
-    "musicKR": null,
     "notes": 1912,
     "bpm": [
       186
@@ -5979,7 +5977,6 @@
   {
     "version": "23[cop]",
     "music": "199024club -Re:BounceKiller-",
-    "musicKR": null,
     "notes": 1260,
     "bpm": [
       143
@@ -6015,7 +6012,6 @@
   {
     "version": "25[CB]",
     "music": "255",
-    "musicKR": null,
     "notes": 1676,
     "bpm": [
       255
@@ -6050,7 +6046,6 @@
   {
     "version": "28[BIS]",
     "music": "3!dolon forc3",
-    "musicKR": null,
     "notes": 1513,
     "bpm": [
       96,
