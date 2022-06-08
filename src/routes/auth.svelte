@@ -2,7 +2,7 @@
   <html lang="ja" />
   <title>IIDX SP ☆12 歴代</title>
   <meta name="description" content="IIDX SP ☆12 歴代" />
-  <meta name="keywords" content="beatmania,IIDX,투덱,☆12,Lv12,歷代,역대,rekidai,KONAMI,コナミ">
+  <meta name="keywords" content="beatmania,IIDX,弐寺,투덱,☆12,Lv12,歷代,역대,rekidai,KONAMI,コナミ">
   <meta name="google-site-verification" content="TZhDInm_qqk0-YS_IeFxjcn6jbrmfEccgvRL8cFjm3k" />
   <meta property="og:title" content="IIDX SP ☆12 歴代">
   <meta property="og:site_name" content="beatmania IIDX SP Lv12 Rekidai Top Score Database">
@@ -21,7 +21,7 @@
 </svelte:head>
 
 <main>
-  <p>Twitter authentication will now be performed.<br>The following image will be displayed.<br>Please agree to the terms of use.<br>Twitter authentication is required <b>once a week</b>.</p>
+  <p>To view beatmania IIDX SP ☆12(Lv12) rekidai scores, Twitter authentication is required.<br>The following image will be displayed.<br>Please agree to the terms of use.<br>Twitter authentication is required <b>once a week</b>.<br>beatmania IIDX SP ☆12(Lv12) の歴代スコアを見るためには、Twitter 認証が必要です。<br>Twitter の仕様上、アプリケーションに「ツイート（非公開を含む）」と「アカウント（非公開を含む）」の参照権限が付与されていますが、Twitter ID の取得しか行いません。<br>Twitter 認証は週に一度必要です。</p>
   <form id="auth" action="https://twitter.com/i/oauth2/authorize" method="GET">
     <input type="hidden" name="response_type" value="code">
     <input type="hidden" name="client_id" value="VjMtaWRud3o2ZjZ5WDJFQ1NCdlM6MTpjaQ">
