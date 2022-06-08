@@ -842,7 +842,7 @@
 
 <svelte:head>
   <html lang="ja" />
-  <title>IIDX SP ☆12(Lv12) 歴代</title>
+  <title>beatmania IIDX SP ☆12(Lv12) 歴代</title>
   <meta name="description" content="IIDX SP ☆12 歴代" />
   <meta name="keywords" content="beatmania,IIDX,弐寺,투덱,☆12,Lv12,歷代,역대,rekidai,KONAMI,コナミ">
   <meta name="google-site-verification" content="TZhDInm_qqk0-YS_IeFxjcn6jbrmfEccgvRL8cFjm3k" />
