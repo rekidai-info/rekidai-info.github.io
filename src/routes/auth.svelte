@@ -21,7 +21,7 @@
 </svelte:head>
 
 <main>
-  <p>To view beatmania IIDX SP ☆12(Lv12) rekidai scores, Twitter authentication is required.<br>The following image will be displayed.<br>Please agree to the terms of use.<br>Twitter authentication is required <b>once a week</b>.<br><br>beatmania IIDX SP ☆12(Lv12) の歴代スコアを見るためには、Twitter 認証が必要です。<br>Twitter の仕様上、アプリケーションに「ツイート（非公開を含む）」と「アカウント（非公開を含む）」の参照権限が付与されていますが、Twitter ID の取得しか行いません。<br>Twitter 認証は<b>週に一度</b>必要です。</p>
+  <p>To view beatmania IIDX SP ☆12(Lv12) rekidai scores, Twitter authentication is required.<br>The following image will be displayed.<br>Please agree to the terms of use.<br>Twitter authentication is required <b>once a week</b>.<br><br>beatmania IIDX SP ☆12(Lv12) の歴代スコアを見るためには、Twitter 認証が必要です。<br>Twitter の仕様上、アプリケーションに「ツイート（非公開を含む）」と「アカウント（非公開を含む）」の「参照権限（読み取りだけができる権限です）」が付与されていますが、Twitter ID の取得しか行いません。<br>Twitter 認証は<b>週に一度</b>必要です。</p>
   <form id="auth" action="https://twitter.com/i/oauth2/authorize" method="GET">
     <input type="hidden" name="response_type" value="code">
     <input type="hidden" name="client_id" value="VjMtaWRud3o2ZjZ5WDJFQ1NCdlM6MTpjaQ">
