@@ -1126,11 +1126,12 @@
     ],
     "textage": "https://textage.cc/score/25/dthzigoq.html?2AC20",
     "musicMovie": "https://www.youtube.com/watch?v=GRFXfqqaTXM",
-    "score": 4120,
-    "scoreResult": null,
-    "topVersion": "28[BIS]",
-    "player": "U*TAKA",
-    "date": "2020-11-**"
+    "peak": true,
+    "score": 4122,
+    "scoreResult": "https://www.youtube.com/watch?v=MtrrWdx8wj4&t=10229s",
+    "topVersion": "29[Cast]",
+    "player": "KKM*",
+    "date": "2022-06-09"
   },
   {
     "version": "22[PEN]",
@@ -3073,6 +3074,7 @@
     "textage": "https://textage.cc/score/22/monopole.html?2AC20",
     "musicMovie": "https://www.youtube.com/watch?v=3OSYsgNCRKQ",
     "charge": true,
+    "peak": true,
     "score": 3425,
     "scoreResult": null,
     "topVersion": "27[HV]",
@@ -3683,11 +3685,11 @@
     "textage": "https://textage.cc/score/20/proof_of.html?2AC20",
     "musicMovie": "https://www.youtube.com/watch?v=OwtNmxJBFUI",
     "peak": true,
-    "score": 3289,
-    "scoreResult": "https://twitter.com/__CHEPY/status/1493138722723794944",
+    "score": 3297,
+    "scoreResult": "https://www.youtube.com/watch?v=MtrrWdx8wj4&t=7364s",
     "topVersion": "29[Cast]",
-    "player": "CHEPY",
-    "date": "2022-2-14"
+    "player": "KKM*",
+    "date": "2022-06-09"
   },
   {
     "version": "21[SPA]",
@@ -6366,11 +6368,11 @@
     "charge": true,
     "peak": true,
     "superCharge": true,
-    "score": 3806,
-    "scoreResult": "https://www.youtube.com/watch?v=QcjPZHvGms8",
+    "score": 3810,
+    "scoreResult": "https://www.youtube.com/watch?v=MtrrWdx8wj4&t=2854s",
     "topVersion": "29[Cast]",
-    "player": "CHEPY",
-    "date": "2021-12-19"
+    "player": "KKM*",
+    "date": "2022-06-09"
   },
   {
     "version": "23[cop]",
@@ -6608,12 +6610,13 @@
     "textage": "https://textage.cc/score/22/_kyoumei.html?2AC20",
     "musicMovie": "https://www.youtube.com/watch?v=sy5QVPgV7XE",
     "charge": true,
+    "peak": true,
     "superCharge": true,
-    "score": 3964,
-    "scoreResult": null,
+    "score": 3968,
+    "scoreResult": "https://www.youtube.com/watch?v=MtrrWdx8wj4&t=14355s",
     "topVersion": "29[Cast]",
-    "player": "U*TAKA",
-    "date": "2022-03-12"
+    "player": "KKM*",
+    "date": "2022-06-09"
   },
   {
     "version": "28[BIS]",
