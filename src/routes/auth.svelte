@@ -35,7 +35,7 @@
   <img src="auth.png" alt="Twitter authentication"><br>
   <script lang="ts">
     document.getElementById('auth').addEventListener('submit', () => {
-      if (navigator.userAgent != null && navigator.userAgent.indexOf('Mobi') >= 0 && navigator.userAgent.indexOf('Chrome') >= 0) {
+      if (navigator.userAgent != null && navigator.userAgent.indexOf('Mobi') >= 0 && (navigator.userAgent.indexOf('Chrome') >= 0 || navigator.userAgent.indexOf('CriOS') >= 0)) {
         document.getElementById('redirect').value = 'googlechromes://rekidai-info.github.io/callback.html';
       }
 
