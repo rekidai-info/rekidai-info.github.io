@@ -27,7 +27,7 @@
     localStorage.removeItem('state');
     if (state == null) {
       localStorage.setItem('state', 'error');
-      window.open(location.href, '_system', 'noreferrer');
+      window.open(location.href, '_system', 'hidden=yes,location=no');
     }
     if (params.state == 'error') {
       location.href = 'auth.html';
