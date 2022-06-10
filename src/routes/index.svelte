@@ -722,6 +722,30 @@
     visible = true;
     list = jsonArray;
     error = null;
+
+    list.sort((lhs, rhs) => {
+      if (lhs.date == null && rhs.date == null) {
+        return 0;
+      }
+      if (lhs.date == null) {
+        return +1;
+      }
+      if (rhs.date == null) {
+        return -1;
+      }
+
+      const repLhs = lhs.date.replaceAll('*', '0');
+      const repRhs = rhs.date.replaceAll('*', '0');
+
+      if (repLhs < repRhs) {
+        return +1;
+      }
+      if (repLhs > repRhs) {
+        return -1;
+      }
+
+      return lhs.music.localeCompare(rhs.music);
+    });
   }).catch(e => {
     visible = true;
     list = [];
@@ -940,20 +964,20 @@
           <tr>
             <th>Music</th>
             <th>Player</th>
-            <th>Score</th>
+            <th class="order-by-desc">Score</th>
             <th class="data-sort">Record</th>
-            <th>Rate</th>
-            <th>Rate Plus</th>
-            <th>Rate Minus</th>
-            <th>Notes</th>
-            <th>BPM</th>
+            <th class="order-by-desc">Rate</th>
+            <th class="order-by-desc">Rate Plus</th>
+            <th class="order-by-desc">Rate Minus</th>
+            <th class="order-by-desc">Notes</th>
+            <th class="order-by-desc">BPM</th>
             <th>Top Ver</th>
             <th>Charge</th>
             <th>Peak</th>
             <th>Scratch</th>
             <th>Sof-Lan</th>
             <th>Version</th>
-            <th>Date</th>
+            <th class="order-by-desc">Date</th>
           </tr>
         </thead>
         <tbody>
