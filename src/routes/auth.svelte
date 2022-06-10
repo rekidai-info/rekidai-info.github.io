@@ -25,7 +25,7 @@
   <form id="auth" action="https://twitter.com/i/oauth2/authorize" method="GET">
     <input type="hidden" name="response_type" value="code">
     <input type="hidden" name="client_id" value="VjMtaWRud3o2ZjZ5WDJFQ1NCdlM6MTpjaQ">
-    <input type="hidden" name="redirect_uri" value="https://rekidai-info.github.io/callback.html">
+    <input type="hidden" name="redirect_uri" id="redirect" value="https://rekidai-info.github.io/callback.html">
     <input type="hidden" name="state" id="state" value="state">
     <input type="hidden" name="scope" value="tweet.read users.read">
     <input type="hidden" name="code_challenge" value="challenge">
@@ -35,6 +35,10 @@
   <img src="auth.png" alt="Twitter authentication"><br>
   <script lang="ts">
     document.getElementById('auth').addEventListener('submit', () => {
+      if (navigator.userAgent != null && navigator.userAgent.indexOf('Mobi') >= 0 && navigator.userAgent.indexOf('Chrome') >= 0) {
+        document.getElementById('redirect').value = 'googlechromes://rekidai-info.github.io/callback.html';
+      }
+
       const state: string = Math.random().toString(36).slice(-8);
       localStorage.clear();
       localStorage.setItem('state', state);
