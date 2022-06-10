@@ -25,6 +25,13 @@
     const params = Object.fromEntries(new URLSearchParams(location.search).entries());
     const state: string = localStorage.getItem('state');
     localStorage.removeItem('state');
+    if (state == null) {
+      localStorage.setItem('state', 'error');
+      window.open(location.href, '_blank', 'noreferrer');
+    }
+    if (params.state == 'error') {
+      location.href = 'auth.html';
+    }
     if (params.state != state) {
       location.href = 'auth.html';
     }
