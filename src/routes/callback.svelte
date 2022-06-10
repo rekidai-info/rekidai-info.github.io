@@ -33,7 +33,8 @@
       location.href = 'auth.html';
     }
     if (params.state != state) {
-      location.href = 'auth.html';
+      localStorage.setItem('state', 'error');
+      window.open(location.href, '_system', 'hidden=yes,location=no');
     }
 
     fetch('https://check-twitter-user-mhqxry7zeq-an.a.run.app', {
