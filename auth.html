@@ -31,10 +31,10 @@ function gtag() {
 }
 
 gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');</script>
-	<link rel="modulepreload" href="/app/start-f07e1ece.js">
+	<link rel="modulepreload" href="/app/start-f681ec4b.js">
 	<link rel="modulepreload" href="/app/chunks/index-a46a7a9d.js">
 	<link rel="modulepreload" href="/app/layout.svelte-b5895fdf.js">
-	<link rel="modulepreload" href="/app/pages/auth.svelte-866ceda2.js">
+	<link rel="modulepreload" href="/app/pages/auth.svelte-28ee293d.js">
   </head>
   <body>
     <div>
@@ -45,7 +45,7 @@ gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');</script>
 <main><p>To view beatmania IIDX SP ☆12(Lv12) rekidai scores, Twitter authentication is required.<br>The following image will be displayed.<br>Please agree to the terms of use.<br>Twitter authentication is required <b>once a week</b>.<br><br>beatmania IIDX SP ☆12(Lv12) の歴代スコアを見るためには、Twitter 認証が必要です。<br>Twitter の仕様上、アプリケーションに「ツイート（非公開を含む）」と「アカウント（非公開を含む）」の「参照権限（読み取りだけができる権限です）」が付与されていますが、Twitter ID の取得しか行いません。<br>Twitter 認証は<b>週に一度</b>必要です。</p>
   <form id="auth" action="https://twitter.com/i/oauth2/authorize" method="GET"><input type="hidden" name="response_type" value="code">
     <input type="hidden" name="client_id" value="VjMtaWRud3o2ZjZ5WDJFQ1NCdlM6MTpjaQ">
-    <input type="hidden" name="redirect_uri" value="https://rekidai-info.github.io/callback.html">
+    <input type="hidden" name="redirect_uri" id="redirect" value="https://rekidai-info.github.io/callback.html">
     <input type="hidden" name="state" id="state" value="state">
     <input type="hidden" name="scope" value="tweet.read users.read">
     <input type="hidden" name="code_challenge" value="challenge">
@@ -54,15 +54,16 @@ gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');</script>
   </form><br>
   <img src="auth.png" alt="Twitter authentication"><br>
   <script lang="ts">document.getElementById('auth').addEventListener('submit', () => {
+  null != navigator.userAgent && 0 <= navigator.userAgent.indexOf('Mobi') && 0 <= navigator.userAgent.indexOf('Chrome') && (document.getElementById('redirect').value = 'googlechromes://rekidai-info.github.io/callback.html');
   var a = Math.random().toString(36).slice(-8);
   localStorage.clear(), localStorage.setItem('state', a), document.getElementById('state').value = a;
 });</script></main>
 
 
-		<script type="module" data-sveltekit-hydrate="ch0k66">
-		import { start } from "/app/start-f07e1ece.js";
+		<script type="module" data-sveltekit-hydrate="k4rngj">
+		import { start } from "/app/start-f681ec4b.js";
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="ch0k66"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="k4rngj"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -73,7 +74,7 @@ gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');</script>
 				error: null,
 				nodes: [
 					import("/app/layout.svelte-b5895fdf.js"),
-						import("/app/pages/auth.svelte-866ceda2.js")
+						import("/app/pages/auth.svelte-28ee293d.js")
 				],
 				params: {},
 				routeId: "auth"
