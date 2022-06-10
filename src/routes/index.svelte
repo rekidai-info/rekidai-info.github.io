@@ -851,7 +851,7 @@
   <meta property="og:url" content="https://rekidai-info.github.io">
   <meta property="og:description" content="The top scores of beatmania IIDX in the past are listed.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://rekidai-info.github.io/favicon.ico">
+  <meta property="og:image" content="ogimage.jpg">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FLKW9GYQ6"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
