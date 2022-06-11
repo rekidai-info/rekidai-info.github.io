@@ -114,31 +114,10 @@ function tableSortJs(domDocumentWindow = document) {
       }
 
       function naturalSortAescending(a, b) {
-        if (a == null && b == null) {
-          return 0;
-        }
-        if (a == '' && b == '') {
-          return 0;
-        }
-
-        if (a == null) {
-          return +1;
-        }
-        if (a == '') {
-          return +1;
-        }
-
-        if (b == null) {
-          return -1;
-        }
-        if (b == '') {
-          return -1;
-        }
-
         if (a.includes("X!Y!Z!#")) {
-          return 1;
-        } else if (b.includes("X!Y!Z!#")) {
           return -1;
+        } else if (b.includes("X!Y!Z!#")) {
+          return +1;
         } else {
           return a.replaceAll('**', '00').localeCompare(
             b.replaceAll('**', '00'),
