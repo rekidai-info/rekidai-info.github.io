@@ -744,7 +744,7 @@
         return -1;
       }
 
-      return lhs.music.localeCompare(rhs.music);
+      return lhs.music.localeCompare(rhs.music, navigator.languages[0] || navigator.language, { numeric: true, ignorePunctuation: true });
     });
   }).catch(e => {
     visible = true;

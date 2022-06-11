@@ -119,8 +119,17 @@ function tableSortJs(domDocumentWindow = document) {
         } else if (b.includes("X!Y!Z!#")) {
           return -1;
         } else {
-          return a.localeCompare(
-            b,
+          if (a == null && b == null) {
+            return 0;
+          }
+          if (a == null) {
+            return +1;
+          }
+          if (b == null) {
+            return -1;
+          }
+          return a.replaceAll('**', '00').localeCompare(
+            b.replaceAll('**', '00'),
             navigator.languages[0] || navigator.language,
             { numeric: true, ignorePunctuation: true }
           );
