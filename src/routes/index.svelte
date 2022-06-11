@@ -977,7 +977,7 @@
             <th>Scratch</th>
             <th>Sof-Lan</th>
             <th>Version</th>
-            <th class="order-by-desc">Date</th>
+            <th>Date</th>
           </tr>
         </thead>
         <tbody>
