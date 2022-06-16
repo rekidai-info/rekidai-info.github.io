@@ -21,24 +21,16 @@
 </svelte:head>
 
 <main>
-  <p>To view beatmania IIDX SP ☆12(Lv12) rekidai scores, Twitter authentication is required.<br>The following image will be displayed.<br>Please agree to the terms of use.<br>Twitter authentication is required <b>once a week</b>.<br><br>beatmania IIDX SP ☆12(Lv12) の歴代スコアを見るためには、Twitter 認証が必要です。<br>Twitter の仕様上、アプリケーションに「ツイート（非公開を含む）」と「アカウント（非公開を含む）」の「参照権限（読み取りだけができる権限です）」が付与されていますが、Twitter ID の取得しか行いません。<br>Twitter 認証は<b>週に一度</b>必要です。</p>
-  <form id="auth" action="https://twitter.com/i/oauth2/authorize" method="GET">
-    <input type="hidden" name="response_type" value="code">
-    <input type="hidden" name="client_id" value="VjMtaWRud3o2ZjZ5WDJFQ1NCdlM6MTpjaQ">
+  <p>To view beatmania IIDX SP ☆12(Lv12) rekidai scores, GitHub authentication is required.<br>Please agree to the terms of use.<br>GitHub authentication is required <b>once a week</b>.<br><br>beatmania IIDX SP ☆12(Lv12) の歴代スコアを見るためには、GitHub 認証が必要です。<br>GitHub 認証は<b>週に一度</b>必要です。</p>
+  <form id="auth" action="https://github.com/login/oauth/authorize" method="GET">
+    <input type="hidden" name="client_id" value="318d31204d4bea1c1c01">
     <input type="hidden" name="redirect_uri" id="redirect" value="https://rekidai-info.github.io/callback.html">
+    <input type="hidden" name="scope" value="">
     <input type="hidden" name="state" id="state" value="state">
-    <input type="hidden" name="scope" value="tweet.read users.read">
-    <input type="hidden" name="code_challenge" value="challenge">
-    <input type="hidden" name="code_challenge_method" value="plain">
     <input type="submit" value="Authenticate" style="background-color: #00527A; border-radius: 8px; font-size: 1.1em; padding: 4px;">
   </form><br>
-  <img src="auth.png" alt="Twitter authentication"><br>
   <script lang="ts">
     document.getElementById('auth').addEventListener('submit', () => {
-      if (navigator.userAgent != null && navigator.userAgent.indexOf('Mobi') >= 0 && navigator.userAgent.indexOf('CriOS') >= 0) {
-        document.getElementById('redirect').value = 'googlechromes://rekidai-info.github.io/callback.html';
-      }
-
       const state: string = Math.random().toString(36).slice(-8);
       localStorage.clear();
       localStorage.setItem('state', state);

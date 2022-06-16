@@ -37,7 +37,7 @@
       window.open(location.href, '_system', 'hidden=yes,location=no');
     }
 
-    fetch('https://check-twitter-user-mhqxry7zeq-an.a.run.app', {
+    fetch('https://check-user-mhqxry7zeq-an.a.run.app', {
       method: 'POST',
       mode: 'cors',
       cache: 'no-cache',
