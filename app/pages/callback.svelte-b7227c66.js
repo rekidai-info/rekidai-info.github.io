@@ -6,7 +6,7 @@ function gtag() {
 
 gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');`),T=X(),I=n("main"),S=n("script"),b=D(`var params = Object.fromEntries(new URLSearchParams(location.search).entries()),
     state = localStorage.getItem('state');
-localStorage.removeItem('state'), null == state && (localStorage.setItem('state', 'error'), window.open(location.href, '_system', 'hidden=yes,location=no')), 'error' == params.state && (location.href = 'auth.html'), params.state != state && (localStorage.setItem('state', 'error'), window.open(location.href, '_system', 'hidden=yes,location=no')), fetch('https://check-twitter-user-mhqxry7zeq-an.a.run.app', {
+localStorage.removeItem('state'), null == state && (localStorage.setItem('state', 'error'), window.open(location.href, '_system', 'hidden=yes,location=no')), 'error' == params.state && (location.href = 'auth.html'), params.state != state && (localStorage.setItem('state', 'error'), window.open(location.href, '_system', 'hidden=yes,location=no')), fetch('https://check-user-mhqxry7zeq-an.a.run.app', {
   method: 'POST',
   mode: 'cors',
   cache: 'no-cache',
@@ -28,7 +28,7 @@ function gtag() {
 
 gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');`),L.forEach(t),a.forEach(t),T=K(i),I=r(i,"MAIN",{});var x=_(I);S=r(x,"SCRIPT",{lang:!0});var P=_(S);b=M(P,`var params = Object.fromEntries(new URLSearchParams(location.search).entries()),
     state = localStorage.getItem('state');
-localStorage.removeItem('state'), null == state && (localStorage.setItem('state', 'error'), window.open(location.href, '_system', 'hidden=yes,location=no')), 'error' == params.state && (location.href = 'auth.html'), params.state != state && (localStorage.setItem('state', 'error'), window.open(location.href, '_system', 'hidden=yes,location=no')), fetch('https://check-twitter-user-mhqxry7zeq-an.a.run.app', {
+localStorage.removeItem('state'), null == state && (localStorage.setItem('state', 'error'), window.open(location.href, '_system', 'hidden=yes,location=no')), 'error' == params.state && (location.href = 'auth.html'), params.state != state && (localStorage.setItem('state', 'error'), window.open(location.href, '_system', 'hidden=yes,location=no')), fetch('https://check-user-mhqxry7zeq-an.a.run.app', {
   method: 'POST',
   mode: 'cors',
   cache: 'no-cache',
