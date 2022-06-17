@@ -21,7 +21,7 @@
 </svelte:head>
 
 <main>
-  <p>To view beatmania IIDX SP ☆12(Lv12) rekidai scores, GitHub authentication is required.<br>Please agree to the terms of use.<br><b>Those who do not contribute to updating rekidai.json for a certain period of time will fail authentication.</b><br>GitHub authentication is required <b>once a week</b>.<br><br>beatmania IIDX SP ☆12(Lv12) の歴代スコアを見るためには、GitHub 認証が必要です。<br><b>一定期間 rekidai.json の更新に貢献しない方は認証が失敗します。</b><br>GitHub 認証は<b>週に一度</b>必要です。</p>
+  <p>To view beatmania IIDX SP ☆12(Lv12) rekidai scores, GitHub authentication is required.<br>Please agree to the terms of use.<br><b style="background:linear-gradient(transparent 60%, #FF66CC 60%);">Those who do not contribute to updating rekidai.json for a certain period of time will fail authentication.</b><br>GitHub authentication is required <b style="background:linear-gradient(transparent 60%, #66CCFF 60%);">once a week</b>.<br><br>beatmania IIDX SP ☆12(Lv12) の歴代スコアを見るためには、GitHub 認証が必要です。<br><b style="background:linear-gradient(transparent 60%, #FF66CC 60%);">一定期間 rekidai.json の更新に貢献しない方は認証が失敗します。</b><br>GitHub 認証は<b style="background:linear-gradient(transparent 60%, #66CCFF 60%);">週に一度</b>必要です。</p>
   <form id="auth" action="https://github.com/login/oauth/authorize" method="GET">
     <input type="hidden" name="client_id" value="318d31204d4bea1c1c01">
     <input type="hidden" name="redirect_uri" id="redirect" value="https://rekidai-info.github.io/callback.html">
