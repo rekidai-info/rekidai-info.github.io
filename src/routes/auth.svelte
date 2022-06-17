@@ -27,7 +27,7 @@
     <input type="hidden" name="redirect_uri" id="redirect" value="https://rekidai-info.github.io/callback.html">
     <input type="hidden" name="scope" value="">
     <input type="hidden" name="state" id="state" value="state">
-    <input type="submit" value="Authenticate" style="color: #EEEEEE; background-color: #00527A; border-radius: 8px; font-size: 1.1em; padding: 4px;">
+    <input type="submit" value="Sign up with GitHub" style="color: #EEEEEE; background-color: #00527A; border-radius: 8px; font-size: 1.1em; padding: 4px;">
   </form><br>
   <script lang="ts">
     document.getElementById('auth').addEventListener('submit', () => {
