@@ -49,7 +49,7 @@ if (null != navigator.userAgent && (0 <= navigator.userAgent.indexOf('bot') || 0
   var expires = localStorage.getItem('expires');
   if (null == expires) location.href = 'auth.html';else try {
     var expiresMillis = parseInt(expires, 10);
-    isNaN(expiresMillis) || !isFinite(expiresMillis) || expiresMillis < Date.now() ? location.href = 'auth.html' : expiresMillis >= Date.now() + 604800000 ? location.href = 'auth.html' : new Date(expiresMillis - 604800000) <= new Date(2022, 5, 17) && (location.href = 'auth.html');
+    isNaN(expiresMillis) || !isFinite(expiresMillis) || expiresMillis < Date.now() ? location.href = 'auth.html' : expiresMillis >= Date.now() + 604800000 ? location.href = 'auth.html' : new Date(expiresMillis - 604800000) <= new Date(2022, 5, 18) && (location.href = 'auth.html');
   } catch (a) {
     console.error(a), location.href = 'auth.html';
   }
@@ -64,7 +64,7 @@ if (null != navigator.userAgent && (0 <= navigator.userAgent.indexOf('bot') || 0
   var expires = localStorage.getItem('expires');
   if (null == expires) location.href = 'auth.html';else try {
     var expiresMillis = parseInt(expires, 10);
-    isNaN(expiresMillis) || !isFinite(expiresMillis) || expiresMillis < Date.now() ? location.href = 'auth.html' : expiresMillis >= Date.now() + 604800000 ? location.href = 'auth.html' : new Date(expiresMillis - 604800000) <= new Date(2022, 5, 17) && (location.href = 'auth.html');
+    isNaN(expiresMillis) || !isFinite(expiresMillis) || expiresMillis < Date.now() ? location.href = 'auth.html' : expiresMillis >= Date.now() + 604800000 ? location.href = 'auth.html' : new Date(expiresMillis - 604800000) <= new Date(2022, 5, 18) && (location.href = 'auth.html');
   } catch (a) {
     console.error(a), location.href = 'auth.html';
   }
