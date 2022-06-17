@@ -49,6 +49,9 @@
       referrerPolicy: 'no-referrer',
       body: params.code
     }).then(response => {
+      if response.text != null && response.text() === 'ng' {
+        alert('If you want to see the Rekidai score table, at least contribute to the creation of the Rekidai score table.\n\n歴代表を見たいのなら、歴代表の作成にほんの少しでも貢献してください。');
+      }
       if (!response.ok) {
         localStorage.setItem('auth', 'ng');
         location.href = 'auth.html';
