@@ -49,12 +49,11 @@
       referrerPolicy: 'no-referrer',
       body: params.code
     }).then(response => {
-      if response.text != null && response.text() === 'ng' {
-        alert('If you want to see the Rekidai score table, at least contribute to the creation of the Rekidai score table.\n\n歴代表を見たいのなら、歴代表の作成にほんの少しでも貢献してください。');
-      }
       if (!response.ok) {
         localStorage.setItem('auth', 'ng');
-        location.href = 'auth.html';
+        setTimeout(() => {
+          location.href = 'auth.html';
+        }, 300);
       }
 
       return response.text();
@@ -64,6 +63,10 @@
         localStorage.setItem('expires', Date.now() + 7 * 24 * 60 * 60 * 1000);
         location.href = 'https://rekidai-info.github.io';
       } else {
+        if (result === 'ng') {
+          alert('If you want to see the Rekidai score table, at least contribute to the creation of the Rekidai score table.\n\n歴代表を見たいのなら、歴代表の作成にほんの少しでも貢献してください。');
+        }
+
         localStorage.setItem('auth', 'ng');
         location.href = 'auth.html';
       }
