@@ -906,7 +906,7 @@
             location.href = 'auth.html';
           } else if (expiresMillis >= Date.now() + 7 * 24 * 60 * 60 * 1000) {
             location.href = 'auth.html';
-          } else if (new Date(expiresMillis - 7 * 24 * 60 * 60 * 1000) <= new Date(2022, 5, 17)) {
+          } else if (new Date(expiresMillis - 7 * 24 * 60 * 60 * 1000) <= new Date(2022, 5, 18)) {
             location.href = 'auth.html';
           }
         } catch (e) {
