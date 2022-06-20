@@ -18,7 +18,6 @@
 
     gtag('config', 'G-7FLKW9GYQ6');
   </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5426520865079088" crossorigin="anonymous"></script>
 </svelte:head>
 
 <main>No API other than <a href="https://docs.github.com/ja/rest/users/users#get-the-authenticated-user" target="_blank" rel="noopener noreferrer">GET /user</a> will be used.<br>GitHub Authentication is required <b>once a week</b>.</main>
