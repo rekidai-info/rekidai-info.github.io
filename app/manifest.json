@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-0be7986a.js",
+    "file": "start-bd0889b1.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -34,7 +34,7 @@
     ]
   },
   "src/routes/auth.svelte": {
-    "file": "pages/auth.svelte-2cdf63c4.js",
+    "file": "pages/auth.svelte-4af9fe83.js",
     "src": "src/routes/auth.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -43,7 +43,7 @@
     ]
   },
   "src/routes/callback.svelte": {
-    "file": "pages/callback.svelte-575d2656.js",
+    "file": "pages/callback.svelte-360cf006.js",
     "src": "src/routes/callback.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -52,7 +52,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-ebac53f5.js",
+    "file": "pages/index.svelte-3c6458f8.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -64,7 +64,7 @@
     ]
   },
   "src/routes/privacy.svelte": {
-    "file": "pages/privacy.svelte-8250228e.js",
+    "file": "pages/privacy.svelte-32905309.js",
     "src": "src/routes/privacy.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
