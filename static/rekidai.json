@@ -6378,6 +6378,27 @@
     "date": "2022-06-09"
   },
   {
+    "version": "29[Cast]",
+    "music": "ピアノ独奏無言歌 \"灰燼\"",
+    "musicKR": "피아노 독주 무언가 \"잿더미\"",
+    "musicEN": "Piano solo mute song \"ash embers\"",
+    "notes": 1977,
+    "bpm": [
+      100,
+      150,
+      200
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=QKBaXOm_dxg",
+    "peak": true,
+    "soflan": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
+    "player": "NOPLAY",
+    "date": "2022-06-23"
+  },
+  {
     "version": "23[cop]",
     "music": "めいさいアイドル☆あいむちゃん♪",
     "musicKR": "미세한 아이돌 ☆ 아임짱 ♪",
