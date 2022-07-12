@@ -1737,11 +1737,11 @@
     "musicMovie": "https://www.youtube.com/watch?v=i52_rLQapGY",
     "soflan": true,
     "superSoflan": true,
-    "score": 2595,
-    "scoreResult": "https://twitter.com/dolce_iwate/status/1469324152712876032",
+    "score": 2604,
+    "scoreResult": "https://www.youtube.com/watch?v=EoVQZFa7N2o&t=1858s",
     "topVersion": "29[Cast]",
     "player": "DOLCE.",
-    "date": "2021-12-10"
+    "date": "2022-07-12"
   },
   {
     "version": "21[SPA]",
@@ -2782,11 +2782,11 @@
     "musicMovie": "https://www.youtube.com/watch?v=rUHIpe2f_VQ",
     "scratch": true,
     "superScratch": true,
-    "score": 3627,
-    "scoreResult": "https://www.youtube.com/watch?v=MDVTAy1Wcds",
+    "score": 3637,
+    "scoreResult": "https://www.youtube.com/watch?v=EoVQZFa7N2o&t=7181s",
     "topVersion": "29[Cast]",
-    "player": "CHARM",
-    "date": "2021-12-17"
+    "player": "DOLCE.",
+    "date": "2022-07-12"
   },
   {
     "version": "20[tri]",
@@ -3459,11 +3459,11 @@
     "charge": true,
     "scratch": true,
     "superCharge": true,
-    "score": 2973,
-    "scoreResult": "https://www.youtube.com/watch?v=zR-73DY84sQ",
+    "score": 2976,
+    "scoreResult": null,
     "topVersion": "29[Cast]",
-    "player": "CHARM",
-    "date": "2021-12-09"
+    "player": "U*TAKA",
+    "date": "2022-07-12"
   },
   {
     "version": "18[RA]",
@@ -3479,11 +3479,11 @@
     "peak": true,
     "superCharge": true,
     "superPeak": true,
-    "score": 3397,
-    "scoreResult": "https://www.youtube.com/watch?v=tONR_yB5KYU&t=8s",
+    "score": 3403,
+    "scoreResult": null,
     "topVersion": "29[Cast]",
-    "player": "KKM*",
-    "date": "2022-04-27"
+    "player": "U*TAKA",
+    "date": "2022-07-12"
   },
   {
     "version": "15[DJT]",
@@ -6934,11 +6934,11 @@
     "musicMovie": "https://www.youtube.com/watch?v=HPbd597xhLQ",
     "charge": true,
     "superCharge": true,
-    "score": 3060,
-    "scoreResult": "https://www.youtube.com/watch?v=b3eaZj8zCk8",
-    "topVersion": "28[BIS]",
+    "score": 3064,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
     "player": "U*TAKA",
-    "date": ""
+    "date": "2022-07-12"
   },
   {
     "version": "25[CB]",
