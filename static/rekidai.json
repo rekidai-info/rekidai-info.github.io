@@ -5422,6 +5422,24 @@
     "date": "2022-04-01"
   },
   {
+    "version": "24[SINO]",
+    "music": "Umbral(L)",
+    "musicKR": "그림자의",
+    "notes": 1566,
+    "bpm": [
+      138
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=uXI1vfjZ1vE",
+    "charge": true,
+    "superCharge": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
+    "player": "NOPLAY",
+    "date": "2022-07-14"
+  },
+  {
     "version": "26[Root]",
     "music": "Unbelief",
     "musicKR": "불신불신앙",
