@@ -2116,6 +2116,23 @@
     "date": ""
   },
   {
+    "version": "29[Cast]",
+    "music": "GRAVITON",
+    "musicKR": "그라비톤",
+    "notes": 1762,
+    "bpm": [
+      185
+    ],
+    "textage": "https://textage.cc/score/29/graviton.html?2AC00",
+    "musicMovie": "https://www.youtube.com/watch?v=FXNKJEWae-Q",
+    "peak": true,
+    "score": 3498,
+    "scoreResult": "https://twitter.com/uirogame/status/1555933181819293696/photo/1",
+    "topVersion": "29[Cast]",
+    "player": "WELLOW",
+    "date": "2022-08-07"
+  },
+  {
     "version": "22[PEN]",
     "music": "Gravigazer",
     "musicKR": "그라비게저",
