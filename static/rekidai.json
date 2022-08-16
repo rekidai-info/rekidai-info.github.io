@@ -737,11 +737,11 @@
     "charge": true,
     "peak": true,
     "superPeak": true,
-    "score": 3925,
-    "scoreResult": "https://www.youtube.com/watch?v=Hesjpuks494",
-    "topVersion": "27[HV]",
+    "score": 3932,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
     "player": "U*TAKA",
-    "date": "2020-10-08"
+    "date": "2022-08-16"
   },
   {
     "version": "26[Root]",
@@ -3496,11 +3496,11 @@
     "peak": true,
     "superCharge": true,
     "superPeak": true,
-    "score": 3403,
+    "score": 3407,
     "scoreResult": null,
     "topVersion": "29[Cast]",
     "player": "U*TAKA",
-    "date": "2022-07-12"
+    "date": "2022-08-16"
   },
   {
     "version": "15[DJT]",
