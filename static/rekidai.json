@@ -3447,6 +3447,23 @@
     "date": "2021-05-01"
   },
   {
+    "version": "27[HV]",
+    "music": "Override(L)",
+    "musicKR": "기각하다(L)",
+    "notes": 2204,
+    "bpm": [
+      175
+    ],
+    "textage": "https://textage.cc/score/27/override.html?2XC00",
+    "musicMovie": "https://www.youtube.com/watch?v=z9Uet7-9SVM",
+    "peak": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
+    "player": "NOPLAY",
+    "date": "2022-08-18"
+  },
+  {
     "version": "26[Root]",
     "music": "Painful Fate",
     "musicKR": "괴로운 운명",
