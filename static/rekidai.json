@@ -5842,11 +5842,11 @@
     "musicMovie": "https://www.youtube.com/watch?v=TSzobPCzOcU",
     "peak": true,
     "superPeak": true,
-    "score": 4284,
-    "scoreResult": "https://www.youtube.com/watch?v=0bUzkVg6_Iw",
+    "score": 4298,
+    "scoreResult": "https://www.youtube.com/watch?v=mMnWskjmlcQ&t=3179s",
     "topVersion": "29[Cast]",
-    "player": "RAG*",
-    "date": "2022-01-27"
+    "player": "KKM*",
+    "date": "2022-08-18"
   },
   {
     "version": "26[Root]",
@@ -7401,6 +7401,22 @@
     "topVersion": "29[Cast]",
     "player": "RIOO",
     "date": "2022-06-20"
+  },
+  {
+    "version": "15[DJT]",
+    "music": "華爛漫 -Flowers-(L)",
+    "musicKR": "화란만 -꽃들-(L)",
+    "notes": 1597,
+    "bpm": [
+      160
+    ],
+    "textage": "https://textage.cc/score/15/_hranman.html?2XC00",
+    "musicMovie": "https://www.youtube.com/watch?v=75se7_No0m0",
+    "score": 3184,
+    "scoreResult": "https://twitter.com/uirogame/status/1560253846735036417/photo/1",
+    "topVersion": "29[Cast]",
+    "player": "WELLOW",
+    "date": "2022-08-18"
   },
   {
     "version": "24[SINO]",
