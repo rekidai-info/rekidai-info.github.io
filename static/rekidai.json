@@ -371,6 +371,22 @@
     "date": "2022-07-31"
   },
   {
+    "version": "29[Cast]",
+    "music": "Arkadia",
+    "musicKR": "아르카디아",
+    "notes": 1873,
+    "bpm": [
+      180
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=3FhIucIBzWQ",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
+    "player": "NOPLAY",
+    "date": "2022-09-08"
+  },
+  {
     "version": "27[HV]",
     "music": "Artist",
     "musicKR": "예술가",
@@ -2249,6 +2265,25 @@
     "topVersion": "29[Cast]",
     "player": "KKM*",
     "date": "2022-05-03"
+  },
+  {
+    "version": "29[Cast]",
+    "music": "hard-wired",
+    "musicKR": "단단한-유선의",
+    "notes": 1901,
+    "bpm": [
+      208
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=bWzYzgMoW-Q",
+    "charge": true,
+    "peak": true,
+    "scratch": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
+    "player": "NOPLAY",
+    "date": "2022-09-08"
   },
   {
     "version": "23[cop]",
@@ -7101,6 +7136,25 @@
     "topVersion": "29[Cast]",
     "player": "KKM*",
     "date": "2022-09-06"
+  },
+  {
+    "version": "29[Cast]",
+    "music": "雪上断火",
+    "musicKR": "설상단화",
+    "notes": 1544,
+    "bpm": [
+      105,
+      180
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=jeyXi6aEgrI",
+    "scratch": true,
+    "superScratch": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
+    "player": "NOPLAY",
+    "date": "2022-09-08"
   },
   {
     "version": "22[PEN]",
