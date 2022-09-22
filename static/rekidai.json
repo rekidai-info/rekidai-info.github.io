@@ -2279,6 +2279,7 @@
     "charge": true,
     "peak": true,
     "scratch": true,
+    "superPeak": true,
     "score": 3693,
     "scoreResult": null,
     "topVersion": "29[Cast]",
