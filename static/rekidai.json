@@ -2400,6 +2400,24 @@
     "date": "2022-08-06"
   },
   {
+    "version": "20[tri]",
+    "music": "Illegal Function Call(L)",
+    "musicKR": "잘못된 함수 호출",
+    "notes": 2023,
+    "bpm": [
+      260
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=YCQ8o1Lr_ig",
+    "peak": true,
+    "superPeak": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "29[Cast]",
+    "player": "NOPLAY",
+    "date": "2022-09-29"
+  },
+  {
     "version": "25[CB]",
     "music": "Illusionary Waterlily",
     "musicKR": "환상 워터리",
