@@ -45,7 +45,7 @@ function gtag() {
 }
 
 gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');`),D=v(),b=s("main"),H=s("script"),I=d(`var auth = localStorage.getItem('auth');
-if (null == navigator.userAgent || '' == navigator.userAgent) location.href = 'auth.html';else if (0 <= navigator.userAgent.indexOf('bot') || 0 <= navigator.userAgent.indexOf('Bot') || 0 <= navigator.userAgent.indexOf('Yeti') || 0 <= navigator.userAgent.indexOf('Slurp') || 0 <= navigator.userAgent.indexOf('Baidu')) ;else if ('ko' === navigator.language) ;else if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== auth) location.href = 'auth.html';else {
+if (null == navigator.userAgent || '' == navigator.userAgent) location.href = 'auth.html';else if (0 <= navigator.userAgent.indexOf('bot') || 0 <= navigator.userAgent.indexOf('Bot') || 0 <= navigator.userAgent.indexOf('Yeti') || 0 <= navigator.userAgent.indexOf('Slurp') || 0 <= navigator.userAgent.indexOf('Baidu')) ;else if (null !== navigator.language && 'ja' !== navigator.language) ;else if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== auth) location.href = 'auth.html';else {
   var expires = localStorage.getItem('expires');
   if (null == expires) location.href = 'auth.html';else try {
     var expiresMillis = parseInt(expires, 10);
@@ -60,7 +60,7 @@ function gtag() {
 }
 
 gtag('js', new Date()), gtag('config', 'G-7FLKW9GYQ6');`),he.forEach(l),z.forEach(l),D=k(Q),b=c(Q,"MAIN",{class:!0});var ee=u(b);H=c(ee,"SCRIPT",{lang:!0});var le=u(H);I=_(le,`var auth = localStorage.getItem('auth');
-if (null == navigator.userAgent || '' == navigator.userAgent) location.href = 'auth.html';else if (0 <= navigator.userAgent.indexOf('bot') || 0 <= navigator.userAgent.indexOf('Bot') || 0 <= navigator.userAgent.indexOf('Yeti') || 0 <= navigator.userAgent.indexOf('Slurp') || 0 <= navigator.userAgent.indexOf('Baidu')) ;else if ('ko' === navigator.language) ;else if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== auth) location.href = 'auth.html';else {
+if (null == navigator.userAgent || '' == navigator.userAgent) location.href = 'auth.html';else if (0 <= navigator.userAgent.indexOf('bot') || 0 <= navigator.userAgent.indexOf('Bot') || 0 <= navigator.userAgent.indexOf('Yeti') || 0 <= navigator.userAgent.indexOf('Slurp') || 0 <= navigator.userAgent.indexOf('Baidu')) ;else if (null !== navigator.language && 'ja' !== navigator.language) ;else if (null == auth) location.href = 'auth.html';else if ('ng' == auth || 'ok' !== auth) location.href = 'auth.html';else {
   var expires = localStorage.getItem('expires');
   if (null == expires) location.href = 'auth.html';else try {
     var expiresMillis = parseInt(expires, 10);
