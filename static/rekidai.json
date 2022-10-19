@@ -7463,18 +7463,18 @@
   {
     "version": "30[RESI]",
     "music": "ハイテックトキオ(L)",
-    "musicKR": "하이테크토키오",
-    "musicEN": "High Tech Tokio",
+    "musicKR": "하이테크토키오(L)",
+    "musicEN": "High Tech Tokio(L)",
     "notes": 1657,
     "bpm": [
       165
     ],
     "textage": null,
     "musicMovie": "https://www.youtube.com/watch?v=tUA9s1jOs6A",
-    "score": 0,
-    "scoreResult": null,
+    "score": 3258,
+    "scoreResult": "https://www.youtube.com/watch?v=eiWigqHN3tA",
     "topVersion": "30[RESI]",
-    "player": "NOPLAY",
+    "player": "KKM*",
     "date": "2022-10-19"
   },
   {
@@ -7695,6 +7695,24 @@
     "topVersion": "29[Cast]",
     "player": "KKM*",
     "date": "2022-05-26"
+  },
+  {
+    "version": "15[DJT]",
+    "music": "ミラージュ・レジデンス(L)",
+    "musicKR": "신기루 레지던스(L)",
+    "musicEN": "Mirage Residence(L)",
+    "notes": 1676,
+    "bpm": [
+      144
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=h0L8SNFtxIM",
+    "charge": true,
+    "score": 3277,
+    "scoreResult": "https://www.youtube.com/watch?v=eiWigqHN3tA",
+    "topVersion": "30[RESI]",
+    "player": "KKM*",
+    "date": "2022-10-19"
   },
   {
     "version": "27[HV]",
