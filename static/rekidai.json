@@ -7461,6 +7461,23 @@
     "date": "2022-09-04"
   },
   {
+    "version": "30[RESI]",
+    "music": "ハイテックトキオ(L)",
+    "musicKR": "하이테크토키오",
+    "musicEN": "High Tech Tokio",
+    "notes": 1657,
+    "bpm": [
+      165
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=tUA9s1jOs6A",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-10-19"
+  },
+  {
     "version": "28[BIS]",
     "music": "伐折羅-vajra-",
     "musicKR": "벌절라-vajra-",
