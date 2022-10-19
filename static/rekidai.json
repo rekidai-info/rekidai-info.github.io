@@ -5098,6 +5098,24 @@
     "date": "2022-01-23"
   },
   {
+    "version": "19[Lin]",
+    "music": "The Limbo(L)",
+    "musicKR": "림보(L)",
+    "notes": 2190,
+    "bpm": [
+      200
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=HIbwN74oqK4&t=4s",
+    "peak": true,
+    "superPeak": true,
+    "score": 4289,
+    "scoreResult": "https://twitter.com/iidx_kkm/status/1582661470093180928/photo/1",
+    "topVersion": "30[RESI]",
+    "player": "KKM*",
+    "date": "2022-10-19"
+  },
+  {
     "version": "28[BIS]",
     "music": "THE PEERLESS UNDER HEAVEN",
     "musicKR": "천하의 비길 데 없는 자",
