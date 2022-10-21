@@ -1136,7 +1136,7 @@
     "version": "25[CB]",
     "music": "DEATH†ZIGOQ～怒りの高速爆走野郎～",
     "musicKR": "죽음†지옥~성난 고속 폭주 놈~",
-    "musicJP": "デス地獄",
+    "musicJP": "デス地獄（DEATH†ZIGOQ ～怒りの高速爆走野郎）～",
     "notes": 2075,
     "bpm": [
       200
@@ -1309,6 +1309,7 @@
     "version": "26[Root]",
     "music": "Dr.Chemical & Killing Machine",
     "musicKR": "닥터 케미컬 & 킬링 머신",
+    "musicEN": "Dr. Chemical & Killing Machine",
     "notes": 1700,
     "bpm": [
       165
@@ -6299,6 +6300,7 @@
     "music": "キャトられ♥恋はモ～モク",
     "musicKR": "캬토라레♥사랑은모~모쿠",
     "musicEN": "Cattled♥Love is blind",
+    "musicJP": "キャトられ恋はモ～モク",
     "notes": 1988,
     "bpm": [
       196
@@ -7233,6 +7235,7 @@
     "music": "旋律のドグマ～Misérables～",
     "musicKR": "선율의 도그마~Misérables~",
     "musicEN": "Dogma of Melody ~Miserables~",
+    "musicJP": "旋律のドグマ～Miserables～",
     "notes": 2002,
     "bpm": [
       192
@@ -7589,6 +7592,7 @@
     "music": "表裏一体!?怪盗いいんちょの悩み♥",
     "musicKR": "표리일체!?괴도위원장의 고민♥",
     "musicEN": "Two sides of the same coin!? The trouble of Iincho the Phantom Thief♥",
+    "musicJP": "表裏一体！？怪盗いいんちょの悩み",
     "notes": 1815,
     "bpm": [
       165
