@@ -5083,8 +5083,8 @@
   },
   {
     "version": "19[Lin]",
-    "music": "The Limbo",
-    "musicKR": "림보",
+    "music": "The Limbo(A)",
+    "musicKR": "림보(A)",
     "notes": 1701,
     "bpm": [
       200
@@ -5237,7 +5237,7 @@
   {
     "version": "15[DJT]",
     "music": "Time to Air(L)",
-    "musicKR": "방송 시간",
+    "musicKR": "방송 시간(L)",
     "notes": 1888,
     "bpm": [
       191
@@ -5531,7 +5531,7 @@
   {
     "version": "24[SINO]",
     "music": "Umbral(L)",
-    "musicKR": "그림자의",
+    "musicKR": "그림자의(L)",
     "notes": 1566,
     "bpm": [
       138
@@ -7464,8 +7464,8 @@
     "version": "21[SPA]",
     "music": "廿(L)",
     "musicKR": "니쥬이치노마에(L)",
-    "musicEN": "twenty, 20",
-    "musicJP": "ニジュウイチノマエ, テクノウチ",
+    "musicEN": "twenty, 20(L)",
+    "musicJP": "ニジュウイチノマエ, テクノウチ(L)",
     "notes": 1731,
     "bpm": [
       120,
