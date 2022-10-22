@@ -866,11 +866,11 @@
 
 <svelte:head>
   <html lang="ja" />
-  <title>beatmania IIDX SP ☆12(Lv12) 歴代全一 Top Scores/Rankers Viewer</title>
-  <meta name="description" content="beatmania IIDX(弐寺/투덱) SP ☆12(Lv12) 歴代全一(역대/Rekidai)スコア(Score)/ランカー(Top Ranker)を表示します。" />
+  <title>beatmania IIDX SP ☆12 歴代全一 トップスコア/ランカービューア/beatmania IIDX SP Lv12 All-time Top Scores/Rankers Viewer/beatmania IIDX SP☆12 역대 전일 탑스코어/랭커뷰어</title>
+  <meta name="description" content="beatmania IIDX SP ☆12 歴代全一スコア/ランカーを表示します。 beatmania IIDX SP ☆12 All-time highest scores/rankers are shown. beatmania IIDX SP☆12 역대 전일 점수/랭커를 표시합니다." />
   <meta name="keywords" content="beatmania,IIDX,iidx,弐寺,투덱,☆12,Lv12,歷代,歴代全一,歴代スコア,역대,TOP RANKER,TOP RANKERS,rekidai,KONAMI,コナミ">
   <meta name="google-site-verification" content="TZhDInm_qqk0-YS_IeFxjcn6jbrmfEccgvRL8cFjm3k" />
-  <meta property="og:title" content="beatmania IIDX SP ☆12(Lv12) 歴代">
+  <meta property="og:title" content="beatmania IIDX SP ☆12 歴代">
   <meta property="og:site_name" content="beatmania IIDX SP Lv12 Rekidai Top Score Database">
   <meta property="og:url" content="https://rekidai-info.github.io">
   <meta property="og:description" content="The top scores of beatmania IIDX in the past are listed.">
@@ -924,7 +924,7 @@
     <p id="loading" style="display: inline;" transition:typewriter>Loading...</p><img src="bars-rotate-fade.svg" alt="Loading..." style="vertical-align: top;">
   {:else}
     {#if error == null}
-      <p id="top"><b>Anyone can edit the following rekidai data.</b><br>If you want to update rekidai data, please fork <a href="https://github.com/rekidai-info/rekidai-info.github.io" target="_blank" rel="noopener noreferrer">https://github.com/rekidai-info/rekidai-info.github.io</a>, edit <a href="https://github.com/rekidai-info/rekidai-info.github.io/blob/main/static/rekidai.json" target="_blank" rel="noopener noreferrer">rekidai.json</a>, and submit a Pull Request. That's all.<br><a href="#rank">Rank</a> / <a href="https://www.youtube.com/channel/UCKYQ3LNcSoxXJB6IlZiYU5A" target="_blank" rel="noopener noreferrer">KKM*</a>(<a href="https://toon.at/donate/iidxkkm" target="_blank" rel="noopener noreferrer">Donate</a>) / <a href="https://www.youtube.com/channel/UCoK-bEjP7R93N-rIz-4G9JA" target="_blank" rel="noopener noreferrer">CHEPY</a>(<a href="https://toon.at/donate/637741368394473819" target="_blank" rel="noopener noreferrer">Donate</a>) / <a href="https://www.youtube.com/c/MACAODIIDX" target="_blank" rel="noopener noreferrer">DON*</a>(<a href="https://streamlabs.com/macaodiidx" target="_blank" rel="noopener noreferrer">Donate1</a>,  <a href="https://toon.at/donate/macaod_iidx" target="_blank" rel="noopener noreferrer">Donate2</a>) / <a href="https://www.youtube.com/channel/UCGlQnUCwUI0kl31denBkrEQ" target="_blank" rel="noopener noreferrer">CHARM</a>(<a href="https://toon.at/donate/iidx_charm" target="_blank" rel="noopener noreferrer">Donate</a>) / <a href="https://twitter.com/rekidai_info" target="_blank" rel="noopener noreferrer">Developer</a>(<a href="https://amzn.to/3jqk39S" target="_blank" rel="noopener noreferrer">Donate</a>)</p>
+      <p id="top">If you want to update rekidai data, please fork <a href="https://github.com/rekidai-info/rekidai-info.github.io" target="_blank" rel="noopener noreferrer">https://github.com/rekidai-info/rekidai-info.github.io</a>, edit <a href="https://github.com/rekidai-info/rekidai-info.github.io/blob/main/static/rekidai.json" target="_blank" rel="noopener noreferrer">rekidai.json</a>, and submit a Pull Request. That's all.<br><a href="#rank">Rank</a> / <a href="https://www.youtube.com/channel/UCKYQ3LNcSoxXJB6IlZiYU5A" target="_blank" rel="noopener noreferrer">KKM*</a>(<a href="https://toon.at/donate/iidxkkm" target="_blank" rel="noopener noreferrer">Donate</a>) / <a href="https://www.youtube.com/channel/UCoK-bEjP7R93N-rIz-4G9JA" target="_blank" rel="noopener noreferrer">CHEPY</a>(<a href="https://toon.at/donate/637741368394473819" target="_blank" rel="noopener noreferrer">Donate</a>) / <a href="https://www.youtube.com/c/MACAODIIDX" target="_blank" rel="noopener noreferrer">DON*</a>(<a href="https://streamlabs.com/macaodiidx" target="_blank" rel="noopener noreferrer">Donate1</a>,  <a href="https://toon.at/donate/macaod_iidx" target="_blank" rel="noopener noreferrer">Donate2</a>) / <a href="https://www.youtube.com/channel/UCGlQnUCwUI0kl31denBkrEQ" target="_blank" rel="noopener noreferrer">CHARM</a>(<a href="https://toon.at/donate/iidx_charm" target="_blank" rel="noopener noreferrer">Donate</a>) / <a href="https://twitter.com/rekidai_info" target="_blank" rel="noopener noreferrer">Developer</a>(<a href="https://amzn.to/3jqk39S" target="_blank" rel="noopener noreferrer">Donate</a>)</p>
 
       <hr>
 
