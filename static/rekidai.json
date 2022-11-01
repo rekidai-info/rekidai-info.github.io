@@ -4193,6 +4193,21 @@
     "date": "2022-02-25"
   },
   {
+    "version": "30[RESI]",
+    "music": "RINИE",
+    "notes": 1788,
+    "bpm": [
+      198
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=_WaSgtwgNN0",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-11-01"
+  },
+  {
     "version": "15[DJT]",
     "music": "Ristaccia",
     "musicKR": "리스타치아",
