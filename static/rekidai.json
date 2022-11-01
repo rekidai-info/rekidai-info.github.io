@@ -2322,6 +2322,21 @@
     "date": "2022-08-06"
   },
   {
+    "version": "30[RESI]",
+    "music": "I",
+    "notes": 1901,
+    "bpm": [
+      225
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=cWwWXwfPCDM",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-11-01"
+  },
+  {
     "version": "15[DJT]",
     "music": "ICARUS(A)",
     "musicKR": "이카로스(A)",
