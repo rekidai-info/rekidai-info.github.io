@@ -6222,6 +6222,22 @@
     "date": "2022-08-11"
   },
   {
+    "version": "30[RESI]",
+    "music": "[ ]DENTITY",
+    "notes": 2000,
+    "bpm": [
+      200
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=jayTlsr8HTk",
+    "peak": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-11-01"
+  },
+  {
     "version": "20[tri]",
     "music": "アストライアの双皿",
     "musicKR": "아스트라이아의 쌍접시",
