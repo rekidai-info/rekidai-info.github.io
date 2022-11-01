@@ -5798,6 +5798,22 @@
     "date": "2022-07-28"
   },
   {
+    "version": "30[RESI]",
+    "music": "VOLAQUAS",
+    "notes": 1982,
+    "bpm": [
+      212
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=8CgHREu2fNI",
+    "peak": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-11-01"
+  },
+  {
     "version": "26[Root]",
     "music": "voltississimo",
     "musicKR": "볼티시시모",
