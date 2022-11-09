@@ -2359,8 +2359,8 @@
   {
     "version": "15[DJT]",
     "music": "ICARUS(L)",
-    "musicJP": "黒イカ",
     "musicKR": "이카로스(L)",
+    "musicJP": "黒イカ",
     "notes": 2000,
     "bpm": [
       126,
