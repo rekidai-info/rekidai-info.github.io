@@ -2288,6 +2288,22 @@
     "date": "2022-09-08"
   },
   {
+    "version": "30[RESI]",
+    "music": "Hat Surprise (Season 2)",
+    "musicKR": "햇 서프라이즈 (시즌 2)",
+    "notes": 1729,
+    "bpm": [
+      180
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=qbYM973E4eg",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-11-10"
+  },
+  {
     "version": "23[cop]",
     "music": "Highcharge Divolt",
     "musicKR": "하이 차지 디볼트",
@@ -8002,5 +8018,22 @@
     "topVersion": "28[BIS]",
     "player": "DON*",
     "date": "2021-08-16"
+  },
+  {
+    "version": "30[RESI]",
+    "music": "Ōu Legends",
+    "musicEN": "Ou Legends",
+    "notes": 1687,
+    "bpm": [
+      191
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=bp14o-yB4Lg",
+    "charge": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-11-10"
   }
 ]
