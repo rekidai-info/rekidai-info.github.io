@@ -273,8 +273,9 @@
   },
   {
     "version": "15[DJT]",
-    "music": "Anisakis -somatic mutation type \"Forza\"(L)",
+    "music": "Anisakis -somatic mutation type\"Forza\"-(L)",
     "musicKR": "아니사키스 체성 돌연변이형 \"포르자\"(L)",
+    "musicEN": "Anisakis -somatic mutation type \"Forza\"-(L)",
     "notes": 1971,
     "bpm": [
       185
@@ -1307,9 +1308,9 @@
   },
   {
     "version": "26[Root]",
-    "music": "Dr.Chemical & Killing Machine",
+    "music": "Dr. Chemical & Killing Machine",
     "musicKR": "닥터 케미컬 & 킬링 머신",
-    "musicEN": "Dr. Chemical & Killing Machine",
+    "musicEN": "Dr.Chemical & Killing Machine",
     "notes": 1700,
     "bpm": [
       165
