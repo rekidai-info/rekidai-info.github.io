@@ -9,7 +9,9 @@
     const json = await res.json();
 
     if (res.ok) {
-      return json;
+      return json.filter(e => {
+        return e.music !== '罪過の聖堂';
+      });
     } else {
       throw new Error('Error Loading Rekidai Data.');
     }
