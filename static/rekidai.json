@@ -7596,6 +7596,23 @@
     "date": "2022-10-26"
   },
   {
+    "version": "30[RESI]",
+    "music": "儚キ戀ノ幻想譚",
+    "musicKR": "덧없는 사랑의 환상담",
+    "musicEN": "Ephemeral Clover Fantasy",
+    "notes": 1808,
+    "bpm": [
+      175
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=5tUv3w1bFqg",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-11-25"
+  },
+  {
     "version": "28[BIS]",
     "music": "伐折羅-vajra-",
     "musicKR": "벌절라-vajra-",
