@@ -3169,6 +3169,22 @@
     "date": "2022-05-05"
   },
   {
+    "version": "30[RESI]",
+    "music": "Meissa",
+    "notes": 1435,
+    "bpm": [
+      124,
+      174
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=VTy2s0_hx04",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-11-25"
+  },
+  {
     "version": "15[DJT]",
     "music": "MENDES",
     "musicKR": "멘데스",
