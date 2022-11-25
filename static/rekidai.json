@@ -453,6 +453,22 @@
     "date": "2022-11-25"
   },
   {
+    "version": "30[RESI]",
+    "music": "Bad Encryption",
+    "notes": 1633,
+    "bpm": [
+      200
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=HRpUNPujltk",
+    "peak": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-11-25"
+  },
+  {
     "version": "17[SIR]",
     "music": "Bad Maniacs",
     "musicKR": "배드 매니아스",
