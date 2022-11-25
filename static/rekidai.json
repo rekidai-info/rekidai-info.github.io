@@ -438,6 +438,21 @@
     "date": "2021-07-08"
   },
   {
+    "version": "30[RESI]",
+    "music": "B.O.D.Y.",
+    "notes": 1734,
+    "bpm": [
+      157
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=MQUzvYAERpg",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-11-25"
+  },
+  {
     "version": "17[SIR]",
     "music": "Bad Maniacs",
     "musicKR": "배드 매니아스",
