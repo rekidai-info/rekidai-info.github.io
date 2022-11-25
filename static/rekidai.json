@@ -3424,6 +3424,21 @@
     "date": "2022-05-03"
   },
   {
+    "version": "30[RESI]",
+    "music": "No Border",
+    "notes": 1895,
+    "bpm": [
+      150
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=Rce6dqhCfvY",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-11-25"
+  },
+  {
     "version": "23[cop]",
     "music": "NZM",
     "musicKR": "엔제트엠",
