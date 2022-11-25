@@ -289,6 +289,21 @@
     "date": "2022-07-22"
   },
   {
+    "version": "30[RESI]",
+    "music": "anthracene",
+    "notes": 1744,
+    "bpm": [
+      168
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=RO7owrd2oAc",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-11-25"
+  },
+  {
     "version": "25[CB]",
     "music": "Antigravity",
     "musicKR": "반중력",
