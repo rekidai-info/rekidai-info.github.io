@@ -3095,6 +3095,21 @@
     "date": "2022-10-06"
   },
   {
+    "version": "30[RESI]",
+    "music": "LOUDER ROLLING THUNDER",
+    "notes": 1767,
+    "bpm": [
+      180
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=zw9DtQ3BTfA",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-12-08"
+  },
+  {
     "version": "26[Root]",
     "music": "Mächö Mönky",
     "musicKR": "마초몽키",
@@ -3700,6 +3715,22 @@
     "topVersion": "26[Root]",
     "player": "U*TAKA",
     "date": "2019-05-09"
+  },
+  {
+    "version": "30[RESI]",
+    "music": "Peaktime Booster",
+    "notes": 1663,
+    "bpm": [
+      180
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=m_z9mTvtwu4",
+    "scratch": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-12-08"
   },
   {
     "version": "18[RA]",
