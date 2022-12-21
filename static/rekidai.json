@@ -5052,6 +5052,21 @@
     "date": "2022-10-20"
   },
   {
+    "version": "24[SINO]",
+    "music": "Sweet Clapper",
+    "notes": 1485,
+    "bpm": [
+      162
+    ],
+    "textage": null,
+    "musicMovie": null,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-12-21"
+  },
+  {
     "version": "22[PEN]",
     "music": "Symmetry",
     "musicKR": "대칭",
