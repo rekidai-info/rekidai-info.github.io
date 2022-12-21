@@ -3101,7 +3101,7 @@
     "bpm": [
       180
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/30/louderrt.html?2AC00",
     "musicMovie": "https://www.youtube.com/watch?v=zw9DtQ3BTfA",
     "score": 0,
     "scoreResult": null,
@@ -3723,7 +3723,7 @@
     "bpm": [
       180
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/30/peaktime.html?2AC00",
     "musicMovie": "https://www.youtube.com/watch?v=m_z9mTvtwu4",
     "scratch": true,
     "score": 3294,
@@ -5053,13 +5053,13 @@
   },
   {
     "version": "24[SINO]",
-    "music": "Sweet Clapper",
+    "music": "Sweet Clapper(L)",
     "notes": 1485,
     "bpm": [
       162
     ],
-    "textage": null,
-    "musicMovie": null,
+    "textage": "https://textage.cc/score/24/sclapper.html?2XC00",
+    "musicMovie": "https://www.youtube.com/watch?v=tTe6IJhqbNI",
     "score": 0,
     "scoreResult": null,
     "topVersion": "30[RESI]",
@@ -7538,6 +7538,22 @@
     "topVersion": "29[Cast]",
     "player": "KKM*",
     "date": "2022-09-20"
+  },
+  {
+    "version": "29[Cast]",
+    "music": "デモーニッシュ(L)",
+    "notes": 1580,
+    "bpm": [
+      140,
+      200
+    ],
+    "textage": "https://textage.cc/score/29/_damonis.html?2XC00",
+    "musicMovie": "https://www.youtube.com/watch?v=aTjholF6v20",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2022-12-21"
   },
   {
     "version": "19[Lin]",
