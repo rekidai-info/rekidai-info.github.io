@@ -869,6 +869,7 @@
 <svelte:head>
   <html lang="ja" />
   <title>beatmania IIDX SP ☆12 歴代全一 トップスコア/ランカービューア/beatmania IIDX SP Lv12 All-time Top Scores/Rankers Viewer/beatmania IIDX SP☆12 역대 전일 탑스코어/랭커뷰어</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="beatmania IIDX SP ☆12 歴代全一スコア/ランカーを表示します。 beatmania IIDX SP ☆12 All-time highest scores/rankers are shown. beatmania IIDX SP☆12 역대 전일 점수/랭커를 표시합니다." />
   <meta name="keywords" content="beatmania,IIDX,iidx,弐寺,투덱,☆12,Lv12,歷代,歴代全一,歴代スコア,역대,TOP RANKER,TOP RANKERS,rekidai,KONAMI,コナミ">
   <meta name="google-site-verification" content="TZhDInm_qqk0-YS_IeFxjcn6jbrmfEccgvRL8cFjm3k" />
