@@ -2940,6 +2940,21 @@
     "date": "2022-07-12"
   },
   {
+    "version": "30[RESI]",
+    "music": "Level 4",
+    "notes": 1883,
+    "bpm": [
+      180
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=uhtA5Pto3pQ",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-01-19"
+  },
+  {
     "version": "20[tri]",
     "music": "Liberation",
     "musicKR": "해방",
@@ -3509,6 +3524,21 @@
     "topVersion": "30[RESI]",
     "player": "U*TAKA",
     "date": "2022-11-01"
+  },
+  {
+    "version": "30[RESI]",
+    "music": "ONE AND ONLY",
+    "notes": 1639,
+    "bpm": [
+      174
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=kwFmE4bPs9Y",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-01-19"
   },
   {
     "version": "29[Cast]",
@@ -5034,6 +5064,21 @@
     "topVersion": "29[Cast]",
     "player": "KKM*",
     "date": "2022-06-28"
+  },
+  {
+    "version": "30[RESI]",
+    "music": "Super Freak",
+    "notes": 1754,
+    "bpm": [
+      200
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=e5A3y7sbYA0",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-01-19"
   },
   {
     "version": "24[SINO]",
