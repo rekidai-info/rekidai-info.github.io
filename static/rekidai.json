@@ -2948,11 +2948,12 @@
     ],
     "textage": "https://textage.cc/score/30/level4.html?2AC00",
     "musicMovie": "https://www.youtube.com/watch?v=uhtA5Pto3pQ",
-    "score": 0,
-    "scoreResult": null,
+    "scratch": true,
+    "score": 3656,
+    "scoreResult": "https://www.youtube.com/watch?v=EP1WUzGN_94&t=129s",
     "topVersion": "30[RESI]",
-    "player": "NOPLAY",
-    "date": "2023-01-19"
+    "player": "CHARM",
+    "date": "2023-01-31"
   },
   {
     "version": "20[tri]",
@@ -3428,11 +3429,11 @@
     ],
     "textage": "https://textage.cc/score/23/ninja_dd.html?2AC20",
     "musicMovie": "https://www.youtube.com/watch?v=rRq3fo_VVaU",
-    "score": 3029,
-    "scoreResult": "https://www.youtube.com/watch?v=QKBdqeTU__Y",
-    "topVersion": "28[BIS]",
-    "player": "CHARM",
-    "date": "2020-12-17"
+    "score": 3031,
+    "scoreResult": "https://www.youtube.com/watch?v=SUWqFf3Fmu0&t=4038s",
+    "topVersion": "30[RESI]",
+    "player": "DOLCE.",
+    "date": "2023-01-31"
   },
   {
     "version": "25[CB]",
@@ -3534,11 +3535,11 @@
     ],
     "textage": "https://textage.cc/score/30/one_only.html?2AC00",
     "musicMovie": "https://www.youtube.com/watch?v=kwFmE4bPs9Y",
-    "score": 3239,
-    "scoreResult": "https://www.youtube.com/watch?v=eBBm3CNjHh8&t=9541s",
+    "score": 3249,
+    "scoreResult": "https://www.youtube.com/watch?v=SUWqFf3Fmu0&t=7475s",
     "topVersion": "30[RESI]",
     "player": "DOLCE.",
-    "date": "2023-01-20"
+    "date": "2023-01-31"
   },
   {
     "version": "29[Cast]",
@@ -7792,11 +7793,11 @@
     ],
     "textage": "https://textage.cc/score/30/_hgensou.html?2AC00",
     "musicMovie": "https://www.youtube.com/watch?v=5tUv3w1bFqg",
-    "score": 3590,
-    "scoreResult": null,
+    "score": 3592,
+    "scoreResult": "https://www.youtube.com/watch?v=SUWqFf3Fmu0&t=8298s",
     "topVersion": "30[RESI]",
-    "player": "KKM*",
-    "date": "2022-12-02"
+    "player": "DOLCE.",
+    "date": "2023-01-31"
   },
   {
     "version": "28[BIS]",
