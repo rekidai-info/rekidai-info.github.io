@@ -5248,6 +5248,23 @@
     "date": "2022-04-27"
   },
   {
+    "version": "30[RESI]",
+    "music": "The Clown of 24stairs",
+    "notes": 1788,
+    "bpm": [
+      204
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=s8xjyxntbc4",
+    "peak": true,
+    "superPeak": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-02-02"
+  },
+  {
     "version": "26[Root]",
     "music": "THE DAY OF JUBILATIONS",
     "musicKR": "환희의 날",
@@ -8094,6 +8111,24 @@
     "topVersion": "29[Cast]",
     "player": "KKM*",
     "date": "2022-06-17"
+  },
+  {
+    "version": "30[RESI]",
+    "music": "恋愛=精度×認識力",
+    "notes": 1756,
+    "bpm": [
+      3,
+      177,
+      333
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=WRMAmoOXG30",
+    "soflan": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-02-02"
   },
   {
     "version": "21[SPA]",
