@@ -996,7 +996,7 @@
               {:else}
                 <td><a href="{rekidai.scoreResult}" target="_blank" rel="noopener noreferrer">{rekidai.music}</a></td>
               {/if}
-              <td>{rekidai.player}</td>
+              <td data-player="{rekidai.player}">{rekidai.player}</td>
               <td style="text-align: center;">{rekidai.score}</td>
               <td style="text-align: center;" data-sort={calcMaxMinus(rekidai.notes, rekidai.score)}>{calcRecord(rekidai.notes, rekidai.score)}</td>
               <td style="text-align: center;">{calcRate(rekidai.notes, rekidai.score)}</td>
