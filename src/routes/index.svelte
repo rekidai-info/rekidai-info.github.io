@@ -1407,4 +1407,20 @@
   table tr:hover {
     background-color: #DDDDDD;
   }
+
+  td[data-player="KKM*"] {
+    background-color: #C9B037;
+  }
+  td[data-player="U*TAKA"] {
+    background-color: #B4B4B4;
+  }
+  td[data-player="DOLCE."] {
+    font-weight: bold;
+  }
+  td[data-player="DON*"] {
+    background-color: #F08BF3;
+  }
+  td[data-player="CHEPY"] {
+    background-color: #173660;
+  }
 </style>
