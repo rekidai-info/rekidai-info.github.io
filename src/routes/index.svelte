@@ -1421,6 +1421,7 @@
     background-color: #F08BF3;
   }
   td[data-player="CHEPY"] {
+    color: white;
     background-color: #173660;
   }
 </style>
