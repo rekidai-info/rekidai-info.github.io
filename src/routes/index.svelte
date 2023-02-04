@@ -931,7 +931,7 @@
 
       <hr>
 
-      <input type="text" id="search" placeholder="Search Rekidai in KR, EN or JP" style="width: 210px;">
+      <input type="text" id="search" placeholder="Search Rekidai in KR, EN or JP" style="width: 210px; margin-bottom: 4px;">
       <script lang="ts">
         const input = document.getElementById('search');
         if (input != null) {
