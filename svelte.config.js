@@ -38,7 +38,6 @@ const config = {
       precompress: false,
       strict: true
     }),
-    appDir: 'app',
     files: {
       assets: 'static'
     }
