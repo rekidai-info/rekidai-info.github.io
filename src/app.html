@@ -25,9 +25,9 @@
       gtag('config', 'G-7FLKW9GYQ6');
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2921276097485818" crossorigin="anonymous"></script>
-    %svelte.head%
+    %sveltekit.head%
   </head>
-  <body>
-    <div>%svelte.body%</div>
-  </body>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
 </html>
