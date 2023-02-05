@@ -5,30 +5,7 @@ import { vitePreprocess } from '@sveltejs/kit/vite';
 const config = {
   // Consult https://github.com/sveltejs/svelte-preprocess
   // for more information about preprocessors
-  preprocess: vitePreprocess({
-    babel: {
-      presets: [
-        [
-          '@babel/preset-env',
-          {
-            loose: true,
-            modules: false,
-            targets: {
-              esmodules: true
-            }
-          }
-        ],
-        [
-          'minify',
-          {
-            'builtIns': false,
-            'removeConsole': false,
-            'removeDebugger': true
-          }
-        ]
-      ]
-    }
-  }),
+  preprocess: vitePreprocess(),
 
   kit: {
     adapter: adapter({
