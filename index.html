@@ -27,13 +27,13 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2921276097485818" crossorigin="anonymous"></script>
     <meta http-equiv="content-security-policy" content="">
 		<link href="./_app/immutable/assets/_page-2debded5.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-be6acc3b.js">
+		<link rel="modulepreload" href="./_app/immutable/start-a9ee87e5.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index-d131aac3.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-1c43e25a.js">
 		<link rel="modulepreload" href="./_app/immutable/components/layout.svelte-bb0cfa11.js">
 		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-9cbb603b.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/index/_page.svelte-5adc6594.js"><title>beatmania IIDX SP ☆12 歴代全一 トップスコア/ランカービューア/beatmania IIDX SP Lv12 All-time Top Scores/Rankers Viewer/beatmania IIDX SP☆12 역대 전일 탑스코어/랭커뷰어</title><!-- HEAD_svelte-58f4qt_START --><html lang="ja"></html><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="beatmania IIDX SP ☆12 歴代全一スコア/ランカーを表示します。 beatmania IIDX SP ☆12 All-time highest scores/rankers are shown. beatmania IIDX SP☆12 역대 전일 점수/랭커를 표시합니다."><meta name="keywords" content="beatmania,IIDX,iidx,弐寺,투덱,☆12,Lv12,歷代,歴代全一,歴代スコア,역대,TOP RANKER,TOP RANKERS,rekidai,KONAMI,コナミ"><meta name="google-site-verification" content="TZhDInm_qqk0-YS_IeFxjcn6jbrmfEccgvRL8cFjm3k"><meta property="og:title" content="beatmania IIDX SP ☆12 歴代"><meta property="og:site_name" content="beatmania IIDX SP Lv12 Rekidai Top Score Database"><meta property="og:url" content="https://rekidai-info.github.io"><meta property="og:description" content="The top scores of beatmania IIDX in the past are listed."><meta property="og:type" content="website"><meta property="og:image" content="https://rekidai-info.github.io/ogimage.jpg"><script async src="https://www.googletagmanager.com/gtag/js?id=G-7FLKW9GYQ6"></script><script>window.dataLayer = window.dataLayer || [];
+		<link rel="modulepreload" href="./_app/immutable/components/pages/index/_page.svelte-4c022e53.js"><title>beatmania IIDX SP ☆12 歴代全一 トップスコア/ランカービューア/beatmania IIDX SP Lv12 All-time Top Scores/Rankers Viewer/beatmania IIDX SP☆12 역대 전일 탑스코어/랭커뷰어</title><!-- HEAD_svelte-58f4qt_START --><html lang="ja"></html><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="beatmania IIDX SP ☆12 歴代全一スコア/ランカーを表示します。 beatmania IIDX SP ☆12 All-time highest scores/rankers are shown. beatmania IIDX SP☆12 역대 전일 점수/랭커를 표시합니다."><meta name="keywords" content="beatmania,IIDX,iidx,弐寺,투덱,☆12,Lv12,歷代,歴代全一,歴代スコア,역대,TOP RANKER,TOP RANKERS,rekidai,KONAMI,コナミ"><meta name="google-site-verification" content="TZhDInm_qqk0-YS_IeFxjcn6jbrmfEccgvRL8cFjm3k"><meta property="og:title" content="beatmania IIDX SP ☆12 歴代"><meta property="og:site_name" content="beatmania IIDX SP Lv12 Rekidai Top Score Database"><meta property="og:url" content="https://rekidai-info.github.io"><meta property="og:description" content="The top scores of beatmania IIDX in the past are listed."><meta property="og:type" content="website"><meta property="og:image" content="https://rekidai-info.github.io/ogimage.jpg"><script async src="https://www.googletagmanager.com/gtag/js?id=G-7FLKW9GYQ6"></script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
@@ -46,52 +46,20 @@ gtag('config', 'G-7FLKW9GYQ6');
 
 
 
-<main class="svelte-aocw1u"><script lang="ts">const auth = localStorage.getItem("auth");
-if (navigator.userAgent == null || navigator.userAgent == "") {
-  location.href = "auth.html";
-} else if (navigator.userAgent.indexOf("bot") >= 0 || navigator.userAgent.indexOf("Bot") >= 0 || navigator.userAgent.indexOf("Yeti") >= 0 || navigator.userAgent.indexOf("Slurp") >= 0 || navigator.userAgent.indexOf("Baidu") >= 0) {
-} else if (
-  /*navigator.language !== null && navigator.language !== 'ja'*/
-  true
-) {
-} else if (auth == null) {
-  location.href = "auth.html";
-} else if (auth == "ng" || auth !== "ok") {
-  location.href = "auth.html";
-} else {
-  const expires = localStorage.getItem("expires");
-  if (expires == null) {
-    location.href = "auth.html";
-  } else {
-    try {
-      const expiresMillis = parseInt(expires, 10);
-      if (isNaN(expiresMillis) || !isFinite(expiresMillis) || expiresMillis < Date.now()) {
-        location.href = "auth.html";
-      } else if (expiresMillis >= Date.now() + 7 * 24 * 60 * 60 * 1e3) {
-        location.href = "auth.html";
-      } else if (new Date(expiresMillis - 7 * 24 * 60 * 60 * 1e3) <= new Date(2022, 5, 17, 20, 30, 0)) {
-        location.href = "auth.html";
-      }
-    } catch (e) {
-      console.error(e);
-      location.href = "auth.html";
-    }
-  }
-}
-</script>
+<main class="svelte-aocw1u"><script lang="ts"></script>
 
 <p id="loading" style="display: inline;">Loading...</p><img src="bars-rotate-fade.svg" alt="Loading..." style="vertical-align: top;">
 </main>
 
 
-		<script type="module" data-sveltekit-hydrate="ex0iyb">
-			import { start } from "./_app/immutable/start-be6acc3b.js";
+		<script type="module" data-sveltekit-hydrate="1dbn0wu">
+			import { start } from "./_app/immutable/start-a9ee87e5.js";
 
 			start({
 				env: {},
 				paths: {"assets":"","base":""},
-				target: document.querySelector('[data-sveltekit-hydrate="ex0iyb"]').parentNode,
-				version: "1675588003292",
+				target: document.querySelector('[data-sveltekit-hydrate="1dbn0wu"]').parentNode,
+				version: "1675607704451",
 				hydrate: {
 					node_ids: [0, 4],
 					data: [null,null],
