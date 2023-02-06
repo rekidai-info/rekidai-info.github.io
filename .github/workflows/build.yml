@@ -35,15 +35,9 @@ jobs:
           git config --local user.email "workflow@example.com"
           git config --local user.name "workflow"
           git pull
-          cp -f src/routes/index/+page.svelte index.svelte.bak
-          cp -f src/routes/callback/+page.svelte callback.svelte.bak
-          sed -i "s/^\s*//" src/routes/index/+page.svelte
-          sed -i "s/^\s*//" src/routes/callback/+page.svelte
           npm install
           npm run build
           rm -rf _app && mv -f build/*.html build/*.js build/*.ico build/*.png build/*.jpg build/*.svg build/*.json build/_app . && rm -rf build && rm -f table-sort.js rekidai.json
-          mv -f index.svelte.bak src/routes/index/+page.svelte
-          mv -f callback.svelte.bak src/routes/callback/+page.svelte
           git add .
           git commit -m "Automatically updated by Workflow Action"
           git push origin main
