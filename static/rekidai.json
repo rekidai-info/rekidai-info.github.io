@@ -1792,7 +1792,7 @@
     "version": "14[GOLD]",
     "music": "Fascination MAXX(A)",
     "musicKR": "파시네이션 맥스(A)",
-    "musicEN": "FAXX",
+    "musicEN": "FAXX(A)",
     "notes": 1313,
     "bpm": [
       100,
@@ -1995,7 +1995,7 @@
     "version": "13[DD]",
     "music": "Ganymede(L)",
     "musicKR": "가니메데스(L)",
-    "musicJP": "ガニメデ",
+    "musicJP": "ガニメデ(L)",
     "notes": 1356,
     "bpm": [
       72,
@@ -2424,7 +2424,7 @@
     "version": "15[DJT]",
     "music": "ICARUS(L)",
     "musicKR": "이카로스(L)",
-    "musicJP": "黒イカ",
+    "musicJP": "黒イカ(L)",
     "notes": 2000,
     "bpm": [
       126,
@@ -2942,6 +2942,7 @@
   {
     "version": "30[RESI]",
     "music": "Level 4(A)",
+    "musicKR": "레벨 사(A)",
     "notes": 1883,
     "bpm": [
       180
@@ -4246,7 +4247,7 @@
     "version": "17[SIR]",
     "music": "Red. by Full Metal Jacket(A)",
     "musicKR": "레드. by 풀 메탈자켓(A)",
-    "musicJP": "赤鮭",
+    "musicJP": "赤鮭(A)",
     "notes": 1643,
     "bpm": [
       158
@@ -4265,7 +4266,7 @@
     "version": "26[Root]",
     "music": "Red. by Jack Trance(A)",
     "musicKR": "레드. 잭 트랜스의 작품(A)",
-    "musicJP": "赤虎",
+    "musicJP": "赤虎(A)",
     "notes": 1862,
     "bpm": [
       160
@@ -5373,7 +5374,7 @@
     "version": "28[BIS]",
     "music": "THE PEERLESS UNDER HEAVEN(A)",
     "musicKR": "천하의 비길 데 없는 자(A)",
-    "musicJP": "天下一品",
+    "musicJP": "天下一品(A)",
     "notes": 1818,
     "bpm": [
       170
@@ -6159,7 +6160,7 @@
   {
     "version": "19[Lin]",
     "music": "WONDER WALKER(A)",
-    "musicKR": "원더 워커",
+    "musicKR": "원더 워커(A)",
     "notes": 1921,
     "bpm": [
       165
@@ -6515,7 +6516,7 @@
     "version": "26[Root]",
     "music": "お菓子の王国(A)",
     "musicKR": "과자의 왕국(A)",
-    "musicEN": "Kingdom of Sweets",
+    "musicEN": "Kingdom of Sweets(A)",
     "notes": 2109,
     "bpm": [
       190
@@ -6815,8 +6816,8 @@
   {
     "version": "23[cop]",
     "music": "めいさいアイドル☆あいむちゃん♪(A)",
-    "musicKR": "미세한 아이돌 ☆ 아임짱 ♪(A)",
-    "musicEN": "Aimu-chan, the idol of the famous(A)",
+    "musicKR": "미세한 아이돌☆아임짱 ♪(A)",
+    "musicEN": "Aimu-chan☆the idol of the famous(A)",
     "notes": 1717,
     "bpm": [
       160
