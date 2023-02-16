@@ -8118,6 +8118,22 @@
     "date": "2022-06-17"
   },
   {
+    "version": "26[Root]",
+    "music": "龍王の霊廟(Mausoleum Of The Primal Dragon)(L)",
+    "notes": 2023,
+    "bpm": [
+      144
+    ],
+    "textage": "https://textage.cc/score/26/_mausole.html?2XC00",
+    "musicMovie": "https://www.youtube.com/watch?v=2hiv1WtFBek",
+    "charge": true,
+    "score": 4025,
+    "scoreResult": "https://www.youtube.com/watch?v=sSuqwaOD7Cw&t=11263s",
+    "topVersion": "30[RESI]",
+    "player": "KKM*",
+    "date": "2022-02-13"
+  },
+  {
     "version": "30[RESI]",
     "music": "恋愛=精度×認識力",
     "notes": 1756,
