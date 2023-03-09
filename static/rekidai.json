@@ -519,6 +519,24 @@
     "date": "2021-10-22"
   },
   {
+    "version": "30[RESI]",
+    "music": "Beyond Evolution(A)",
+    "notes": 2216,
+    "bpm": [
+      185
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=k7usSjlhFNM",
+    "charge": true,
+    "peak": true,
+    "superPeak": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-03-09"
+  },
+  {
     "version": "11[RED]",
     "music": "Be quiet(L)",
     "musicKR": "조용히해(L)",
@@ -2784,6 +2802,23 @@
     "topVersion": "29[Cast]",
     "player": "KKM*",
     "date": "2022-09-22"
+  },
+  {
+    "version": "30[RESI]",
+    "music": "kors k's How to make OTOGE CORE 「LONG」(A)",
+    "notes": 1863,
+    "bpm": [
+      190
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=FIDO306X_Yg",
+    "charge": true,
+    "peak": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-03-09"
   },
   {
     "version": "16[EMP]",
