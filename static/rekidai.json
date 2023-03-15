@@ -1302,6 +1302,21 @@
     "date": "2021-10-19"
   },
   {
+    "version": "30[RESI]",
+    "music": "dica dica(A)",
+    "notes": 1638,
+    "bpm": [
+      175
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=csr37XrcZWA",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-03-15"
+  },
+  {
     "version": "17[SIR]",
     "music": "DOMINION(A)",
     "musicKR": "지배(A)",
