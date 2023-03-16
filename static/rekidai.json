@@ -4701,8 +4701,9 @@
   },
   {
     "version": "21[SPA]",
-    "music": "Sigmund†(L)",
-    "musicKR": "지그문트†(L)",
+    "music": "Sigmund(L)",
+    "musicKR": "지그문트(L)",
+    "musicEN": "Sigmund†",
     "notes": 2267,
     "bpm": [
       200
