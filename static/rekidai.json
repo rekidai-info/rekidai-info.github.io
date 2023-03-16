@@ -757,6 +757,21 @@
     "date": "2022-09-13"
   },
   {
+    "version": "28[BIS]",
+    "music": "Burning Flame(L)",
+    "notes": 1938,
+    "bpm": [
+      165
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=PU9kTEQGh8E",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-03-16"
+  },
+  {
     "version": "22[PEN]",
     "music": "Broken Sword(A)",
     "musicKR": "부서진 검(A)",
