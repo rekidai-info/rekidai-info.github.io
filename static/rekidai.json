@@ -1310,11 +1310,11 @@
     "musicMovie": "https://www.youtube.com/watch?v=dHP5CnoRDZI",
     "peak": true,
     "superPeak": true,
-    "score": 3314,
-    "scoreResult": "https://twitter.com/__Rag__/status/1450305707178295296",
-    "topVersion": "29[Cast]",
-    "player": "RAG*",
-    "date": "2021-10-19"
+    "score": 3326,
+    "scoreResult": "https://www.youtube.com/watch?v=Vuu2_YjgwAU&t=8549s",
+    "topVersion": "30[RESI]",
+    "player": "KKM*",
+    "date": "2023-03-25"
   },
   {
     "version": "30[RESI]",
@@ -1325,6 +1325,7 @@
     ],
     "textage": null,
     "musicMovie": "https://www.youtube.com/watch?v=csr37XrcZWA",
+    "scratch": true,
     "score": 3231,
     "scoreResult": "https://www.youtube.com/watch?v=a9EQXE2uz2o&t=14s",
     "topVersion": "30[RESI]",
