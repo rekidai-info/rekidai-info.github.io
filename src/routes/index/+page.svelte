@@ -781,7 +781,7 @@
 
     const base = Math.floor(score / MAX * 100);
 
-    return base + '%+' + Math.ceil(MAX - MAX * base / 100);
+    return base + '%+' + Math.ceil(score - MAX * base / 100);
   }
 
   function calcRateMinus(notes, score) {
