@@ -755,6 +755,10 @@
   });
 
   function calcRate(notes, score) {
+    if (score <= 0) {
+      return '0%';
+    }
+
     const MAX = notes * 2;
 
     if (score >= MAX) {
@@ -765,6 +769,10 @@
   }
 
   function calcRatePlus(notes, score) {
+    if (score <= 0) {
+      return '0%';
+    }
+
     const MAX = notes * 2;
 
     if (score >= MAX) {
@@ -777,6 +785,10 @@
   }
 
   function calcRateMinus(notes, score) {
+    if (score <= 0) {
+      return '0%';
+    }
+
     const MAX = notes * 2;
 
     if (score >= MAX) {
@@ -789,6 +801,10 @@
   }
 
   function calcRecord(notes, score) {
+    if (score <= 0) {
+      return 'F';
+    }
+
     const MAX = notes * 2;
 
     if (score >= MAX) {
