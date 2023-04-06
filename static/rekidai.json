@@ -763,7 +763,7 @@
     "bpm": [
       165
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/28/brnflame.html?2XC00",
     "musicMovie": "https://www.youtube.com/watch?v=PU9kTEQGh8E",
     "score": 3837,
     "scoreResult": "https://twitter.com/iidx_kkm/status/1637475564843065345/photo/1",
@@ -888,6 +888,21 @@
     "topVersion": "29[Cast]",
     "player": "DOLCE.",
     "date": "2022-05-17"
+  },
+  {
+    "version": "30[RESI]",
+    "music": "Chaotoxin(A)",
+    "notes": 1705,
+    "bpm": [
+      180
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=K96w5MX5d48",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-04-06"
   },
   {
     "version": "22[PEN]",
@@ -1323,7 +1338,7 @@
     "bpm": [
       175
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/30/dicadica.html?2AC00",
     "musicMovie": "https://www.youtube.com/watch?v=csr37XrcZWA",
     "scratch": true,
     "score": 3231,
@@ -2123,6 +2138,21 @@
     "topVersion": "29[Cast]",
     "player": "CHEPY",
     "date": "2021-11-27"
+  },
+  {
+    "version": "30[RESI]",
+    "music": "glacia(A)",
+    "notes": 1492,
+    "bpm": [
+      186
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=CN27Lnj0zJM",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-04-06"
   },
   {
     "version": "24[SINO]",
@@ -6970,6 +7000,22 @@
     "topVersion": "30[RESI]",
     "player": "KKM*",
     "date": "2022-12-20"
+  },
+  {
+    "version": "30[RESI]",
+    "music": "栄冠のカンパネラ(A)",
+    "notes": 2000,
+    "bpm": [
+      185
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=94s06rYQ_78",
+    "charge": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-04-06"
   },
   {
     "version": "23[cop]",
