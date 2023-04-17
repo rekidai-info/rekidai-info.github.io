@@ -1,5 +1,14 @@
 <script lang="ts">
   async function getRekidai() {
+    try {
+      await fetch('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?_=' + Date.now(), {
+        cache: 'no-store',
+        redirect: 'error'
+      });
+    } catch (_) {
+      throw new Error('Ad block detected.');
+    }
+
     const res = await fetch(`rekidai.min.json`, {
       method: 'GET',
       mode: 'same-origin',
