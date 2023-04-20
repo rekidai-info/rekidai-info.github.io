@@ -1590,6 +1590,21 @@
     "date": "2022-04-27"
   },
   {
+    "version": "21[SPA]",
+    "music": "Elektrick U-Phoria(L)",
+    "notes": 2050,
+    "bpm": [
+      180
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=lZJkihVXrj4",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-04-20"
+  },
+  {
     "version": "20[tri]",
     "music": "Elemental Creation(A)",
     "musicKR": "기본 생성(A)",
