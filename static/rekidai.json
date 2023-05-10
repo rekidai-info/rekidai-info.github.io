@@ -554,6 +554,21 @@
     "date": "2023-01-28"
   },
   {
+    "version": "30[RESI]",
+    "music": "BIGWAVERS(A)",
+    "notes": 1796,
+    "bpm": [
+      177
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=abJWbCnVFr0",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-05-11"
+  },
+  {
     "version": "28[BIS]",
     "music": "BIGソムタム(A)",
     "musicKR": "빅솜텀(A)",
