@@ -5030,6 +5030,22 @@
     "date": "2022-11-03"
   },
   {
+    "version": "30[RESI]",
+    "music": "Somnidiscotheque(A)",
+    "notes": 1776,
+    "bpm": [
+      115
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=Tj_WFVWl2ck",
+    "peak": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-05-11"
+  },
+  {
     "version": "22[PEN]",
     "music": "Sounds Of Summer(A)",
     "musicKR": "여름의 소리(A)",
