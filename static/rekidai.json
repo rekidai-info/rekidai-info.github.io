@@ -530,11 +530,11 @@
     "charge": true,
     "peak": true,
     "superPeak": true,
-    "score": 4215,
-    "scoreResult": null,
+    "score": 4223,
+    "scoreResult": "https://www.youtube.com/watch?v=FuDksOKCdlk&t=8s",
     "topVersion": "30[RESI]",
-    "player": "RAG*",
-    "date": "2023-03-09"
+    "player": "DJSTN",
+    "date": "2023-05-14"
   },
   {
     "version": "11[RED]",
@@ -562,11 +562,11 @@
     ],
     "textage": null,
     "musicMovie": "https://www.youtube.com/watch?v=abJWbCnVFr0",
-    "score": 0,
-    "scoreResult": null,
+    "score": 3567,
+    "scoreResult": "https://twitter.com/iidx_kkm/status/1657735588324454400/photo/2",
     "topVersion": "30[RESI]",
-    "player": "NOPLAY",
-    "date": "2023-05-11"
+    "player": "KKM*",
+    "date": "2023-05-14"
   },
   {
     "version": "28[BIS]",
@@ -2938,10 +2938,10 @@
     "textage": "https://textage.cc/score/26/lfo.html?2AC20",
     "musicMovie": "https://www.youtube.com/watch?v=Rl-XlUfkk0o",
     "peak": true,
-    "score": 3353,
-    "scoreResult": "https://twitter.com/ucotg/status/1657649785254576128/photo/1",
+    "score": 3356,
+    "scoreResult": "https://twitter.com/iidx_kkm/status/1657735588324454400/photo/1",
     "topVersion": "30[RESI]",
-    "player": "UCCHIE",
+    "player": "KKM*",
     "date": "2023-05-14"
   },
   {
