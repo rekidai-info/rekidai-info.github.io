@@ -560,7 +560,7 @@
     "bpm": [
       177
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/30/bigwaver.html?1AC00",
     "musicMovie": "https://www.youtube.com/watch?v=abJWbCnVFr0",
     "score": 3567,
     "scoreResult": "https://twitter.com/iidx_kkm/status/1657735588324454400/photo/2",
@@ -2018,6 +2018,22 @@
     "topVersion": "30[RESI]",
     "player": "KKM*",
     "date": "2023-02-11"
+  },
+  {
+    "version": "15[DJT]",
+    "music": "four pieces of heaven(L)",
+    "notes": 1518,
+    "bpm": [
+      125,
+      195
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=EtVmTarh76A",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-06-01"
   },
   {
     "version": "27[HV]",
@@ -5036,7 +5052,7 @@
     "bpm": [
       115
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/30/somnidis.html?2AC00",
     "musicMovie": "https://www.youtube.com/watch?v=Tj_WFVWl2ck",
     "peak": true,
     "score": 3366,
