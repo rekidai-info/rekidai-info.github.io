@@ -2027,7 +2027,7 @@
       125,
       195
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/15/fourpces.html?2XC00",
     "musicMovie": "https://www.youtube.com/watch?v=EtVmTarh76A",
     "score": 3016,
     "scoreResult": "https://www.youtube.com/watch?v=WOD1HvjyKA4",
@@ -6366,6 +6366,22 @@
     "date": "2022-08-18"
   },
   {
+    "version": "30[RESI]",
+    "music": "Xerulean(A)",
+    "notes": 1802,
+    "bpm": [
+      182
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=ZfGdJw62jak",
+    "scratch": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-06-22"
+  },
+  {
     "version": "26[Root]",
     "music": "Xlø(A)",
     "musicKR": "실로(A)",
@@ -6812,6 +6828,21 @@
     "date": "2022-12-20"
   },
   {
+    "version": "30[RESI]",
+    "music": "ぞうしょく！？マイデンティティ(A)",
+    "notes": 1851,
+    "bpm": [
+      200
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=GJsHEFZzjh4",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-06-22"
+  },
+  {
     "version": "22[PEN]",
     "music": "それは花火のような恋(A)",
     "musicKR": "그것은 불꽃같은 사랑(A)",
@@ -7153,6 +7184,21 @@
     "topVersion": "30[RESI]",
     "player": "KKM*",
     "date": "2022-10-22"
+  },
+  {
+    "version": "30[RESI]",
+    "music": "神のシナリオ(A)",
+    "notes": 1652,
+    "bpm": [
+      140
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=S6xsqzqrezY",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-06-22"
   },
   {
     "version": "27[HV]",
