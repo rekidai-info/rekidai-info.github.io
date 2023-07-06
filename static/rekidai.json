@@ -3341,6 +3341,22 @@
     "date": "2022-01-02"
   },
   {
+    "version": "30[RESI]",
+    "music": "MAX 300(A)",
+    "notes": 1429,
+    "bpm": [
+      12,
+      300
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=A3F75UuMm8M",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-07-06"
+  },
+  {
     "version": "28[BIS]",
     "music": "MEGAERA(A)",
     "musicKR": "메가이라(A)",
@@ -6127,6 +6143,21 @@
     "topVersion": "30[RESI]",
     "player": "KKM*",
     "date": "2023-04-14"
+  },
+  {
+    "version": "23[cop]",
+    "music": "Violet Pulse(L)",
+    "notes": 2115,
+    "bpm": [
+      134
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=N5j6gXumep8",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-07-06"
   },
   {
     "version": "28[BIS]",
