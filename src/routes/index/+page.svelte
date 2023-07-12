@@ -1,10 +1,14 @@
 <script lang="ts">
   async function getRekidai() {
     try {
-      await fetch('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?_=' + Date.now(), {
+      const url = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?_=' + Date.now();
+      const result = await fetch(url, {
         cache: 'no-store',
         redirect: 'error'
       });
+      if (result.type !== 'cors' || result.url !== url || result.body == null || result.redirected || result.status !== 200) {
+        throw new Error('Ad block detected.');
+      }
     } catch (_) {
       throw new Error('Ad block detected.');
     }
