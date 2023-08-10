@@ -8547,6 +8547,23 @@
     "date": "2022-06-16"
   },
   {
+    "version": "21[SPA]",
+    "music": "ÆTHER(L)",
+    "notes": 1640,
+    "bpm": [
+      24,
+      96,
+      192
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=SvPAtXbYLUE",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-08-10"
+  },
+  {
     "version": "24[SINO]",
     "music": "〆(A)",
     "musicKR": "시메(A)",
