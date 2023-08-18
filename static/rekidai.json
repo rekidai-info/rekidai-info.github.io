@@ -3357,6 +3357,22 @@
     "date": "2023-07-12"
   },
   {
+    "version": "30[RESI]",
+    "music": "MAX 360(A)",
+    "notes": 1610,
+    "bpm": [
+      15,
+      360
+    ],
+    "textage": "https://textage.cc/score/30/max_360.html?2AC00",
+    "musicMovie": "https://www.youtube.com/watch?v=wxT_p_DMRHA",
+    "score": 3180,
+    "scoreResult": "https://twitter.com/iidx_kkm/status/1692503514759717346/photo/1",
+    "topVersion": "30[RESI]",
+    "player": "KKM*",
+    "date": "2023-08-18"
+  },
+  {
     "version": "28[BIS]",
     "music": "MEGAERA(A)",
     "musicKR": "메가이라(A)",
@@ -8555,7 +8571,7 @@
       96,
       192
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/21/_aether.html?2XC00",
     "musicMovie": "https://www.youtube.com/watch?v=SvPAtXbYLUE",
     "score": 0,
     "scoreResult": null,
