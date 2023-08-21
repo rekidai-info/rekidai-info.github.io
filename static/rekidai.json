@@ -5291,6 +5291,21 @@
     "date": "2022-10-20"
   },
   {
+    "version": "30[RESI]",
+    "music": "suspicions(A)",
+    "notes": 1908,
+    "bpm": [
+      153
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=jjyfGO7uNcI",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-08-21"
+  },
+  {
     "version": "24[SINO]",
     "music": "Sweet Clapper(L)",
     "notes": 1485,
