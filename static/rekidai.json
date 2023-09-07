@@ -189,6 +189,21 @@
     "date": "2022-07-26"
   },
   {
+    "version": "30[RESI]",
+    "music": "Always We Trust In You(A)",
+    "notes": 1625,
+    "bpm": [
+      190
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=1tFvYLBCzzs",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-09-07"
+  },
+  {
     "version": "24[SINO]",
     "music": "Amazing Mirage(L)",
     "musicKR": "어메이징 미라지(L)",
@@ -6242,6 +6257,24 @@
   },
   {
     "version": "30[RESI]",
+    "music": "VØID(A)",
+    "notes": 1712,
+    "bpm": [
+      80,
+      164,
+      170
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=WbHQ1WV8-54",
+    "soflan": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-09-07"
+  },
+  {
+    "version": "30[RESI]",
     "music": "VOLAQUAS(A)",
     "notes": 1982,
     "bpm": [
@@ -6578,6 +6611,21 @@
     "date": "2022-04-21"
   },
   {
+    "version": "30[RESI]",
+    "music": "#CMFLG(A)",
+    "notes": 1748,
+    "bpm": [
+      155
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=doX_EgfG0Lk",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-09-07"
+  },
+  {
     "version": "24[SINO]",
     "music": "#MAGiCVLGiRL_TRVP_B3VTZ(A)",
     "notes": 1753,
@@ -6775,7 +6823,7 @@
     "musicMovie": "https://www.youtube.com/watch?v=vO4QCKeyVKc",
     "peak": true,
     "score": 4157,
-    "scoreResult": "https://www.youtube.com/watch?v=MlgFfVKxwI4&t=5542s",
+    "scoreResult": "https://www.youtube.com/watch?v=q7lCo1uItTM",
     "topVersion": "30[RESI]",
     "player": "KKM*",
     "date": "2023-07-12"
