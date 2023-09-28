@@ -1172,6 +1172,23 @@
     "date": "2023-07-05"
   },
   {
+    "version": "18[RA]",
+    "music": "Dances with Snow Fairies(L)",
+    "musicKR": "눈의 요정들과 춤을 춰요(L)",
+    "notes": 2135,
+    "bpm": [
+      154
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=zvd5eLJvkys",
+    "peak": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "30[RESI]",
+    "player": "NOPLAY",
+    "date": "2023-09-28"
+  },
+  {
     "version": "27[HV]",
     "music": "Dans la nuit de l'eternite(A)",
     "musicKR": "단스 라누이트 드 레테르나이트(A)",
