@@ -6792,22 +6792,6 @@
     "date": "2023-08-26"
   },
   {
-    "version": "28[BIS]",
-    "music": "3!dolon forc3(A)",
-    "notes": 1513,
-    "bpm": [
-      96,
-      191
-    ],
-    "textage": "https://textage.cc/score/28/3idolonf.html?2AC20",
-    "musicMovie": "https://www.youtube.com/watch?v=A1Rjo2q92E4",
-    "score": 3007,
-    "scoreResult": "https://twitter.com/iidx_kkm/status/1688134552471158785/photo/1",
-    "topVersion": "30[RESI]",
-    "player": "KKM*",
-    "date": "2023-08-06"
-  },
-  {
     "version": "30[RESI]",
     "music": "[ ]DENTITY(A)",
     "notes": 2000,
@@ -8413,6 +8397,21 @@
     "topVersion": "29[Cast]",
     "player": "CHEPY",
     "date": "2022-08-11"
+  },
+  {
+    "version": "31[EPOL]",
+    "music": "摩天楼(A)",
+    "notes": 0,
+    "bpm": [
+      172
+    ],
+    "textage": null,
+    "musicMovie": null,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPOL]",
+    "player": "NOPLAY",
+    "date": "2023-10-18"
   },
   {
     "version": "28[BIS]",
