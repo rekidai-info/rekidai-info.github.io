@@ -1037,6 +1037,22 @@
     "date": "2023-07-30"
   },
   {
+    "version": "26[Root]",
+    "music": "CODE:Ø(L)",
+    "notes": 1829,
+    "bpm": [
+      125
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=toolQMRVxl0",
+    "scratch": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPOL]",
+    "player": "NOPLAY",
+    "date": "2023-10-18"
+  },
+  {
     "version": "16[EMP]",
     "music": "Colorful Cookie(A)",
     "musicKR": "컬러풀 쿠키(A)",
@@ -6528,6 +6544,21 @@
     "date": "2022-12-31"
   },
   {
+    "version": "19[Lin]",
+    "music": "yellow head joe(L)",
+    "notes": 1596,
+    "bpm": [
+      187
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=e237LA0FlwU",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPOL]",
+    "player": "NOPLAY",
+    "date": "2023-10-18"
+  },
+  {
     "version": "16[EMP]",
     "music": "Y&Co. is dead or alive(A)",
     "musicKR": "Y&Co.는 죽거나 살아있다(A)",
@@ -7478,7 +7509,7 @@
     "music": "恋する☆宇宙戦争っ!!(A)",
     "musicKR": "사랑한다 ☆ 우주전쟁!!(A)",
     "musicEN": "Love in space battle!!(A)",
-    "musicJP": "恋する☆宇宙戦争っ！！",
+    "musicJP": "恋する☆宇宙戦争っ！！(A)",
     "notes": 1835,
     "bpm": [
       200
@@ -7490,6 +7521,25 @@
     "topVersion": "30[RESI]",
     "player": "KKM*",
     "date": "2022-12-28"
+  },
+  {
+    "version": "19[Lin]",
+    "music": "恋する☆宇宙戦争っ!!(L)",
+    "musicKR": "사랑한다 ☆ 우주전쟁!!(L)",
+    "musicEN": "Love in space battle!!(L)",
+    "musicJP": "恋する☆宇宙戦争っ！！(L)",
+    "notes": 1835,
+    "bpm": [
+      200
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=U9LyzpwIAXI",
+    "peak": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPOL]",
+    "player": "NOPLAY",
+    "date": "2023-10-18"
   },
   {
     "version": "19[Lin]",
