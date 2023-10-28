@@ -1039,6 +1039,7 @@
   {
     "version": "26[Root]",
     "music": "CODE:Ø(L)",
+    "musicEN": "CODE:0(L)",
     "notes": 1829,
     "bpm": [
       125
@@ -6391,11 +6392,11 @@
     "textage": "https://textage.cc/score/30/vo_id.html?2AC00",
     "musicMovie": "https://www.youtube.com/watch?v=WbHQ1WV8-54",
     "soflan": true,
-    "score": 0,
-    "scoreResult": null,
+    "score": 3339,
+    "scoreResult": "https://www.youtube.com/watch?v=au56zZTIHTI&t=7812s",
     "topVersion": "30[RESI]",
-    "player": "NOPLAY",
-    "date": "2023-09-07"
+    "player": "U*TAKA",
+    "date": "2023-10-16"
   },
   {
     "version": "30[RESI]",
