@@ -6381,6 +6381,7 @@
   {
     "version": "30[RESI]",
     "music": "VØID(A)",
+    "musicEN": "VOID(A)",
     "notes": 1712,
     "bpm": [
       80,
@@ -6640,7 +6641,7 @@
     "bpm": [
       187
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/19/yheadjoe.html?2XC00",
     "musicMovie": "https://www.youtube.com/watch?v=e237LA0FlwU",
     "score": 3177,
     "scoreResult": "https://twitter.com/iidx_kkm/status/1715632265563353284/photo/1",
@@ -7606,7 +7607,7 @@
     "bpm": [
       200
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/19/_koisuru.html?2XC00",
     "musicMovie": "https://www.youtube.com/watch?v=U9LyzpwIAXI",
     "peak": true,
     "score": 4685,
