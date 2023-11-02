@@ -8867,6 +8867,21 @@
     "date": "2023-01-30"
   },
   {
+    "version": "31[EPO]",
+    "music": "《PL|RAYER》(A)",
+    "notes": 1420,
+    "bpm": [
+      180
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=9eltOO5Fqvc",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2023-11-02"
+  },
+  {
     "version": "30[RESI]",
     "music": "罪過の聖堂(A)",
     "musicKR": "죄과의 성당(A)",
