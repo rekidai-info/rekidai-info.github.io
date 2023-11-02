@@ -8131,6 +8131,22 @@
     "date": "2022-05-12"
   },
   {
+    "version": "31[EPO]",
+    "music": "電光(A)",
+    "notes": 1560,
+    "bpm": [
+      165
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=_gGwFsY5QVk",
+    "scratch": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2023-11-02"
+  },
+  {
     "version": "14[GOLD]",
     "music": "電人、暁に斃れる。(A)",
     "musicKR": "전신, 새벽에 쓰러지다.(A)",
