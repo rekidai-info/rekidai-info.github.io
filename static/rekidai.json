@@ -4997,6 +4997,21 @@
     "date": "2023-06-26"
   },
   {
+    "version": "31[EPO]",
+    "music": "Sirius(A)",
+    "notes": 1637,
+    "bpm": [
+      165
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=zrsFQKuROn8",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2023-11-02"
+  },
+  {
     "version": "29[Cast]",
     "music": "Skreaming for Salvation(A)",
     "musicKR": "구원을 외치다(A)",
