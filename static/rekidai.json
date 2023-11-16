@@ -2102,17 +2102,17 @@
   {
     "version": "31[EPO]",
     "music": "frequent(A)",
-    "notes": 0,
+    "notes": 1900,
     "bpm": [
       176
     ],
     "textage": null,
-    "musicMovie": null,
+    "musicMovie": "https://www.youtube.com/watch?v=8VWIsp9Lm8I",
     "score": 0,
     "scoreResult": null,
     "topVersion": "31[EPO]",
     "player": "NOPLAY",
-    "date": "2023-10-18"
+    "date": "2023-11-16"
   },
   {
     "version": "27[HV]",
@@ -2233,17 +2233,17 @@
   {
     "version": "31[EPO]",
     "music": "Ghost Pulse(A)",
-    "notes": 0,
+    "notes": 1409,
     "bpm": [
       165
     ],
     "textage": null,
-    "musicMovie": null,
+    "musicMovie": "https://www.youtube.com/watch?v=Ccdtd5t0oac",
     "score": 0,
     "scoreResult": null,
     "topVersion": "31[EPO]",
     "player": "NOPLAY",
-    "date": "2023-10-18"
+    "date": "2023-11-16"
   },
   {
     "version": "11[RED]",
@@ -5168,17 +5168,18 @@
   {
     "version": "31[EPO]",
     "music": "SOLAR ECLIPSE(A)",
-    "notes": 0,
+    "notes": 1893,
     "bpm": [
       195
     ],
     "textage": null,
-    "musicMovie": null,
+    "musicMovie": "https://www.youtube.com/watch?v=gAXafhewf_E",
+    "scratch": true,
     "score": 0,
     "scoreResult": null,
     "topVersion": "31[EPO]",
     "player": "NOPLAY",
-    "date": "2023-10-18"
+    "date": "2023-11-16"
   },
   {
     "version": "17[SIR]",
@@ -8524,17 +8525,18 @@
   {
     "version": "31[EPO]",
     "music": "摩天楼(A)",
-    "notes": 0,
+    "notes": 1309,
     "bpm": [
       172
     ],
     "textage": null,
-    "musicMovie": null,
+    "musicMovie": "https://www.youtube.com/watch?v=OjBIrXX9GtM",
+    "charge": true,
     "score": 0,
     "scoreResult": null,
     "topVersion": "31[EPO]",
     "player": "NOPLAY",
-    "date": "2023-10-18"
+    "date": "2023-11-16"
   },
   {
     "version": "28[BIS]",
