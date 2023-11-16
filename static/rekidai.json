@@ -1174,17 +1174,17 @@
   {
     "version": "31[EPO]",
     "music": "Dahlia(A)",
-    "notes": 0,
+    "notes": 1617,
     "bpm": [
       185
     ],
     "textage": null,
-    "musicMovie": null,
+    "musicMovie": "https://www.youtube.com/watch?v=E7-tvBBotYE",
     "score": 0,
     "scoreResult": null,
     "topVersion": "31[EPO]",
     "player": "NOPLAY",
-    "date": "2023-10-18"
+    "date": "2023-11-16"
   },
   {
     "version": "18[RA]",
@@ -2183,17 +2183,18 @@
   {
     "version": "31[EPO]",
     "music": "GAME ON(A)",
-    "notes": 0,
+    "notes": 1386,
     "bpm": [
       105
     ],
     "textage": null,
-    "musicMovie": null,
+    "musicMovie": "https://www.youtube.com/watch?v=E83PAqHSILk",
+    "scratch": true,
     "score": 0,
     "scoreResult": null,
     "topVersion": "31[EPO]",
     "player": "NOPLAY",
-    "date": "2023-10-18"
+    "date": "2023-11-16"
   },
   {
     "version": "13[DD]",
