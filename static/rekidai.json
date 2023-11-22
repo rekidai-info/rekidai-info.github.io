@@ -7785,6 +7785,23 @@
     "date": "2022-10-31"
   },
   {
+    "version": "31[EPO]",
+    "music": "灼熱Beach Side Bunny (かめりあ's \"Summertime D'n'B\" Remix)(A)",
+    "notes": 1647,
+    "bpm": [
+      174
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=nim4NNeu1G0",
+    "scratch": true,
+    "superScratch": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2023-11-22"
+  },
+  {
     "version": "23[cop]",
     "music": "灼熱 Pt.2 Long Train Running(A)",
     "musicKR": "작열 Pt.2 Long Train Running(A)",
@@ -7802,6 +7819,22 @@
     "topVersion": "30[RESI]",
     "player": "DOLCE.",
     "date": "2023-06-13"
+  },
+  {
+    "version": "31[EPO]",
+    "music": "終焔のClaudia(A)",
+    "notes": 1406,
+    "bpm": [
+      90,
+      185
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=MDivQjjO1F8",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2023-11-22"
   },
   {
     "version": "15[DJT]",
