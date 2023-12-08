@@ -3959,6 +3959,21 @@
     "date": "2021-05-01"
   },
   {
+    "version": "31[EPO]",
+    "music": "Out of Control(A)",
+    "notes": 1598,
+    "bpm": [
+      185
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=_ADC_PQGYfg",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2023-12-08"
+  },
+  {
     "version": "27[HV]",
     "music": "Override(L)",
     "musicKR": "기각하다(L)",
@@ -6313,6 +6328,21 @@
     "topVersion": "30[RESI]",
     "player": "KKM*",
     "date": "2023-04-12"
+  },
+  {
+    "version": "31[EPO]",
+    "music": "Vermilion Carol(A)",
+    "notes": 1837,
+    "bpm": [
+      175
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=UamhXZa4Wqo",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2023-12-08"
   },
   {
     "version": "27[HV]",
