@@ -8513,6 +8513,24 @@
     "date": "2023-05-01"
   },
   {
+    "version": "22[PEN]",
+    "music": "表裏一体!?怪盗いいんちょの悩み♥(L)",
+    "musicKR": "표리일체!?괴도위원장의 고민♥(L)",
+    "musicEN": "Two sides of the same coin!? The trouble of Iincho the Phantom Thief♥(L)",
+    "musicJP": "表裏一体！？怪盗いいんちょの悩み(L)",
+    "notes": 2334,
+    "bpm": [
+      165
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=XrrfMGa3_-c",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2023-12-20"
+  },
+  {
     "version": "28[BIS]",
     "music": "二人ノ廃城幽踊宴(A)",
     "musicKR": "두 사람의 폐성 유무연(A)",
