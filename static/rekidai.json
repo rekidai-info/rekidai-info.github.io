@@ -2523,6 +2523,23 @@
     "date": "2023-04-21"
   },
   {
+    "version": "31[EPO]",
+    "music": "Glitch N Ride(A)",
+    "notes": 1389,
+    "bpm": [
+      30,
+      150,
+      300
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=7tamAVXnMHg",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-01-18"
+  },
+  {
     "version": "24[SINO]",
     "music": "Go Ahead!!(A)",
     "musicKR": "고어헤드!!(A)",
@@ -3774,6 +3791,21 @@
     "topVersion": "30[RESI]",
     "player": "KKM*",
     "date": "2023-09-20"
+  },
+  {
+    "version": "31[EPO]",
+    "music": "MAXIMUM CHEAT GIRL(A)",
+    "notes": 1842,
+    "bpm": [
+      210
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=iqr0k2Fvi08",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-01-18"
   },
   {
     "version": "28[BIS]",
@@ -9107,7 +9139,7 @@
     "bpm": [
       165
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/22/_hyouri.html?2XC00",
     "musicMovie": "https://youtu.be/watch?v=XrrfMGa3_-c",
     "score": 4584,
     "scoreResult": "https://x.com/iidx_kkm/status/1746830062035579301/photo/2",
