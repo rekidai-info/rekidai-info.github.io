@@ -238,6 +238,21 @@
     "date": "2022-07-22"
   },
   {
+    "version": "31[EPO]",
+    "music": "Ambivalent Vermilia(A)",
+    "notes": 2132,
+    "bpm": [
+      185
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=g0R81dcw0eU",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-02-15"
+  },
+  {
     "version": "25[CB]",
     "music": "ANCHOR(A)",
     "musicKR": "앵커(A)",
@@ -2531,7 +2546,7 @@
       150,
       300
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/31/glitch_n.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=7tamAVXnMHg",
     "soflan": true,
     "score": 2668,
@@ -3800,7 +3815,7 @@
     "bpm": [
       210
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/31/maxcheat.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=iqr0k2Fvi08",
     "score": 3661,
     "scoreResult": "https://youtu.be/watch?v=IHcyl22U7bo&t=4950s",
@@ -4331,7 +4346,7 @@
     "bpm": [
       155
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/25/o_d_20.html?2XC00",
     "musicMovie": "https://youtu.be/watch?v=9Yg17oLQ84g",
     "score": 3947,
     "scoreResult": "https://youtu.be/watch?v=IHcyl22U7bo&t=9193s",
@@ -7117,6 +7132,21 @@
     "topVersion": "30[RESI]",
     "player": "KKM*",
     "date": "2023-09-23"
+  },
+  {
+    "version": "31[EPO]",
+    "music": "Xb10r(A)",
+    "notes": 1833,
+    "bpm": [
+      200
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=HdL2SQ0fpcU",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-02-15"
   },
   {
     "version": "26[Root]",
