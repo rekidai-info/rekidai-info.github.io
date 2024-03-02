@@ -244,13 +244,13 @@
     "bpm": [
       185
     ],
-    "textage": null,
-    "musicMovie": "https://www.youtube.com/watch?v=g0R81dcw0eU",
-    "score": 0,
-    "scoreResult": null,
+    "textage": "https://textage.cc/score/31/ambiverm.html?2AC00",
+    "musicMovie": "https://youtu.be/watch?v=g0R81dcw0eU",
+    "score": 4198,
+    "scoreResult": "https://youtu.be/watch?v=hL69tgKkiac&t=10652s",
     "topVersion": "31[EPO]",
-    "player": "NOPLAY",
-    "date": "2024-02-15"
+    "player": "KKM*",
+    "date": "2024-03-02"
   },
   {
     "version": "25[CB]",
@@ -561,7 +561,7 @@
     "musicMovie": "https://youtu.be/watch?v=OEHLjwMa9i0",
     "peak": true,
     "score": 3303,
-    "scoreResult": "https://www.youtube.com/watch?v=F_VRKo2PQto",
+    "scoreResult": "https://youtu.be/watch?v=F_VRKo2PQto",
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2024-01-21"
@@ -2550,7 +2550,7 @@
     "musicMovie": "https://youtu.be/watch?v=7tamAVXnMHg",
     "soflan": true,
     "score": 2716,
-    "scoreResult": "https://twitter.com/uirogame/status/1755629237707706627/photo/2",
+    "scoreResult": "https://x.com/uirogame/status/1755629237707706627/photo/2",
     "topVersion": "31[EPO]",
     "player": "WELLOW",
     "date": "2024-02-09"
@@ -3886,7 +3886,7 @@
     "musicMovie": "https://youtu.be/watch?v=Y57snv0G0TI",
     "peak": true,
     "score": 3648,
-    "scoreResult": "https://www.youtube.com/watch?v=jaRg5aZ0SMY",
+    "scoreResult": "https://youtu.be/watch?v=jaRg5aZ0SMY",
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2024-01-21"
@@ -3898,8 +3898,8 @@
     "bpm": [
       210
     ],
-    "textage": null,
-    "musicMovie": "https://www.youtube.com/watch?v=Ix2-y2VilPE",
+    "textage": "https://textage.cc/score/21/miracle5.html?2XC00",
+    "musicMovie": "https://youtu.be/watch?v=Ix2-y2VilPE",
     "scratch": true,
     "score": 3068,
     "scoreResult": "https://youtu.be/watch?v=B8zE-Bzf0eg&t=4798s",
@@ -4529,7 +4529,7 @@
     "musicMovie": "https://youtu.be/watch?v=5mzc2Tvq-Jg",
     "peak": true,
     "score": 4033,
-    "scoreResult": "https://www.youtube.com/watch?v=Ay8FU5xIW9M&t=5348s",
+    "scoreResult": "https://youtu.be/watch?v=Ay8FU5xIW9M&t=5348s",
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2024-02-25"
@@ -4782,7 +4782,7 @@
     "musicMovie": "https://youtu.be/watch?v=Bn4qg8X8YVM",
     "peak": true,
     "score": 3270,
-    "scoreResult": "https://www.youtube.com/watch?v=z5JLw7-ADP8",
+    "scoreResult": "https://youtu.be/watch?v=z5JLw7-ADP8",
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2024-01-21"
@@ -5047,7 +5047,7 @@
     "musicMovie": "https://youtu.be/watch?v=OPCfijvwDT8",
     "peak": true,
     "score": 3324,
-    "scoreResult": "https://twitter.com/iidx_kkm/status/1763118236667916698/photo/1",
+    "scoreResult": "https://x.com/iidx_kkm/status/1763118236667916698/photo/1",
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2024-02-29"
@@ -5066,7 +5066,7 @@
     "peak": true,
     "superCharge": true,
     "score": 3414,
-    "scoreResult": "https://twitter.com/iidx_kkm/status/1760596565323125035/photo/2",
+    "scoreResult": "https://x.com/iidx_kkm/status/1760596565323125035/photo/2",
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2024-02-22"
@@ -6262,11 +6262,11 @@
     "textage": "https://textage.cc/score/26/t_rebeli.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=-DIfloFTuYI",
     "peak": true,
-    "score": 3210,
-    "scoreResult": "https://x.com/iidx_kkm/status/1730159156387270946/photo/2",
+    "score": 3216,
+    "scoreResult": "https://youtu.be/watch?v=hL69tgKkiac&t=7015s",
     "topVersion": "31[EPO]",
     "player": "KKM*",
-    "date": "2023-11-30"
+    "date": "2024-03-02"
   },
   {
     "version": "19[Lin]",
@@ -6644,11 +6644,11 @@
     ],
     "textage": "https://textage.cc/score/20/trueblue.html?2AC20",
     "musicMovie": "https://youtu.be/watch?v=Zr5yZ34tRxU",
-    "score": 3792,
-    "scoreResult": "https://x.com/iidx_kkm/status/1574682169787621376/photo/1",
-    "topVersion": "29[Cast]",
+    "score": 3793,
+    "scoreResult": "https://youtu.be/watch?v=hL69tgKkiac&t=8181s",
+    "topVersion": "31[EPO]",
     "player": "KKM*",
-    "date": "2022-09-27"
+    "date": "2024-03-02"
   },
   {
     "version": "12[HS]",
@@ -6700,11 +6700,11 @@
     "charge": true,
     "peak": true,
     "superCharge": true,
-    "score": 3306,
-    "scoreResult": "https://x.com/__CHEPY/status/1567128869991510016/photo/1",
-    "topVersion": "29[Cast]",
-    "player": "CHEPY",
-    "date": "2022-09-06"
+    "score": 3309,
+    "scoreResult": "https://youtu.be/watch?v=hL69tgKkiac&t=6823s",
+    "topVersion": "31[EPO]",
+    "player": "KKM*",
+    "date": "2024-03-02"
   },
   {
     "version": "15[DJT]",
@@ -7156,10 +7156,10 @@
     "bpm": [
       200
     ],
-    "textage": null,
-    "musicMovie": "https://www.youtube.com/watch?v=HdL2SQ0fpcU",
+    "textage": "https://textage.cc/score/31/xb10r.html?2AC00",
+    "musicMovie": "https://youtu.be/watch?v=HdL2SQ0fpcU",
     "score": 3637,
-    "scoreResult": "https://www.youtube.com/watch?v=Ay8FU5xIW9M&t=9656s",
+    "scoreResult": "https://youtu.be/watch?v=Ay8FU5xIW9M&t=9656s",
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2024-02-25"
@@ -8860,7 +8860,7 @@
     "peak": true,
     "superPeak": true,
     "score": 4110,
-    "scoreResult": "https://www.youtube.com/watch?v=keLEKW-rQg8",
+    "scoreResult": "https://youtu.be/watch?v=keLEKW-rQg8",
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2024-01-21"
