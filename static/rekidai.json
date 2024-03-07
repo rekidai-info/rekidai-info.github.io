@@ -930,6 +930,21 @@
     "date": "2022-10-07"
   },
   {
+    "version": "31[EPO]",
+    "music": "CADENZA(A)",
+    "notes": 2357,
+    "bpm": [
+      160
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=uCEwG8zA0SQ",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-03-07"
+  },
+  {
     "version": "14[GOLD]",
     "music": "Candy Galy(A)",
     "musicKR": "캔디 갤리(A)",
@@ -3890,6 +3905,21 @@
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2024-01-21"
+  },
+  {
+    "version": "31[EPO]",
+    "music": "Million Dollar(A)",
+    "notes": 1762,
+    "bpm": [
+      180
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=wJC49xXU19c",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-03-07"
   },
   {
     "version": "21[SPA]",
