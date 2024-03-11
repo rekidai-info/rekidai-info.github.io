@@ -13,21 +13,31 @@
       throw new Error('Ad block detected.');
     }
 
-    const res = await fetch(`rekidai.min.json`, {
-      method: 'GET',
-      mode: 'same-origin',
-      cache: 'no-cache',
-      credentials: 'same-origin',
-    });
-    const json = await res.json();
-
-    if (res.ok) {
-      return json.filter(e => {
-        return e.music !== '罪過の聖堂';
-      });
-    } else {
-      throw new Error('Error Loading Rekidai Data.');
+    if (window.adsbygoogle == null || window.adsbygoogle.push == null || typeof(window.adsbygoogle.push) !== 'function') {
+      throw new Error('Ad block detected.');
     }
+
+    try {
+      window.adsbygoogle.push();
+    } catch (_) {
+      const res = await fetch(`rekidai.min.json`, {
+        method: 'GET',
+        mode: 'same-origin',
+        cache: 'no-cache',
+        credentials: 'same-origin',
+      });
+      const json = await res.json();
+
+      if (res.ok) {
+        return json.filter(e => {
+          return e.music !== '罪過の聖堂';
+        });
+      } else {
+        throw new Error('Error Loading Rekidai Data.');
+      }
+    }
+
+    throw new Error('Ad block detected.');
   }
 
   let visible = false;
