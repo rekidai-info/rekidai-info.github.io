@@ -5863,6 +5863,21 @@
     "date": "2023-12-01"
   },
   {
+    "version": "31[EPO]",
+    "music": "Stereo Beasts(A)",
+    "notes": 1881,
+    "bpm": [
+      160
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=j5zkEwCyBdU",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-03-13"
+  },
+  {
     "version": "23[cop]",
     "music": "StrayedCatz(A)",
     "musicKR": "스트레이드캣츠(A)",
