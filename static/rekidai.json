@@ -1491,6 +1491,21 @@
     "date": "2023-08-12"
   },
   {
+    "version": "31[EPO]",
+    "music": "Demon March(A)",
+    "notes": 1875,
+    "bpm": [
+      174
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=MXi3gF6efdE",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-04-04"
+  },
+  {
     "version": "22[PEN]",
     "music": "Despair of ELFERIA(A)",
     "musicKR": [
@@ -9592,6 +9607,24 @@
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2024-01-18"
+  },
+  {
+    "version": "31[EPO]",
+    "music": "惑星鉄道(A)",
+    "notes": 1633,
+    "bpm": [
+      10,
+      157,
+      166
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=foyYql-51bc",
+    "soflan": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-04-04"
   },
   {
     "version": "21[SPA]",
