@@ -7,5 +7,6 @@
 .env
 .env.*
 !.env.example
+/commit.template
 /rekidai.json
 /table-sort.js
