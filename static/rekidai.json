@@ -936,7 +936,7 @@
     "bpm": [
       160
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/31/cadenza.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=uCEwG8zA0SQ",
     "peak": true,
     "score": 4643,
@@ -1099,7 +1099,7 @@
     "musicMovie": "https://youtu.be/watch?v=OJ8l_pMrrQg",
     "peak": true,
     "score": 3188,
-    "scoreResult": "https://x.com/u_taka_IIDX/status/1543630986990452738/photo/2",
+    "scoreResult": "https://youtu.be/watch?v=CAFoEurXqig",
     "topVersion": "29[Cast]",
     "player": "U*TAKA",
     "date": "2022-07-01"
@@ -1497,7 +1497,7 @@
     "bpm": [
       174
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/31/demonmch.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=MXi3gF6efdE",
     "score": 3709,
     "scoreResult": "https://youtu.be/watch?v=ihGWLWddi8I&t=2292s",
@@ -3349,7 +3349,7 @@
     "bpm": [
       166
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/30/king.html?2XC00",
     "musicMovie": "https://youtu.be/watch?v=T3bbH7kcZJc",
     "score": 3954,
     "scoreResult": "https://youtu.be/watch?v=9mJtOUiYeZc&t=11042s",
@@ -3944,7 +3944,7 @@
     "bpm": [
       180
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/31/mldollar.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=wJC49xXU19c",
     "score": 3476,
     "scoreResult": "https://youtu.be/watch?v=Fb0FKpBIkY0&t=4375s",
@@ -5245,7 +5245,7 @@
     "bpm": [
       155
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/20/saturn.html?2XC00",
     "musicMovie": "https://youtu.be/watch?v=_5oyNO22F_s",
     "score": 3553,
     "scoreResult": "https://youtu.be/watch?v=FIm5mJglw-Q&t=9476s",
@@ -5915,7 +5915,7 @@
     "bpm": [
       160
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/31/stereobt.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=j5zkEwCyBdU",
     "score": 3725,
     "scoreResult": "https://youtu.be/watch?v=Fb0FKpBIkY0&t=4144s",
@@ -6051,7 +6051,7 @@
     "bpm": [
       208
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/31/swordven.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=TgreQsDQGwo",
     "score": 3290,
     "scoreResult": "https://x.com/iidx_kkm/status/1778053391190819321/photo/1",
@@ -8161,7 +8161,7 @@
       110,
       150
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/27/_oratoky.html?2XC00",
     "musicMovie": "https://youtu.be/watch?v=RN1Z5ThAjMk",
     "score": 3702,
     "scoreResult": "https://x.com/iidx_kkm/status/1772249408798609843/photo/3",
@@ -8215,6 +8215,21 @@
     "topVersion": "30[RESI]",
     "player": "KKM*",
     "date": "2022-10-22"
+  },
+  {
+    "version": "13[DD]",
+    "music": "華蝶風雪(L)",
+    "notes": 2014,
+    "bpm": [
+      199
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=yTBBGDtBpTU",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-04-25"
   },
   {
     "version": "30[RESI]",
@@ -9617,7 +9632,7 @@
       157,
       166
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/31/_waktetu.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=-ZWLWMGJh4A&t=3794s",
     "peak": true,
     "soflan": true,
