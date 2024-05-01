@@ -14,7 +14,7 @@
     }
 
     try {
-      const url = 'https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202404240101/show_ads_impl_fy2021.js?_=' + Date.now();
+      const url = 'https://pagead2.googlesyndication.com/a.js?_=' + Date.now();
       const result = await fetch(url, {
         cache: 'no-store'
       });
