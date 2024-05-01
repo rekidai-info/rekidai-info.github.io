@@ -7,10 +7,10 @@
         redirect: 'error'
       });
       if (result.type !== 'cors' || result.url !== url || result.body == null || result.redirected || result.status !== 200) {
-        throw new Error('Ad block detected.');
+        throw Error('Ad blocker detected.');
       }
     } catch (_) {
-      throw new Error('Ad block detected.');
+      throw Error('Ad blocker detected.');
     }
 
     try {
@@ -19,16 +19,16 @@
         cache: 'no-store'
       });
       if (result.type !== 'cors' || result.url !== url || result.body == null || result.redirected || result.status !== 200) {
-        throw new Error('Ad block detected.');
+        throw Error('Ad blocker detected.');
       }
     } catch (e) {
-      if (e.toString().indexOf('Ad block detected.') >= 0) {
+      if (e.toString().indexOf('Ad blocker detected.') >= 0) {
         throw e;
       }
     }
 
     if (window.adsbygoogle == null || window.adsbygoogle.push == null || typeof(window.adsbygoogle.push) !== 'function' || window.adsbygoogle.push.toString() !== 'l=>{Op(l,k,f)}') {
-      throw new Error('Ad block detected.');
+      throw Error('Ad blocker detected.');
     }
 
     try {
@@ -50,12 +50,12 @@
             return e.music !== '罪過の聖堂';
           });
         } else {
-          throw new Error('Error Loading Rekidai Data.');
+          throw Error('Error Loading Rekidai Data.');
         }
       }
     }
 
-    throw new Error('Ad block detected.');
+    throw Error('Ad blocker detected.');
   }
 
   let visible = false;
