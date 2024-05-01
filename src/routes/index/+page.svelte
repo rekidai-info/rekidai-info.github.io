@@ -1,5 +1,5 @@
 <script lang="ts">
-  async function getRekidai() {debugger;
+  async function getRekidai() {
     try {
       const url = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?_=' + Date.now();
       const result = await fetch(url, {
