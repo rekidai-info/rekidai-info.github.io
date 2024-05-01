@@ -21,30 +21,37 @@
       if (result.type !== 'cors' || result.url !== url || result.body == null || result.redirected || result.status !== 200) {
         throw new Error('Ad block detected.');
       }
-    } catch (_) {
+    } catch (e) {
+      if (e.toString().indexOf('Ad block detected.') >= 0) {
+        throw e;
+      }
     }
 
-    if (window.adsbygoogle == null || window.adsbygoogle.push == null || typeof(window.adsbygoogle.push) !== 'function') {
+    if (window.adsbygoogle == null || window.adsbygoogle.push == null || typeof(window.adsbygoogle.push) !== 'function' || window.adsbygoogle.push.toString() !== 'l=>{Op(l,k,f)}') {
       throw new Error('Ad block detected.');
     }
 
     try {
       window.adsbygoogle.push();
     } catch (_) {
-      const res = await fetch(`rekidai.min.json`, {
-        method: 'GET',
-        mode: 'same-origin',
-        cache: 'no-cache',
-        credentials: 'same-origin',
-      });
-      const json = await res.json();
-
-      if (res.ok) {
-        return json.filter(e => {
-          return e.music !== '罪過の聖堂';
+      try {
+        window.adsbygoogle.push(true);
+      } catch (_) {
+        const res = await fetch(`rekidai.min.json`, {
+          method: 'GET',
+          mode: 'same-origin',
+          cache: 'no-cache',
+          credentials: 'same-origin',
         });
-      } else {
-        throw new Error('Error Loading Rekidai Data.');
+        const json = await res.json();
+
+        if (res.ok) {
+          return json.filter(e => {
+            return e.music !== '罪過の聖堂';
+          });
+        } else {
+          throw new Error('Error Loading Rekidai Data.');
+        }
       }
     }
 
