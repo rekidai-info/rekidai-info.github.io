@@ -27,7 +27,14 @@
       }
     }
 
-    if (window.adsbygoogle == null || window.adsbygoogle.push == null || typeof(window.adsbygoogle.push) !== 'function' || window.Op != null || window.adsbygoogle.Op != null || window.Pp != null || window.adsbygoogle.Pp != null || (window.adsbygoogle.push.toString() !== 'l=>{Op(l,k,f)}' && window.adsbygoogle.push.toString() !== 'l=>{Pp(l,k,f)}')) {
+    if (window.adsbygoogle == null ||
+        window.adsbygoogle.push == null ||
+        typeof(window.adsbygoogle.push) !== 'function' ||
+        window.Op != null ||
+        window.adsbygoogle.Op != null ||
+        window.Pp != null ||
+        window.adsbygoogle.Pp != null ||
+        (window.adsbygoogle.push.toString() !== 'l=>{Op(l,k,f)}' && window.adsbygoogle.push.toString() !== 'l=>{Pp(l,k,f)}')) {
       throw Error('Ad blocker detected.');
     }
 
