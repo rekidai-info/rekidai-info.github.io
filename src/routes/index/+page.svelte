@@ -30,17 +30,20 @@
     if (window.adsbygoogle == null ||
         window.adsbygoogle.push == null ||
         typeof(window.adsbygoogle.push) !== 'function' ||
+        window.Np != null ||
+        window.adsbygoogle.Np != null ||
         window.Op != null ||
         window.adsbygoogle.Op != null ||
         window.Pp != null ||
         window.adsbygoogle.Pp != null ||
-        window.Np != null ||
-        window.adsbygoogle.Np != null ||
+        window.Vp != null ||
+        window.adsbygoogle.Vp != null ||
         window.Wp != null ||
         window.adsbygoogle.Wp != null ||
-        (window.adsbygoogle.push.toString() !== 'l=>{Op(l,k,f)}' &&
+        (window.adsbygoogle.push.toString() !== 'l=>{Np(l,m,f)}' && 
+         window.adsbygoogle.push.toString() !== 'l=>{Op(l,k,f)}' &&
          window.adsbygoogle.push.toString() !== 'l=>{Pp(l,k,f)}' &&
-         window.adsbygoogle.push.toString() !== 'l=>{Np(l,m,f)}' &&
+         window.adsbygoogle.push.toString() !== 'l=>{Vp(l,m,f)}' &&
          window.adsbygoogle.push.toString() !== 'l=>{Wp(l,m,f)}')) {
       throw Error('Ad blocker detected.');
     }
