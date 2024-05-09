@@ -36,6 +36,8 @@
         window.adsbygoogle.Op != null ||
         window.Pp != null ||
         window.adsbygoogle.Pp != null ||
+        window.Rp != null ||
+        window.adsbygoogle.Rp != null ||
         window.Vp != null ||
         window.adsbygoogle.Vp != null ||
         window.Wp != null ||
@@ -44,7 +46,8 @@
          window.adsbygoogle.push.toString() !== 'l=>{Op(l,k,f)}' &&
          window.adsbygoogle.push.toString() !== 'l=>{Pp(l,k,f)}' &&
          window.adsbygoogle.push.toString() !== 'l=>{Vp(l,m,f)}' &&
-         window.adsbygoogle.push.toString() !== 'l=>{Wp(l,m,f)}')) {
+         window.adsbygoogle.push.toString() !== 'l=>{Wp(l,m,f)}' &&
+         window.adsbygoogle.push.toString() !== 'm=>{Rp(m,l,f)}')) {
       throw Error('Ad blocker detected.');
     }
 
