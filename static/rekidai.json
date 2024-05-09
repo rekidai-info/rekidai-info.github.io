@@ -79,6 +79,21 @@
     "date": "2022-10-06"
   },
   {
+    "version": "31[EPO]",
+    "music": "ACTØ(A)",
+    "notes": 1534,
+    "bpm": [
+      185
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=fKX6wgNaNww",
+    "score": 3031,
+    "scoreResult": "https://x.com/iidx_kkm/status/1788479569055666359/photo/2",
+    "topVersion": "31[EPO]",
+    "player": "KKM*",
+    "date": "2024-05-09"
+  },
+  {
     "version": "21[SPA]",
     "music": "Adularia(A)",
     "musicKR": "아듈라리아(A)",
@@ -9038,6 +9053,21 @@
     "topVersion": "30[RESI]",
     "player": "DON*",
     "date": "2022-12-04"
+  },
+  {
+    "version": "31[EPO]",
+    "music": "電腦都市(A)",
+    "notes": 1738,
+    "bpm": [
+      240
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=uXWfghnjkHY",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-05-09"
   },
   {
     "version": "25[CB]",
