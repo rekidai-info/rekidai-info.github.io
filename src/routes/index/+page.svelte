@@ -44,12 +44,15 @@
         window.adsbygoogle.Wp != null ||
         window.Xp != null ||
         window.adsbygoogle.Xp != null ||
+        window.Zp != null ||
+        window.adsbygoogle.Zp != null ||
         (window.adsbygoogle.push.toString() !== 'l=>{Np(l,m,f)}' && 
          window.adsbygoogle.push.toString() !== 'l=>{Op(l,k,f)}' &&
          window.adsbygoogle.push.toString() !== 'l=>{Pp(l,k,f)}' &&
          window.adsbygoogle.push.toString() !== 'l=>{Vp(l,m,f)}' &&
          window.adsbygoogle.push.toString() !== 'l=>{Wp(l,m,f)}' &&
          window.adsbygoogle.push.toString() !== 'l=>{Xp(l,m,f)}' &&
+         window.adsbygoogle.push.toString() !== 'l=>{Zp(l,m,f)}' &&
          window.adsbygoogle.push.toString() !== 'm=>{Rp(m,l,f)}')) {
       throw Error('Ad blocker detected.');
     }
