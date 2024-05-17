@@ -85,7 +85,7 @@
     "bpm": [
       185
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/31/act0.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=fKX6wgNaNww",
     "score": 3031,
     "scoreResult": "https://x.com/iidx_kkm/status/1788479569055666359/photo/2",
@@ -771,6 +771,21 @@
     "topVersion": "30[RESI]",
     "player": "DOLCE.",
     "date": "2022-11-18"
+  },
+  {
+    "version": "[INF]",
+    "music": "BLAZING_LAZER(A)",
+    "notes": 1752,
+    "bpm": [
+      191
+    ],
+    "textage": "https://textage.cc/score/31/bl_lazer.html?2AC00",
+    "musicMovie": "https://youtu.be/watch?v=3ZD6H8QE2i4",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-05-16"
   },
   {
     "version": "21[SPA]",
@@ -8238,7 +8253,7 @@
     "bpm": [
       199
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/13/_kachofu.html?2XC00",
     "musicMovie": "https://youtu.be/watch?v=yTBBGDtBpTU",
     "score": 4023,
     "scoreResult": "https://x.com/u_taka_IIDX/status/1788585925565681727/photo/1",
@@ -9061,7 +9076,7 @@
     "bpm": [
       240
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/31/_dennots.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=uXWfghnjkHY",
     "score": 0,
     "scoreResult": null,
