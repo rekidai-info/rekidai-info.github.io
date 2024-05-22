@@ -30,6 +30,8 @@
     if (window.adsbygoogle == null ||
         window.adsbygoogle.push == null ||
         typeof(window.adsbygoogle.push) !== 'function' ||
+        window.Mp != null ||
+        window.adsbygoogle.Mp != null ||
         window.Np != null ||
         window.adsbygoogle.Np != null ||
         window.Op != null ||
@@ -46,7 +48,8 @@
         window.adsbygoogle.Xp != null ||
         window.Zp != null ||
         window.adsbygoogle.Zp != null ||
-        (window.adsbygoogle.push.toString() !== 'l=>{Np(l,m,f)}' && 
+        (window.adsbygoogle.push.toString() !== 'l=>{Mp(l,m,f)}' &&
+         window.adsbygoogle.push.toString() !== 'l=>{Np(l,m,f)}' &&
          window.adsbygoogle.push.toString() !== 'l=>{Op(l,k,f)}' &&
          window.adsbygoogle.push.toString() !== 'l=>{Op(l,m,f)}' &&
          window.adsbygoogle.push.toString() !== 'l=>{Pp(l,k,f)}' &&
