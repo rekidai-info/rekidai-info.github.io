@@ -29,38 +29,36 @@
 
     if (window.adsbygoogle == null ||
         window.adsbygoogle.push == null ||
-        typeof(window.adsbygoogle.push) !== 'function' ||
-        window.Mp != null ||
-        window.adsbygoogle.Mp != null ||
-        window.Np != null ||
-        window.adsbygoogle.Np != null ||
-        window.Op != null ||
-        window.adsbygoogle.Op != null ||
-        window.Pp != null ||
-        window.adsbygoogle.Pp != null ||
-        window.Rp != null ||
-        window.adsbygoogle.Rp != null ||
-        window.Vp != null ||
-        window.adsbygoogle.Vp != null ||
-        window.Wp != null ||
-        window.adsbygoogle.Wp != null ||
-        window.Xp != null ||
-        window.adsbygoogle.Xp != null ||
-        window.Zp != null ||
-        window.adsbygoogle.Zp != null ||
-        (window.adsbygoogle.push.toString() !== 'l=>{Mp(l,m,f)}' &&
-         window.adsbygoogle.push.toString() !== 'l=>{Np(l,m,f)}' &&
-         window.adsbygoogle.push.toString() !== 'l=>{Op(l,k,f)}' &&
-         window.adsbygoogle.push.toString() !== 'l=>{Op(l,m,f)}' &&
-         window.adsbygoogle.push.toString() !== 'l=>{Pp(l,k,f)}' &&
-         window.adsbygoogle.push.toString() !== 'l=>{Pp(l,m,f)}' &&
-         window.adsbygoogle.push.toString() !== 'l=>{Vp(l,m,f)}' &&
-         window.adsbygoogle.push.toString() !== 'l=>{Wp(l,m,f)}' &&
-         window.adsbygoogle.push.toString() !== 'l=>{Xp(l,m,f)}' &&
-         window.adsbygoogle.push.toString() !== 'l=>{Zp(l,m,f)}' &&
-         window.adsbygoogle.push.toString() !== 'm=>{Rp(m,l,f)}')) {
+        typeof(window.adsbygoogle.push) !== 'function') {
       throw Error('Ad blocker detected.');
     }
+
+    (function() {
+      let pushSrcMatched = false;
+
+      Array(26).fill(1).map((_, i) => String.fromCharCode(65 + i) + 'p').forEach(name => {
+        if (window[name] != null || window.adsbygoogle[name] != null) {
+          throw Error('Ad blocker detected.');
+        }
+
+        if (!pushSrcMatched) {
+          let pushSrc = window.adsbygoogle.push.toString();
+
+          if (pushSrc === `l=>{${name}(l,m,f)}` ||
+              pushSrc === `l=>{${name}(l,k,f)}` ||
+              pushSrc === `l=>{${name}(m,l,f)}` ||
+              pushSrc === `m=>{${name}(l,m,f)}` ||
+              pushSrc === `m=>{${name}(l,k,f)}` ||
+              pushSrc === `m=>{${name}(m,l,f)}`) {
+            pushSrcMatched = true;
+          }
+        }
+      });
+
+      if (!pushSrcMatched) {
+        throw Error('Ad blocker detected.');
+      }
+    })();
 
     try {
       window.adsbygoogle.push();
