@@ -3603,6 +3603,23 @@
     "date": "2024-04-24"
   },
   {
+    "version": "31[EPO]",
+    "music": "Level 5(A)",
+    "notes": 1937,
+    "bpm": [
+      185
+    ],
+    "textage": null,
+    "musicMovie": null,
+    "scratch": true,
+    "superScratch": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-06-06"
+  },
+  {
     "version": "20[tri]",
     "music": "Liberation(A)",
     "musicKR": [
@@ -6321,6 +6338,21 @@
     "topVersion": "29[Cast]",
     "player": "KKM*",
     "date": "2022-06-16"
+  },
+  {
+    "version": "31[EPO]",
+    "music": "The Last Apocalypse(A)",
+    "notes": 1903,
+    "bpm": [
+      190
+    ],
+    "textage": null,
+    "musicMovie": null,
+    "score": 3776,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "DINASO",
+    "date": "2024-06-07"
   },
   {
     "version": "22[PEN]",
