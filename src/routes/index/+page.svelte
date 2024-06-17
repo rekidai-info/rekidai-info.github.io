@@ -36,20 +36,29 @@
     (function() {
       let pushSrcMatched = false;
 
-      Array(26).fill(1).map((_, i) => String.fromCharCode(65 + i) + 'p').forEach(name => {
-        if (window[name] != null || window.adsbygoogle[name] != null) {
+      Array(26).fill(1).map((_, i) => String.fromCharCode(65 + i)).forEach(name => {
+        if (window[name + 'p'] != null || window.adsbygoogle[name + 'p'] != null) {
+          throw Error('Ad blocker detected.');
+        }
+        if (window[name + 'q'] != null || window.adsbygoogle[name + 'q'] != null) {
           throw Error('Ad blocker detected.');
         }
 
         if (!pushSrcMatched) {
           let pushSrc = window.adsbygoogle.push.toString();
 
-          if (pushSrc === `l=>{${name}(l,m,f)}` ||
-              pushSrc === `l=>{${name}(l,k,f)}` ||
-              pushSrc === `l=>{${name}(m,l,f)}` ||
-              pushSrc === `m=>{${name}(l,m,f)}` ||
-              pushSrc === `m=>{${name}(l,k,f)}` ||
-              pushSrc === `m=>{${name}(m,l,f)}`) {
+          if (pushSrc === `l=>{${name + 'p'}(l,m,f)}` ||
+              pushSrc === `l=>{${name + 'p'}(l,k,f)}` ||
+              pushSrc === `l=>{${name + 'p'}(m,l,f)}` ||
+              pushSrc === `m=>{${name + 'p'}(l,m,f)}` ||
+              pushSrc === `m=>{${name + 'p'}(l,k,f)}` ||
+              pushSrc === `m=>{${name + 'p'}(m,l,f)}` ||
+              pushSrc === `l=>{${name + 'q'}(l,m,f)}` ||
+              pushSrc === `l=>{${name + 'q'}(l,k,f)}` ||
+              pushSrc === `l=>{${name + 'q'}(m,l,f)}` ||
+              pushSrc === `m=>{${name + 'q'}(l,m,f)}` ||
+              pushSrc === `m=>{${name + 'q'}(l,k,f)}` ||
+              pushSrc === `m=>{${name + 'q'}(m,l,f)}`) {
             pushSrcMatched = true;
           }
         }
