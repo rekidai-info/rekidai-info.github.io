@@ -8151,6 +8151,24 @@
     "date": "2024-06-10"
   },
   {
+    "version": "23[cop]",
+    "music": "紫陽花 -AZISAI-(L)",
+    "musicKR": "수국 -아지사이-(L)",
+    "musicEN": "Purple Sunflower -AZISAI-(L)",
+    "notes": 1815,
+    "bpm": [
+      155
+    ],
+    "textage": null,
+    "musicMovie": null,
+    "scratch": true,
+    "score": 3503,
+    "scoreResult": "https://youtu.be/watch?v=Caw-40lXj2w",
+    "topVersion": "31[EPO]",
+    "player": "DOLCE.",
+    "date": "2024-07-03"
+  },
+  {
     "version": "29[Cast]",
     "music": "天邪鬼(A)",
     "musicKR": "천사귀(A)",
