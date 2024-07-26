@@ -9621,6 +9621,21 @@
     "date": "2023-08-12"
   },
   {
+    "version": "31[EPO]",
+    "music": "未完成ノ蒸氣驅動乙女(A)",
+    "notes": 1538,
+    "bpm": [
+      170
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=7nO4SXB3gYg",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-07-26"
+  },
+  {
     "version": "29[Cast]",
     "music": "禊(A)",
     "musicKR": "미소기(A)",
