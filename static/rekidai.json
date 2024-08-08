@@ -2777,6 +2777,21 @@
     "date": "2021-11-12"
   },
   {
+    "version": "22[PEN]",
+    "music": "GUILTY(L)",
+    "notes": 1525,
+    "bpm": [
+      148
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/BtTzHGpRuhg?t=10",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-08-08"
+  },
+  {
     "version": "24[SINO]",
     "music": "GuNGNiR(A)",
     "musicKR": [
@@ -3758,6 +3773,21 @@
     "topVersion": "31[EPO]",
     "player": "DOLCE.",
     "date": "2023-11-14"
+  },
+  {
+    "version": "27[HV]",
+    "music": "Lost Souls(L)",
+    "notes": 2000,
+    "bpm": [
+      185
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=emL1Kv9FhTM",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-08-08"
   },
   {
     "version": "26[Root]",
