@@ -1353,6 +1353,21 @@
   },
   {
     "version": "31[EPO]",
+    "music": "Cult Invitation(A)",
+    "notes": 1804,
+    "bpm": [
+      164
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=XQAdBkjt3zc",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-08-29"
+  },
+  {
+    "version": "31[EPO]",
     "music": "Dahlia(A)",
     "musicKR": "달리아",
     "notes": 1617,
