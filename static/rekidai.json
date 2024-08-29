@@ -5174,6 +5174,21 @@
     "date": "2023-11-06"
   },
   {
+    "version": "31[EPO]",
+    "music": "Resonant(A)",
+    "notes": 1864,
+    "bpm": [
+      182
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=93is12XF8qU",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-08-29"
+  },
+  {
     "version": "18[RA]",
     "music": "reunion(A)",
     "musicKR": "리유니온(A)",
