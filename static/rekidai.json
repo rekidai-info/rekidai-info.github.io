@@ -1537,6 +1537,27 @@
     "date": "2023-08-12"
   },
   {
+    "version": "25[CB]",
+    "music": "DEATH†ZIGOQ～怒りの高速爆走野郎～(L)",
+    "musicKR": [
+      "데스†지고큐~성난 고속 폭주 놈~(L)",
+      "데스지고큐"
+    ],
+    "musicJP": "デス地獄（DEATH†ZIGOQ ～怒りの高速爆走野郎）～(L)",
+    "notes": 2459,
+    "bpm": [
+      200
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=KXV2nxM2Q_4",
+    "peak": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-09-19"
+  },
+  {
     "version": "31[EPO]",
     "music": "Demon March(A)",
     "notes": 1875,
