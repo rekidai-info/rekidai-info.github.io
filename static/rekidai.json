@@ -9923,6 +9923,23 @@
     "date": "2024-06-27"
   },
   {
+    "version": "21[SPA]",
+    "music": "海神(L)",
+    "musicKR": "해신(L)",
+    "musicEN": "sea god(L)",
+    "notes": 1830,
+    "bpm": [
+      159
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=FaJ8P3gvGtw",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-09-19"
+  },
+  {
     "version": "19[Lin]",
     "music": "ƒƒƒƒƒ(A)",
     "musicKR": "포르티시시모(A)",
