@@ -893,6 +893,21 @@
     "date": "2023-06-16"
   },
   {
+    "version": "32[PC]",
+    "music": "Bring The Fire(A)",
+    "notes": 0,
+    "bpm": [
+      160
+    ],
+    "textage": null,
+    "musicMovie": null,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2024-10-09"
+  },
+  {
     "version": "24[SINO]",
     "music": "BroGamer(L)",
     "musicKR": "브로게이머(L)",
@@ -926,22 +941,6 @@
     "date": "2023-08-06"
   },
   {
-    "version": "28[BIS]",
-    "music": "Burning Flame(L)",
-    "musicKR": "버닝 플레임(L)",
-    "notes": 1938,
-    "bpm": [
-      165
-    ],
-    "textage": "https://textage.cc/score/28/brnflame.html?2XC00",
-    "musicMovie": "https://youtu.be/watch?v=PU9kTEQGh8E",
-    "score": 3852,
-    "scoreResult": "https://youtu.be/watch?v=oEad_lE4_jk",
-    "topVersion": "31[EPO]",
-    "player": "KKM*",
-    "date": "2024-02-01"
-  },
-  {
     "version": "22[PEN]",
     "music": "Broken Sword(A)",
     "musicKR": "브로큰 소드(A)",
@@ -956,6 +955,22 @@
     "topVersion": "29[Cast]",
     "player": "U*TAKA",
     "date": "2022-06-09"
+  },
+  {
+    "version": "28[BIS]",
+    "music": "Burning Flame(L)",
+    "musicKR": "버닝 플레임(L)",
+    "notes": 1938,
+    "bpm": [
+      165
+    ],
+    "textage": "https://textage.cc/score/28/brnflame.html?2XC00",
+    "musicMovie": "https://youtu.be/watch?v=PU9kTEQGh8E",
+    "score": 3852,
+    "scoreResult": "https://youtu.be/watch?v=oEad_lE4_jk",
+    "topVersion": "31[EPO]",
+    "player": "KKM*",
+    "date": "2024-02-01"
   },
   {
     "version": "16[EMP]",
