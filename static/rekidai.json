@@ -5474,6 +5474,21 @@
     "date": "2024-09-26"
   },
   {
+    "version": "32[PC]",
+    "music": "Satellite Burst(A)",
+    "notes": 0,
+    "bpm": [
+      177
+    ],
+    "textage": null,
+    "musicMovie": null,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2024-10-09"
+  },
+  {
     "version": "15[DJT]",
     "music": "Saturn(L)",
     "notes": 1783,
