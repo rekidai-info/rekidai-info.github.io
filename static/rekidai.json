@@ -169,6 +169,21 @@
     "date": "2022-07-22"
   },
   {
+    "version": "21[SPA]",
+    "music": "ALBA -黎明-(L)",
+    "notes": 1990,
+    "bpm": [
+      165
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=BLZVkis0-Lw",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2024-10-09"
+  },
+  {
     "version": "18[RA]",
     "music": "ALBIDA(A)",
     "musicKR": "알비다(A)",
