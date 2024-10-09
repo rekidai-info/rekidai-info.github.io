@@ -1623,6 +1623,21 @@
     "date": "2024-03-18"
   },
   {
+    "version": "32[PC]",
+    "music": "destination(A)",
+    "notes": 0,
+    "bpm": [
+      175
+    ],
+    "textage": null,
+    "musicMovie": null,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2024-10-09"
+  },
+  {
     "version": "23[cop]",
     "music": "Devil's Gear(A)",
     "musicKR": "데빌즈 기어(A)",
