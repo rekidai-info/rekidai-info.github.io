@@ -3714,7 +3714,7 @@
     "musicKR": "라이트닝 스트라이크(A)",
     "notes": 1639,
     "bpm": [
-      180
+      174
     ],
     "textage": "https://textage.cc/score/27/lightstr.html?2AC00",
     "musicMovie": "https://youtu.be/L2iM45pxxQs",
@@ -3723,6 +3723,22 @@
     "topVersion": "31[EPO]",
     "player": "46",
     "date": "2024-06-26"
+  },
+  {
+    "version": "27[HV]",
+    "music": "LIGHTNING STRIKES(L)",
+    "musicKR": "라이트닝 스트라이크(L)",
+    "notes": 2123,
+    "bpm": [
+      174
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=1HlnkpjWCxI",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-10-09"
   },
   {
     "version": "12[HS]",
