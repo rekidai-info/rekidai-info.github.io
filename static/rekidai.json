@@ -3736,7 +3736,7 @@
     "musicMovie": "https://youtu.be/watch?v=1HlnkpjWCxI",
     "score": 0,
     "scoreResult": null,
-    "topVersion": "31[EPO]",
+    "topVersion": "32[PC]",
     "player": "NOPLAY",
     "date": "2024-10-09"
   },
@@ -5501,6 +5501,21 @@
     "topVersion": "29[Cast]",
     "player": "DON*",
     "date": "2022-09-09"
+  },
+  {
+    "version": "12[HS]",
+    "music": "Scripted Connection⇒ H mix(L)",
+    "notes": 1466,
+    "bpm": [
+      151
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=4zpN-IhKP_0",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2024-10-09"
   },
   {
     "version": "16[EMP]",
