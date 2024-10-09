@@ -3025,6 +3025,21 @@
     "date": "2023-07-13"
   },
   {
+    "version": "32[PC]",
+    "music": "Here We Go Now(A)",
+    "notes": 0,
+    "bpm": [
+      170
+    ],
+    "textage": null,
+    "musicMovie": null,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2024-10-09"
+  },
+  {
     "version": "23[cop]",
     "music": "Highcharge Divolt(A)",
     "musicKR": "하이차지 디볼트(A)",
