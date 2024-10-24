@@ -1382,6 +1382,21 @@
     "date": "2023-10-09"
   },
   {
+    "version": "32[PC]",
+    "music": "COSMIC V3LOCITY(A)",
+    "notes": 1716,
+    "bpm": [
+      200
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=EVqK5pY1EYw",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2024-10-24"
+  },
+  {
     "version": "31[EPO]",
     "music": "Cult Invitation(A)",
     "notes": 1804,
@@ -3814,6 +3829,21 @@
     "topVersion": "32[PC]",
     "player": "KKM*",
     "date": "2024-10-12"
+  },
+  {
+    "version": "32[PC]",
+    "music": "Lightspeed(A)",
+    "notes": 1606,
+    "bpm": [
+      200
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=O_cyZ0q5LhI",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2024-10-24"
   },
   {
     "version": "12[HS]",
