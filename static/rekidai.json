@@ -2245,6 +2245,21 @@
     "date": "2020-10-14"
   },
   {
+    "version": "32[PC]",
+    "music": "EX-MASSIVE FIGHTER(A)",
+    "notes": 1725,
+    "bpm": [
+      165
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=gAJqUB9mWp0",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2024-11-07"
+  },
+  {
     "version": "19[Lin]",
     "music": "F(A)",
     "musicKR": "에프(A)",
@@ -4002,6 +4017,22 @@
     "topVersion": "30[RESI]",
     "player": "KKM*",
     "date": "2022-11-16"
+  },
+  {
+    "version": "21[SPA]",
+    "music": "MAD ATTACK(L)",
+    "notes": 1396,
+    "bpm": [
+      140
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=OrZ0cnOVR2Y",
+    "scratch": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2024-11-07"
   },
   {
     "version": "24[SINO]",
