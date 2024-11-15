@@ -901,11 +901,11 @@
     ],
     "textage": null,
     "musicMovie": "https://youtu.be/watch?v=W268LARrAbg",
-    "score": 0,
+    "score": 3453,
     "scoreResult": null,
     "topVersion": "32[PC]",
-    "player": "NOPLAY",
-    "date": "2024-10-09"
+    "player": "DON*",
+    "date": "2024-11-15"
   },
   {
     "version": "24[SINO]",
@@ -1646,11 +1646,11 @@
     ],
     "textage": null,
     "musicMovie": "https://youtu.be/watch?v=TFsOYnPXAps",
-    "score": 0,
+    "score": 3382,
     "scoreResult": null,
     "topVersion": "32[PC]",
-    "player": "NOPLAY",
-    "date": "2024-10-09"
+    "player": "FAFNIR",
+    "date": "2024-11-15"
   },
   {
     "version": "23[cop]",
@@ -1855,11 +1855,11 @@
     ],
     "textage": null,
     "musicMovie": "https://youtu.be/watch?v=ZysEHXGTPAQ",
-    "score": 0,
+    "score": 3682,
     "scoreResult": null,
     "topVersion": "32[PC]",
-    "player": "NOPLAY",
-    "date": "2024-10-09"
+    "player": "WELLOW",
+    "date": "2024-11-15"
   },
   {
     "version": "25[CB]",
@@ -3063,11 +3063,11 @@
     ],
     "textage": null,
     "musicMovie": "https://youtu.be/watch?v=yejzXCnRfJ4",
-    "score": 0,
+    "score": 3353,
     "scoreResult": null,
     "topVersion": "32[PC]",
-    "player": "NOPLAY",
-    "date": "2024-10-09"
+    "player": "CHARM",
+    "date": "2024-11-15"
   },
   {
     "version": "23[cop]",
@@ -4473,11 +4473,13 @@
     ],
     "textage": null,
     "musicMovie": "https://youtu.be/watch?v=x4Z6Z1okNcU",
-    "score": 0,
+    "charge": true,
+    "superCharge": true,
+    "score": 3997,
     "scoreResult": null,
     "topVersion": "32[PC]",
-    "player": "NOPLAY",
-    "date": "2024-10-09"
+    "player": "UCCHIE",
+    "date": "2024-11-15"
   },
   {
     "version": "23[cop]",
@@ -5543,11 +5545,12 @@
     ],
     "textage": null,
     "musicMovie": "https://youtu.be/watch?v=dLC2DyNHHxE",
-    "score": 0,
+    "peak": true,
+    "score": 3942,
     "scoreResult": null,
     "topVersion": "32[PC]",
-    "player": "NOPLAY",
-    "date": "2024-10-09"
+    "player": "WELLOW",
+    "date": "2024-11-15"
   },
   {
     "version": "15[DJT]",
@@ -7167,11 +7170,11 @@
     ],
     "textage": null,
     "musicMovie": "https://youtu.be/watch?v=DG2l4fNTXuU",
-    "score": 0,
+    "score": 3572,
     "scoreResult": null,
     "topVersion": "32[PC]",
-    "player": "NOPLAY",
-    "date": "2024-10-09"
+    "player": "CHARM",
+    "date": "2024-11-15"
   },
   {
     "version": "24[SINO]",
@@ -8241,11 +8244,11 @@
     ],
     "textage": null,
     "musicMovie": "https://youtu.be/watch?v=yPDN23OmD9U",
-    "score": 0,
+    "score": 3675,
     "scoreResult": null,
     "topVersion": "32[PC]",
-    "player": "NOPLAY",
-    "date": "2024-10-09"
+    "player": "UCCHIE",
+    "date": "2024-11-15"
   },
   {
     "version": "28[BIS]",
