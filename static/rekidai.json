@@ -1742,6 +1742,21 @@
     "date": "2023-05-05"
   },
   {
+    "version": "32[PC]",
+    "music": "DIVINE JUDGEMENT(A)",
+    "notes": 1416,
+    "bpm": [
+      190
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=TpLpkKBYB0M",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2024-11-28"
+  },
+  {
     "version": "17[SIR]",
     "music": "DOMINION(A)",
     "musicKR": "도미니언(A)",
@@ -2239,7 +2254,7 @@
     "textage": "https://textage.cc/score/17/exusia.html?2AC20",
     "musicMovie": "https://youtu.be/watch?v=syveMhvc3sI",
     "score": 3920,
-    "scoreResult": "https://x.com/iidx_kkm/status/1859884166269247725/photo/1",
+    "scoreResult": "https://youtu.be/watch?v=-14fvmQEAjA",
     "topVersion": "32[PC]",
     "player": "KKM*",
     "date": "2024-11-22"
@@ -5462,6 +5477,21 @@
     "topVersion": "29[Cast]",
     "player": "DON*",
     "date": "2020-06-16"
+  },
+  {
+    "version": "32[PC]",
+    "music": "Roar of Chronos(A)",
+    "notes": 1991,
+    "bpm": [
+      175
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=im8oKfsf3AA",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2024-11-28"
   },
   {
     "version": "28[BIS]",
