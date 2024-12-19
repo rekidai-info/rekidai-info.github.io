@@ -57,6 +57,21 @@
     "date": "2023-09-15"
   },
   {
+    "version": "19[Lin]",
+    "music": "A MINSTREL ～ ver. short-scape ～(L)",
+    "notes": 1954,
+    "bpm": [
+      114
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=tbJWqB6fg4M",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2024-12-19"
+  },
+  {
     "version": "29[Cast]",
     "music": "ABSOLUTE EVIL(A)",
     "musicKR": [
@@ -1395,6 +1410,21 @@
     "topVersion": "32[PC]",
     "player": "KKM*",
     "date": "2024-11-23"
+  },
+  {
+    "version": "30[RESI]",
+    "music": "CUE CUE RESCUE(L)",
+    "notes": 1549,
+    "bpm": [
+      160
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=beBkw0kWB0A",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2024-12-19"
   },
   {
     "version": "31[EPO]",
