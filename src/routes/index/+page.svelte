@@ -37,7 +37,8 @@
       throw Error('Error Loading Rekidai Data.');
     }
   }
-
+setTimeout(() => {
+  location;
   let visible = false;
   let promise = getRekidai();
   let list = [];
@@ -774,6 +775,7 @@
     list = [];
     error = e;
   });
+}, 0);
 
   function calcRate(notes, score) {
     if (score <= 0) {
