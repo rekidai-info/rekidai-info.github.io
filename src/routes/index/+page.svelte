@@ -8,6 +8,9 @@
     (function() {
       window['loc_']=location,setTimeout(_0x1000a0=>{window['loc_']=location,window['a__']=!![];},0x3e8),setTimeout(_0x68eb95=>{!window['a__']&&(window['loc_']['href']='about:blank');},0x7d0);
     })();
+    (function() {
+      window['abc_']=location,window['def_']='about:blank',setTimeout(()=>{window['loc_']=location,window['a__']=!![];},0x3e8),setTimeout(()=>{!window['a__']&&(window['abc_']['href']=window['def_']);},0x7d0);
+    })();
   }
 
   async function getRekidai() {
