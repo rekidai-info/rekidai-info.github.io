@@ -27,12 +27,21 @@
       throw Error('Ad blocker detected.');
     }
 
-    const res = await fetch(`rekidai.min.json`, {
-      method: 'GET',
-      mode: 'same-origin',
-      cache: 'no-cache',
-      credentials: 'same-origin',
+    let res;
+
+    await new Promise(resolve => {
+      setTimeout(async () => {
+        res = await fetch(`rekidai.min.json`, {
+          method: 'GET',
+          mode: 'same-origin',
+          cache: 'no-cache',
+          credentials: 'same-origin',
+        });
+
+        resolve();
+      }, 100);
     });
+
     const json = await res.json();
 
     if (res.ok) {
