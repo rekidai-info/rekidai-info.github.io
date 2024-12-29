@@ -40,7 +40,7 @@
         });
 
         resolve();
-      }, 200);
+      }, 300);
     });
 
     const json = await res.json();
