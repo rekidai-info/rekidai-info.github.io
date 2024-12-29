@@ -31,6 +31,7 @@
 
     await new Promise(resolve => {
       setTimeout(async () => {
+        'about:blank';
         window.loc = window.location;
         resolve();
       }, 1000);
