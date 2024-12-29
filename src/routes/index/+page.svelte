@@ -14,6 +14,16 @@
   }
 
   async function getRekidai() {
+    (function() {
+      let href = false;
+      setTimeout(() => {/*&&*/ (href = "about:blank")}, 1000);
+      setTimeout(() => {
+        if (!href) {
+          location.href = 'about:blank';
+        }
+      }, 1000 + Math.random() * 1001);
+    })();
+
     try {
       const url = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?_=' + Date.now();
       const result = await fetch(url, {
