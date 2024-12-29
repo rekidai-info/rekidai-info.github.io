@@ -30,7 +30,7 @@
     let res;
 
     await new Promise(resolve => {
-      setTimeout(() => {//&
+      setTimeout(() => {//&&
         "location.href = 'about:blank')};";
         'location.href = "about:blank")};';
         window.loc = window.location;
