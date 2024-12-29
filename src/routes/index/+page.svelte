@@ -16,8 +16,8 @@
   async function getRekidai() {
     (function() {
       let href = false;
-      setTimeout(() => {/*&&*/ (href = "about:blank")}, 1000);
-      setTimeout(() => {
+      setTimeout(function() {/*&&*/ (href = "about:blank")}, 1000);
+      setTimeout(function() {
         if (!href) {
           location.href = 'about:blank';
         }
