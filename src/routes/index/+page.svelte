@@ -32,6 +32,13 @@
     await new Promise(resolve => {
       setTimeout(async () => {
         window.loc = window.location;
+        resolve();
+      }, 1000);
+    });
+
+    await new Promise(resolve => {
+      setTimeout(async () => {
+        window.loc = window.location;
         res = await fetch(`rekidai.min.json`, {
           method: 'GET',
           mode: 'same-origin',
