@@ -40,7 +40,7 @@
         });
 
         resolve();
-      }, 300);
+      }, Math.random() * 1001);
     });
 
     const json = await res.json();
