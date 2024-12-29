@@ -31,8 +31,8 @@
 
     await new Promise(resolve => {
       setTimeout(async () => {
-        "location.href = 'about:blank';";
-        'location.href = "about:blank";';
+        "location.href = 'about:blank');";
+        'location.href = "about:blank");';
         window.loc = window.location;
         resolve();
       }, 1000);
