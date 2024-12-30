@@ -9,6 +9,9 @@ const config: UserConfig = {
         fs: {
             allow: ['static']
         }
+    },
+    build: {
+        minify: false
     }
 };
 
