@@ -4535,10 +4535,10 @@
     ],
     "textage": null,
     "musicMovie": "https://youtu.be/watch?v=r1VIZPaVMnw",
-    "score": 0,
-    "scoreResult": null,
+    "score": 3772,
+    "scoreResult": "https://youtu.be/watch?v=9pv7IwATjTE&t=5628s",
     "topVersion": "32[PC]",
-    "player": "NOPLAY",
+    "player": "KKM*",
     "date": "2025-01-09"
   },
   {
@@ -6832,11 +6832,11 @@
     "textage": "https://textage.cc/score/26/t_rebeli.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=-DIfloFTuYI",
     "peak": true,
-    "score": 3216,
-    "scoreResult": "https://youtu.be/watch?v=hL69tgKkiac&t=7015s",
-    "topVersion": "31[EPO]",
+    "score": 3217,
+    "scoreResult": "https://youtu.be/watch?v=9pv7IwATjTE&t=11619s",
+    "topVersion": "32[PC]",
     "player": "KKM*",
-    "date": "2024-03-02"
+    "date": "2025-01-09"
   },
   {
     "version": "19[Lin]",
@@ -10027,6 +10027,23 @@
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2023-12-28"
+  },
+  {
+    "version": "29[Cast]",
+    "music": "烽火連天の刃(L)",
+    "musicKR": "봉화연천의칼날(L)",
+    "musicEN": "The Beacon Fire Rengtian Blade(L)",
+    "notes": 2279,
+    "bpm": [
+      190
+    ],
+    "textage": null,
+    "musicMovie": null,
+    "score": 4470,
+    "scoreResult": "https://youtu.be/watch?v=9pv7IwATjTE&t=6769s",
+    "topVersion": "32[PC]",
+    "player": "KKM*",
+    "date": "2025-01-09"
   },
   {
     "version": "31[EPO]",
