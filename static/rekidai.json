@@ -63,7 +63,7 @@
     "bpm": [
       114
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/19/a_minstr.html?2XC00",
     "musicMovie": "https://youtu.be/watch?v=tbJWqB6fg4M",
     "score": 3905,
     "scoreResult": "https://www.youtube.com/watch?v=QuhsLR0BFHk&t=5s",
@@ -914,7 +914,7 @@
     "bpm": [
       160
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/32/brngfire.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=W268LARrAbg",
     "score": 3458,
     "scoreResult": "https://x.com/iidx_kkm/status/1860329881873289660/photo/1",
@@ -1403,7 +1403,7 @@
     "bpm": [
       200
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/32/cosmcv3l.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=EVqK5pY1EYw",
     "score": 3409,
     "scoreResult": "https://x.com/iidx_kkm/status/1860329881873289660/photo/2",
@@ -1418,7 +1418,7 @@
     "bpm": [
       160
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/30/cuerscue.html?2XC00",
     "musicMovie": "https://youtu.be/watch?v=beBkw0kWB0A",
     "score": 3092,
     "scoreResult": "https://x.com/piecedong2/status/1873338649401798970/photo/1",
@@ -1674,7 +1674,7 @@
     "bpm": [
       175
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/32/dstntion.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=TFsOYnPXAps",
     "score": 3391,
     "scoreResult": "https://youtu.be/watch?v=8NhiLbqeFmc",
@@ -1778,7 +1778,7 @@
     "bpm": [
       190
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/32/divjudge.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=TpLpkKBYB0M",
     "score": 0,
     "scoreResult": null,
@@ -1898,7 +1898,7 @@
     "bpm": [
       180
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/32/dropsynd.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=ZysEHXGTPAQ",
     "score": 3700,
     "scoreResult": "https://x.com/iidx_kkm/status/1860329881873289660/photo/3",
@@ -3106,7 +3106,7 @@
     "bpm": [
       170
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/32/here_now.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=yejzXCnRfJ4",
     "score": 3362,
     "scoreResult": "https://x.com/iidx_kkm/status/1860330012181962941/photo/1",
@@ -4249,6 +4249,21 @@
     "date": "2024-10-24"
   },
   {
+    "version": "32[PC]",
+    "music": "Mid-Corner (Magic Maker)(A)",
+    "notes": 1611,
+    "bpm": [
+      165
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=A5JnLAwF_5E",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-01-16"
+  },
+  {
     "version": "31[EPO]",
     "music": "Million Dollar(A)",
     "notes": 1762,
@@ -4516,7 +4531,7 @@
     "bpm": [
       165
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/32/noixia.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=x4Z6Z1okNcU",
     "charge": true,
     "superCharge": true,
@@ -4533,7 +4548,7 @@
     "bpm": [
       160
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/25/nbtheory.html?2XC00",
     "musicMovie": "https://youtu.be/watch?v=r1VIZPaVMnw",
     "score": 3772,
     "scoreResult": "https://youtu.be/watch?v=9pv7IwATjTE&t=5628s",
@@ -5530,7 +5545,7 @@
     "bpm": [
       175
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/32/roarchro.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=im8oKfsf3AA",
     "score": 0,
     "scoreResult": null,
@@ -5618,7 +5633,7 @@
     "bpm": [
       177
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/32/satburst.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=dLC2DyNHHxE",
     "peak": true,
     "score": 3957,
@@ -5753,7 +5768,7 @@
     "bpm": [
       151
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/12/script_h.html?2XC00",
     "musicMovie": "https://youtu.be/watch?v=4zpN-IhKP_0",
     "score": 0,
     "scoreResult": null,
@@ -6592,7 +6607,7 @@
     "textage": "https://textage.cc/score/16/thank_ul.html?2AC20",
     "musicMovie": "https://youtu.be/watch?v=5VhtIoDMKeQ",
     "score": 3053,
-    "scoreResult": "https://x.com/iidx_kkm/status/1863542494438523129/photo/2",
+    "scoreResult": "https://youtu.be/watch?v=FnNF7GR4hU4",
     "topVersion": "32[PC]",
     "player": "KKM*",
     "date": "2024-12-02"
@@ -7243,7 +7258,7 @@
     "bpm": [
       180
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/32/ugottabt.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=DG2l4fNTXuU",
     "score": 3580,
     "scoreResult": "https://x.com/uirogame/status/1859454674883248446/photo/1",
@@ -8317,7 +8332,7 @@
     "bpm": [
       177
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/32/_sparkht.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=yPDN23OmD9U",
     "score": 3677,
     "scoreResult": "https://x.com/iidx_kkm/status/1860330066284282248/photo/1",
@@ -9200,7 +9215,7 @@
     "bpm": [
       168
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/32/_shakuls.html?2AC00",
     "musicMovie": "https://youtu.be/watch?v=V-5Mnv9Ogz8",
     "scratch": true,
     "score": 2888,
@@ -9610,6 +9625,22 @@
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2023-11-28"
+  },
+  {
+    "version": "32[PC]",
+    "music": "天使のカンタータ -Cantata of Angels-(A)",
+    "notes": 2205,
+    "bpm": [
+      158
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=IQyHR9aGib4",
+    "peak": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-01-16"
   },
   {
     "version": "14[GOLD]",
@@ -10037,7 +10068,7 @@
     "bpm": [
       190
     ],
-    "textage": null,
+    "textage": "https://textage.cc/score/29/_hrenten.html?2XC00",
     "musicMovie": null,
     "score": 4470,
     "scoreResult": "https://youtu.be/watch?v=9pv7IwATjTE&t=6769s",
