@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang="system">
   import { browser } from '$app/environment';
 
   if (browser) {
