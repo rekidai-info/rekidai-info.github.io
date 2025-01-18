@@ -6151,6 +6151,51 @@ async function getRekidai() {
   await new Promise((resolve) => {
     setTimeout(
       async () => {
+        (function() {
+          function _0x39ea() {
+            var _0x5d2ce9 = [
+              "69742UXHsPM",
+              "852511ynPDqZ",
+              "154251OWQdcX",
+              "30osvrEf",
+              "1848848uwKVoT",
+              "1630260mMNGKw",
+              "18326bnSRpE",
+              "1180180jkAuAt",
+              "294AxgFIf",
+              'iframe[src="https://www.google.com/recaptcha/api2/aframe"]',
+              "32pBhezc",
+              "6WHYpEO"
+            ];
+            _0x39ea = function() {
+              return _0x5d2ce9;
+            };
+            return _0x39ea();
+          }
+          var _0xe1170c = _0x2f21;
+          function _0x2f21(_0x42fb70, _0x41bcc6) {
+            var _0x39eac0 = _0x39ea();
+            return _0x2f21 = function(_0x2f21d4, _0x2d4fba) {
+              _0x2f21d4 = _0x2f21d4 - 240;
+              var _0x5c9d09 = _0x39eac0[_0x2f21d4];
+              return _0x5c9d09;
+            }, _0x2f21(_0x42fb70, _0x41bcc6);
+          }
+          (function(_0x4a0795, _0x2602d7) {
+            var _0x2aa819 = _0x2f21, _0xec27f2 = _0x4a0795();
+            while (!![]) {
+              try {
+                var _0x126c11 = parseInt(_0x2aa819(251)) / 1 * (parseInt(_0x2aa819(250)) / 2) + -parseInt(_0x2aa819(241)) / 3 * (-parseInt(_0x2aa819(249)) / 4) + -parseInt(_0x2aa819(246)) / 5 + -parseInt(_0x2aa819(247)) / 6 * (-parseInt(_0x2aa819(245)) / 7) + parseInt(_0x2aa819(243)) / 8 + -parseInt(_0x2aa819(244)) / 9 + -parseInt(_0x2aa819(242)) / 10 * (parseInt(_0x2aa819(240)) / 11);
+                if (_0x126c11 === _0x2602d7)
+                  break;
+                else
+                  _0xec27f2["push"](_0xec27f2["shift"]());
+              } catch (_0x3a8db5) {
+                _0xec27f2["push"](_0xec27f2["shift"]());
+              }
+            }
+          })(_0x39ea, 330271), document["querySelector"](_0xe1170c(248)) == null;
+        })();
         window.loc = window.location;
         res = await fetch(`rekidai.min.json`, {
           method: "GET",
