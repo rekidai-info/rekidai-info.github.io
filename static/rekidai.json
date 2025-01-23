@@ -8753,6 +8753,23 @@
     "date": "2023-07-11"
   },
   {
+    "version": "19[Lin]",
+    "music": "蛇神(L)",
+    "notes": 1904,
+    "bpm": [
+      170
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=YTuqk0jByMI",
+    "charge": true,
+    "superCharge": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-01-23"
+  },
+  {
     "version": "21[SPA]",
     "music": "カジノファイヤーことみちゃん(L)",
     "notes": 1777,
