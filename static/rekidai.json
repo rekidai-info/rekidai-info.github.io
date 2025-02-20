@@ -3152,6 +3152,22 @@
     "date": "2023-06-18"
   },
   {
+    "version": "21[SPA]",
+    "music": "HYENA(L)",
+    "notes": 1894,
+    "bpm": [
+      178
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=FbIEZvIsNXs",
+    "scratch": true,
+    "score": 3746,
+    "scoreResult": "https://youtu.be/I75se39Y8Ws?t=12741",
+    "topVersion": "31[EPO]",
+    "player": "KKM*",
+    "date": "2025-02-20"
+  },
+  {
     "version": "30[RESI]",
     "music": "I(A)",
     "musicKR": "아이",
