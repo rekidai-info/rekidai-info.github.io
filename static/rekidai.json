@@ -1021,6 +1021,21 @@
     "date": "2024-08-01"
   },
   {
+    "version": "30[RESI]",
+    "music": "Caldwell 99(L)",
+    "notes": 1743,
+    "bpm": [
+      142
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=dnulA6aUYYA",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-03-06"
+  },
+  {
     "version": "14[GOLD]",
     "music": "Candy Galy(A)",
     "musicKR": "캔디 갤리(A)",
@@ -2507,6 +2522,21 @@
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2024-01-20"
+  },
+  {
+    "version": "32[PC]",
+    "music": "FlyAway(A)",
+    "notes": 1648,
+    "bpm": [
+      160
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=xhvevrqjosU",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-03-06"
   },
   {
     "version": "29[Cast]",
@@ -7763,6 +7793,21 @@
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2023-11-18"
+  },
+  {
+    "version": "32[PC]",
+    "music": "Without Heaven(A)",
+    "notes": 1912,
+    "bpm": [
+      162
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=P07GDsi-94s",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-03-06"
   },
   {
     "version": "19[Lin]",
