@@ -3152,6 +3152,22 @@
     "date": "2023-06-18"
   },
   {
+    "version": "32[PC]",
+    "music": "hora de verdad(A)",
+    "notes": 1564,
+    "bpm": [
+      140,
+      280
+    ],
+    "textage": null,
+    "musicMovie": "https://youtu.be/watch?v=Xrk0FWEQKhk",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-03-06"
+  },
+  {
     "version": "21[SPA]",
     "music": "HYENA(L)",
     "notes": 1894,
