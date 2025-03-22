@@ -32,7 +32,7 @@ jobs:
           git pull
           jq . static/rekidai.json > static/rekidai.json.tmp && mv -f static/rekidai.json.tmp static/rekidai.json
           jq -c < static/rekidai.json > rekidai.min.json
-          sed -i 's/https:\/\/www\.youtube\.com/https:\/\/youtu\.be/g' rekidai.json
+          sed -i 's/https:\/\/www\.youtube\.com/https:\/\/youtu\.be/g' static/rekidai.json
           git add rekidai.min.json static/rekidai.json
           git commit -m "Automatically updated by Workflow Action"
           git push origin main
