@@ -2892,6 +2892,21 @@
     "date": "2022-10-18"
   },
   {
+    "version": "32[PC]",
+    "music": "God Mind(A)",
+    "notes": 2155,
+    "bpm": [
+      185
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=X5ZJBw-UwiE",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-03-27"
+  },
+  {
     "version": "23[cop]",
     "music": "Godspeed(A)",
     "musicKR": "갓스피드(A)",
