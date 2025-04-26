@@ -923,6 +923,21 @@
     "date": "2025-04-04"
   },
   {
+    "version": "27[HV]",
+    "music": "Bow shock!!(L)",
+    "notes": 2176,
+    "bpm": [
+      165
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=eiJA9wryq_o",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-04-25"
+  },
+  {
     "version": "32[PC]",
     "music": "Bring The Fire(A)",
     "notes": 1734,
