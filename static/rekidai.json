@@ -4223,6 +4223,21 @@
     "date": "2024-05-16"
   },
   {
+    "version": "32[PC]",
+    "music": "MARLIN(A)",
+    "notes": 1798,
+    "bpm": [
+      184
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=jMrSdN1Ds8I",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-05-15"
+  },
+  {
     "version": "27[HV]",
     "music": "Matt Silver(A)",
     "musicKR": "맷 실버(A)",
@@ -8464,6 +8479,21 @@
     "topVersion": "32[PC]",
     "player": "KKM*",
     "date": "2024-11-25"
+  },
+  {
+    "version": "32[PC]",
+    "music": "スキッテイエェエエェ!!!!(A)",
+    "notes": 2193,
+    "bpm": [
+      200
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=ZsYnEezxfNE",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-05-15"
   },
   {
     "version": "32[PC]",
