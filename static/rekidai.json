@@ -1457,6 +1457,21 @@
     "date": "2024-11-23"
   },
   {
+    "version": "32[PC]",
+    "music": "Cross Fire(A)",
+    "notes": 1746,
+    "bpm": [
+      180
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=l6ZUmtdpqI8",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-05-24"
+  },
+  {
     "version": "30[RESI]",
     "music": "CUE CUE RESCUE(L)",
     "notes": 1549,
