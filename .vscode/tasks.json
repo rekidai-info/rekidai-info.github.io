@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"problemMatcher": [],
+			"label": "git pull",
+			"command": "git pull",
+			"runOptions": {
+				"runOn": "folderOpen"
+			}
+		}
+	]
+}
