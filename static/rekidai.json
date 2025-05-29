@@ -8442,6 +8442,21 @@
     "date": "2023-08-07"
   },
   {
+    "version": "29[Cast]",
+    "music": "グッバイ宣言(L)",
+    "notes": 1849,
+    "bpm": [
+      170
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=kKELZYkRxSk",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-05-29"
+  },
+  {
     "version": "31[EPO]",
     "music": "残像ニ繋ガレタ追憶ノHIDEAWAY(A)",
     "notes": 1789,
