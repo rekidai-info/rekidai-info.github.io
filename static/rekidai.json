@@ -8423,6 +8423,22 @@
     "date": "2024-01-19"
   },
   {
+    "version": "30[RESI]",
+    "music": "神っぽいな(L)",
+    "notes": 1574,
+    "bpm": [
+      142
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=NTuexSIwP7w",
+    "scratch": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-05-29"
+  },
+  {
     "version": "20[tri]",
     "music": "キャトられ♥恋はモ～モク(A)",
     "musicKR": "캬토라레♥사랑은모모쿠(A)",
@@ -8455,21 +8471,6 @@
     "topVersion": "32[PC]",
     "player": "NOPLAY",
     "date": "2025-05-29"
-  },
-  {
-    "version": "31[EPO]",
-    "music": "残像ニ繋ガレタ追憶ノHIDEAWAY(A)",
-    "notes": 1789,
-    "bpm": [
-      160
-    ],
-    "textage": "https://textage.cc/score/31/_zanzoni.html?2AC00",
-    "musicMovie": "https://youtu.be/watch?v=r7tSOgxsRo4",
-    "score": 0,
-    "scoreResult": null,
-    "topVersion": "31[EPO]",
-    "player": "NOPLAY",
-    "date": "2024-08-07"
   },
   {
     "version": "25[CB]",
@@ -9331,6 +9332,21 @@
     "topVersion": "29[Cast]",
     "player": "CHEPY",
     "date": "2022-02-03"
+  },
+  {
+    "version": "31[EPO]",
+    "music": "残像ニ繋ガレタ追憶ノHIDEAWAY(A)",
+    "notes": 1789,
+    "bpm": [
+      160
+    ],
+    "textage": "https://textage.cc/score/31/_zanzoni.html?2AC00",
+    "musicMovie": "https://youtu.be/watch?v=r7tSOgxsRo4",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "31[EPO]",
+    "player": "NOPLAY",
+    "date": "2024-08-07"
   },
   {
     "version": "21[SPA]",
