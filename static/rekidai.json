@@ -480,6 +480,21 @@
     "date": "2025-02-27"
   },
   {
+    "version": "32[PC]",
+    "music": "Aqvion(A)",
+    "notes": 1773,
+    "bpm": [
+      175
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=y2JbkliAqTo",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-06-05"
+  },
+  {
     "version": "16[EMP]",
     "music": "Arabian Rave Night(L)",
     "musicKR": "아라비안 레이브 나이트(L)",
@@ -6108,6 +6123,25 @@
     "topVersion": "32[PC]",
     "player": "DON*",
     "date": "2025-05-24"
+  },
+  {
+    "version": "32[PC]",
+    "music": "Skratch Education Lv-1(A)",
+    "notes": 1572,
+    "bpm": [
+      100,
+      200
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=jFw6YqQnZCk&t=23s",
+    "scratch": true,
+    "soflan": true,
+    "superScratch": true,
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-06-05"
   },
   {
     "version": "29[Cast]",
