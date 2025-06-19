@@ -8218,6 +8218,21 @@
     "date": "2025-04-18"
   },
   {
+    "version": "22[PEN]",
+    "music": "#The_Relentless(L)",
+    "notes": 2273,
+    "bpm": [
+      170
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=3bumxq0Wn2M",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-06-19"
+  },
+  {
     "version": "28[BIS]",
     "music": "-65℃(A)",
     "musicKR": "마이너스 65도",
