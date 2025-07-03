@@ -7457,6 +7457,21 @@
     "date": "2025-02-22"
   },
   {
+    "version": "32[PC]",
+    "music": "Uaigh Gealaí(A)",
+    "notes": 1972,
+    "bpm": [
+      183
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=CdPRfG6rxIg",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-07-03"
+  },
+  {
     "version": "24[SINO]",
     "music": "Umbral(L)",
     "musicKR": [
@@ -8372,6 +8387,21 @@
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2024-06-21"
+  },
+  {
+    "version": "32[PC]",
+    "music": "アラビアン ハイパー ナイト(A)",
+    "notes": 1690,
+    "bpm": [
+      182
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=0L8G1pSg7fs",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-07-03"
   },
   {
     "version": "24[SINO]",
