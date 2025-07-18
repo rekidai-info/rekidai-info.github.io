@@ -2380,6 +2380,21 @@
     "date": "2024-11-23"
   },
   {
+    "version": "32[PC]",
+    "music": "EYE OF THE HEAVEN(A)",
+    "notes": 1824,
+    "bpm": [
+      308
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=DkrxImNvEFU",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-07-18"
+  },
+  {
     "version": "19[Lin]",
     "music": "F(A)",
     "musicKR": "에프(A)",
@@ -6124,6 +6139,23 @@
     "player": "DON*",
     "date": "2025-05-24"
   },
+    {
+    "version": "32[PC]",
+    "music": "SISYPHUS(A)",
+    "notes": 1399,
+    "bpm": [
+      90,
+      180,
+      190
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=xaO9YE3R_4Y",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-07-18"
+  },
   {
     "version": "32[PC]",
     "music": "Skratch Education Lv-1(A)",
@@ -7998,6 +8030,21 @@
     "topVersion": "32[PC]",
     "player": "KKM*",
     "date": "2024-12-04"
+  },
+  {
+    "version": "32[PC]",
+    "music": "XHRONOXAPSULΞ(A)",
+    "notes": 2077,
+    "bpm": [
+      277
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=awmRIpirBkk",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-07-18"
   },
   {
     "version": "26[Root]",
