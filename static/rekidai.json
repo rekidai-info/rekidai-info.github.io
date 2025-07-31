@@ -1097,6 +1097,21 @@
     "date": "2025-03-31"
   },
   {
+    "version": "12[HS]",
+    "music": "CaptivAte～浄化～(L)",
+    "notes": 1738,
+    "bpm": [
+      160
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=Yv35hk-MXss",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-07-31"
+  },
+  {
     "version": "26[Root]",
     "music": "Carmina(A)",
     "musicKR": "카르미나(A)",
@@ -2774,6 +2789,21 @@
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2024-01-19"
+  },
+  {
+    "version": "12[HS]",
+    "music": "garden(L)",
+    "notes": 1583,
+    "bpm": [
+      220
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=0QSuAEHqONM",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-07-31"
   },
   {
     "version": "26[Root]",
