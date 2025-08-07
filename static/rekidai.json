@@ -1197,6 +1197,21 @@
     "date": "2023-05-02"
   },
   {
+    "version": "25[CB]",
+    "music": "ChaserXX(L)",
+    "notes": 2000,
+    "bpm": [
+      140
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=IM4slb7mZes",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-08-07"
+  },
+  {
     "version": "22[PEN]",
     "music": "CHRONO DIVER -NORNIR-(L)",
     "musicKR": [
