@@ -2612,6 +2612,21 @@
     "date": "2022-04-14"
   },
   {
+    "version": "32[PC]",
+    "music": "Flämingo(A)",
+    "notes": 1800,
+    "bpm": [
+      189
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=wA5ISHw2Ht4",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-08-22"
+  },
+  {
     "version": "22[PEN]",
     "music": "Flashes(A)",
     "musicKR": "플래시즈(A)",
@@ -5164,6 +5179,21 @@
     "topVersion": "31[EPO]",
     "player": "KKM*",
     "date": "2024-02-25"
+  },
+  {
+    "version": "32[PC]",
+    "music": "Pinky Happy Crazy(A)",
+    "notes": 1833,
+    "bpm": [
+      190
+    ],
+    "textage": null,
+    "musicMovie": "https://www.youtube.com/watch?v=tOngGesIbOw",
+    "score": 0,
+    "scoreResult": null,
+    "topVersion": "32[PC]",
+    "player": "NOPLAY",
+    "date": "2025-08-22"
   },
   {
     "version": "20[tri]",
